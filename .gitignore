@@ -1,0 +1,12 @@
+log.txt
+Visual Studio Code.edit.py
+.vscode/
+errors.txt
+traceback.txt
+game/saves/
+*.rpyc
+*.rpyb
+game/cache/
+game/tl/
+progressive_download.txt
+project.json
