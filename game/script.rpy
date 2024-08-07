@@ -9,10 +9,14 @@ define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 
 # Misc Characters
-define Student = Character("Student", who_outlines=[ (3, "#ffffff") ])
-define Nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
+define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
 define ch = Character("Chairwoman", image="prudence", who_outlines=[ (3, "#ffffff") ])
 define mi = Character("Miss Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
+define mw = Character("Miss Woolsey", image="naomi", who_outlines=[ (3, "#ffffff") ])
+define g1 = Character("Girl 1", image="vittoria", who_outlines=[ (3, "#ffffff") ])
+define g2 = Character("Girl 2", image="vincenza", who_outlines=[ (3, "#ffffff") ])
+define rm = Character("Roommate", image="sibyl", who_outlines=[ (3, "#ffffff") ])
+define who = Character("???", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform mleft:
@@ -31,10 +35,13 @@ transform qright:
 # Custom image transition.
 define dd = Dissolve(0.3)
 
+# Variable Definitions
+default secret_lilies_romance = None
+
 # The game starts here.
 label start:
     stop music fadeout 0.5 # stops main menu music 
-    jump act1
+    jump sl_rom
 
 # The game ends here.
 label end:

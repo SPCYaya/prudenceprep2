@@ -7,5 +7,3 @@ Please note that this is an "in-universe sequel" to [Secret Lilies of Prudence P
 ## itch.io
 
 https://spcyaya.itch.io/buddinglily
-QnJlbmRhbiBXYWxzaCAyMDI0
-
