@@ -1238,5 +1238,4 @@ label introspection:
     "Tears start rolling down my cheeks thicker than a monsoon, and Sibyl worriedly calls my name again, but I reach out to touch her arm to calm her concern."
     C "I'm sorry, I just... need a moment to process some things, like, in my head."
     S "Of course, Clover. Take all the time you need."
-    jump act2
-
+    jump sibyl_talk
