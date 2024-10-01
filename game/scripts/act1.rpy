@@ -20,7 +20,7 @@ label act1:
     "I stop to ruffle my heavy back and forth, casting off all the snow which had started to accumulate atop my head."
     "Then, with a frown solidly plastered on my face, I hump the duffel strap more securely over my shoulder and continue down the long wooded lane."
     C "(\"When we were your age, we walked to school up hill both ways in the snow!\")"
-    "I can almost {b}hear{/b} the voice of my grandparents in my mind as I trudge along slowly toward the school I'm tranferring into part way through the year."
+    "I can almost {b}hear{/b} the voice of my grandparents in my mind as I trudge along slowly toward the school I'm transferring into part way through the year."
     "I'm already dressed in my new uniform, a very girly pink and white outfit which is totally unlike what I used to wear at my old school, even after I dumped my old wardrobe."
     "As much as I dread finally reaching the end of this lane, the cute uniform is secretly the one thing I actually kind of like — with one exception."
     "Whether the size is wrong for my scrawny body or because I'm undertaking this long trek while lugging nearly my entire worldly belongings, the warm white tights just are {b}not{/b} cooperating."
@@ -76,8 +76,8 @@ label act1:
     C "Y-You—!"
     "But just as I am about to let loose on the two girls beside me I find that they're no longer clinging to me at all, which actually makes sense in how easily I was able to retrieve the key."
     "Arm in arm they go back strolling toward the academy like they weren't just a second ago groping me all over in the middle of the road up to the school."
-    H "Le abbiamo sicuramente piegato gli spaghetti." # we definitely bent her spaghetti
-    O "Certamente." # for sure
+    H "{i}Le abbiamo sicuramente piegato gli spaghetti.{/i}" # we definitely bent her spaghetti
+    O "{i}Certamente.{/i}" # for sure
     "I'm half confused and half {b}fuming{/b}. I can feel the heat swelling in my cheeks and in my chest, from which extra puffy breaths of air emerge from my lungs."
     "They're not super far away, and I could chase them down if abandon leave my duffel and all my things here, but for the moment I resign myself to heaving it back over my shoulder."
     C "(Macaron Dormitory, Room 28)"
