@@ -459,7 +459,7 @@ label breakfast:
     S "Clover, this is my best friend, Tanya."
     "Having made the introductions, our eyes lock together for a brief moment before she breaks into an equally warm but decidedly more distant greeting."
     T "Nice to meet you, Clover! Are you taking good care of Sibyl for me?"
-    "There's a subtle accent in her speech that I can't place but she speaks so fluently that it's clear English has been a native language for quite some time."
+    "There's a subtle accent in her husky-toned speech that I can't place but she speaks so fluently that it's clear English has been a native language for quite some time."
     S "Taking care of {b}me{/b}? I practically had to {b}drag{/b} her butt out of bed this morning and it's only her first day!"
     "As evidenced by how playfully she says it, there's no real malice in her choosing to reveal this embarrassing fact, and Tanya doesn't look too hard on me for it."
     C "(And she didn't mention the little fit I threw either, so I guess I owe her for that. Not that I care what Tanya thinks of me anyway.)"
