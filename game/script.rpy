@@ -10,6 +10,7 @@ define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
+define lb = Character("Librarian", who_outlines=[ (3, "#ffffff") ])
 define te = Character("Teacher", who_outlines=[ (3, "#ffffff") ])
 define ch = Character("Chairwoman", image="prudence", who_outlines=[ (3, "#ffffff") ])
 define mi = Character("Miss Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
