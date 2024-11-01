@@ -66,10 +66,12 @@ label howto:
     C "(That's because you're so close!)"
     C "Yup, so good, never better!"
     "Sibyl doesn't seem to think me any more sane than before so I just take the little victories I've earned and play off the rest as an awkward way of asking for help with homework."
-    "As it turns out, homework is {b}so{/b} much more enjoyable when Sibyl is sitting close beside me and explaining everything right into my ear. I get done with plenty of time to spare before lunch ends."
+    "As it turns out, homework is {b}so{/b} much more enjoyable when Sibyl is sitting close beside me and explaining everything right into my ear. "
     jump make_up_with_tanya
 
 label make_up_with_tanya:
-    scene bg black with fade
-    scene bg locker with dissolve
-    
+    scene bg transition with fade
+    scene bg cafeteria with dissolve
+    "At lunch, I take the seat at Sibyl's other side completely opposite of Tanya rather than sit across from her as usual."
+    "I am extra sit close enough that I'm sure to brush my shoulders against her plenty. When Sibyl scooches down the bench slightly, I subtly do the same until we "
+

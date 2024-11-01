@@ -368,7 +368,7 @@ label a2_sunday:
     C "(There's Sibyl!)"
     "At one of our usual tables I spot her and my feet move almost mechanically that direction, until the point that I spot Tanya beside her and they stop in their tracks."
     "I opt to order up a grilled cheese rather than walk to the table first, putting off that interaction for after having gotten a few bites of gooey melted cheese in me."
-    S "Sibyl, you're awake!"
+    S "Clover, you're awake!"
     C "I think so."
     "Tanya doesn't address me as I walk up. She instead looks rather displeased that Sibyl had interrupted whatever they were talking about to greet me and gives me an appropriately matched scowl."
     C "My dreams are certainly vivid but Tanya definitely doesn't feature in them, so my confidence in this being reality is high."
