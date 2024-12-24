@@ -1,8 +1,4 @@
 ﻿# Character Definitions
-define N = Character("Naomi", image="naomi", who_outlines=[ (3, "#ffffff") ])
-define E = Character("Elodie", image="elodie", who_outlines=[ (3, "#ffffff") ])
-define P = Character("Prudence", image="prudence", who_outlines=[ (3, "#ffffff") ])
-define I = Character("Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
 define H = Character("Vittoria", image="vittoria", who_outlines=[ (3, "#ffffff") ])
 define O = Character("Vincenza", image="vincenza", who_outlines=[ (3, "#ffffff") ])
 define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
@@ -11,7 +7,6 @@ define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
 define te = Character("Teacher", who_outlines=[ (3, "#ffffff") ])
-define ch = Character("Chairwoman", image="prudence", who_outlines=[ (3, "#ffffff") ])
 define mi = Character("Miss Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
 define mw = Character("Miss Woolsey", image="naomi", who_outlines=[ (3, "#ffffff") ])
 define g1 = Character("Girl 1", image="vittoria", who_outlines=[ (3, "#ffffff") ])

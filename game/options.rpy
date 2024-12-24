@@ -7,7 +7,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Budding Lily of Prudence Prep")
+define config.name = _("Black Lily of Prudence Prep")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -18,7 +18,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "1.1.1"
+define config.version = "0.1.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -272,4 +272,4 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-# define build.itch_project = "spcyaya/buddinglily"
+# define build.itch_project = "spcyaya/blacklily"
