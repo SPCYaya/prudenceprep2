@@ -7,7 +7,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Black Lily of Prudence Prep")
+define config.name = _("Thorned Lilies of Prudence Prep")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -272,4 +272,4 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-# define build.itch_project = "spcyaya/blacklily"
+# define build.itch_project = "spcyaya/thornedlilies"
