@@ -1,4 +1,4 @@
- label sl_rom:
+label sl_rom:
     scene bg black with fade
     "Who did Naomi romance in {i}Secret Lilies of Prudence Prep{/i}?"
     menu:
@@ -233,7 +233,7 @@ label vertu:
     "I want to refuse again, but a sudden rumbling in my stomach makes it terribly difficult to turn down Sibyl's plan now."
     jump woolsey_intro
 
-scene woolsey_intro:
+label woolsey_intro:
     scene bg black with fade
     scene bg dorm with dissolve
     "Sibyl only has to lead me to the end of the floor to reach Miss Woolsey's room. We knock but receive no answer."

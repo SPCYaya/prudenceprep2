@@ -226,20 +226,20 @@ label a2_library:
     "Evidently my ruse is not good enough because she sees right through it, though thankfully she doesn't hold my bending of the truth against me at all."
     S "What do {b}you{/b} like to read, Sibyl?"
     show choice_darkness with dissolve
-        menu:
-            "\"I haven't checked out a library book since my elementary school taught us the Dewey Decimal system.\"":
-                hide choice_darkness with dissolve
-                C "I haven't checked out a library book since my elementary school taught us the Dewey Decimal system."
-                "After having had my little white lie seen through immediately, I try to be brutally honest with Sibyl."
-                C "(You don't find the kind of books I was reading in middle school at just any library.)"
-                S "Not even once?"
-                C "I can't say for sure, but probably not."
-            "\"If I were in middle school, I probably would have said something like \'esoteric grimoires from bygone civilizations\'.\"":
-                hide choice_darkness with dissolve
-                C "If I were in middle school, I probably would have said something like \"esoteric grimoires from bygone civilizations\"."
-                "A warm flush of embarrassment comes quickly to my face as I remember all the late nights camped out under my sheets with a big tome and a flashlight whispering spells into the night."
-                C "But I'm in high school now and left all that behind me, so I don't really know what I like these days."
-                S "Some of the people here are really religious so you're probably not going to find any of those kind of books anyway."
+    menu:
+        "\"I haven't checked out a library book since my elementary school taught us the Dewey Decimal system.\"":
+            hide choice_darkness with dissolve
+            C "I haven't checked out a library book since my elementary school taught us the Dewey Decimal system."
+            "After having had my little white lie seen through immediately, I try to be brutally honest with Sibyl."
+            C "(You don't find the kind of books I was reading in middle school at just any library.)"
+            S "Not even once?"
+            C "I can't say for sure, but probably not."
+        "\"If I were in middle school, I probably would have said something like \'esoteric grimoires from bygone civilizations\'.\"":
+            hide choice_darkness with dissolve
+            C "If I were in middle school, I probably would have said something like \"esoteric grimoires from bygone civilizations\"."
+            "A warm flush of embarrassment comes quickly to my face as I remember all the late nights camped out under my sheets with a big tome and a flashlight whispering spells into the night."
+            C "But I'm in high school now and left all that behind me, so I don't really know what I like these days."
+            S "Some of the people here are really religious so you're probably not going to find any of those kind of books anyway."
     C "Do you have any suggestions for me, Sibyl?"
     "Sibyl turns her head up and away as she ponders the question, causing her hair to flutter in the light through the windows once again."
     "Even more than the shimmering of her hair does the light reflecting off her clear blue eyes catch my attention."
@@ -738,27 +738,27 @@ label bookreturn:
     C "I-I mean— umm..."
     "I clear my throat and look down for a moment, trying to actually respond properly to the question this time."
     show choice_darkness with dissolve
-        menu:
-            "\"I like stories with a relatable female protagonist and intense relationships.\"":
-                hide choice_darkness with dissolve
-                C "I like stories with a relatable female protagonist and intense relationships."
-                "Despite having thought it might not be enjoyable to start with, I ended up really enjoying Sibyl's favorite book."
-                C "(Anne and Diana are just, like, {b}perfect{/b} together.)"
-                S "Something like {i}Anne of Green Gables{/i} then?"                
-            "\"Something dark and mysterious for sure.\"":
-                hide choice_darkness with dissolve
-                C "Something dark and mysterious for sure."
-                "The simple answer which I can always fall back on comes out first."
-                C "(I've definitely out-grown the whole goth thing, but...)"
-                st "Ooh, gothic, huh? Have you read {i}Dracula{/i} or {i}Frankenstein{/i} before?"
-                C "({b}G-Gothic!?{/b})"
-                S "Clover isn't that much of a reader yet."
-            "\"Psychological stuff is kind of interesting to me.\"":
-                hide choice_darkness with dissolve
-                C "Psychological stuff is kind of interesting to me."
-                "My first thought is a book I was forced to read in middle school, {i}The Catcher in the Rye{/i}."
-                "I somewhat identified with the main character through his thoughts about alienation and superficiality, but maybe that was just because I was an angsty teenager too."
-                S "You do seem like you would enjoy a good thriller, Clover."
+    menu:
+        "\"I like stories with a relatable female protagonist and intense relationships.\"":
+            hide choice_darkness with dissolve
+            C "I like stories with a relatable female protagonist and intense relationships."
+            "Despite having thought it might not be enjoyable to start with, I ended up really enjoying Sibyl's favorite book."
+            C "(Anne and Diana are just, like, {b}perfect{/b} together.)"
+            S "Something like {i}Anne of Green Gables{/i} then?"                
+        "\"Something dark and mysterious for sure.\"":
+            hide choice_darkness with dissolve
+            C "Something dark and mysterious for sure."
+            "The simple answer which I can always fall back on comes out first."
+            C "(I've definitely out-grown the whole goth thing, but...)"
+            st "Ooh, gothic, huh? Have you read {i}Dracula{/i} or {i}Frankenstein{/i} before?"
+            C "({b}G-Gothic!?{/b})"
+            S "Clover isn't that much of a reader yet."
+        "\"Psychological stuff is kind of interesting to me.\"":
+            hide choice_darkness with dissolve
+            C "Psychological stuff is kind of interesting to me."
+            "My first thought is a book I was forced to read in middle school, {i}The Catcher in the Rye{/i}."
+            "I somewhat identified with the main character through his thoughts about alienation and superficiality, but maybe that was just because I was an angsty teenager too."
+            S "You do seem like you would enjoy a good thriller, Clover."
     st "Hmm... I have just the thing!"
     "Rachel trots off right away in search of a book and is back pushing it into my hands before I even know what's happening."
     S "Oh! I think Clover will like that one!"
@@ -1021,8 +1021,8 @@ label confusion:
     jump guidance
 
 label guidance:
-    scene bg black with transition
-    scene bg black with fade
+    scene bg transition with fade
+    scene bg black with dissolve
     "I barely sleep at all through the night, instead vacillating between periods of tiring wakefulness where Sibyl haunts my thoughts and episodes of fragmented dreams in which she also features prominently."
     "When morning first breaks I can stand it no longer and hop out of my bed with a mind to get away and find a place to clear my mind without the soft sounds of Sibyl breathing across the room."
     scene bg dorm with dissolve

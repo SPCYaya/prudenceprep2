@@ -3,6 +3,7 @@ define H = Character("Vittoria", image="vittoria", who_outlines=[ (3, "#ffffff")
 define O = Character("Vincenza", image="vincenza", who_outlines=[ (3, "#ffffff") ])
 define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
+define C = Character("Clover", image="clover", who_outlines=[ (3, "#ffffff") ])
 
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
