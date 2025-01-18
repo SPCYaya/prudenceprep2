@@ -7,7 +7,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Thorned Lilies of Prudence Prep")
+define config.name = _("Wild Roses of Prudence Prep")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -77,7 +77,7 @@ All rights belong to their respective owners.
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "prudenceprep2"
+define build.name = "wildroses"
 
 
 ## Sounds and music ############################################################
@@ -203,7 +203,7 @@ default preferences.audio_when_unfocused = False
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "prudenceprep2-4265909628"
+define config.save_directory = "wildroses-4265909628"
 
 
 ## Icon ########################################################################
@@ -272,4 +272,4 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-# define build.itch_project = "spcyaya/thornedlilies"
+# define build.itch_project = "spcyaya/wildroses"
