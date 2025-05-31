@@ -14,6 +14,7 @@ define g1 = Character("Girl 1", image="vittoria", who_outlines=[ (3, "#ffffff") 
 define g2 = Character("Girl 2", image="vincenza", who_outlines=[ (3, "#ffffff") ])
 define rm = Character("Roommate", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define who = Character("???", who_outlines=[ (3, "#ffffff") ])
+define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform mleft:

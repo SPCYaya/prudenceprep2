@@ -29,7 +29,7 @@ define gui.about = _p("""
 Created and written by the Society for the Prevention of Cruelty to Yayas (SPCYaya).
 All questions and concerns may be addressed to yaya.did.nothing.wrong@gmail.com!
 
-Character art and CGs by Hiwonoafu - https://hiwonoafu.tumblr.com/
+Character art, backgrounds, and CGs by Hiwonoafu - https://hiwonoafu.tumblr.com/
 
 Special Thanks - /u/
 
