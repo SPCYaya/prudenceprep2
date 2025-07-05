@@ -38,7 +38,7 @@ label act1:
     O "The proper young ladies of the academy do such things in the confines of their own rooms."
     "The second girl, addressed as Vincenza, is close enough for me to feel the warmth of her breath tickle the left side of my face."
     "Flipping my head suddenly to the side, I catch sight of the face of the girl in question. She wears a soft grin upon a graceful face with relaxed eyes. She's pretty, but restrained; cool but confident."
-    "From her head falls a stream of fine silver hair down her back, styled with a neat ponytail in a kind of boyish look that oddly doesn't contrast at all with the uniform." 
+    "From her head falls a stream of fine golden hair down her back, styled with a neat ponytail in a kind of boyish look that oddly doesn't contrast at all with the uniform." 
     H "Maybe she isn't a proper young lady at all?"
     "A soft touch against the small of my back announces the arrival of the other girl, and it remains as she swoops close across my other side in a flutter of voluminous silvery curls toward my front."
     "When my head flips back the other way, I find that this girl, Vittoria, shares similar features to the first, albeit with a very different, much more feminine aura also very much suited to the uniform."
