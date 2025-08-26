@@ -16,6 +16,8 @@ define rm = Character("Roommate", image="sibyl", who_outlines=[ (3, "#ffffff") ]
 define who = Character("???", who_outlines=[ (3, "#ffffff") ])
 define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 define phone = Character("Smartphone", who_outlines=[ (3, "#ffffff") ])
+define blanche = Character("Blanche", who_outlines=[ (3, "#ffffff") ])
+define veronika = Character("Veronika", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform mleft:
