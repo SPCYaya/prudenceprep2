@@ -18,6 +18,7 @@ define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 define phone = Character("Smartphone", who_outlines=[ (3, "#ffffff") ])
 define blanche = Character("Blanche", who_outlines=[ (3, "#ffffff") ])
 define veronika = Character("Veronika", who_outlines=[ (3, "#ffffff") ])
+define player = Character("Veronika", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform mleft:
