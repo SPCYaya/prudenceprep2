@@ -1,5 +1,5 @@
 label lacrosse_anew:
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "With my name written in bold pink letters across my back and the crosse held confidently in my hands, I envision myself as a brand new woman ready to tackle any obstacle in her path."
     C "({b}Goodbye{/b} creepy goth, angsty bitch, and love-struck loser Clover; nice to meet you, fun and sporty athlete Clover!)"
     "I haven't felt this clear-minded and energized in months, or maybe even years. I've put all the darkness both literally and metaphorical in my past, and now finally also moved out of Sibyl's shadow."
@@ -111,7 +111,7 @@ label distancefromSibyl:
     scene bg hallway with dissolve
     "Though she appears loathe to leave me and Sibyl alone after what I told her at practice in the morning, Tanya eventually does leave us after lunch to go to her mystery Saturday afternoon activities."
     "I follow behind Sibyl as she wanders off to her own activities just as I have done just about every day since I arrived at the academy. Today we make our way through the halls and open the heavy wooden doors to the library."
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "Sibyl gets caught in a friendly conversation with the library committee on duty the moment she walks through the door, which isn't particularly uncommon at all."
     C "(What was her name? Rayna?)"
     "I give her a small wave of acknowledgment as I continue past toward the magazines. It's not that I dislike her as much as we just don't have any interests in common."
@@ -153,9 +153,9 @@ label distancefromSibyl:
     "I know there are such things as professional eating contests, but somehow I don't think a club like that would fly in this dignified academy. Cooking is a related but entirely different discipline which I have yet to fully grasp."
     C "(And then there's, uhh...)"
     "The hands on Sibyl's clock spin around shockingly fast as I rack my brain trying to identify my interest and potential hobbies. A rumbling in my stomach eventually drags me out of my bed altogether in search of lunch."
-    scene bg kitchen with dissolve
+    scene bg cafeteria winter with dissolve
     "In keeping with my desire to live more for myself, I skip right to the kitchens and grab a triple bacon BLT to-go so that there's no chance of accidentally running into Sibyl and Tanya."
-    scene bg dorm with dissolve
+    scene bg dorm winter with dissolve
     C "(Well I know I like lacrosse, so maybe I can start there.)"
     "Now that I don't have Sibyl occupying my mind every second of the day, I can direct all of my effort to that instead. The only problem is that I already attend every practice session that Miss Woolsey organizes."
     "After enthusiastically finishing my BBBLT fast enough to get a minor stomach ache, I set off in search of Miss Woolsey while also formulating a plan in my head."
@@ -163,7 +163,7 @@ label distancefromSibyl:
     C "Miss Woolsey?"
     "Naturally, I start with her room in the dorm building. When I don't get a response back, I'm not too worried about it."
     C "(It's, like, three o'clock already, right? Of course she doesn't spend all day hiding away in her room like me. She has more important things to do.)"
-    scene bg gymnasium with dissolve
+    scene bg gym winter with dissolve
     C "Miss Woolsey?"
     "The name echoes back to me from the depths of the silent gymnasium. Her adjacent office and the store room are empty too."
     C "(What do teachers even {b}do{/b} when classes aren't in session?)"
@@ -395,7 +395,7 @@ label distancefromSibyl:
 
 label lacrosse_explainer:
     scene bg transition with fade
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "Our Tuesday evening practice session arrives with Miss Woolsey looking quite as alive and alert as she always does, probably thanks to the care of Vittoria and Vincenza."
     "We all change into our uniforms and gather in the gym as usual, but rather than checking our sticks, Miss Woolsey passes around a clipboard and pen."
     C "What's everyone doing with the clip board?"
@@ -445,7 +445,7 @@ label lacrosse_explainer:
     C "(That sure showed {b}her{/b}, huh?)"
     "Why what I said was so particularly effective in shutting Tanya up is beyond me, but I'll take the win every time."
     "The signup clipboard makes its way through the rest of the team quickly enough, finally letting us get to actually playing instead of standing around."
-    scene bg gym with fade
+    scene bg gym lacrosse winter with fade
     "I truly give it my all during practice. Not just one hundred ten percent, but one hundred twenty, maybe not even one hundred thirty!"
     "That I don't manage to score a single goal isn't a problem, because Tanya doesn't either. Everyone else on the team is also giving it their all with signups so fresh on the mind."
     "When Miss Woolsey blows the whistle to en the last match of the day, most girls tiredly trudge off to the locker room to change, but not me."
@@ -492,7 +492,7 @@ label izzie_lacrosse_request:
     C "(Can Miss Izzie of all people really teach me something new about lacrosse?)"
     "Tanya's locker is in the row opposite mine so I can hear the shuffling of her activities even if I do not look back to see. Her locker clunks shut just as I swing mine closed too."
     "We glance at one another awkwardly, having both just finished getting ready at the same time, and end up walking out into the gym together without any way to smoothly stagger out exit."
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "My eyes are immediately drawn to the bleachers, where Sibyl and Miss Woolsey sit together chatting until the former stops to wave vigorously at me."
     "That Sibyl has chosen to watch over me during the practice is a huge boost to my confidence. Reinvigorated by the support of my Vertu, I wave right back to her as cheerfully."
     "From my peripheral vision, however, I notice a flurry of motion which turns out to be Tanya returning the same gesture to her best friend."
@@ -622,7 +622,7 @@ label divorce_finalized:
     "It's honestly a lot for me to handle, but if Tanya is keeping up with the frenzied pace of our energetic arts instructor, there's no way I'm backing down either."
     "It was hard work, but after a week of intensive training I can really see the difference in my abilities. Tanya still had the edge over me, but I might just be able to pull off an upset if I try hard enough."
     C "(I just need to get a good night of sleep and a good breakfast to fuel me, then I'll crush those tryouts and make my debut as a freshman starter.)"
-    scene bg bedroom with dissolve
+    scene bg bedroom night with dissolve
     "But first, before I can pull my sheets up around me and drift off into the kind of deep sleep only a hard day of etiquette class followed by Tanya drilling me with lacrosse balls can provide, I have to make a call."
     C "Hey, Mom!"
     "The relationship with my parents might have been rocky when I started here to say the least, but in the past week weeks as my spirits have been lifted, I've been making it a point to call them every week to tell them about what I've been doing."
@@ -637,7 +637,7 @@ label divorce_finalized:
     C "Mom?"
     "\"Clover, honey, there's something I need to tell you...\""
     scene bg black with fade
-    scene bg bedroom with dissolve
+    scene bg bedroom night dark with dissolve
     C "(So that's it then. It's over.)"
     "I felt {b}exhausted{/b} before, but now I just feel {b}hollow{/b}. Rather than simply expending all my energy training, it feels as though all the life itself has drained out of me."
     C "(There's no more pretending everything will return to normal. What's done is done and there's no going back.)"
@@ -645,11 +645,11 @@ label divorce_finalized:
     C "(I can have anything I want, except my family hole again.)"
     scene bg black with dissolve
     "Sleep takes me faster than I expect it to that night, but it does not leave me well rested. Vague, shifting nightmares plague me all through the night and haunt my eyelids even as they crack open with the first rays of sun."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     S "Are you sure you're not hungry, Clover? What about a nice double stack of French toast? I'll even go pick it up for you!"
     T "You have to eat if you want to have energy for tryouts, Clover. Here, at least eat this banana."
     "Tanya forcefully shoves a banana at me such that I'm forced to take hold of the fruit lest I find it smashed all over my face."
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "The banana goes down my throat just as mechanically as I change into my lacrosse uniform. I don't know what's still driving me to even make it to tryout, except to prove I hadn't wasted all that effort the whole week prior."
     "In the end, I don't manage a single shot with the state I'm in. After I take my turn, I leave right away without staying to find out how Tanya does during her turn."
     "I try to pretend I don't see Sibyl fretting about whether to follow me back to the room and try to console me or whether to stay and support her best friend during her tryout session."
@@ -724,7 +724,7 @@ label aprilfools:
     "With a huge grin on her face, Sibyl tosses my empty schoolbag atop me on my bed, then plops the rest of my textbooks right next to it. I fumble for my smartphone on the nightstand and see that today is, indeed the first of April."
     S "Oh, and you'd seriously better hurry up or we're going to miss breakfast."
     C "Nooo!"
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "We make it to breakfast with plenty of time to spare, but only because I rushed through my daily routine so that I wouldn't miss my morning French toast. We might actually have been in trouble if I had taken my time."
     S "G'morning, Tanya!"
     "The girl mentioned is already crunching on some granola from her yogurt parfait when we arrive. Without so much as a word, Tanya holds out her strawberry for Sibyl to snap out of her fingers with her teeth as she sits down at the table."
@@ -796,7 +796,7 @@ label spirit_week: # might be good for a choice in this block
     scene bg black with dissolve
     "Lacrosse immediately becomes my entire {i}raison d'être{/i} at the academy."
     "I am aware that around me there are various preparations for the homecoming event ongoing, but I fail to notice any of it. Sibyl forced me through class every day then I immediately rush off to the gym to get my hands on the crosse again."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     S "Whoa, you need to slow down, Clover."
     "Sibyl catches me sleeve to keep me from running off to the gym after nearly swallowing a burrito whole."
     C "But there's only a couple days until the match! Miss Woolsey gave me this second chance and I'm not going to make her regret it!"
@@ -868,7 +868,7 @@ label pregame_homecoming:
     "Tanya, I notice, is staring rather intently at Miss Woolsey and her guests as well."
     C "Come on, we'd better get going. I don't want to be last one to the locker room!"
     T "Y-Yeah, let's go."
-    scene bg lockerroom with fade
+    scene bg lockers with fade
     "Far from being the last of the team to arrive, we're actually some of the first. After changing into our uniforms, we mostly just idle around waiting for further direction."
     "When the team Captain and Assistant Captain arrive they give a rousing speech to raise our morale for the upcoming game, but then they too are also left waiting for our cue to leave."
     C "(It kinda defeats the purpose to hype us all up and then make us wait to get out there.)"
@@ -1091,7 +1091,7 @@ label predance:
     C "Sibyl told me that {b}you{/b} said you would meet {b}me{/b} here. She left an hour ago to finish setting up the gym decorations."
     "Neither of us say anything in particular, though we both surely must be thinking that Sibyl must have planned this out exactly so that would have to go to the dance together, or else not at all."
     "We hang around in relative silence a few minutes longer anyway, but after the dormitory quickly drains of students on their journey to the gymnasium, we have no choice but to go ourselves."
-    scene bg outside with dissolve
+    scene bg mary with dissolve
     "The trip is quiet. We walk much as we normally do every day, with a big empty space between us where Sibyl should be."
     "I promised my paragon of a Vertu partner that I would try to get along with Tanya so my lips end up sealed the whole short trip, as do hers."
     scene bg gym with dissolve

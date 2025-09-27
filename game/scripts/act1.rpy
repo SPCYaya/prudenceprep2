@@ -8,12 +8,12 @@ label sl_rom:
             $ secret_lilies_romance = "veronika"
         "Izzie":
             $ secret_lilies_romance = "izzie"
-        "Randomize":
+        "(Randomize)":
             $ secret_lilies_romance = renpy.random.choice(['blanche', 'veronika', 'izzie'])
     jump act1
 
 label act1:
-    scene bg path with fade
+    scene bg path winter night with fade
     "A warm breath puffs out between my chapped lips, a soft wisp born into the frigid late January air. Snowflakes flutter before me with the disturbance in the air."
     C "And now it's snowing too. Wonderful."
     "Another particularly heavy huff flutters through the straight cut bangs of my flaxen blonde hair, sending little white flakes fluttering down before me."
@@ -53,7 +53,7 @@ label act1:
     C "(They know my name!?)"
     "The pair continue on their back and forth with barely an acknowledgement of their brash invasion of my personal space. That one of them somewhat acknowledged my question is a start at least."
     C "(Is getting this close... {b}normal{/b} for Europeans?)"
-    "With her right arm still heavy around my shoulders, her left heedlessly picks at the leftmost strap of my jumper skirt, following it slowly all the way up my chest."
+    "With her right arm still heavy around my shoulders, her left heedlessly picks at the leftmost strap of my skirt, following it slowly all the way up my chest."
     "I might have totally forgotten that I had my uniform hiked up to pick at my tights when I was suddenly beset upon, but the girl on my right certainly hasn't."
     C "My bus was late— {b}hey{/b}!"
     H "Oh my, and with your uniform so disarrayed. Please allow me to assist."
@@ -63,7 +63,7 @@ label act1:
     "She pulls at the tights bunching around my knees and slides the palm of her hand up my leg with it, smoothing the thin material across my legs."
     "My cold thighs tingle with the sleekness of her touch but I am otherwise struck stiff with the surprise of someone gliding her hand way up to places strangers would not normally dare."
     O "The poor little thing's frozen solid. Can we not keep her just a little longer, Vittoria, to warm her up?"
-    "The strap of my jumper is released from the second girl's fingers, but just as I think she's about to let me go she instead trails her fingers reach to straighten the pink necktie around my neck."
+    "The strap of my skirt is released from the second girl's fingers, but just as I think she's about to let me go she instead trails her fingers reach to straighten the pink necktie around my neck."
     C "Eueh...!"
     "A strange sound emerges from my lips as a consequence of all this off attention. It too transforms into a soft puff of warm breath in the cold air before me."
     "To say I'm flustered is an understatement. I'm not usually one who likes touchy-feely types like my grandma, and this is going {b}way{/b} beyond the forehead kisses she is known for."
@@ -102,7 +102,7 @@ label vertu:
     C "(She stuck her hand... {b}all{/b} the way up there!)"
     "The fervor of my enflamed irritation keeps me from freezing all the way up to my new residence."
     "When I find the door with my number plastered on it, I heave a big sigh to try to push the frustration out of my mind."
-    scene bg bedroom with dissolve
+    scene bg bedroom night with dissolve
     "When the door opens I find another girl atop one of a pair of beds before me. An apology tumbles out instinctively."
     C "S-Sorry, I—"
     "I catch the words of my reflexive apology quickly, finding the girl roused neither by the door opening or my apology, merely lying still on the bed."
@@ -132,7 +132,8 @@ label vertu:
     "A strange thought passed through my mind that this almost feels like a scene out of a fairy tale, where the prince wakes the princess with a kiss."
     C "(Like hell I'm kissing a stranger though. Gross. Why are old fairy tales so creepy?)"
     "Little flickers of a dream in progress play cross her sleeping features and make her pale pink lips tremble. It's captivating in a strange way that draws me in even closer."
-    #TODO insert bed creak sound here
+    play sound bedcreak
+    pause 0.5
     "The sudden creak of the bed when I shift more weight against it draws me sharply out of the trance. Pulling myself quickly away the bed, I turn around again toward my own."
     C "(What am I {b}doing{/b}?)"
     "My mind lingers on the mental images of my roommate's sleeping face longer than I would like. My chest thumps loudly in my ears while I heft my luggage onto the bed as distraction."
@@ -235,7 +236,7 @@ label vertu:
 
 label woolsey_intro:
     scene bg black with fade
-    scene bg dorm with dissolve
+    scene bg dorm night with dissolve
     "Sibyl only has to lead me to the end of the floor to reach Miss Woolsey's room. We knock but receive no answer."
     S "Hmmm."
     "I wait patiently beside Sibyl, silently observing the confused thoughts play through her head as they are shown upon her profile."
@@ -339,7 +340,7 @@ label woolsey_intro:
     C "(When will this day just {b}end{/b}?)"
     "Awkwardness permeates the air around me and I just try to focus on finishing my peanut butter and jelly sandwich without thinking about the other two women at all."
     scene bg black with dissolve
-    scene bg dorm with dissolve
+    scene bg dorm night with dissolve
     "At long last we make our way back to the dorms and say good night to Miss Woolsey, the dorm mother."
     "There's a notable difference in the way Sibyl acts toward me since the awkward conversation in the kitchen, which for some reason bothers me way more than I want to care about it."
     C "(What gives? First she wants to be my BFF and now she's acting all aloof?)"
@@ -355,7 +356,7 @@ label woolsey_intro:
     "What replaces that is the recollection of what those two twins did to me that late afternoon, which doesn't help to calm me down one bit."
     "Much to my displeasure, I do not manage to come up with a single awesome comeback before I drift off into a restless sleep which fades confusingly in an out of the real world around me."
     "At times I'm there sleeping in my dormitory bed, listening to the quiet breathing from the next bed over and the swaying of wind through bare tree branches outside."
-    scene bg path with dissolve
+    scene bg path winter night with dissolve
     "Other times I'm trudging down the long tree-lined road to the academy where those two girls, the \"Royal Twins\", circle around me like vultures with shining gold crowns."
     "Just once, I dream vividly of those vultures and their grabby claws, but this time they're both replaced by my strange new roommate, Sibyl."
     "Her silky auburn hair flutters around me from either side as she and her double sweep their hands across my body in smooth, sensuous motions."
@@ -409,7 +410,7 @@ label shower_time:
     
 label breakfast:
     scene bg black with fade
-    scene bg dorm with dissolve
+    scene bg dorm winter with dissolve
     "Reluctantly, but with a mind to how little the previous night's peanut butter and jelly sandwich has sated me, I make my way to the cafeteria alongside Sibyl."
     scene bg cafeteria with dissolve
     "The breakfast menu is surprisingly robust. For my first ever meal at the academy I choose a little bit of everything, and none of it disappoints."
@@ -539,7 +540,7 @@ label class_intro:
     scene bg black with fade
     scene bg hallway with dissolve
     "Sibyl keeps a close watch on me as we wind our way through campus toward the school building like she's afraid I will run off, and to be fair I probably would have if she weren't watching."
-    scene bg classroom with dissolve
+    scene bg classroom winter with dissolve
     "Now as I stand in front of the classroom with over a dozen matching uniforms staring at me, I suddenly wish I'd just taken off sprinting anyway."
     C "M-My name is Clover Ipswich..."
     "Stage fright hits me like an overstuffed tanker truck full of liquid lead, as is usual for me."
@@ -589,14 +590,14 @@ label class_intro:
 
 label after_lunch:
     scene bg black with fade
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "The classes I attend during the first half of the day pass in a blur. The lessons themselves go in one ear and out the other."
     "While all the others students are already in the groove of how things work at the academy, I am absolutely lost in every way despite Sibyl trying her best to keep me up to speed."
     C "(I just arrived the previous day, I don't even want to {b}be here{/b}, and now I have a {b}quiz{/b} on material I've never learned!)"
     "It's all entirely too overwhelming for me. I feel like the whole academy skipped the frying pan and just threw me into the fire to start with."
     "The coming of lunch time and an extra large dollop of creamy mac and cheese eases my taxed mind, but the foreboding of the latter half of classes remains."
     "Feigning a trip to get a second helping, I sneak away from Sibyl and out of the cafeteria entirely in favor of wandering around until I find someplace quiet to finally be alone."
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "My first stop is the library, which I am at first surprised to find entirely deserted until I remember that most people are likely to be eating lunch or attending classes."
     "I idly pace down the rows of shelves while scanning the spines. The titles float in my brain and back out again without processing any in particular."
     "One book's fancy gilded pages catch my attention so I pull it from the shelf without reading the title and subsequently flop down into a chair."
@@ -612,7 +613,7 @@ label after_lunch:
     "My head drops onto my arms atop the the table with the futility of reading to distract myself a foregone conclusion at this point."
     scene bg black with dissolve
     "The same cruel thoughts pass through my brain over and over, desperate to determine where I went wrong, and what I could have done differently to prevent my current fate."
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "The sound of a door opening behind me startles my head back upright from the table. I shrug my shoulders softly, suddenly feeling a stiffness there I hadn't just before."
     "A girl I've never seen before gives nothing but a passing glance my direction on her way to the shelves on the opposite side of the room."
     C "(Guess I'm not the only one skipping class.)"
@@ -623,7 +624,7 @@ label after_lunch:
     C "(How long was I in the library...?)"
     "Not that it really matters to me, but it suddenly makes sense with how much more refreshed I feel. After sleeping so poorly in my new bed, a little nap is exactly what I needed."
     "As I progress down the hallway, I turn a corner off toward a less traveled route and slip through a quiet looking doorway."
-    scene bg aquarium with dissolve
+    scene bg aquarium winter with dissolve
     "What I find is an impressively equipped aquarium room, which this school has for some reason I cannot begin to fathom."
     "Most importantly, the room is deserted and soothingly silent. Only the eyes of the fish around me trace my footsteps."
     C "You don't have a care in the world, huh?"
@@ -699,20 +700,21 @@ label after_lunch:
     "Tanya nearly looks like she's about to claw my face off but instead shoves me back against the fish tank to turn away and stomp out of the aquarium."
     "With the irate presence before me suddenly gone, I slump down right there with my back against the cold, hard glass."
     C "(She was the one getting all up in my business. She was asking for that.)"
+    scene bg black with dissolve
     "The irritable mood brought on by Tanya's presence gradually fades back into the creeping darkness, and consequently my brain play right back everything that just happened."
     "In one second my mood shifts such that I feel like I deserved all that abuse, and in the next my mood shifts again such that I'm certain Tanya is a fake and pushy bitch."
     "I find no conclusions, merely yet another writhing mass of conflicted emotions to add to the pile."
     pause 0.5
-    # TODO: insert bing bong here
+    play sound bingbong
     pause 0.5
     C "Crap. That's got to be the curfew bell."
     "As much as I don't want to return to my shared dorm room where Sibyl assuredly awaits me, it's preferable to sleeping with the fishes here."
-    scene bg hallway with dissolve
+    scene bg hallway night with dissolve
     "I creep down the hallway as stealthily as I can like the heroine of a spy movie — mostly successfully, until I turn around a corner straight into an even worse obstacle."
     H "There she is, our missing Clover!"
     O "Flaunting curfew on your first da—"
     "Before they can even begin doing anything {b}weird{/b} again I take off running down the hallway. Thankfully, they don't appear to be taking up chase behind."
-    scene bg dorm with dissolve
+    scene bg dorm night with dissolve
     "I'm way out of breath by the time I make it back to my dorm building but I make it back in one piece, unmolested, and without drawing attention of any of the teachers."
     "The first thing I see when I sneak down the hallway is Sibyl, pacing anxiously in place outside the door."
     C "(Uh oh.)"
@@ -797,7 +799,7 @@ label a1_art:
     #"My body slides limply off the bed onto the fluffy comforter tossed on the ground no worse for wear."
     #"Feeling Sibyl finally release my legs, I roll over fully onto my back to stare blankly up at Sibyl standing above me."
     #C "I'm not going."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "Sibyl and Tanya start chatting the moment they meet in the cafeteria, apparently about Sierra once again. I don't pay much attention, instead wandering off in search of French toast."
     "Just as I've gotten back to my seat and stuffed the first bite of fluffy bread into my mouth, Sibyl goes off to get her own food, leaving me alone with Tanya."
     C "(Awkward. Think she's still pissed about the other day?)"
@@ -816,7 +818,7 @@ label a1_art:
     C "I've never had a single artistic bone in my body."
     T "Oh, just leave her. If she want to be miserable, let her be miserable without dragging {b}us{/b} down with her."
     "Tanya and I agree on something in an unlikely turn of events but Sibyl remains adamant that going to art class will be good for me."
-    scene bg artroom with dissolve
+    scene bg artroom winter with dissolve
     who "So cute! And such beautiful blonde hair too!"
     "I try desperately to duck out of some surprise head-patting foisted upon me by a smaller girl right as I enter the art room."
     who "No wonder Vittoria and Vincenza couldn't keep their hands off of her! You've got some tough competition, Miss Yang."
@@ -941,11 +943,10 @@ label a1_art:
 
 label home_ec:
     show bg black with fade
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "Sibyl doesn't seem to be holding any grudge against me, as usual, but things are no less awkward between me and Tanya by the time lunch arrives."
     "She continues to pretty much ignore my existence altogether and instead holds onto Sibyl's attention near entirely with talk of their separate works of art in progress."
     "I get up and inspect the contents of the salad bar a couple times, picking out the loudest, crunchiest vegetables so that I don't have to hear her talk."
-    show bg kitchen with dissolve
     "To my surprise and great fortune, I find out that Tanya actually isn't in every single one of our classes."
     "Though most classes are common between everyone in homeroom, some students have alternate class periods to suit their individual needs."
     S "Tanya was placed in an English as a Second Language class since she is Chinese."
@@ -1008,7 +1009,7 @@ label home_ec:
 
 label student_council:
     show bg black with fade
-    show bg classroom with dissolve
+    show bg classroom winter with dissolve
     "I end up scheming the whole rest of the day about what I'm going to tell the student council so that those twins get their just desserts."
     C "(Maybe not expelled but, like, getting called to the principal over the PA system. That'll be sure to embarrass them!)"
     C "Yow!"
@@ -1021,7 +1022,7 @@ label student_council:
     "From outside the doorway to the meeting room muffled voices seep through the edges of the doorway."
     C "Here we go!"
     "I knock at the door then push it open while the vim and vigor of unsatisfied revenge yet flows through me."
-    show bg meeting with dissolve
+    show bg meeting winter with dissolve
     C "Hello, Student Council! I have an important issue to bring to your attention!"
     "Triumphantly I stand just through the entrance and announce my intentions. It's only when the entire student council turns their gaze my way that everything falls apart."
     C "(W-Wow... there's a lot of girls on the Student Council, huh...?)"
@@ -1194,7 +1195,7 @@ label introspection:
     "I begin re-reading again from the top, the tears picking up in volume out of my eyes as I read the words written in familiar script."
     "I'm only through the first paragraph by the time my rampaging emotions overflow. I stuff my face into the pillow to muffle the wails of my bawling."
     scene bg black with dissolve
-    scene bg bedroom with dissolve
+    scene bg bedroom night with dissolve
     "A soft clatter across the room finally stirs me from my pillow. With a sniffle to contain my ugly runny nose, I glance up at it."
     "Sibyl stands at the door, leaning back against it, her face politely turned away from staring at me. There are tiny paint fleck across her nose and cheeks, no doubt evidence of her club activities."
     C "S-Sibyl..."

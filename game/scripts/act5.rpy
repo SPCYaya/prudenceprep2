@@ -185,7 +185,7 @@ label startintrigue:
     C "(This can't be good.)"
     C "I'm... going to go now. Bye."
     "The trance which came over the twins breaks just as quickly as it started when I announce my departure. Each displays a wide grin which somehow sets me ill at ease despite offering pleasant parting wishes alongside it."
-    scene bg locker with dissolve
+    scene bg lockers with dissolve
     "The door to the locker room is still swinging behind Tanya's exit by the time I return my equipment and make it back myself."
     C "(Whatever, I'll shower here if I have the whole place to myself.)"
     "The showers in the locker room are mercifully single stalls, but even so, I've been reluctant to shower here when it's just me and Tanya."
@@ -649,7 +649,7 @@ label before_the_storm:
 
 label gametwo:
     scene bg transition with fade
-    scene bg dorm with dissolve
+    scene bg lacrosse with dissolve
     "The hour of the starting whistle to the Wild Roses' second game arrives quickly at the start of the weekend."
     "Nowhere near as many spectators show up for this match as there were for the homecoming game, but I'm still willfully trying to ignore the cheers that do erupt from the bleachers while I await the signal to take the field."
     C "(Ignore them. Focus on the game. Watch the state of the field. See where our game is lacking so you can patch it up when called upon.)"
@@ -698,8 +698,8 @@ label gametwo:
     T "What I mean is— you've clearly been giving this a lot of thought. I'll try it your way."
     C "Just you watch. Soon {b}I'll{/b} have the crowd of adoring fans!"
     "My advice is basically just what Miss Woolsey said combined with what is obvious watching the first half of the game, but I'm not above trying to pull a personal win over Tanya's head."
-    # whistle sound from official whistle
-    pause 1.0
+    play sound whistle
+    pause 0.5
     "At the sound of the official's whistle, Tanya and I job off to opposite ends of the field. One of our new substitutes takes the toss at the center and play begins once more."
     "Without the benefit of blending in with Tanya by my side, I am initially more cognizant of the students and teachers watching and cheering from the side of the field, but as the game progresses, everything else starts to fade away."
     "Now that I'm on the field myself, Wachusett High is even tougher than it looked from the benches, but our new style of play seems to be working better than the pressure we tried in the first half."
@@ -859,7 +859,7 @@ label easter:
     "The twins release my arms. The way their voices remain low indicates this isn't a part of their play acting, but something rather more serious."
     C "(Can they not do anything any way but the most annoying?)"
     C "Fine, what's up?"
-    H "Your Homecoming Queen. Have you seen her?"
+    H "Your Prom Queen. Have you seen her?"
     C "Not since after the game yesterday. Why?"
     O "You {b}know{/b} why."
     H "She did not show as usual last afternoon and we are concerned for her."
@@ -972,7 +972,7 @@ label eastermonday:
     "My heart stings with what feels distinctly like betrayal, to have been shut down so coldly after it seemed we were starting to get along and just as I resolved to make up with her for good."
     C "Fine, keep crying alone in your room then for all I care! This is the last time I'm ever coming here!"
     "The heavy wooden door suffers the abuse of my foot a second time for good measure before I stomp away down the hallway with nowhere in particular in mind."
-    scene bg mary with dissolve
+    scene bg path with dissolve
     "My subconscious mind sets my legs on a course outdoors toward the athletic fields. It's a place I have come to know quite well, and besides the familiarity, exercise also tends to even out my foul moods."
     "Unfortunately for a certain pair of twins, I happen to spot them side-by-side in a hidden corner of the chapel outer wall, both leaning back against the stonework while talking."
     C "Tanya is... is...!"

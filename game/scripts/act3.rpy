@@ -70,7 +70,7 @@ label howto:
 
 label failed_seduction:
     scene bg transition with fade
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "At lunch on Monday I take the seat at Sibyl's other side completely opposite of Tanya rather than sit across from her as usual."
     "I intentionally sit close enough that I'm sure to brush my shoulders against her plenty. When Sibyl slides down the bench slightly, I subtly do the same until we're rubbing shoulders once again."
     S "Is there something wrong with the other side of the table, Clover?"
@@ -87,7 +87,7 @@ label failed_seduction:
     S "You can both be so {b}stubborn{/b} sometimes!"
     "Sibyl stands right up and moves to the other side of the table herself, leaving a Sibyl-sized hole between me and Tanya which goes unfilled the rest of the meal."
     scene bg black with dissolve
-    scene bg classroom with dissolve
+    scene bg classroom winter with dissolve
     C "So what are all these vials for?"
     "I feel like an idiot asking but the tray full of small vials of differently colored mystery liquids Sibyl sets at our lab station are unlabelled."
     S "Were you even listening during the lecture?"
@@ -135,7 +135,7 @@ label failed_seduction:
     S "Would you like to review my work, Clover?"
     "Sibyl turns to offer the worksheet out to me to verify our lab findings. It doesn't make any real sense to me but it's good to see Sibyl return to her usual self once again."
     scene bg black with dissolve
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "I keep trying my hardest to break through to Sibyl, but my efforts seem only to be doing the opposite."
     "Rather than make her fall in love wih me, I feel like she is only getting pushed further away."
     "I know I'm not exactly an expert at seduction but Sibyl really is a total brick wall. She's not picking up on a single thing I say or do."
@@ -179,7 +179,7 @@ label failed_seduction:
     "I try to play it cool but my brain is screaming out to tell her I need to be more than \"friends\" with her."
     "At the same time, some small part of me is telling my brain that maybe it should stay silent."
     C "O-Of course, Sibyl. You're my best friend in the world."
-    "Sibyl smiles so brightly when I reply to her that al other thoughts completely leave my mind. She releases my hand herself after I fail to do it on my own."
+    "Sibyl smiles so brightly when I reply to her that all other thoughts completely leave my mind. She releases my hand herself after I fail to do it on my own."
     "I sit there for what must be a few minutes but feels like hours, just contemplating the short exchange we shared while Sibyl silently returns to her novel across from me."
     "The only conclusion that I arrive at is that I will have to do the one thing I most wish I would not have to."
     jump beg_twins
@@ -188,7 +188,7 @@ label beg_twins:
     scene bg transition with fade
     scene bg black with dissolve
     "I don't want to do it. I said I'd never do it again. I {b}hate{/b} that this is my only option left."
-    scene bg meeting with dissolve
+    scene bg meeting winter with dissolve
     H "What is this? Has our surly little Miss Lovestruck came crawling back?"
     O "Surely this does not bode well at all for her fortunes of the heart."
     "The twins immediately start circling me like vultures when I find them alone together. I just stand there and let them get their teasing out of their systems."
@@ -280,7 +280,7 @@ label aqua_date:
     "Excitement speeds my limbs into walking extra fast to the point where I'm almost racing ahead of Sibyl toward the aquarium."
     "I don't know exactly what they have planned, but it cannot be a coincidence that they ask this specifically of Sibyl and tell her to bring someone with her."
     C "(And at a time that Tanya isn't around too!)"
-    scene bg aquarium with dissolve
+    scene bg aquarium winter with dissolve
     S "What's all this?"
     "I have the same reaction at first when I see the aquarium over Sibyl's shoulder, but then I think it's amazing and absolutely perfect."
     C "(I can work with this. Come on, Clover, time to strut your stuff!)"
@@ -345,11 +345,11 @@ label aqua_date:
 
 label tanya_trouble:
     scene bg transition with fade
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "Breakfast on Sunday starts like any other, except that something is clearly eating at Tanya since we saw her after lacrosse yesterday"
     "Sibyl tries to pry it out of her, to no avail. It's not really my concern at all so I just happily eat away at my French toast until I'm ready for seconds."
     C "I'm going to go grab another plate. I'll be right back!"
-    scene bg kitchen with dissolve
+    scene bg cafeteria winter with dissolve
     "I'm not so much disheartened by my failure to finally win over Sibyl last evening, not when I have so much sugar and syrup flowing through my veins."
     C "(There will be more chances. Vittoria and Vincenza will have something else up their sleeves, or those \"associates\" they spoke of will.)"
     "My only priority for the moment is getting back in line to order another stack of my favorite breakfast dish from the chefs, but even that gets ruined right away."
@@ -362,7 +362,7 @@ label tanya_trouble:
     "The other girls in the line for the chefs stare at us, some more overtly than others, but everyone in the cafeteria proper can't see us."
     C "I don't care what's wrong with you. Go tell it to Sibyl."
     T "It's not about me, it's about Sibyl."
-    scene bg dorm with dissolve
+    scene bg dorm winter with dissolve
     "After just a little bit more of half-whispered back and forth arguing, Tanya ad I end up around the corner of the hallway just outside the cafeteria."
     C "What's your {b}problem{/b}, Tanya?"
     "She's more irritable than normal today, that much was clear before, but as she looks at me she's practically throwing daggers with her eyes."
@@ -434,7 +434,7 @@ label tanya_trouble:
     "The reply arrives in a remarkably neutral tone so unlike the Tanya I know. It's clear from the poetic answer that it's something she's contemplated for some time."
     "I don't get the chance to ask her what any of it actually means as the bell rings to signal the end of the lunch period."
     T "We've left Sibyl alone way too long."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "When we both return together to the table, the worried expression on Sibyl's face almost breaks my heart just like it's probably doing to Tanya."
     "She doesn't even need to ask the question before we answer with our own little white lies."
     T "Something was wrong with the toilets."
@@ -446,7 +446,7 @@ label tanya_trouble:
 
 label libraryflirt:
     scene bg black with fade
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "A significant portion of Sunday is spent in the library, as has become the routine for us since I began to settle in to my life with Sibyl at the academy."
     "Tanya comes with us today as she sometimes does, though now she has cranked up her efforts in getting between me and Sibyl as much as possible."
     C "Hey Sibyl, check this out! Doesn't this couple look so cozy sharing this scarf?"
@@ -566,7 +566,7 @@ label libraryflirt:
 
 label artclassflirt:
     scene bg transition with fade
-    scene bg artroom with dissolve
+    scene bg artroom winter with dissolve
     "Long nights are passed lying in my bed trying to think up the best way to get Sibyl to fall in love with me."
     "Even longer days of looking for opportunities to make Sibyl miraculously fall in love with me prove continually fruitless."
     "Even the extraordinarily helpful pick up routines that the twins slipped me via the sticky notes have all failed."
@@ -874,7 +874,7 @@ label cloverdecorations:
     jump failed_confession
 
 label failed_confession:
-    scene bg bedroom with dd
+    scene bg bedroom night with dd
     "It's already past curfew so we're both stuck in our bedroom together. I can tell that there's something off about Sibyl even though she seems to be pretending like everything is the same as before."
     C "(There's not going to be any playing off that attempted kiss, is there?)"
     "I try to ask Sibyl for help with a part of the homework, not because I really need it but because I want to see if I can get her to look at me again."
@@ -1155,7 +1155,7 @@ label languishing:
     H "\"Daring the South Pole plunge\"?"
     O "\"Snorkeling the Venusian abyss\"?"
     H "\"Taking the self-guided tour\"?"
-    O "\"Churning salty butter\"?"
+    O "\"Churning fresh butter\"?"
     H "\"Beating around the bush\"?"
     O "\"Celebrating Palm Sunday\"?"
     H "\"Flooding the basement\"?"

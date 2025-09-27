@@ -366,7 +366,6 @@ label datepart2:
     jump after_date1
 
 label after_date1:
-    scene bg hallway with dissolve
     scene bg transition with fade
     scene bg black with dissolve
     "I meet Tanya for our morning training session the next day, memories of the taste and sensation of Tanya's lips still foremost in my mind."
@@ -492,6 +491,7 @@ label after_date1:
     play sound doorknock
     mw "One minute!"
     "The sound of my teacher's voice rings out from behind her door, and though I expect to have sixty seconds to compose my thoughts, she instead swings open the door to her room in about five."
+    show naomi smile with dd
     mw "Good evening, Clover! What can I do for you?"
 
     if secret_lilies_romance == "blanche":
@@ -636,10 +636,10 @@ label after_date1:
         "Miss Woolsey returns my appreciation, and after removing the hands from around her mouth, so too does Miss Izzie."
         mi "I'm rooting for you and Tanya, and that's no joke!"
     
-    scene bg dorm with dissolve
+    scene bg dorm night with dissolve
     "After once more apologizing for disrupting her, I say good night to Miss Woolsey and shuffle off toward my room before curfew kicks in."
     C "(There's a chance that I could stay here with Tanya? Maybe even Sibyl too, if she doesn't want to go back to her foster home?)"
-    scene bg bedroom with dissolve
+    scene bg bedroom night with dissolve
     S "Welcome back, Clover."
     C "Thanks."
     "When I return, Sibyl is busy re-organizing her art supplies, likely for her art club tomorrow afternoon. With the topic still fresh in my mind, I decide to quit being such a coward and just ask Sibyl outright what her summer plans are."
@@ -757,9 +757,9 @@ label gardening:
     "With few other options and the calendar now hanging over my head, any option is worth exploring."
     jump sibyl_intermission
 
-jump sibyl_intermission:
+label sibyl_intermission:
     scene bg transition with fade
-    scene bg breakfast with dissolve
+    scene bg cafeteria with dissolve
     S "Are you really sure?"
     T "Completely."
     C "Really, really!"
@@ -836,13 +836,13 @@ label seconddate:
     scene bg bedroom with fade
     "By the time the day is well and done, Sibyl's stamina has just about given out. She passes out in her bed without even squeezing in a few chapters of her latest books."
     "All this conveniently matches my plans very well. I take my nightly shower, don my cutest underwear, and re-dress in my uniform without Sibyl being awake enough to question why I'm wearing my uniform to bed at all."
-    scene bg bedroom night with dissolve
+    scene bg bedroom night dark with dissolve
     "I jump into my bed, but rather than entangle myself into my sheets, I lie flatly on my back with my eyes unblinkingly wide open."
     C "(Stay awake. Stay awake. Stay awake.)"
     "I check my smartphone clock every other minute for the first half hour, then resolve to think of some other way to pass the time until the moment comes."
-    C "(..Six times six is thirty-six, six times seven is forty-two, six times eight is forty-eight, six times nine is fifty-six, six times ten is sixty, six times— wait...?)"
+    C "(...Six times six is thirty-six, six times seven is forty-two, six times eight is forty-eight, six times nine is fifty-six, six times ten is sixty, six times— wait...?)"
     "The hour I've been so jittery about finally arrives at long last. I manage slip my shoes onto my feet and my body out the door and into the darkened hallway without waking Sibyl."
-    scene bg hallway night with dissolve
+    scene bg dorm night dark with dissolve
     "Even with my eyes fully adjusted to the darkness, I still struggle to find my way toward the lounge. As I turn the corner in the hallway, I accidentally smack my knee on the edge of the wall and exclaim just a little bit too loudly."
     T "Now's not the time to be a klutz."
     "The whispered sound of Tanya's voice floats out from the darkness just ahead, followed quickly by her figure appearing out of the darkness like a ghostly apparition."
@@ -989,7 +989,7 @@ label seconddate:
     "With the night wearing on and a full day of classwork tomorrow, we eventually bring the date to an end. Tanya's phone is fished out from between the cushions of the sofa where it had fallen unnoticed, and we make out way back into the darkened hallway once more."
     scene bg dorm night dark with dissolve
     "We kiss good night once more at Tanya's door. Sierra, it seems, is a heavy sleeper and doesn't budge and inch even when her door squeaks open frighteningly loudly."
-    scene bg bedroom dark with dissolve
+    scene bg bedroom night dark with dissolve
     "I slip into my own bed silently, being much more careful not to wake Sibyl. She's sleeping in a different position than she was when I left earlier in the night."
     "My brain shuts off immediately when my head hits the pillow. Once my eyes close, I drift off into a sleep that remains undisturbed by any dreams."
     jump tanya_injured

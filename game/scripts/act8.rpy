@@ -215,10 +215,71 @@ label sibylbreaks:
     C "(I love her so much.)"
     "I'd been avoiding the word after using it perhaps too freely in my pursuit of Sibyl, but this time, I feel like my feelings for Tanya truly deserve it."
     C "(I love Tanya.)"
-    pause 2.0
+    pause 3.0
     scene bg black with fade
     jump finals
 
 label finals:
     scene bg transition with fade
-    scene bg classroom with dissolve
+    scene bg bedroom with dissolve
+    "Sibyl recovers in time for the weekend and with enough vigor to lead me and Tanya through an in-depth workshop of every single thing I learned at the academy during the year, and the content I missed before transferring in."
+    C "(Sibyl really is incredible. I'm so lucky to have her as my Vertu partner.)"
+    scene bg bedroom night dark with dissolve
+    "Sunday night, the last few hours before the first of a series of biggest exams of my life, finds me lying in bed wondering what the week will bring."
+    "I should by all rights be at my wit's end with fear for the break of dawn, but when I clutch my pillow closer and pretend I can still smell Tanya's scent upon, the pillow, I fall right into a restful sleep."
+    scene bg classroom with fade
+    "Exams are administered twice a day, one in the morning and one in the afternoon from Monday through Thursday."
+    "As much as I'd like to just do them all faster to get it over with, spreading them out helpfully ensures we get to focus on each individual subject."
+    scene bg cafeteria with dissolve
+    "Meal times become makeshift cram sessions with all of our notebooks spread out across the table, each of us taking bites between a split of the next notebook page. Not every examination is a written test, however."
+    scene bg artroom with dissolve
+    "Arts, athletics, and etiquette are tested as a pass/fail practical examination."
+    "Having never learned the secrets necessary to produce art through close proximity to Sibyl, I'm naturally incredibly anxious about arts in particular."
+    "Thankfully, Miss Izzie just plops a brick of modeling clay before each of us and tells us to go nuts with it."
+    "I glance over to Tanya, who's intensely focused on finger-crafting a big crashing wave that doesn't look like it should be able to stand up but somehow does."
+    "Sibyl, meanwhile, somehow turned her block of clay into a fully grown tree, complete with tons of leaves to fil the branches that she scrapes out individually with a little pointy tool."
+    C "(How does she do this stuff!?)"
+    "My creatively deficient mind turned my large block of gray clay into smaller blocks of gray clay. When I see Miss Izzie coming around to check on progress, I quickly stack them up like I have a real plan."
+    mi "How are you doing, Clover?"
+    C "Really, {b}really{/b} well, Miss Izzie! This is, as you can see, a critique on... childhood... evoking the form of common block toys to... symbolize growing up."
+    "I put on my biggest grin for her, which she happily gives right back, and piles a vigorous patting of my head on top."
+    mi "Who could argue with that, Clover? {b}Pass!{/b}"
+    scene bg gym with dissolve
+    "Perhaps the highlight of the hellish finals week is my athletics practical exam."
+    mw "Congratulations, Clover! You had the best time in the hundred yard dash."
+    "Immediately after the announcement, I turn to stick my tongue out at Tanya, who quickly pinches it with her fingers before I can retract it."
+    C "Moy thungue!"
+    T "I still placed higher than you in the long jump."
+    C "Tho hwat?"
+    "My tongue still captured, I blindly throw my hands out to push back at Tanya's face to force her to let go, while Sibyl looks on with equal parts humor and astonishment."
+    S "Only the two of you would call this \"flirting\"."
+    scene bg cafeteria with dissolve
+    "It's only when it's all over that I can finally breathe a heavy sigh of relief."
+    C "It's over..."
+    C "Finals are done..."
+    C "I'm free..."
+    T "Except for that essay you have to write because you failed the etiquette practical."
+    C "Shhh. Let me enjoy this before it melts."
+    "The academy shares my feelings about how to appropriately celebrate the end of finals, that being by making banana splits with all the works for every student to enjoy."
+    S "Half the class failed the etiquette practical. Maybe the instructor is too strict?"
+    T "Some upperclassmen told me that none of the practical exams actually count for real. The essay for those who fail is just to push the students to take the class seriously."
+    C "(The practicals don't count!? But I was so proud of my passing grades in art and athletics!)"
+    "The make-up essay for the etiquette class is only a five hundred word reflection on what I learned. It's only a slap on the wrist for not passing the exam, but it's still a bummer to have to write it in the first place."
+    C "How do you think you did, Sibyl? Good enough to keep your scholarship?"
+    S "My preparations proved more than adequate. I am confident that my scholarship will remain for next year."
+    "Putting down her spoon for a moment, Sibyl's expression turns a degree more earnest."
+    S "Thank you both for forcing some sense into me. If you hadn't, I might have been too sick to even take the exams at all."
+    C "You're welcome!"
+    T "I'm sure the academy would have let you take the exams once you recovered... but I'm glad it never had to come to that at all."
+    S "So am I. How did you feel after your exams, Tanya?"
+    T "Great. I couldn't have done it without your study prep, Sibyl."
+    C "Yeah, Sibyl, you're the best!"
+    S "I am happy to have helped! You can count on me next year too!"
+    C "(Next year...)"
+    "Sibyl's words are a harsh reminder that the end of final examinations also means the end of the school year, but I try no to let it eat at me when I could be eating at my banana split instead."
+    C "(Ands besides, the school year isn't over yet! There's still one more big event before we all start packing...!)"
+    jump yearbooks
+
+label yearbooks:
+    scene bg transition with fade
+    scene bg bedroom with dissolve

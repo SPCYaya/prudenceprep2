@@ -1,6 +1,6 @@
 label sibyl_talk:
     show bg transition with fade
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "It turns out that one good sleep is all I really need. I get out of bed without a fuss the following morning and accompany Sibyl to breakfast."
     "She and Tanya follow their usual routine of exchanging the strawberry and start right up with whatever crazy thing Sierra did the previous day."
     "I, meanwhile, revel in my double helping of French toast with extra syrup."
@@ -64,7 +64,7 @@ label sibyl_talk:
 
 label lacrosse_practice:
     show bg black with fade
-    show bg classroom with dissolve
+    show bg classroom winter with dissolve
     "Tanya continues to monopolize Sibyl's attention throughout the day as best she can like putting distance between me and her is a matter of life and death."
     "Her determination to get between me and learning about Sibyl is {b}quickly{/b} getting on my nerves but my patience is rewarded when the time comes for gym class."
     show bg gym with dissolve
@@ -165,7 +165,7 @@ label lunch_sans_tanya:
     S "You're a really heavy sleeper, aren't you? It's almost noon now. If you don't get out of bed soon you'll miss lunch!"
     "Given that today is a Saturday this isn't actually an issue whatsoever, but having already slept through one meal time, my stomach agrees that it is well and truly time for me to get out of bed too."
     show bg black with dissolve
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "Sibyl accompanies me to the cafeteria and engages in small talk with me while I craft the ultimate brunch from the salad bar."
     S "We really went all out in gym class yesterday, didn't we?"
     "When we sit down, I start to munch on my salad while Sibyl holds her arm out to point out each muscle which was sore from the day before. Now that she mentions it, I feel the same way too."
@@ -204,7 +204,7 @@ label lunch_sans_tanya:
 
 label a2_library:
     show bg black with fade
-    show bg library with dissolve
+    show bg library winter with dissolve
     "It is plainly clear that Sibyl is in her element from the moment she steps into the library. With the very first step she waves a small greeting to a girl seated at a desk to the far left."
     C "You know her?"
     S "She's a member of the library committee. They shelve the books, keep track of the borrowers, and just generally keep the place tidy."
@@ -329,7 +329,7 @@ label a2_sunday:
     show bg black with dissolve
     "My overactive brain conjures all sorts of dreams featuring Sibyl and I frolicking around flowery landscapes while wearing dresses with puffy sleeves, much like Anne and Diana."
     "Out of one such dream adventure I am awoken by the real-life Sibyl. Her face hovers blurrily above me while my eyes adjust to the bright light of day."
-    show bg bedroom with fade
+    show bg bedroom night with fade
     S "Clover, I really, really meant to let you sleep in but I forgot to ask yesterday—"
     S "They do services in the chapel every Sunday morning, and if you wanted to attend you kind of need to get up {b}right now{/b}."
     "The last thing I have ever wanted to do on a Sunday morning is have my nose burnt out by the thick, nauseating smell of incense, but Sibyl of course has no way of knowing that."
@@ -347,7 +347,7 @@ label a2_sunday:
     C "(Sibyl's shampoo...)"
     "I stare at the bottle as soothing warm water rushes over my naked body like a replacement for the warm sheets I just left, then pick it up to take a whiff."
     "A big goofy smile spread across my face until at last my brain emerges from its extended slumber to join me in the shower."
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "My stomach draws me to the cafeteria before long like the animal I am. The very first thing I do as I enter is scan the crowd for a familiar face."
     C "(There's Sibyl!)"
     "At one of our usual tables I spot her and my feet move almost mechanically that direction, until the point at which I spot Tanya beside her and they stop in their tracks."
@@ -389,7 +389,7 @@ label stop_by_art:
     T "You don't have to come along, you know. I'm just picking up materials."
     S "But I am interested in what this new project might be that has you so excited to start it this very weekend! It's not a secret, is it?"
     T "Not... really."
-    scene bg artroom with dissolve
+    scene bg artroom winter with dissolve
     "The door to the art room creaks as Tanya pushes it open but the sound doesn't immediately alert the giggling occupants deep inside."
     H "And then {b}Ouji-sama{/b} here kissed the injury all gallant-like."
     mi "Classic."
@@ -583,7 +583,7 @@ label choco_making:
 
 label newweek:
     show bg transition with fade
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "As I look down at the strawberry-topped yogurt parfait before me, I immediately miss the French toast I normally eat for breakfast."
     "It's not that the creamy yogurt, crunchy granola, and fresh fruit isn't delicious, it's just hard to compete with thick cut bread dipped in egg, fried up crispy in butter, and drenched in maple syrup."
     T "Getting fat, huh?"
@@ -593,7 +593,7 @@ label newweek:
     S "Yum! Thanks, Clover!"
     "The jealous look from Tanya after I steal her special daily ritual with Sibyl is satisfying enough payback for calling me fat."
     show bg black with dissolve
-    show bg classroom with dissolve
+    show bg classroom winter with dissolve
     C "(New week, new me!)"
     "With the last of my angst fading away behind Sibyl's brilliant kindness, I try to restart \"Operation Spring Clover\" in earnest."
     C "(Out are the black t-shirts, faded jeans, and black eyeliner; in are the frilly tops and bouncy pink skirts!)"
@@ -603,20 +603,20 @@ label newweek:
     "Even when the girl at the desk in front of us is passing back papers, she just drops them on the desk in front of me rather than try to get my attention."
     C "(Come on! Look how {b}enigmatic{/b} I'm being!)"
     show bg black with dissolve
-    show bg classroom with dissolve
+    show bg classroom winter with dissolve
     "I try again with the girl who sits in front of me in science class."
     "Just as she is about to reach her desk in front of mine, I sigh loudly and toss my hair out in a shower of blonde strands."
     C "(Why aren't you feeling my {b}angst{/b}? Ugh.)"
     "All that my efforts earn is a lecture from the instructor about putting my hair up around the bunsen burners."
     show bg black with dissolve
-    show bg classroom with dissolve
+    show bg classroom winter with dissolve
     "I try to accentuate my \"coolness\" in etiquette class by angling my head upward at an angle and smiling very softly like Mona Lisa to give that truly \"confident\" look, but that also backfires."
     S "Umm, Clover, do you have a crick in your neck or something?"
     C "What? No!"
     S "Tanya tells me the nurse is a magician with muscle pains. Maybe you should pay her a visit at lunch?"
     C "There's nothing wrong with my neck!"
     show bg black with dissolve
-    show bg cafeteria with dissolve
+    show bg cafeteria winter with dissolve
     "By the time lunch comes all my enthusiasm about trying to come off as cool or mysterious has left my body and been replaced with hopeless fatigue."
     T "Your diet sure didn't last long."
     "This time Tanya waits for Sibyl to leave the two of us alone for a moment before taunting me, which also happens to coincide with me taking a bite into my second helping of brownies for lunch."
@@ -660,7 +660,7 @@ label lacrosse_observation:
     "My Vertu partner doesn't take \"no\" for an answer, however, and grabs my arm to start dragging me back in the direction of the gymnasium with great effort."
     S "Tanya — is a good — person — and you both — need to — play nice!"
     "Sibyl grunts our her pleas while giving it her all to stop me from leaving. Eventually I pity her efforts enough to promise to give the lacrosse club a fair shake despite my reservations."
-    show bg gym with dissolve
+    show bg gym lacrosse winter with dissolve
     "I feel like we're somewhat conspicuous sitting alone atop the otherwise empty bleachers, but the girls playing lacrosse below us don't seem to even notice us."
     C "So how much do you know about lacrosse? I thought it is usually played out in a big field with a lot of players?"
     "I can tell that there is some serious play happening down below on the gym floor but cannot make any real sense of the game besides the obvious."
@@ -697,7 +697,7 @@ label lacrosse_observation:
     S "Go on, give it a try. I'll be right here."
     "With Sibyl's encouragement, both verbally and physically by a little shove to my side, I take my first steps out onto the gym floor."
     C "(Remember what you learned in gym class. It can't be too hard.)"
-    show bg gym with fade
+    show bg gym lacrosse winter with fade
     "Miss Woolsey starts up a small side game with the players who aren't on the field of play currently so that I can get a little taste of the game."
     "It turns out to actually be pretty difficult playing against girls who practice the sport often, and though they go easy on me I still feel pretty lame."
     "Despite having a good time playing, it also just doesn't feel as fun as it did when I was playing with Sibyl in gym class."
@@ -712,7 +712,7 @@ label bookreturn:
     show bg black with dissolve
     "After failing to reinvigorate my new self image, I mostly just admit defeat and commit to being Sibyl's best friend one hundred percent of the time instead."
     "Little time goes by that we aren't together, from classes to meals and even Sibyl's reading time. I stick by her through it all even when Tanya occupies her other side."
-    show bg library with dissolve
+    show bg library winter with dissolve
     "When Sibyl finishes her new novel at the speed of light, I rush to finish my own so that I can accompany her to return the books to the library as her shadow."
     st "And when Sylvia tosses the false {i}libretto{/i} into the fireplace to reveal the real {i}lorgnette{/i} hidden inside I just... {b}so{/b} satisfying!"
     "The student from the library committee Sibyl waved to the other day is also a fan of {i}Sylvia Valemont{/i}, it turns out, so they both immediately start fangirling hard."
@@ -856,12 +856,12 @@ label valentines:
 
 label first_lacrosse:
     scene bg transition with fade
-    scene bg bedroom with dissolve
+    scene bg bedroom night dark with dissolve
     "I sleep fitfully during the night, plagued by nightmares of Sibyl just outside my grasp, and the dark shadows all too closely smothered around her."
     "When I finally do awaken, it's the real Sibyl dragging me out of my vivid nightmare."
     S "Today is Saturday. You have your first lacrosse practice this morning."
     "She quick to explain why she's waking me on a weekend before my grouchy tiredness temperament has a chance to fully set in."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     C "(I can eat this French toast because I will be running so much at practice today.)"
     "I repeat the same thing over and over in my head like a mantra confirming why I chose to get out of bed and why I chose to join the lacrosse team."
     "It may not have all been for the sake of French toast, but that's for sure a part of it."
@@ -898,7 +898,7 @@ label first_lacrosse:
     T "I really don't care if {b}you{/b} get hurt. I just don't want {b}Sibyl{/b} to get hurt because of your carelessness with her feelings, got it?"
     "Tanya isn't even looking at me while she talks, merely vomiting the words out of her mouth onto the floor in front of me then disappearing through the doors while I'm left speechless."
     C "(What... was that...?)"
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "I'm so thrown off by Tanya's unexpected statements that I can't even enjoy getting my own lacrosse stick and stylish lacrosse uniform with my name on the back."
     C "(\"Sibyl is straight\". That's what Tanya was trying to tell me for sure.)"
     "My better judgement is telling me that this isn't Tanya trying to mess with me this time. She was far too serious before."
@@ -910,7 +910,7 @@ label first_lacrosse:
 
 label confusion:
     scene bg black with fade
-    scene bg gym with dissolve
+    scene bg gym lacrosse winter with dissolve
     "While the rest of the lacrosse team leaves the gym for the locker room, Miss Woolsey pulls me aside to help put away the equipment."
     C "(Is it because I'm the newest member of the team? Is this hazing?)"
     mw "How did it feel being a real part of the team today, Clover?"
@@ -950,7 +950,7 @@ label confusion:
     S "That's great! The part about you being fine I mean, not about getting hit by the ball."
     S "Did you work up an appetite? The cafeteria should be opening for lunch soon."
     C "I could probably eat a whole extra large pizza right now, yeah."
-    scene bg cafeteria with dissolve
+    scene bg cafeteria winter with dissolve
     "I spend an inordinate amount of time focusing on my garden salad during lunch while Tanya recounts the practice session play by play with Sibyl."
     "As strange as I find it to think so, I'm actually glad that Tanya is taking up so much of her attention today."
     C "(I need the time to sort out what the hell I'm feeling... about Sibyl)"
@@ -961,7 +961,7 @@ label confusion:
     "It's only natural that I'd become extra close to someone who I live with and spend most of every day with!"
     C "(Why did I ever let Tanya get into my head in the first place?)"
     "I shoot her a nasty glare which she doesn't even see then happily return to my meal more at peace than I've been all day."
-    scene bg library with dissolve
+    scene bg library winter with dissolve
     "When Tanya leaves for whatever she does every Saturday afternoon, Sibyl retreats to the library to read the weekly issue magazines she follows. Naturally, I follow along."
     C "How do you read this stuff?"
     "I flip through a pile of back issues of {i}Girls' Mix{/i} magazines while Sibyl reads this week's release."

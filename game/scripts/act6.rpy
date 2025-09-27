@@ -135,7 +135,7 @@ label twinsinterlude:
     O "Tanya? I won't keep you waiting. Go get her!"
     C "What do you mean? Their club hasn't even let out yet?"
     "I turn away from Vincenza off toward the school building. Though I tell Vincenza that I am going to pick up Sibyl and Tanya from their club meeting, but it's the nurse's office that is foremost in my mind."
-    scene bg nurse hallway with dissolve
+    scene bg hallway with dissolve
     "When I arrive at my destination, I find at least a half dozen students crowd around the door to the nurse's office, all eager to sneak peek through the glass window to the inside."
     C "Umm... excuse me."
     "The crowd parts when I push myself through them toward the door. Their looks range from surprised to indignant."
@@ -530,7 +530,6 @@ label rejoinlacrosse:
     scene bg transition with fade
     scene bg lacrosse with dissolve
     "Just as we'd promised Miss Woolsey, Tanya and I come to no more fisticuffs as the week progresses. We fall back into a rather comfortable routine of early morning practices together."
-    # splooge sound
     C "Check out what I bought last night, Tanya!"
     "The sunscreen comes out a little too fast when I squeeze the bottle, but that's okay because there's surely no such thing as \"too much\" sun protection — or so I think."
     T "Is this literally the first time putting on sunscreen?"
@@ -620,11 +619,11 @@ label hangoutSunday:
     "Flopping back onto my bed, I stare up at the ceiling above me. The sensible part of me knows that I should be using this free time to work on my homework."
     "The more powerful part of me, however, pulls out my smartphone and untangles my earbuds so I can lay back, close my eyes, and relax to what is quite possibly the least relaxing music for most people."
     scene bg bedroom with fade
-    # door click sound
+    play sound doorclose
     "I only get a couple songs into the album when the door clicks open from the other side of the room."
     C "Sibyl, wh—"
     "But when the door clicks closed, there's no Sibyl to be found."
-    # show tanya
+    play sound doorlock
     T "Sibyl wanted to do some touching up before she shows it to you so she sent me ahead."
     C "You couldn't just stay there until she finishes?"
     T "I just got here and you're already trying to get rid of me?"
@@ -706,8 +705,8 @@ label hangoutSunday:
     "Despite how we both pull away at each others' accusations, it isn't long before her fingers are teasing at the ends hanging down beside her, nor for my knees to knock back up against hers."
     "In the dark, inky abysses of her eyes, I see own my reflected face beam a soft pink hue back toward me, growing ever larger as more and more of Tanya's face takes up my vision."
     "Our fingertips mingle with one another on the bed between us while our noses are nearly close enough to touch. Just another breath of a moment and I know we will..."
-    # door click
-    "The sudden click of the door latch, impossibly loud by my reckoning, send both me and Tanya springing upright back onto our feet. Fast, heavy beats of my heart pound in my ears."
+    play sound doorclose
+    "The sudden clatter of the door, impossibly loud by my reckoning, sends both me and Tanya springing upright back onto our feet. Fast, heavy beats of my heart pound in my ears."
     S "Sorry I'm late. There were just a few little touch-ups I needed to do, then Miss Izzie got me sidetracked."
     "With Sibyl carefully trying to navigate her unwieldy portfolio bag through the doorway without bumping it, she thankfully misses whatever must be the absolutely mad state of my appearance."
     "Both me and Tanya start forward to help Sibyl, but in the split second it takes for us to notice one another again, I shy back with a brush of my fingers through my still slightly messy curtain of hair to let Tanya go first."
