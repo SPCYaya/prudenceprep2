@@ -36,17 +36,26 @@ Special Thanks - /u/
 
 Music:
 
+Aguado, Dionisio - Andantino in A minor
+Aguado, Dionisio - Guitar Study / Etude No. 27
+Paganini - Sonata No. 33 - MS. 84 - Arranged for Guitar
+Sor, Fernando - Etude No. 4 in G major - Op. 35
+https://www.classicals.de/classical-guitar-collection
 
+Chopin - Nocturne Op. 9, No. 2 in E-flat major
+Liszt - Consolation No. 3 in D Flat Major - S. 172
+Mozart - Requiem - IIIa. Dies Irae - Arranged for Piano
+https://www.classicals.de/solo-piano-selection
 
+El Choclo - Angel Villoldo - Arranged for Strings
+Nelly - Julio Salvador Sagreras (1879 - 1942)
+https://www.classicals.de/tango-valse
 
 SFX:
 
 
 door close 2.wav
 https://freesound.org/people/THE_bizniss/sounds/53269/
-
-Door Unlock
-https://freesound.org/people/angelkunev/sounds/519065/
 
 Hotel room door unlocking
 https://freesound.org/people/wlabarron/sounds/494128/
@@ -110,7 +119,7 @@ define config.sample_sound = "audio/sfx/doorclose.ogg"
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-#define config.main_menu_music = "audio/music/aquarium.ogg"                #### add back eventually
+define config.main_menu_music = "audio/music/piano2.ogg"                #### add back eventually
 
 
 ## Transitions #################################################################
