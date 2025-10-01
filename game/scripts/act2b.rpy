@@ -773,7 +773,7 @@ label aprilfools:
     "The twins send me off to my next class quickly after that, leaving me only with the best of wishes for success in our forthcoming lacrosse home opener match."
     scene bg lacrosse with dissolve
     "The longest April Fools' Day of my life drags on yet further into the evening with our field lacrosse practice."
-    "Despite the warming of the weather, it's still fairly chilly out. The cold isn't too bad when I'm out on the field running back and forth all the time, but when I'm on the bench I turning into a Clover ice cube right away."
+    "Despite the warming of the weather, it's still fairly chilly out. The cold isn't too bad when I'm out on the field running back and forth all the time, but when I'm on the bench I turning into a Clover-shaped ice cube right away."
     C "(Come on, Sun, stay up a little longer, please!)"
     "The warm diagonal rays fade quickly in the early season, leaving us with only the cold radiation of the overhead spotlights to light up the end of our practice match."
     "When it's over I'm more than ready to lead the pack back into the gymnasium, but Miss Woolsey calls me aside after dismissing everyone else."
@@ -922,7 +922,7 @@ label pregame_homecoming:
     "My brain nearly shuts down altogether but someone helpfully leans me against her shoulder to guide me back to the sidelines."
     scene bg black with dissolve
     "I see hazy images of Miss Woolsey and Tanya talking, then suddenly Sibyl is there too, and the next thing I know I'm shuffling through the hallway with her and the school nurse at either side."
-    scene bg nurse with dissolve
+    scene bg nurse winter with dissolve
     "The nurse lays me on the bed to attend to my illness, but now that I'm away from the hundreds of prying, judgemental eyes I feel perfectly fine."
     C "(Yeah, perfectly fine, except for all the self-loathing I'm drowning in.)"
     "I manage to pull myself together enough to stop concerning the nurse, whose attention is only making it harder for me. When she leaves to resume her post at the game outside."
