@@ -29,7 +29,7 @@ define gui.about = _p("""
 Created and written by the Society for the Prevention of Cruelty to Yayas (SPCYaya).
 All questions and concerns may be addressed to yaya.did.nothing.wrong@gmail.com!
 
-Character art, backgrounds, and CGs by Hiwonoafu - https://hiwonoafu.tumblr.com/
+Character art, backgrounds, and CGs by Hiwonoafu - https://linktr.ee/Hiwonoafu
 
 Special Thanks - /u/
 
@@ -51,8 +51,9 @@ El Choclo - Angel Villoldo - Arranged for Strings
 Nelly - Julio Salvador Sagreras (1879 - 1942)
 https://www.classicals.de/tango-valse
 
-SFX:
 
+
+SFX:
 
 door close 2.wav
 https://freesound.org/people/THE_bizniss/sounds/53269/
