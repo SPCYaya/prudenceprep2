@@ -47,9 +47,4 @@ label start:
 
 # The game ends here.
 label end:
-    stop music fadeout 0.5
-    scene bg black with fade
-    scene bg endcard with fade
-    pause 3.0
-    scene bg black with fade
     return
