@@ -79,6 +79,9 @@ https://freesound.org/people/Rolly-SFX/sounds/626162/
 Coach Whistle
 https://freesound.org/people/Chaos-Kid/sounds/817398/
 
+School Bell
+https://freesound.org/people/deleted_user_7020630/sounds/378394/
+
 
 
 Other:

@@ -10,9 +10,6 @@ define mw = Character("Miss Woolsey", image="naomi", who_outlines=[ (3, "#ffffff
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
 define te = Character("Teacher", who_outlines=[ (3, "#ffffff") ])
-define g1 = Character("Girl 1", image="vittoria", who_outlines=[ (3, "#ffffff") ])
-define g2 = Character("Girl 2", image="vincenza", who_outlines=[ (3, "#ffffff") ])
-define rm = Character("Roommate", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define who = Character("???", who_outlines=[ (3, "#ffffff") ])
 define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 define phone = Character("Smartphone", who_outlines=[ (3, "#ffffff") ])
