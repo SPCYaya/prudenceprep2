@@ -987,7 +987,7 @@ label student_council:
     S "Clover, honestly, you've had your head even deeper in the clouds than usual ever since home economics..."
     show bg hallway with dissolve
     "I part ways with Sibyl at the end of the day's classes. She heads back toward the school building to go to club while I make for the chamber where the Student Council meets."
-    "Before she leaves Sibyl asks once again whether I would like her to accompany me. Why she's so nervous about me going to the Student Council alone, I have no clue."
+    "Before she leaves Sibyl asks once again whether I would like her to accompany me. Why she's so nervous about me going to the student council alone, I have no clue."
     C "(She probably wants to make sure I can't get anyone into trouble at all. She's too nice to let her special roommate do anything bad!)"
     "From outside the doorway to the meeting room muffled voices seep through the edges of the doorway, confirming to me that I've found the right room."
     C "Here we go!"
@@ -996,7 +996,7 @@ label student_council:
     show bg meeting winter with dissolve
     C "Hello, Student Council. I have an important issue to bring to your attention."
     "Triumphantly I stand just through the entryway and announce my intentions. It's only when the entire student council turns their gaze my way that everything falls apart."
-    C "(W-Wow... there's a lot of girls on the Student Council, huh...?)"
+    C "(W-Wow... there's a lot of girls on the student council, huh...?)"
     "Nine of them. Eighteen eyes in total. All staring at the girl who just burst into the room like an idiot."
     C "I-I have a... c-complaint..."
     "All the fiery passion for getting even with the twins which had kept my spirits buoyed up suddenly flies right out the window, replaced with a deathly pallor weighing down on me like a block of concrete."
@@ -1021,6 +1021,7 @@ label student_council:
     "All of my devious plans fly right out the window, leaving me staring down my immoral assailants directly as they quip to one another like I'm not even in the room."
     O "You sure know how to make an entrance, Clover."
     H "Quite on time too. I know she means well but I do wish Kayleigh would quit plying us with tea."
+    play sound soda
     "From within Vincenza's bag appears a can of cola, which is quickly popped with a short hiss of escaping gases and passed between the pair of twins in turn."
     H "Now, I think we owe you an apology, Clover."
     "Though I remain infuriated by their presence, the absence of the crowd watching me revives my frozen self enough to converse clearly once again."
@@ -1034,7 +1035,7 @@ label student_council:
     "It's eerie the way in which they finish each others' thoughts. Not only that, but it's also freaky how they can merely look at one another to understand what the other is thinking."
     C "(Is this for-real ESP!?)"
     "Rather than continue to contemplate their uniquely close relationship, the first words out of my mouth are far less philosophical."
-    C "How did two sexual... {b}criminals{/b} get elected to the Student Council!?"
+    C "How did two sexual... {b}criminals{/b} get elected to the student council!?"
     H "What an odd way to accept an apology, Vincenza."
     O "She's a most peculiar girl in every way, Vittoria."
     "Rather than respond to my outburst, the pair once again make show of their crazy back and forth dialogue that is addressed to one another but clearly for me to hear."
