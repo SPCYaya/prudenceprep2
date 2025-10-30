@@ -795,7 +795,7 @@ label a1_art:
     C "Umm... could you not?"
     who "So {i}tsun{/i} too!"
     C "(\"Soon?\" Was she expecting me later?)"
-    "As I shift away from her overbearing fixation on patting my head, I begin to realize just how strange my current assailant really is. She's in serious violation of the uniform code for starters."
+    "As I shift away from her overbearing fixation on patting my head, I begin to realize just how strange my current assailant really is. She's wearing what is sure to be a grave violation of the uniform code for starters."
     "Whatever is up with this oddity, I don't like it. She clearly knows who I am already, is possibly in league with my two previous assailants, and clearly also has no issue with invading my personal space."
     C "(This one is big trouble. I hope I don't have any other classes with her.)"
     S "Clover, this is—"

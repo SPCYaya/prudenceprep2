@@ -369,7 +369,7 @@ label eveoflastday_part1:
     S "To catch butterflies of course!"
     "The three of us prance around in the sunlit meadows away from the academy buildings. Sibyl in particular is having the time of her life running through the tall wild grasses in pursuit of butterflies."
     S "{b}Achoo!{/b}"
-    "Until her hay fever gets the better of her. We make a quick stop to show her Tanya's secret refuge in the easily-climbable free where Tanya and I had our first date then head back closer to campus."
+    "Until her hay fever gets the better of her, like it is me. We make a quick stop to show her Tanya's secret refuge in the easily-climbable free where Tanya and I had our first date then head back closer to campus."
     scene bg mary with dissolve
     C "There's a lot of girls out here today."
     "I make the comment idly as we walk through the cheerful flower gardens on the way back to the academy buildings, but after saying it I actually pay attention and find it scarily accurate."

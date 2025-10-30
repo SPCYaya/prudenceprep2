@@ -1241,10 +1241,10 @@ label third_date:
     scene bg kotatsu with dissolve
     play sound doorclose
     mw "Hi there, you two. We're just finishing the clean up now."
-    mw "Do you wan tus to set up the kotatsu for you?"
+    mw "Do you want us to set up the kotatsu for you?"
     C "(The {b}what{/b}?)"
     mi "Sorry you missed the watch party last night, Tanya."
-    T "Thanks. I read the {i}Umibe{/i} manga even before the anime adaption was announced so it'll be fine if I miss one episode."
+    T "Thanks. I read the {i}Umibe no Kaze{/i} manga even before the anime adaption was announced so it'll be fine if I miss one episode."
     "Miss Woolsey scoops up soda cans and snack wrappers scattered around the small room into a trash bag while Miss Izzie mostly just stands around."
     mi "Aww, okay. Do you think you'll be able to make the cabal meeting Saturday?"
     C "\"Cabal\"? Like, practicing exegesis?"
@@ -1307,7 +1307,7 @@ label third_date:
     C "Yeah, I do. I don't know what \"home\" I'll be going back to, but it's probably time that I do."
     C "I need to re-build my relationship with both of them. We call and chat but it still feels like there's a distance. I don't know anything about their lives now that they're apart."
     "Tanya is quiet for a moment, but soon enough agrees with me on the matter."
-    T "That sounds like a touch situation, Clover. I hope everything goes well."
+    T "That sounds like a tough situation, Clover. I hope everything goes well."
     C "Yeah, I think it'll be pretty hard..."
     C "That's why I want you to come with me."
     T "What?"

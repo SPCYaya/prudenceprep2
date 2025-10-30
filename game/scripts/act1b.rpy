@@ -1191,5 +1191,5 @@ label guidance:
     C "No!"
     "I push out between Vittoria and Vincenza before me, squeaking through the gap I open between them."
     C "No, no, no, no. You're not angels, you're {b}devils{/b}."
-    C "I don't need your help. I don't {b}want{/b} your help. I'm going to get through to Sibyl no matter what Tanya says, or what {b}you{/b} say!"
+    C "I don't need your help. I don't {b}want{/b} your help. I'm going to get through to Sibyl no matter what you say, or what Tanya says!"
     jump howto

@@ -79,7 +79,7 @@ label easter:
     T "What are you {b}doing{/b} here, Clover?"
     "Against my better judgement, I manage to drag myself out of the sweet caress of sleep early the next morning to ambush Tanya before she goes out on her daily run."
     C "Training. Since you have {b}all{/b} the answers, I'm gong to do everything you do."
-    T "What? No!"
+    T "What? No, not gonna happen."
     C "Are you afraid that I'm going to get better than you?"
     T "{b}No{/b}, that's not going to happen. I just don't want you bothering me while I'm in the zone."
     C "Then you'd better start taking laps in your room if you don't want me around. Besides, won't the {b}team{/b} play better if {b}I{/b} play better?"
@@ -225,7 +225,7 @@ label startintrigue:
     C "Wasn't homecoming torture enough!?"
     jump truthordare
 
-label truthordare:
+label truthordare: # fit a choice here?
     scene bg black with fade
     scene bg bedroom with dissolve
     "Despite having already finished the homework herself, Sibyl insists that Tanya is the one who helps me get through mine. Tanya grumbles about the whole thing but ultimately concedes to Sibyl's plans."
@@ -398,7 +398,7 @@ label manhuatalk:
     "I truly don't know what Tanya means about either description, but I know they're insults and I'm not happy about it regardless of whether I understand them or not."
     T "In fact, I actually... wanted to thank you—"
     C "So you're {b}not{/b} going to murder me?"
-    T "What? No! Why would I murder you?"
+    T "No? Why would I murder you?"
     C "Because you've told me you're going to murder me a bunch of times before, and now you have me alone in the empty locker room early in the morning where no one will hear it or even find out for hours."
     T "You're {b}such{/b} an idiot, Clover. And to think I was going to say you might have some brain cells yet clinging to life in your empty skull after all!"
     C "You could say it nicer than that, you know!"
@@ -451,7 +451,7 @@ label manhuatalk:
     "Half of me suspects she's doing it on purpose to salvage some of her pride, but the other half of me wants to make her eat what remains of her tough girl act and so I change at the speed of light into my uniform before she gets too far head on the track."
     jump homeroom_queens
 
-label homeroom_queens:
+label homeroom_queens: #expand? add choice?
     scene bg cafeteria with dissolve
     "After running so hard in front of me on the track that I literally get the taste of the soft Spring earth in my mouth, I'm totally exhausted by the time we meet Sibyl in the cafeteria for breakfast."
     "Nothing much is said as I shovel down a whole plate of French toast as a reward, after what feels like a millennium of eating only yogurt parfaits for breakfast."
@@ -898,7 +898,7 @@ label easter:
     S "{b}Exactly{/b}. We need to find as many as we can before they them all first!"
     "Ultimately, we never see Sibyl's library friend or her Vertu partner again. As the frenzy of pink uniforms subsides, Sibyl and I find a grassy spot beneath a shaded tree where we can count our spoils."
     "When all the colorful plastic egg shells are counted up, Sibyl has easily tripled the haul I brought in during the Easter Egg Hunt."
-    C "Malted milk balls? Does anyone under seventy even like these?"
+    C "Malted milk balls? Does anyone under seventy years old like these?"
     S "I'll take 'em!"
     "I spit the half crunched ball of disgust out into the grass, then toss the second unwrapped portion toward Sibyl's waiting open mouth."
     C "I can't believe you actually like those."
@@ -1026,7 +1026,7 @@ label eastermonday:
     C "That's the Tanya {b}I've{/b} known since the first day I got here. Welcome to the club."
     "My dismissive remarks do not suit Sibyl well at all, and I quickly apologize for giving them in the first place."
     "Exactly how the first day of classes and lacrosse practice will unfold tomorrow is a big unknown that weights on me, and I can see visibly weighs on Sibyl as well."
-    C "(It should be a crime to have three tests the day after Easter break. And not just a misdemeanor, I mean a real felony.)"
+    C "(It should be a crime to have three tests the day after Easter break. And not just a misdemeanor, I mean a full on felony.)"
     "Without anything in particular to do for it today regardless, Sibyl and I decide to finally tackle the mountain of homework the teachers left for us over the break."
     jump peltingballs
 
