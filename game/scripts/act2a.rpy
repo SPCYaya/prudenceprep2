@@ -1243,7 +1243,7 @@ label languishing:
     "The prickle returns again when she smiles so brightly back to me as she does, but it too fades once again into the calmness of knowing that Sibyl is and always will be special to me."
     S "That's great! I was worrying that I'd have to dump all of this homework on you while you were still in a poor state of mind."
     C "Wait, what?"
-    "Skipping entire days' worth of class does not exempt me from homework, or so it would appear with how much of a mountain of papers flow out of Sibyl's school bag."
+    "Skipping entire days' worth of class does not exempt me from homework, or so it would appear with how much of a mountain of papers flow out of Sibyl's schoolbag."
     C "But I haven't even seen the lectures for half this stuff! Will you help teach me the material, Sibyl?"
     S "Of course, Clover! You else is a Vertu for if not to lean on in your hour of need?"
     S "But before we start, it's Tex-Mex night in the cafeteria. Let's go grab a couple burritos and some churros to bring back here."

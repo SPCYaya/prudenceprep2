@@ -596,7 +596,7 @@ label newweek:
     show bg black with dissolve
     show bg classroom winter with dissolve
     "I switch tactics and try again with the girl who sits in front of me in science class. Just as she is about to reach her desk in front of mine, I sigh loudly and toss my hair out in a shower of blonde strands."
-    "My classmates doesn't even notice. She just takes her seat in front of me like she does every day and pulls her textbook out of her school bag."
+    "My classmates doesn't even notice. She just takes her seat in front of me like she does every day and pulls her textbook out of her schoolbag."
     C "(Why aren't you feeling my {b}angst{/b}? Ugh!)"
     "All that my efforts earn is a lecture from the instructor about minding my hair around the bunsen burners."
     show bg black with dissolve

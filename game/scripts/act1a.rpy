@@ -1131,7 +1131,7 @@ label introspection:
     "I anxiously glance at every passing girl in the hallways while heading back to my dorm room, all the while telling myself I can't possibly be mistaken in what I am feeling so strongly."
     scene bg bedroom with dissolve
     "It's a relief when I finally get back to my room, far away from any invasively curious or potentially judgemental eyes."
-    "To my surprise, a small cardboard box sits atop my desk. I slump my school bag onto the chair and peer over at it like it might explode in my face, or worse."
+    "To my surprise, a small cardboard box sits atop my desk. I slump my schoolbag onto the chair and peer over at it like it might explode in my face, or worse."
     C "(\"Clover Ipswich\". It's for me. From...)"
     "A strange mixture of excitement and dread fills my stomach, like it's full of butterflies on fire madly flapping their wings to put each other out but only fanning the flames harder in the process."
     "I step over to my bed and flop onto it in a daze, but ultimately my body is hypnotically drawn right back to the box on the desk."
