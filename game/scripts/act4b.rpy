@@ -439,7 +439,7 @@ label eveoflastday_part1:
     T "It's all first-come-first-served so you either have to camp out in front of the Student Council office, risk getting a random leftover, or else have leverage over Vittoria and Vincenza to sneak you the mask you want."
     C "(Leverage, eh?)"
     scene bg lockers with dissolve
-    S "Ooh! So this is what the athletic teams' locker room looks like!"
+    S "Ooh! So this is what the athletic teams' locker room looks like!"   # sibyl has already been here before, need to change this
     C "Oh, yeah, this is your first time in here, isn't it?"
     "Sibyl takes a opportunity of being in a new place to roam around looking at everything, like it isn't nearly an identical copy of the locker room used as necessary for the athletics classes."
     "Only Tanya seems to be brought down by the scenery, as made obvious by the dark way in which she stares at one particularly shower stall."

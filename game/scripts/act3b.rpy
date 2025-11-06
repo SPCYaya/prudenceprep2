@@ -394,7 +394,7 @@ label practicewatching2
     C "(I didn't even know what my feelings for Sibyl were until Tanya told me.)"
     "Though Sibyl may have taken me to my spectate my first lacrosse practice, but when I was on the verge of dropping out of the team altogether, Sibyl couldn't make me see reason."
     C "(It was Tanya who slapped some sense back into me back then. If it weren't for her, I probably wouldn't be part of the Wild Roses at al right now.)"
-    "And back during the whole homecoming debacle, it may have been Sibyl who set us up for it, but it wasn't her there on the stage with me sharing in the spotlight."
+    "And back during the whole Homecoming debacle, it may have been Sibyl who set us up for it, but it wasn't her there on the stage with me sharing in the spotlight."
     C "(If Tanya wasn't there to hold my hand, I definitely would have perished and been half way to the Great Beyond before my body hit the stage.)"
     "While I'm still nowhere near totally comfortable being the center fo attention and still suffer greatly at the mere thought of presenting in front of the class, it's undeniable that I handle those encounters much better now than before."
     "It' also thanks to Tanya that I'm eating healthier and am unafraid of looking at myself in teh bathroom mirror anymore."
