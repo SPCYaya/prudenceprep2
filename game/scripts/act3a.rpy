@@ -1,6 +1,5 @@
 label easter:
-    scene bg black with fade
-    scene bg bedroom with dissolve
+    scene bg bedroom with fade
     "The excitement of Homecoming swiftly fades into the intense boredom of passing the week-long Easter break when most students have left for home."
     "Sibyl surprised me on Sunday by attending services in the academy's chapel. She told me after that she isn't religious, but that the foster family she has been with for the past few years used to take her and her foster sibling every once in a while."
     C "(She probably went only because there's nothing {b}else{/b} to do with everyone else away.)"
@@ -1011,6 +1010,7 @@ label eastermonday:
     C "(Maybe the twins did put me up to this initially, but now I'm really here because I want to be!)"
     T "You can tell Sibyl that I'll be in class tomorrow and at lacrosse practice too, okay?"
     "Before I can even get another word in, the door slam shut in front of me. I hear the lock click snugly into place from the other side of the door."
+    play sound doorlock
     C "(What the {b}frick{/b} is her problem!?)"
     "My foot impacts against Tanya's door with a swift kick, a physical show of how I feel after getting so rudely disregarded after working up so much courage to come apologize to her face-to-face."
     C "(So maybe we don't normally have the warmest of conversations, and maybe we don't usually talk about anything that isn't lacrosse related, but she didn't have to go on acting like {b}that{/b}!)"
