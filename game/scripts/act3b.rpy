@@ -188,7 +188,7 @@ label twinsinterlude:
     H "Clover, I don't know what Vincenza told you, but she and I are twin sisters, and things which may not seem normal to a typical pair of sisters do not feel so strange when we have been so close by one another our whole lives."
     C "So what you're saying is that it's not that awkward between you when you do it?"
     "With a heavy sigh, Vittoria merely says \"yes\", and repeats it again right after."
-    H "Yes. When we make love to another girl at the same time, there's nothing taboo about it at all. It is only a small amount of — what is the word? — \"skinship\", no different from how we wash each other's hair every morning."
+    H "Yes. When we make love to another girl at the same time, there's nothing... {b}taboo{b} about it at all. It is only a small amount of — what is the word? — \"skinship\", no different from how we wash each other's hair every morning."
     H "If that's all you were wondering about, I'm glad that was cleared up, Clover."
     "I've always thought Vittoria was the maybe slightly less weird of the two, but Vincenza was right that something about it really set her off into the loco zone. She's never been this quick to shut me up before."
     C "Huh. Okay."
