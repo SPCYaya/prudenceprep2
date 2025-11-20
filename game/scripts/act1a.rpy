@@ -1131,7 +1131,7 @@ label student_council:
     O "It is the responsibility of the office of the presidency to look after the welfare of the students in our care."
     "Vittoria pleasantly reminds her sister that she's only vice president, which Vincenza merely brushes off with an indifferent dismissal of the difference in the roles altogether."
     C "Hmph. Why should I listen to the girls who molested me right after taking my first step through the gate?"
-    P "I believe we already apologized for that incident."
+    O "I believe we already apologized for that incident."
     H "Let's not keep pretending you didn't enjoy it, Clover."
     C "{b}Enjoy{/b} it!?"
     H "It's okay to like it. Many girls here do."

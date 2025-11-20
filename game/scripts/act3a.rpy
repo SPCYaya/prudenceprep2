@@ -821,9 +821,9 @@ label gametwo:
     "I'm not looking so hot either, having swiftly thrown my uniform back on without having had a chance to clean up after the game in the morning."
     "Sibyl drops Tanya off at her room solemnly, then walks me back to our room. She takes her leave again with a promise to bring back some lunch from the cafeteria while I get myself clean."
     stop music fadeout 0.5
-    jump easter
+    jump easterp2
 
-label easter: # not the holiday, the school celebration
+label easterp2: # not the holiday, the school celebration
     scene bg transition with fade
     play music guitar1
     scene bg lockers with dissolve

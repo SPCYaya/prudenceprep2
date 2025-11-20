@@ -352,7 +352,7 @@ label brainstorming:
     stop music fadeout 0.5
     jump practicewatching2
 
-label practicewatching2
+label practicewatching2:
     scene bg transition with fade
     play music guitar2
     scene bg gym lacrosse with dissolve

@@ -1201,7 +1201,7 @@ label gardening:
 
 label sibyl_intermission:
     scene bg transition with fade
-    play muic piano1
+    play music piano1
     scene bg cafeteria with dissolve
     S "Are you really sure?"
     T "Completely."

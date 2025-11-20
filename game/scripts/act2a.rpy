@@ -948,7 +948,7 @@ label failed_confession:
     "But it's too late for her apologies. My brain has already suspended all higher functions. My hand even still remains slightly outstretched where I tried to initiate contact with Sibyl."
     C "(She... {b}flinched{/b}.)"
     "Coldness more profound than the winter's bite creeps in around me, draining all the warmth in my body in an instant."
-    C "(She's afraid to even touch me. Sibyl is {B}afraid{/b} of me.)"
+    C "(She's afraid to even touch me. Sibyl is {b}afraid{/b} of me.)"
     "I find just enough strength left to throw myself into the bathroom and slam the door behind me, locking it for good measure."
     "All that I can manage is to sit on the toilet with my head in my hands and let the tears roll freely down my cheeks."
     "Impassioned apologies and pleas to \"just open the door\" filter through the cracks of the frame, but simply turning on the shower right beside me is enough to drown them out until they fade away."

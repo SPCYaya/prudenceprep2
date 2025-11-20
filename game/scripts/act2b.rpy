@@ -186,8 +186,8 @@ label distancefromSibyl:
     play sound doorknock
     C "Miss Woolsey? Are you in there?"
     "The muffled speaking goes quiet once more, and after a long minute of waiting, the door cracks open just enough for an eyeball to peak through it."
-    g1 "{i}È Clover alla porta!{/i}" # It's Clover at the door!
-    g2 "{i}Clover? Cosa ci fa qui?{/i}" # Clover? What is she doing here?
+    who "{i}È Clover alla porta!{/i}" # It's Clover at the door!
+    who "{i}Clover? Cosa ci fa qui?{/i}" # Clover? What is she doing here?
     C "(Oh no, what are Vittoria and Vincenza doing here!?)"
     play sound doorclose
     "When the twins admit me to the room, I'm at first too busy trying hard not to meet their eyes that I don't even realize that both Miss Izzie and Miss Woolsey are present as well."
@@ -681,7 +681,7 @@ label divorce_finalized:
 
 label aprilfools:
     scene bg transition with fade
-    play guitar2
+    play music guitar2
     scene bg black with dissolve
     "\"One more day\" quickly turns into two."
     "Everything certainly seems like it's going wrong in my life once more, but for the first time those troubles aren't chewing me up and spitting me back out like before."
@@ -778,7 +778,7 @@ label aprilfools:
     "I don't even feel the cold chilling me to the bone as I jog back into the gymnasium; I'm flying too high in the clouds to care."
     C "(I'm going to be starting in the Homecoming game!)"
     stop music fadeout 0.5
-    jump spirit_week:
+    jump spirit_week
 
 label spirit_week:
     scene bg transition with fade
@@ -917,7 +917,7 @@ label pregame_Homecoming:
     T "That's a lot of energy, yes, but it's mostly sugar and all that bread will sit heavily in your stomach."
     S "Maybe you should listen to her, Clover. She's been doing this a long time."
     C "I've been eating this before every practice, remember? I'll be fine!"
-    scene bg gymnasium with dissolve
+    scene bg gym with dissolve
     "After breakfast, the three of us walk toward the gymnasium to drop Sibyl off at the doors. There's apparently some kind of \"pep rally\" beforehand which all the school will attend, as well as alumni from past years."
     "Tanya and I peek our heads in through the doorway after Sibyl to look at all the goings-on, and find the gymnasium completely draped in while and pink — the school colors."
     "Just about every student in the school is sitting on the bleachers, or like Sibyl, just now finding their way to the bleachers while catching up with other friends and greeting the alumni along the way."
