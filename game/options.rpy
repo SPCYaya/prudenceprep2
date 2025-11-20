@@ -47,10 +47,6 @@ Liszt - Consolation No. 3 in D Flat Major - S. 172
 Mozart - Requiem - IIIa. Dies Irae - Arranged for Piano
 https://www.classicals.de/solo-piano-selection
 
-El Choclo - Angel Villoldo - Arranged for Strings
-Nelly - Julio Salvador Sagreras (1879 - 1942)
-https://www.classicals.de/tango-valse
-
 Mother Soil by 1000 Handz
 https://freemusicarchive.org/music/1000-handz/cc-by-free-to-use-dancehouse-instrumentals
 
@@ -94,6 +90,8 @@ https://freesound.org/people/Luisa_Sanchez/sounds/816991/
 
 
 Other:
+
+Italian and Chinese translations - Google Translate
 
 lace border PNG Designed By Raya Design https://pngtree.com/freepng/elegant-white-lace-pattern_7509897.html
 

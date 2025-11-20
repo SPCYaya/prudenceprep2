@@ -1,5 +1,6 @@
 label tanya_injured:
     scene bg transition with fade
+    play music guitar2
     scene bg lacrosse with dissolve
     "Following our late-night date, my worries about the impending end of the school year seem to melt away, to be replaced with a cautious optimism for a future that yet remains uncertain."
     mw "Wild Roses, huddle up!"
@@ -8,8 +9,8 @@ label tanya_injured:
     "Cheering, we all throw our hands into the circle with Miss Woolsey. The hand beside me rests just a little more heavily on mine than the others, and I turn to face Tanya beside me to share an excited grin."
     "{b}WILD ROSES!{/b}"
     "Tanya runs off to join the starters on the field, while I take my seat to wait my turn at the sidelines. I use the time to scout the Quabbin Charter players as the game finally begins."
-    C "(What do they {b}feed{/b} these girls!?)"
-    "Their team is big, and strong. Tanya is big and strong too, but then these girls are {b}big{/b} and move way faster than I feel they have any right to considering their size."
+    C "(What do they feed these girls!?)"
+    "Their team is big, and strong. Tanya is big and strong too, but then these girls are enormous and move way faster than I feel they have any right to considering their size."
     "One of their defenders in particular is a mountain — tall, bulky, and mean. She might not be able to move as quickly as the others, but from her position on defense she tears up our attacking squad with her size, reach, and force."
     C "(She may be an un-moveable mountain by the goal, but me and Tanya are so in sync with each other that we can definitely find a way around her!)"
     "As if she hears my thoughts, Miss Woolsey swaps me in as her first choice substitution."
@@ -28,6 +29,8 @@ label tanya_injured:
     "My frustrations to see our plan falter at her stubborn defense release as a growl as I trot up the field to support. It's not just me frustrated, clearly, as the defender keeps Tanya from passing but can't dispossess her."
     C "C'mon, Tanya, she doesn't have half the skills you have!"
     "My encouragement seems to work on Tanya, but only makes the Quabbin girl more ferocious as well."
+    stop music fadeout 0.2
+    play music drama fadein 0.2
     "Ultimately, she puts her size to use, sneaking in a slash of the stick that hits against Tanya's arm, and which the official doesn't catch."
     "I yell it out loud and point toward the offender, and so do many of my teammates, but the official does nothing. What should have ended there only continues, with the defender not giving up."
     "Perhaps emboldened by getting away with a penalty already, the defender attempts another risky poke check to try to knock the ball free."
@@ -50,12 +53,14 @@ label tanya_injured:
     player "If you're so afraid of getting hurt, then you shouldn't be playing the game."
     "I don't care that this girl towers over me, or that she probably eats three times more yogurt and oats a day than I do."
     "I'm seeing red, and I don't mean the card that the official throws up when I cross check my target again, this time hard enough to make even her stumble backward."
-    C "I'll show you \"getting hurt\"! You can't just hurt Tanya— hurt {b}my girlfriend{/b}, and {b}get away{/b} with it!"
+    C "I'll show you \"getting hurt\"! You can't just hurt Tanya— hurt {b}my girlfriend{/b}, and get away with it!"
     player "Maybe \"your girlfriend\" shouldn't have been such a pushover?"
     "The officials and members of the Quabbin team get between us before I can take any more whacks at the girl locked in my sight. To my surprise and delight, some pink uniforms come up too to brush against the Quabbin girls rushing in."
     "The teams are separated quickly while I storm off toward the edge of the field among, as I suddenly realize, a swell of cheering from the crowd."
+    stop music fadeout 0.5
     C "(They're cheering for me?)"
     "Rather than be afraid like the old Clover of the past, I glance up at the rows of pink uniforms and fear none of their faces. Instead, their encouragement lifts my spirits, and I shrug off the watchful official to trot back to Tanya."
+    play music guitar2
     scene bg lacrosse with dissolve
     C "How is she?"
     "Tanya appears more alert than I last saw her when I catch up to where she sits on the bench surrounded Coach Woolsey and Miss Izzie, but still not quite all the way \"there\"."
@@ -214,10 +219,12 @@ label tanya_injured:
     "Small tears well up in my eyes, and though Tanya jokes that I'm more happy to see breakfast arrive than to find her recovering well, I think we both know Im just so touched to have my life going so amazingly well."
     "I scarf down my breakfast without any delay of course, but it is mostly how happy to be surrounded by Tanya and Sibyl that makes me emotional. Even Sierra manages to shut up long enough to be the dutiful Vertu partner for Tanya."
     C "(I don't care what I have to do. I will return next school year if it's the end of me!)"
+    stop music fadeout 0.5
     jump third_date
 
 label third_date:
     scene bg transition with fade
+    play music piano2
     scene bg dorm with dissolve
     "Tanya manages to cling to her sanity while resting in her room during the day while Sibyl and I are in classes, but only just barely."
     "I want to be the one to deliver meals for her, but her Vertu partner Sierra insists that she must fulfill her role properly."
@@ -314,10 +321,12 @@ label third_date:
     C "Yowch!"
     T "Don't even joke about breaking up with me."
     "After taking the payback for my joke, Tanya allows me to drown fully into her lips once more."
+    stop music fadeout 0.5
     jump finalgame
 
 label finalgame:
     scene bg transition with fade
+    play music guitar1
     scene bg lockers with dissolve
     mw "This is it, Wild Roses: the last game of our season."
     "Though we are not able to play in the final game of the school year, Tanya and I still join the rest of the team in the locker room to be with them as Coach Woolsey raises everyone's spirits before taking the field."
@@ -392,10 +401,12 @@ label finalgame:
     C "(Were we actually a {b}detriment{/b} to the team today?)"
     "The appreciation is a lot even though I've known these girls for months now. I like to think I've gotten over most of my fear of being put in the spotlight like this, but I make it through easily."
     "Tanya stays by my side the whole time without fail, just in case."
+    stop music fadeout 0.5
     jump study4finals
 
 label study4finals:
     scene bg transition with fade
+    play music piano1
     scene bg lacrosse with dissolve
     "The very next morning after the nurse clears Tanya to return to normal life, she's back out on the track getting her laps to make up for lost time, and doing so with an obvious skip in her step."
     C "(I don't think I've ever seen her smile so brightly!)"
@@ -519,10 +530,12 @@ label study4finals:
     "Her first reply was as sweet as her usual self, but her curt latter reply, while not aggressive, clearly indicates how much patience she's losing for my interruptions."
     C "...Get to sleep soon. We have science lab tomorrow."
     "Even after sacrificing our date today, I still am unable to stand up to Sibyl and tell her that she needs to give herself a break. I make do by squeezing the Tanya in my dreams extra hard in my arms."
+    stop music fadeout 0.5
     jump sibylbreaks
 
 label sibylbreaks:
     scene bg transition with fade
+    play music guitar2
     scene bg gym with dissolve
     T "Serving!"
     play sound volleyball
@@ -576,6 +589,7 @@ label sibylbreaks:
     C "I dunno. Take a bath maybe? I haven't taken the time to truly soak in a bath once since coming here."
     T "That sounds nice. Sierra always hogs ours."
     C "You—"
+    stop music fadeout 0.5
     "I start to say something that flies right out of my mind, as I immediately get struck by a terrifyingly giddy realization which trembles my hand still held within Tanya's."
     C "(Tonight is the night. Tonight is {b}the{/b} night.)"
     T "Clover?"
@@ -599,6 +613,7 @@ label sibylbreaks:
     play sound doorclose
     "The bath is small for two people, but Tanya does not mind, and neither do I."
     pause 1.0
+    play music sad
     scene cg morning_after with fade
     "Perhaps it is because the night passes like a dream that I sleep so restfully. When I finally awaken the next morning, I find Tanya still snoozing peacefully in my arms."
     "Right away, I squeeze her with the sort of uncontrollable hug one does upon spotting an unbelievably cute puppy."
@@ -610,12 +625,14 @@ label sibylbreaks:
     "A shiver of excitement rakes swiftly through my body from the tips of my fingers down to my toes. I calm myself down by stuffing my nose into Tanya's sleek black hair and breathing in her scent."
     "I seriously consider waking her up right away so that we can call each other mean names, push each other around a little bit, then go right back to making out so deeply that our bare legs become hopelessly tangled again."
     "For a time, I satisfy myself with softly pinching at the thick, firm muscles in her arms and legs. Tanya does eventually wake up and tell me off, but the kissing only happens after we've both gotten dressed and brushed our teeth."
-    pause 3.0
+    stop music fadeout 0.5
+    pause 2.5
     scene bg black with fade
     jump finals
 
 label finals:
     scene bg transition with fade
+    play music piano2
     scene bg bedroom with dissolve
     "Sibyl recovers in time for the weekend with enough vigor to lead me and Tanya through an in-depth workshop of every single thing I learned at the academy during the year, and the content I missed before transferring in too."
     C "(Sibyl really is incredible. I'm so lucky to have her as my Vertu partner.)"
@@ -672,10 +689,12 @@ label finals:
     C "(Next year...)"
     "Sibyl's words are a harsh reminder that the end of final examinations also means the end of the school year, but I try no to let it eat at me when I could be eating at my banana split instead."
     C "(It's not like the school year is over yet, anyway. There's still one more big event before we all start packing.)"
+    stop music fadeout 0.5
     jump eveoflastday_part1
 
 label eveoflastday_part1:
     scene bg transition with fade
+    play music guitar1
     scene bg bedroom with dissolve
     "The morning of the last Saturday before Summer break finds me hibernating in the depths of my bed such that Tanya has to come in and drag me out of it herself."
     C "But lacrosse season's overrrr..."
@@ -894,7 +913,9 @@ label eveoflastday_part2:
     C "Can I use my glitter gel pens?"
     S "Only if you let me borrow one!"
     "I select a lime green from the pack, Sibyl selects a dark blue, and we separate to our own beds for privacy while we write the words which will have to sum up our entire experience together this school year."
+    stop music fadeout 0.2
     pause 0.5
+    play music sad
     "It's a comfort to me that Sibyl also seems to be deep in thought for a time after we trade yearbooks, but soon enough she's already writing in my yearbook, while I'm still stuck with cobwebs in my head."
     C "(What does Sibyl mean to me?)"
     "The first and most obvious answer comes to mind instantly — that being my first love."
@@ -928,10 +949,12 @@ label eveoflastday_part2:
     "My emotions threaten to overflow in the tender moment, but I manage to keep my hands firmly on the reigns enough to not make a fool of myself until at last we separate."
     "As I watch Sibyl return to her packing, I cannot help but think how lonely she, who comes from such a large family, must have been before I arrived."
     "Someone like me, who grew up an only child, is already feeling so terribly lonely just thinking about spending the whole summer without the girl who became like a sister to me."
+    stop music fadeout 0.5
     jump yearbooks
 
 label yearbooks:
     scene bg transition with fade
+    play music piano1
     scene bg gym with dissolve
     "Armed with my yearbook in one hand and my collection of glittery gel pens in the other, I walk in step with Sibyl and Tanya at either side into the sea of pink churning in the gymnasium."
     C "Whoa."
@@ -1176,10 +1199,10 @@ label yearbooks_part2:
     "The display of affection draws the attention of several students nearby us, but it's only when our lips press together that a chorus of \"ooh\"s erupt. Even Sibyl joins in with the crowd."
     "Under normal circumstances, I feel like I'd want to die, but this is no normal circumstance."
     C "(Let them watch.)"
+    stop music fadeout 0.5
     jump endcard
 
 label endcard:
-    stop music fadeout 0.5
     scene bg black with fade
     scene bg endcard with fade
     pause 3.0

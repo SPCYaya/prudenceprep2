@@ -1,4 +1,6 @@
 label lacrosse_anew:
+    scene bg transition with fade
+    play music piano1
     scene bg gym lacrosse winter with dissolve
     "With my name written in bold pink letters across my back and the crosse held confidently in my hands, I envision myself as a brand new woman ready to tackle any obstacle in her path."
     C "(Goodbye creepy goth, angsty bitch, and love-struck loser Clover; nice to meet you, fun and sporty athlete Clover!)"
@@ -17,7 +19,7 @@ label lacrosse_anew:
     "As I line up with my stick crossed at waist level before me, I narrow my focus on what actions I'm going to take to sweep the ball to my teammates."
     "Nothing else matters in all the world but winning that little yellow rubber ball... until my opponent arrives to place her stick right up against mine."
     T "You're going down, Clover."
-    C "(She—! She's {b}trash talking{/b} me!)"
+    C "(She—! She's trash talking me!)"
     C "Shut your fat mouth, you... fattie!"
     T "Is that the best you've got?"
     "The coolness of Tanya's reply, and particularly the cavernous depths of smugness present on her face as she says it, really ruffles my feathers."
@@ -57,14 +59,14 @@ label lacrosse_anew:
     C "That's not what I meant!"
     T "If you're asking why I scored two goals while you scored none, that's just because I'm a better athlete than you."
     "If I weren't also tired from all the activity on the field of play and at the moment using my stick as a crutch to rest my weary legs, I might have just smacked her over the head with it then and there."
-    C "That's {b}exactly{/b} the kind of crap I'm talking about."
+    C "That's exactly the kind of crap I'm talking about."
     "As nonchalant as ever, Tanya turns her body slightly away from me and swipes the sweat off her brow before making any effort to respond to me."
     T "Better that you learn not to let your opponent take you off your game now rather than when we're playing against one of our rivals. The girls at Snipatuit High are particularly nasty."
     T "We're both Wild Roses, Clover. It's in the best interest of the team that you are playing at your best before Spring season starts."
     "I cannot deny that her little trick did teach me a lesson about maintaining focus, and my vexation at her behavior did make me play better as a result."
     C "So what you're saying is that all of that talk was just to make me perform better in the practice game?"
     T "That, and I'm still pissed about what you did to Sibyl."
-    C "(There we go. {b}That's{/b} what I expected to hear.)"
+    C "(There we go. That is what I expected to hear.)"
     "I'm not surprised, exactly, and nor do I blame her. Privately, without ever speaking the ghastly words aloud, do I admit that Tanya was right when she warned me in advance to give up on Sibyl."
     C "(Hell itself will freeze over before I give her the opportunity to say \"told you so\".)"
     T "Oh, and before I forget, \"I told you so\". There's absolutely no way any girl would change Sibyl's preferences, least of all {b}you{/b}."
@@ -81,8 +83,8 @@ label lacrosse_anew:
     C "You're right, I didn't kiss her. {b}She{/b} kissed {b}me{/b}."
     "I feel so delightfully devilish rubbing my kiss into Tanya's face after she's been acting so high and mighty for all of our practice session."
     "Maybe it's the unshakeable smirk plastered on my face, or perhaps it's that Tanya knows Sibyl is too kind for her own good, but something really shakes her confidence to my benefit."
-    T "You're lying! She'd {b}never{/b}!"
-    C "Well she {b}did{/b} so... yeah."
+    T "You're lying! She'd never!"
+    C "Well she totally did so... yeah."
     "Now it's my turn to turn away slightly like I don't even care about Tanya silently fretting over my shocking admission. I still keep her in my peripheral vision just in case."
     mw "Two minutes to ball drop, girls!"
     "Miss Woolsey ensures I have the last word in this particular confrontation by announcing the imminent start of the second half of the practice game."
@@ -120,17 +122,19 @@ label lacrosse_anew:
     C "(Ugh, seriously, what does Sibyl enjoy about this magazine?)"
     "The worst part about the whole magazine is the way it seems to be rubbing in my face how single I am right now after my first love blew up like a thermonuclear explosion in my face."
     "Almost on instinct, I look up toward the girl who occupies the darkest corner of my mind at the moment, and finally the thought niggling in the back of my head comes to the fore."
-    C "(I'm in the library right now because {b}Sibyl{/b} likes the library, not because {b}I{/b} want to be here.)"
+    C "(I'm in the library right now because Sibyl likes the library, not because I really want to be here.)"
     "The library committee girl with whom Sibyl is so gleefully chatting away complements Sibyl way more than I do."
     "She shares common interests with Sibyl in such a way that they can get caught up conversing for an hour without realizing the time has passed."
     C "(Sibyl is so patient and understanding with my dumb self and also really cute, but would that have been enough on which to have founded a lasting relationship?)"
     "It's clear now that I was being a fool, as usual, when dealing with my first crush. I definitely let those positively delightful feelings take over my life and obscure any better judgment."
     "I've never read so much in my life as I have in the past month, and it was all to be closer to Sibyl. The books were entertaining, sure, but I only read them because Sibyl wanted me to."
     C "(I cannot stay content to be living in Sibyl's shadow. I need to have my own hobbies and interests.)"
+    stop music fadeout 0.5
     jump distancefromSibyl
 
 label distancefromSibyl:
     scene bg transition with fade
+    play music guitar2
     scene bg bedroom with dissolve
     "Sunday starts with the sound of bells tolling from the campus chapel."
     "On a normal Sunday the sound would merely drive me to bundle the sheets up tighter around my head and fall back into the depths of slumber, but not today."
@@ -166,7 +170,7 @@ label distancefromSibyl:
     scene bg gym winter with dissolve
     C "Hello? Miss Woolsey?"
     "The name echoes back to me from the depths of the silent gymnasium. Her adjacent office and the store room are empty too."
-    C "(What do teachers even {b}do{/b} when classes aren't in session?)"
+    C "(What do teachers even do when classes aren't in session?)"
     scene bg hallway with dissolve
     "After leaving the gymnasium I resort to wandering the hallways in vain as my best hope of finding where Miss Woolsey has gone."
     "I would assume that there must be some kind of teachers' lounge around somewhere but I haven't the faintest idea where that would be."
@@ -184,7 +188,7 @@ label distancefromSibyl:
     "The muffled speaking goes quiet once more, and after a long minute of waiting, the door cracks open just enough for an eyeball to peak through it."
     g1 "{i}È Clover alla porta!{/i}" # It's Clover at the door!
     g2 "{i}Clover? Cosa ci fa qui?{/i}" # Clover? What is she doing here?
-    C "(Oh no, what are {b}they{/b} doing here!?)"
+    C "(Oh no, what are Vittoria and Vincenza doing here!?)"
     play sound doorclose
     "When the twins admit me to the room, I'm at first too busy trying hard not to meet their eyes that I don't even realize that both Miss Izzie and Miss Woolsey are present as well."
     O "Miss Woolsey, Clover is here to see you."
@@ -196,7 +200,7 @@ label distancefromSibyl:
     C "Umm... hi, Miss Woolsey. No, I think I'm good. I wanted to ask you something about lacrosse, but... maybe another day."
     "Doing my best to ignore any complicated memories of encounters with the twins, I look their way for help in this situation. They provide none but do tell me how this scene came to be."
     H "Miss Izzie brought all of this beer and insisted that Miss Woolsey celebrate St. Patrick's Day with her."
-    C "And did {b}you{/b}—?"
+    C "And did you—?"
     O "We are only here to ensure they both survive to teach next week's lessons."
     mw "Good girls. Such good girls taking care of your friends!"
     "Unlike Miss Woolsey who is very much awake and conversational, Miss Izzie is out cold, face down on the table and lightly snoozing away with a contented smile."
@@ -239,7 +243,7 @@ label distancefromSibyl:
     C "Okay, fine. It's not a secret. I happened to find Miss Woolsey here one day so I know this room exists, though its purpose is still quite a mystery to me."
     C "As for Sibyl, I chose not to accompany her to gather reference photos because I have fully moved on from my crush and wish to be more independent from her."
     "I punctuate my wordy explanations with a small huff of finality to the whole ordeal, and await my chance to discover these secrets they keep holding over my head."
-    C "Now that I've answer your questions, you will answer mine. First, just what {b}is{/b} this room supposed to be, and second—"
+    C "Now that I've answer your questions, you will answer mine. First, just what is this room supposed to be, and second—"
     O "Let's just stop you right there, Clover."
     H "We only agreed to stop play-acting, not to answer your questions."
     C "Are you being serious right now?"
@@ -284,7 +288,7 @@ label distancefromSibyl:
             H "We only agreed to answer one question, Clover."
             "The twins smirk at me in some fashion that is difficult to determine whether it means they are friends with the mystery woman or are squatting on the private property of the owner of the school."
             C "(Suddenly I feel extra bad about being in this place where I am not supposed to be allowed.)"
-            "Now that I've finally gotten to a point where I {b}like{/b} being at the academy, I don't want to suddenly be expelled for messing with the owner's stuff."
+            "Now that I've finally gotten to a point where I enjoy being at the academy, I don't want to suddenly be expelled for messing with the owner's stuff."
             C "I hope you know what you're doing."
             O "Relax, Clover. You're not in any trouble."
             H "But seriously, you're not supposed to know about this room at all so don't go blabbing about it."
@@ -302,7 +306,7 @@ label distancefromSibyl:
         "\"How did you become friends with Tanya?\"":
             hide choice_darkness with dissolve
             C "How did you become friends with Tanya?"
-            "Why I am wasting my one question on {b}Tanya{/b} of all people is beyond me, but I end up asking the question before I can take it back."
+            "Why I am wasting my one question on Tanya of all people is beyond me, but I end up asking the question before I can take it back."
             H "Tanya is a very amusing girl with whom we share many of the same interests."
             O "We are all in English as a Second Language classes."
             "With how naturally Tanya speaks English, I almost forgot about that. Vittoria and Vincenza also speak English fluently, so maybe it's just something that all foreigners have to enroll in."
@@ -320,8 +324,8 @@ label distancefromSibyl:
             O "You should ask her directly if you want to know her reasons, Clover. Adults love talking about their glory days."
         "\"Do you do {b}all of those things{/b} you did with me, to every girl you play with?\"":
             hide choice_darkness with dissolve
-            C "Do you do {b}all of those things{/b} you did with me, to every girl you play with?"
-            H "Are you {b}jealous{/b}, Clover?"
+            C "Do you both do all of those things you did with me, to every girl you play with?"
+            H "Are you jealous, Clover?"
             C "Wha—! {b}No!{/b}"
             H "I don't mind having a second go at it if you don't either. Maybe you want to do some of the touching this time?"
             C "{b}N-No, I—{/b} I just can't believe you actually do that kind of stuff all the time."
@@ -334,10 +338,10 @@ label distancefromSibyl:
             "A small lump sticks in my throat as Vittoria begins to lecture me with clear reference to Sibyl, but I swallow it right away before it grows any larger."
             O "Most of our admirers like us merely because we're popular."
             H "Particularly Vincenza. Straight girls love their boy-replacements."
-            C "You {b}must{/b} be lying. I mean, you did all that stuff to me so easily..."
+            C "You must be lying. I mean, you did all that stuff to me so easily..."
             O "You practically begged us to, Clover. How could we not?"
             H "You really have no idea how gorgeous you are, do you?"
-            C "(Me? {b}Gorgeous?{/b} No way. All I ever heard in middle school was \"dark\" or \"gloomy\".)"
+            C "(Me? Gorgeous? No way. All I ever heard in middle school was \"dark\" or \"gloomy\".)"
     "The twins may have truthfully answered my question, but it still feels like they only told me half of the whole truth or avoided answering directly altogether."
     O "All that aside, we are glad to hear that you've moved on from Sibyl. Perhaps we could assist you in finding a new target of your affections who may be more receptive?"
     C "No, thanks. I'm still trying to figure out my own life right now. I only came here to speak with Miss Woolsey about lacrosse."
@@ -380,11 +384,13 @@ label distancefromSibyl:
     C "(I enjoyed playing in the gym so I signed up. I never much considered that I'd have to play against another school for real.)"
     C "Of course I did! I'm just... not sure that I'm up to the top of my game yet, that's all."
     "I remain with Sibyl and Tanya to pick through the stack of photos they took, but all the while I am distracted by this new revelation about lacrosse."
-    C "(Now I {b}really{/b} need to get my game play up to snuff before they kick me off the team!)"
+    C "(Now I really do need to get my game play up to snuff before they kick me off the team!)"
+    stop music fadeout 0.5
     jump lacrosse_explainer
 
 label lacrosse_explainer:
     scene bg transition with fade
+    play music piano2
     scene bg gym lacrosse winter with dissolve
     "Our Tuesday evening practice session arrives with Miss Woolsey looking quite as alive and alert as she always does, perhaps thanks to the care of Vittoria and Vincenza."
     "We all change into our uniforms and gather in the gym as usual, but rather than checking our sticks, Miss Woolsey passes around a clipboard and pen."
@@ -393,13 +399,13 @@ label lacrosse_explainer:
     "Tanya springs up right next to me when I ask the question aloud. It's a surprise considering I was mostly just talking to myself."
     C "Signups? But I'm already on the team?"
     T "You still have to officially sign up for the inter-school tournament, and Miss Woolsey needs to know what positions you would prefer to play too."
-    C "What do you {b}mean{/b} what positions I'm going to play? I've been out on the field this whole time; it's not like I'm going to take up goaltending now!"
+    C "What do you mean what positions I'm going to play? I've been out on the field this whole time; it's not like I'm going to take up goaltending now!"
     T "Maybe Miss Woolsey should help explain this all to you."
     "As every other girl on the team was around for the Autumn season of competition, I'm the only one left unsure what to do when the clipboard comes my way."
     "Tanya scribbles something next to her name then passes it my way. Reading down the list I see everyone write some combination of two letters beside the names."
     C "(\"DF\", \"MF\"... \"GK\"? \"FW\"?)"
     "None of it really makes any sense to me. Thankfully, Miss Woolsey is there to explain it all in her usual helpful manner."
-    mw "For the high school lacrosse tournament starting in the Spring, we must field a team for {b}field{/b} lacrosse rather than lacrosse sixes. The letters are shorthand for which position you prefer to play."
+    mw "For the high school lacrosse tournament starting in the Spring, we must field a team for field lacrosse rather than lacrosse sixes. The letters are shorthand for which position you prefer to play."
     C "How is field lacrosse different from what we've been playing all Winter?"
     mw "Field lacrosse has a larger field of play and defined positions. In sixes, everyone on the field plays both attacking and defending roles, but in field you will specialize."
     mw "We play sixes indoors during the winter to avoid the worst of the cold while also keeping everyone's skills sharp!"
@@ -413,8 +419,8 @@ label lacrosse_explainer:
     "Miss Woolsey is surprised when I hand the clipboard back to her, which is no surprise to me considering how she's praised my defensive skills a bunch and my offensive skills not even once."
     C "(So what if I don't have as many goals on my stick as the other girls? Once I start my intensive training I'll be as good as any of them!)"
     T "A forward? Do you really think you're good enough for that?"
-    C "Shut your drooling face hole, Tanya! You don't get to tell me what I can and can't play, or maybe are you just {b}scared{/b} I'll score more goals than you?"
-    T "Maybe {b}I{/b} can't tell you what to play, but Miss Woolsey will."
+    C "Shut your drooling face hole, Tanya! You don't get to tell me what I can and can't play, or maybe are you just scared I'll score more goals than you?"
+    T "Maybe I can't tell you what to play, but Miss Woolsey will."
     "Tanya is far too calm for my liking after my aggressive retort, so I look back to Miss Woolsey for support against her but receive only the opposite."
     mw "What Tanya means to say is that you will have to compete in tryouts with everyone else who wants to play forward, including Tanya."
     mw "We have to field a full team and there are only so many forward positions available, so anyone who doesn't make it will have to play a different position."
@@ -428,10 +434,10 @@ label lacrosse_explainer:
     mw "I have a few ideas about what you can do. See me after practice, okay?"
     C "Thank you, Miss Woolsey!"
     "Tanya waits for Miss Woolsey to move on before trying to shoot my dreams full of holes."
-    T "You're better off focusing on your defensive skills, Clover. You're just not good enough to be a forward. Even {b}I{/b} might not make it through the tryouts."
-    C "Whether {b}you{/b} make it through tryouts or not is none of {b}my{/b} concern. Why do you always have to tell me what I can and can't do, huh?"
+    T "You're better off focusing on your defensive skills, Clover. You're just not good enough to be a forward. Even I might not make it through the tryouts."
+    C "Whether you make it through tryouts or not is none of my concern. Why do you always have to tell me what I can and can't do, huh?"
     "Tanya grimaces at the accusation, gritting her teeth in such a manner that I suspect she's keeping herself from shouting right back in my face."
-    C "(That sure showed {b}her{/b}, huh?)"
+    C "(That sure showed her, huh?)"
     "The signup clipboard makes its way through the rest of the team quickly enough, finally letting us get to actually playing instead of standing around."
     scene bg gym lacrosse winter with fade
     "I truly give it my all during practice. Not just one hundred and ten percent, but one hundred and twenty, if not even one hundred and thirty!"
@@ -465,10 +471,12 @@ label lacrosse_explainer:
     C "{b}Are{/b} we!?"
     T "Miss {b}Woolsey{/b}..."
     "Despite our whining, Miss Woolsey's will remains resolute. Tanya gives her a particularly pleading look of dread, but Miss Woolsey only shoos us off to the locker room with a huge smile blooming across her face."
+    stop music fadeout 0.5
     jump izzie_lacrosse_request
 
 label izzie_lacrosse_request:
     scene bg transition with fade
+    play music guitar1
     scene bg lockers with dissolve
     "Unlike before a normal practice where the locker room would be abuzz with activity, it feels silent as a grave when it's just me and Tanya gearing up on the day of our special training session."
     C "(This is going to suck so hard.)"
@@ -487,12 +495,12 @@ label izzie_lacrosse_request:
     C "Who are you calling a baby?"
     "For being as small of a woman as she is, that's the last thing Miss Izzie should be calling me and Tanya."
     "While I may not like the description very much, I do partially understand she's coming from. The seniors on our team are somehow so much more skilled than me in ways I fail to place."
-    C "(There's no way I'm still growing, is there? The seniors aren't that much older than me, so why do they feel so {b}big{/b}?)"
+    C "(There's no way I'm still growing, is there? The seniors aren't that much older than me, so why do they feel so much bigger?)"
     "Somehow, despite being shorter than both of us and having two victims to contend with, our art teacher manages to stifle our attempts at evasion until both of our hair is irrevocably disarrayed."
-    T "You sure do {b}act{/b} like a baby sometimes, Clover."
+    T "You sure do act like a baby sometimes, Clover."
     C "Shut up, Chunky. No one is going to confuse {b}you{/b} for a baby."
-    "Tanya doesn't look like the seniors either. She's strong and lean like them, with particularly well-developed muscles in her legs, but she also lacks the same \"something\" of the older girls."
-    C "(Is it really just a difference of three years? Are they {b}that{/b} much more mature than me or Tanya?)"
+    "Tanya doesn't look like the seniors either. She's strong and lean like them, with particularly well-developed muscles in her legs, but she also lacks the same {i}je ne sais quoi{/i} of the older girls."
+    C "(Is it really just a difference of three years? Are they that much more mature than me or Tanya?)"
     mi "Look at you two lovebirds! You're already arguing like an old married couple!"
     T "No, Miss Izzie. I know what you're thinking, and you need to stop thinking that right now!"
     C "Blegh! Me and {b}Tanya{/b}? I'd rather die."
@@ -505,10 +513,10 @@ label izzie_lacrosse_request:
     T "Is Miss Woolsey going to stand in as our goalkeeper for practice?"
     "Tanya voices the question I'm thinking to myself. Miss Izzie clearly wouldn't have brought out the equipment if it weren't to be used, and there's no way it will fit her properly."
     mi "Miss Woolsey has no doubt already trained you both in proper shooting form, but do either of you have experience with goaltending?"
-    T "But I'm applying for a {b}forward{/b} role in the tryouts, Miss Izzie?"
+    T "But I'm applying for a forward role in the tryouts, Miss Izzie?"
     "Understandably concerned about where Miss izzie is going with this, both me and my rival shake our heads to the negative."
     mi "I thought so! If you want to beat the opponent's goaltender, you should step into her shoes and try to think about the perspective from which she is seeing the game."
-    T "Since you're so eager, Tanya, {b}you're{/b} going in the net first."
+    T "Since you're so eager, Tanya, you're going in the net first."
     C "Hah!"
     "I toss a little verbal jab at Tanya while she's still pouting about being voluntold to get in the net first. She shoots a little glare back my way but otherwise compliantly squeezes on the goaltender's safety equipment over her uniform."
     "Miss Izzie wheels a whole bucket full of lacrosse balls over to me while Tanya tries to get settled into the net. Narrowing my eyes at her, I do my best to deduce where the padding is weakest."
@@ -546,7 +554,7 @@ label izzie_lacrosse_request:
     C "And I've learned a few new tricks myself. I can't wait to try them out in a real match!"
     mi "You did good out there, Clover, but remember that you'll also have defenders to contend with in a real match. You won't always be able to take the time setting up a shot like you can here one-on-one."
     "After my boasting earlier, I know that Tanya will not go easy on me when the time comes for my turn in the goal."
-    C "(These pads are so heavy! How do our goalies manage to save {b}anything{/b} while weighed down with all this? I can barely see out of the mask!)"
+    C "(These pads are so heavy! How do our goalies manage to save anything while weighed down with all this? I can barely see out of the mask!)"
     "The first few shots all leave Tanya's stick and whiz right past me into the back of the net. I try my best to stay calm, knowing that this is all part of adjusting to the new equipment."
     "Instead of thinking about the balls flying past me, I try to focus on Tanya's footwork, her line of sight, and how she cradles the ball in her crosse."
     "Tanya has the benefit of having been in the net first to know exactly what my weaknesses as the goaltender might be, but I also have the benefit of knowing what we've both just learned from Miss Izzie too."
@@ -573,12 +581,12 @@ label izzie_lacrosse_request:
     T "I'm going to wait until I get back to my room."
     C "Yeah, same."
     "When Miss Izzie and Miss Woolsey depart to return the equipment, Sibyl joins us down on the gymnasium floor herself."
-    S "You both played {b}amazingly{/b} today! Those other girls at the tryouts better bring their A-game!"
+    S "You both played amazingly well today! Those other girls at the tryouts better bring their A-game!"
     C "Thanks, Sibyl! When the time comes, I'll show them all!"
     "Tanya thanks Sibyl for her vote of confidence. Although she remains silent about my enthusiastic declaration, I can tell by her sharp glance my way that she doesn't quite approve of it."
     T "We're a good team, but Homecoming is going to be tough despite what Miss Izzie says."
     C "What's so special about \"Homecoming\"?"
-    T "Do you seriously not know what {b}Homecoming{/b} is, Clover? Didn't they did it at your old school?"
+    T "Do you seriously not know what Homecoming is, Clover? Didn't they did it at your old school?"
     C "I so too know what Homecoming is! I just never did it at my old school, okay?"
     "I honestly have very little idea what Homecoming is at all. I know it has something to do with school's football team and the preppy girls made a big fuss about it every year."
     C "(I'm a \"preppy\" girl now that I'm attending a school like this, aren't I?)"
@@ -587,11 +595,13 @@ label izzie_lacrosse_request:
     T "Homecoming is usually an event centered around the first home game of the school's football team in Autumn. Because lacrosse is the only sport that our school competes in, our Homecoming is in early Spring when the lacrosse season starts."
     "I file away somewhere in the depths of my head the knowledge that our first home game will be something really special, and also that I need to be a superstar lacrosse player by then so I can show off."
     S "You both must be starving after all that exercise! I smuggled a few muffins back to our room, so if you're quick in the locker room we can all eat some together before the curfew bell!"
-    C "Sibyl, you're just... the {b}best{/b}!"
+    C "Sibyl, you're just... the best!"
+    stop music fadeout 0.5
     jump divorce_finalized
 
 label divorce_finalized:
     scene bg transition with fade
+    play music piano1
     scene bg black with dissolve
     "With only the rest of the week until tryouts on Saturday, Miss Izzie runs Tanya and I ragged in the few evenings we have left."
     "It's just the three of us either, seemingly half the team turns out for what are supposed to be informal practice sessions."
@@ -609,11 +619,13 @@ label divorce_finalized:
     "After I finally run out of breath, she tells me how glad I am that I am having so much fun with lacrosse and building such a good friendship with Tanya. The latter point is especially amusing to me."
     C "So yeah, I'm {b}real{/b} tired right now, but I haven't heard Dad say anything about it. Is he busy tonight? Can you find him and put him on?"
     "Both Mom and Dad are usually huddled together on speakerphone, but half way through my rant I realize it's just Mom. I love her, but I love Dad too and want to talk to him before I go to sleep."
+    stop music fadeout 0.5
     "\"...\""
     "A small silence floats through the speaker of my cell phone. Mom is still there, but she isn't saying anything."
     C "Mom?"
     "\"Clover, honey, there's something I need to tell you...\""
     scene bg bedroom night dark with fade
+    play music sad
     C "(So that's it then. It's over.)"
     "I felt exhausted before, but now I just feel hollow. Rather than simply expending all my energy training, it feels as though all the life itself has drained out of me."
     C "(There's no more pretending everything will return to normal. What's done is done and there's no going back.)"
@@ -632,6 +644,7 @@ label divorce_finalized:
     "Ultimately, I'm left dragging my feet off to the dormitory alone, though she does show up not long after with freshly baked cookies from the kitchens to wave in front of my body cocooned in sheets, as if the scent will return me to life once more."
     scene bg black with dissolve
     "I stay wrapped up in bed like a mummy all day Sunday. Sibyl offers to do anything she can for me, but I don't even have enough vitality left to be petulant enough to ask her to make my parents fall back in love with one another."
+    scene bg bedroom with dissolve
     "It's only when Monday comes that Sibyl once again takes matters into her own hands. She'd previously let me wallow for in my misery for days on end, but not this time."
     S "Hnng!"
     "Sibyl whips the comforter right off the top of my bed like she's done when I wouldn't get out before, but this time it's late March, and with the coming of the first flowers so too has arrived the warming weather."
@@ -641,7 +654,7 @@ label divorce_finalized:
     C "Why?"
     S "Because you're part of the lacrosse team now. If you don't keep your grades up they will boot your butt off the roster!"
     C "What? Really?"
-    S "Yes, {b}really/b}. Miss Woolsey warned me about the policy this morning, so you {b}need{/b} to get up and come to class!"
+    S "Yes, {b}really{/b}. Miss Woolsey warned me about the policy this morning, so you {b}need{/b} to get up and come to class!"
     "I lie still and motionless for a good few moments, trying to feel if I have the motivation to get out of bed at all given this new information."
     C "No, I don't believe you. There's no way I'm still on the team after what happened at the tryouts."
     S "Clover! Stop being so stubborn! Of {b}course{/b} you made the team!"
@@ -649,8 +662,8 @@ label divorce_finalized:
     C "I did?"
     S "Yes! Miss Woolsey posted the roster just this morning. You made substitute midfielder."
     "Just like that, my head shrinks back into the sheets once more like a frightened turtle."
-    C "(Substitute midfielder? That's where they place everyone who tries out but can't earn a {b}real{/b} spot!)"
-    C "Fine, I'll just drop out of lacrosse. There's no way I'm going to sit on the substitute bench and watch Tanya show off on the field playing the position {b}I{/b} wanted!"
+    C "(Substitute midfielder? That's where they place everyone who tries out but can't earn a real spot!)"
+    C "Fine, I'll just drop out of lacrosse. There's no way I'm going to sit on the substitute bench and watch Tanya show off on the field playing the position I wanted!"
     "I hear a soft huff and a slight hesitation out of Sibyl, followed by the slow start of her next statement."
     S "I don't want you to rub this in her face, okay?"
     C "Rub... what?"
@@ -663,10 +676,12 @@ label divorce_finalized:
     "As tough as it is to admit my own failings, I know them to be self-inflicted. That Tanya tried so hard and came so close only to be denied based on seniority really boils my cabbages at the mere thought of the injustice."
     C "(She may be starting, but we're both playing the same position, right?)"
     "It's not much, but with some vigor returning amidst my outrage and the ability to rationalize that I haven't totally lost against Tanya, I find the strength to at least attend classes for one more day."
+    stop music fadeout 0.5
     jump aprilfools
 
 label aprilfools:
     scene bg transition with fade
+    play guitar2
     scene bg black with dissolve
     "\"One more day\" quickly turns into two."
     "Everything certainly seems like it's going wrong in my life once more, but for the first time those troubles aren't chewing me up and spitting me back out like before."
@@ -702,8 +717,8 @@ label aprilfools:
     "We make it to breakfast with plenty of time to spare, but only because I rush through my daily routine so that I won't miss one of my three most favorite meals of the day."
     S "G'morning, Tanya!"
     "The girl Sibyl addresses is already crunching on some granola from her yogurt parfait when we arrive. Without so much as a word, Tanya holds out her strawberry for Sibyl to snap out of her fingers with her teeth as she sits down at the table."
-    T "Morning? Sibyl, it's {b}six thirty{/b} in the {b}evening{/b}. This is {b}dinner{/b}."
-    S "{b}Sibyl{/b}? Who's that? My name is {b}Lybis{/b}."
+    T "Morning? Sibyl, it's six thirty in the evening. This is {b}dinner{/b}."
+    S "\"Sibyl\"? Who's that? My name is {b}Lybis{/b}."
     "The two of them stare at one another in silence as each tries not to break her stony visage, until finally they both suddenly exclaim \"April Fools\" to one another simultaneously."
     C "(Today is going to be a loooong day.)"
     "I may have been totally caught off guard by what day it is earlier, but I'm not about to miss this chance to mess with Tanya on a day when it's actually totally sociable acceptable to do so."
@@ -762,10 +777,12 @@ label aprilfools:
     mw "Consider it a done deal, Miss Ipswich! I hope you're ready because those Snipatuit girls are tough cookies."
     "I don't even feel the cold chilling me to the bone as I jog back into the gymnasium; I'm flying too high in the clouds to care."
     C "(I'm going to be starting in the Homecoming game!)"
+    stop music fadeout 0.5
     jump spirit_week:
 
 label spirit_week:
     scene bg transition with fade
+    play music piano2
     scene bg black with dissolve
     "Lacrosse quickly becomes my entire {i}raison d'être{/i} at the academy leading up to the Homecoming game."
     "I am aware that around me there are various preparations for the Homecoming event ongoing, but I fail to notice any of it. Sibyl forces me through class every day, then I immediately rush off to the gym to get my hands around my stick again."
@@ -780,7 +797,7 @@ label spirit_week:
     C "The {b}what{/b}?"
     "Sibyl sighs out her disbelief and gives me a look that screams \"honestly, Clover, what am I going to do with you\"."
     "I'm confident that Tanya would have some words for me too, but she hasn't returned from fetching her grill chicken Caesar salad from the kitchen yet."
-    S "The Homecoming dance! The game is in the morning but that afternoon is the {b}dance{/b}!"
+    S "The Homecoming dance! The game is in the morning but that afternoon is the dance!"
     S "It's not as formal as the masquerade ball back in October, but it's expected that you'll be going with someone to this particular event."
     "The whole concept of a school dance is undesirable to me, and not just because I'm still a recovering occult goth more accustomed to the shadows than the spotlight."
     C "What's the big deal about it? We'll go together, won't we?"
@@ -805,7 +822,7 @@ label spirit_week:
     "Unlike how quietly Sibyl was trying to whisper her name, I almost shout out the name in my surprise and disbelief."
     C "She's the {b}last{/b} person I'd ever ask to the dance!"
     S "But why?"
-    C "What do you mean, {b}why{/b}? She's—"
+    C "What do you mean, why? She's—"
     "The very concept is so repulsive to me that I struggle to find the proper words to describe to Sibyl the incalculable absurdity of it and just give up entirely."
     C "How do you even know she's gay?"
     "I quickly move on with another thought rather than let the question hang in the air. As much I don't like Tanya, I don't mean to drag what she's privately told me about her feelings for Sibyl out into the air anytime soon either."
@@ -852,15 +869,15 @@ label spirit_week:
         "\"I-I mean, it's honestly not that good, actually...\"":
             hide choice_darkness with dissolve
             C "I-I mean, it's honestly not that good, actually..."
-            S "You {b}just{/b} told me it was \"amazing\", Clover."
+            S "You just told me it was \"amazing\", Clover."
             C "That was before I saw, umm, this rose here. It's all misshapen."
             "I touch my finger to one of the thorny roses, which Tanya immediately swats off her drawing, then leans in to get a closer look where I pointed."
-            T "There's nothing wrong with that rose. You just don't want to admit that I'm {b}better than you{/b} at something."
+            T "There's nothing wrong with that rose. You just don't want to admit that I'm better than you at something."
             C "Nuh-uh!"
         "\"Tanya can draw? Are you sure this isn't AI?\"":
             hide choice_darkness with dissolve
             C "Tanya can draw? Are you sure this isn't AI?"
-            T "{b}Yes{/b}, I can {b}draw{/b}!"
+            T "{b}Yes, I can draw{/b}!"
             "Tanya immediately starts on me the second the words leave my lips, reminding me that she's in the art club — and emphasizing those last two words for impact in particular."
             T "Don't give me that shit when {b}you{/b} can't draw your way out of a kindergarten, Clover!"
             C "W-Well, I...!"
@@ -882,10 +899,12 @@ label spirit_week:
     "There are some very creative types of art in the show which I would never have in my life even thought to try. Sibyl describes all of them for my benefit in the hopes that I'll give it a try for myself in class."
     C "(Not likely. I'd probably kill myself on accident if I tried to use a — what did she call it? — \"painting knife\". I don't have the best track record with sharp objects.)"
     "There's a reason, after all, that I never considered joining the cooking club despite how much I love eating. As it turns out, visiting the cooking club turns out to be my favorite club display of Spirit Week."
+    stop music fadeout 0.5
     jump pregame_Homecoming
 
 label pregame_Homecoming:
     scene bg transition with fade
+    play music guitar1
     scene bg bedroom with dissolve
     "Saturday, the day of the big Homecoming lacrosse, arrives far faster than I ever expected it to. Rather than be apprehensive about the big game, I find myself to be totally mentally prepared."
     C "(I did everything I possibly can do to be ready. All that's left is to go out there and send those Snipatuit girls packing!)"
@@ -932,10 +951,12 @@ label pregame_Homecoming:
     mi "{b}Tell me what that spells!{b}"
     "\"{b}Wild Roses!{/b}\""
     "The raucous crowd cheering on our team should make me swell with pride and zeal, but instead I'm left gripping my crosse until my knuckles turn white."
+    stop music fadeout 0.5
     C "(That's... a lot of people.)"
+    play music drama
     "So many eyes. Probably the entire school has turned out, plus the alumni."
     "In some depth of my mind I knew that this event would have spectators, but I must have been too blinded by my quest to make lacrosse my \"thing\" to really think about the implications of it."
-    C "(They're not really looking at {b}you{/b}, Clover, they're just here to cheer on the school team.)"
+    C "(They're not really looking at you, Clover, they're just here to cheer on the school team.)"
     "I reassure myself mentally several times as we march over to the sidelines to set up. I try to turn away from the bleachers to face the field, but only end up facing the glowering gazes of the opposing team across the empty grass."
     "The crowd noises begin to swirl and distort into a fuzzy background noise, while the faces of the other team turn blurry and vague despite how sharply I feel their eyes judging every bit of me across the empty expanse fo grass."
     "The crosse in my hands becomes my foundation more than shaky columns of leg sticking out the bottom of my athletic skort."
@@ -958,14 +979,15 @@ label pregame_Homecoming:
     # zoom in shot of tanya's face, then zoom to normal for next line
     "But the face which fills my vision is none other than the same which has haunted my nightmares ever since I arrived at the academy."
     T "You don't look so—"
+    stop music fadeout 0.5
     "Tanya never finishes what she was going to say. My stomach does a flip inside me then lurches its sugary, half-digested contents back out onto the fresh Spring grass."
-    stop music
     pause 3
-    "The sound of the crowd stops. Whether they're actually silent or my mind is just tuning them out, I do not know, but what I do understand is that {b}everyone{/b} is looking at me now, and me only."
+    "The sound of the crowd stops. Whether they're actually silent or my mind is just tuning them out, I do not know, but what I do understand is that everyone is looking at me now, and me only."
     "My brain nearly shuts down altogether, but someone helpfully leans me against her shoulder to guide me back to the sidelines."
     scene bg black with dissolve
     "I see hazy images of Miss Woolsey and Tanya talking, then suddenly Sibyl is there too, and the next thing I know I'm shuffling through the hallway with her and the school nurse at either side."
     scene bg nurse with dissolve
+    play music guitar1
     "The nurse lays me on the bed to attend to my illness, but now that I'm away from the hundreds of prying, judgemental eyes I feel perfectly fine."
     C "(Yeah, perfectly fine, except for all the self-loathing I'm drowning in.)"
     "I manage to pull myself together enough to stop concerning the nurse. The very second she leaves, I draw my hair around my face to hide my shame from the cold world and curl up into a tight ball of despair atop the bed."
@@ -984,7 +1006,7 @@ label pregame_Homecoming:
     "True to my word, I'm still so curled up into a ball on the bed that I'm not even showing my face to Sibyl."
     S "Oh, don't say that. Everyone gets sick sometimes, Clover. They will understand."
     "Sibyl still seems to be under the impression that I am sick with some passing stomach bug and not in truth a fundamentally flawed human being."
-    C "I'm not {b}sick{/b}, Sibyl! The problem is that I'm not an super special athlete. I'm just a... creepy goth girl."
+    C "I'm not sick, Sibyl! The problem is that I'm not an super special athlete. I'm just a... creepy goth girl."
     "Just thinking of having to go to homeroom on Monday after what just happened in front of the whole school is giving me chills. I'd die from the embarrassment alone before my social anxiety ever seeps in."
     C "I wasn't born to be in the spotlight; I'm better off sticking to the shadows."
     "Perhaps emboldened now that I'm talking again, Sibyl once more tries to physically console me by resting her hand on my shoulder."
@@ -1014,8 +1036,10 @@ label pregame_Homecoming:
     T "Would you quit moping and get up already?"
     C "No! I'm never going back to the lacrosse team ever again. I quit!"
     T "I really don't have the patience for your angsty bullshit right now, Clover. Don't make me drag you out of here."
+    stop music fadeout 0.2
+    play music drama fadein 0.2
     "Strong, grasping hands suddenly pull at my arms to untangle my limbs and disassemble my bodily ball of shame. I fight back against Tanya bearing over me by flailing my limbs back at her."
-    C "Let go of me! I {b}told{/b} you, I'm {b}not going{/b}! I {b}quit{/b}!"
+    C "Let go of me! I {b}told{/b} you, I'm not going! I {b}quit{/b}!"
     T "Like {b}hell{/b} you're quitting! Get your ass out of the bed, Clover!"
     C "Leave me alone, thunder thighs!"
     T "{b}My legs are not fat!{/b}"
@@ -1023,17 +1047,17 @@ label pregame_Homecoming:
     S "Tanya, stop! If she doesn't want to go, she doesn't have to."
     "Sibyl inserts herself between Tanya standing at the edge of the bed, and me lying atop it. Both me and my assailant glare past Sibyl at one another, breathing heavily after our battle."
     C "Whether I quit lacrosse or not is none of your business, Tanya!"
-    T "Maybe it's not any of {b}my{/b} business..."
-    "Tanya recoils from my shout far more than I expected her to, but soon comes back again with a vengeance."
-    T "But {b}you{/b} are abandoning the {b}team{/b}, and that I will not tolerate!"
-    T "Are you {b}really{/b} going to abandon everyone who you've worked so hard training alongside? How do you plan to tell Coach Woolsey you're giving up after all of this?"
+    T "Maybe it's not any of my business, but you are abandoning the {b}team{/b}, and that I will not tolerate!"
+    T "Are you really going to abandon everyone who you've worked so hard training alongside? How do you plan to tell Coach Woolsey you're giving up after all of this?"
     C "Look, I'm {b}sorry{/b}, okay? But I'm {b}never{/b} playing lacrosse again!"
     T "Don't \"sorry\" me, Clover! Tell that to Coach Woolsey, who had to personally clean your barf off the field!"
     "I really do owe Miss Woolsey an apology for quitting just as she was giving me a second chance, and now having to clean up my vomit on top of that too."
-    C "(She's {b}already{/b} the gym teacher. If she starts doing janitorial work now, she'll really hit rock bottom of the school hierarchy.)"
+    C "(She's already the gym teacher. If she starts doing janitorial work now, she'll really hit rock bottom of the school hierarchy.)"
     T "Stop thinking only about yourself for once in your life! You're part of a {b}team{/b} now, Clover!"
-    T "Maybe {b}I{/b} don't need you, but you're a good player with room to get even better, and the Wild Roses would be better off having you."
+    T "Maybe I don't need you, but you're a good player with room to get even better, and the Wild Roses would be better off having you."
     "It's not like I don't know that Tanya has some very good points, and it's not like I don't like playing lacrosse, but I also feel deep down that it's impossible to change who I am."
+    stop music fadeout 0.2
+    play music guitar1 fadein 0.2
     C "(Every attempt to re-invent myself ultimately fails. I'll always be a good for nothing background character.)"
     "With a sudden silence falling between Tanya and I, Sibyl takes the opportunity to squeak in meekly, adding her voice to the chorus."
     S "I don't think you should give up either, Clover. I've seen how hard you've been working in the lead up to Homecoming, and most importantly how happy and motivated it has made you."
@@ -1041,15 +1065,15 @@ label pregame_Homecoming:
     S "What do you mean, Clover?"
     "I feel immediately that I can open up to the worriedly compassionate eyes of Sibyl peering into face sticking out of my curled up body, but Tanya's hard and agitated gaze is balancing out Sibyl's calming presence with equal ferocity."
     C "I get hit bad with social anxiety when I'm put too much into the spotlight. My brain starts fogging up and I start stuttering, like the day I was introduced in homeroom."
-    C "When it gets {b}really{/b} bad I just shut down completely, like today out on the field. There were just... {b}so many{/b} people out there watching me..."
+    C "When it gets really bad I just shut down completely, like today out on the field. There were just... so many people out there watching me..."
     "A reflexive shudder rocks my body at the mere recollection of the terrible events which transpired, and already I'm feeling myself getting drawn back inward once again."
     T "You need to get over it, Clover."
     S "Tanya! I'm sure it's not that easy!"
     T "Athletes don't throw in the towel at the first setback, Sibyl."
-    C "You think it's that {b}easy{/b}, huh? You think I've never {b}tried{/b} to stop reacting that way?"
+    C "You think it's that easy, huh? You think I've never {b}tried{/b} to stop reacting that way?"
     "It's bad enough that I've had to expose my critical weakness to Tanya, and now she's demeaning me for it too."
     T "But you've been just fine in every single practice!"
-    C "I kinda know everyone there, and no one's really paying attention to {b}me{/b} in particular. I can just fade into the group!"
+    C "I kinda know everyone there, and no one's really paying attention to me in particular. I can just fade into the group!"
     T "And how is the game today any different? No one was watching you; the crowd was cheering us on as a team!"
     C "(Why do I have to defend myself about this? If I could have played normally today, I would have!)"
     S "If you are able to overcome your social anxiety, would you stick with the team, Clover?"
@@ -1066,10 +1090,12 @@ label pregame_Homecoming:
     "Tanya turns suddenly back to face me. There's a clear resistance to say something in her face, as made obvious from her clenched teeth. The source of her hesitation baffles me but is obviously connected to what Sibyl had whispered to her."
     "In the most bashful, halting manner I've ever seen out of the normally antagonistic Tanya, she speaks ten simple words which make me do the most comical double take of my life."
     T "Clover, would you go to the Homecoming dance with me?"
+    stop music fadeout 0.5
     jump predance
 
 label predance:
     scene bg black with fade
+    play music piano2
     scene bg bedroom with dissolve
     "Still feeling like I don't deserve to take part in any lacrosse team celebrations, I steadfastly refuse to participate and leave tanya to return to the locker room alone."
     "Instead, I go with Sibyl back to our room room after committing to her that I won't quit the lacrosse team yet and that I will go to the dance with Tanya after all."
@@ -1126,10 +1152,12 @@ label predance:
     C "Sibyl told me that {b}you{/b} said you would meet {b}me{/b} here. She left an hour ago to finish setting up the gym decorations."
     "Neither of us say anything in particular, though we both surely must be thinking that Sibyl planned this out exactly so that would have to go to the dance together, or else not at all."
     "We hang around in relative silence a few minutes longer anyway to see if she will show, but after the dormitory quickly drains of students on their journey to the gymnasium, we have no choice but to head out ourselves."
+    stop music fadeout 0.5
     scene bg mary with dissolve
     "The trip is quiet. We walk about as much as we normally do every day, with a big empty space between us where Sibyl should be."
     "I promised my paragon of a Vertu partner that I would try to get along with Tanya, so my lips end up sealed from expelling any fighting words the whole short trip, as do Tanya's."
     scene bg gym with dissolve
+    play music dance
     "Sure enough, the gymnasium is decorated simply with large pink banner featuring the school emblem. A small stage is set at one end of the gym with a row of large speakers blasting out modern dance music just a little too loudly."
     C "What do we do now? I don't see Sibyl."
     "Tanya also looks around to no avail. I immediately suspect that she's playing elusive on purpose."
@@ -1157,7 +1185,7 @@ label predance:
     T "It wasn't so much the celebration that was incredible as it was the mutual sense of joy in our shared victory."
     T "You're a part of the team whether you like it or not, Clover, and everyone there felt your absence more because of it."
     "What Tanya tells me is a lot to think about. After each conversation with Gail and the other girls on the team, I begin to feel more and more like I failed the team more by giving up rather than accepting my mistake and moving past it."
-    C "(Please, please, {b}please{/b}! I do {b}not{/b} want to Tanya to be right. {b}Again{/b}!)"
+    C "(Please, please, please! I don't want to Tanya to be right. {b}Again{/b}!)"
     "Our conversations with the members of the lacrosse team might be making me reconsider quitting the team, but they've done nothing to quell the number one concern I have in playing in front of a crowd of spectators."
     "My first true test comes when we stumble upon just about the whole defensive section together at one table in the corner of the gym."
     "It's not an especially large group, but the way that they all immediately turn my way to ask how I'm feeling and hear what I have to say about it sets off my social anxiety right on cue."
@@ -1171,10 +1199,10 @@ label predance:
     T "I had a really good game."
     "I can totally sense that Tanya is downplaying whatever happened, and she is not forthcoming in opening up about what happened in the game I missed, so I steer our conversation with the next teammate toward it on purpose."
     st "You should have seen her; she was all over the field from the very first whistle to the last! Maybe I should do laps every morning too?"
-    C "(Laps? Morning? Does Tanya jog in the morning? {b}Every{/b} morning?)"
+    C "(Laps? Morning? Does Tanya jog in the morning? Every morning?)"
     "It's no wonder her thighs are so thick if she's doing that much extra training every single day. What I thought to be flab might actually be pure muscle."
-    st "And that buzzer beater from all the way back in center field to put us up! Who could forget that in your {b}debut{/b} game!"
-    C "Wait, {b}seriously{/b}!?"
+    st "And that buzzer beater from all the way back in center field to put us up! Who could forget that in your debut game!"
+    C "Wait, seriously!?"
     T "It was only the end of first half, Clover."
     st "Don't be so modest, Tanya. We never would have won if you weren't going so hard in the midfield."
     "I'm understandably incredulous. I am fully aware of how good a player Tanya is, but all I keep hearing is how she basically dominated the midfield the whole game."
@@ -1204,7 +1232,7 @@ label predance:
     C "(I also wasn't thinking this was a date either, so I'm glad that's cleared up!)"
     C "I'm just here because you wanted me to work past my social anxiety, right? How is talking to the members of the lacrosse team supposed to help with that?"
     S "Talking to the members of the team is to help you remember how much you like lacrosse, not help solve your fear of being in the spotlight."
-    S "That's what {b}these{/b} are for! Go ahead, put them on!"
+    S "That's what these are for! Go ahead, put them on!"
     "As she talks, Sibyl attaches a large numbered brooch pin to both me and Tanya. The numbers match but have no particular significance I can think of."
     T "It's just a big \"9\"."
     C "Or is it a \"six\"?"
@@ -1218,6 +1246,7 @@ label predance:
     "The sound of the microphone being replaced shrieks out again, leaving both Tanya and I stunned, staring down at the numbers pinned to our chests."
     play sound feedback
     pause 1.0
+    play music drama
     T "You {b}didn't{/b}!"
     C "No, no no no {b}no{/b}!"
     "But Sibyl doesn't hear any of our protestations. She's already busy waving down Miss Izzie to alert her to our location."
@@ -1227,7 +1256,7 @@ label predance:
     "The pink ribbon necktie is already starting to feel like a rapidly constricting noose around my neck as I scan out across the crowd. Every single person in the room is watching and waiting for us to take the stage."
     T "If you were going to puke up a way out of this, now is the time."
     "I seriously consider it. I've never done it before, but I'm pretty sure I could throw up on demand if I stick my fingers far enough down my throat. I'd be whisked right away to the nurse's office with all this behind me."
-    C "(Vomiting now would {b}also{/b} draw the attention of every person here in the room.)"
+    C "(Vomiting now would also draw the attention of every person here in the room.)"
     "I'm stuck between a rock and a hard place. Faced with the certainty of making a scene if I force myself to vomit now, I face forward toward the stage like a soldier marching to his certain death in battle."
     C "(Maybe it won't be so bad. Yeah, this is nothing!)"
     "I do a few little hops in place and shake out my arms, willing the nerves and jitters to flee with the small motions."
@@ -1264,7 +1293,7 @@ label predance:
     "As much as I dislike holding Tanya's hand, having anything at all to squeeze brings relief to my anxiety, so I refuse to let go entirely until my fast-beating heart slows considerably."
     "To my surprise, Tanya and I receive a larger amount of cheering than most of the other pairs who take the stage. After everyone has had their turn in the spotlight, the shadowy judges just off stage deliberate on the crowd reactions."
     "Everyone but me, Tanya, and the twins are escorted off the stage, leaving just the four of us left in the spotlight."
-    C "{b}Why{/b} are we still here?"
+    C "Why are we still here?"
     H "The handsome hero of the Homecoming game and the pitiable beauty? Who could ever resists such a wonderful pairing?"
     O "We thought we'd locked down this year's crown, but then you both went and made such a splash earlier today."
     H "May the best pairing win!"
@@ -1274,9 +1303,9 @@ label predance:
     "Vittoria and Vincenza chitter amongst themselves, clearly disregarding both of our refusals of their understanding of the situation with an abundance of mirth."
     O "Like an old married couple."
     C "And don't call me \"pitiable\"! Trying to call me \"beautiful\" right after doesn't make it any nicer!"
-    H "But you {b}are{/b} beautiful, Clover."
+    H "But you are beautiful, Clover."
     C "No I'm not!"
-    T "What is it about beautiful girls that makes them {b}so dumb{/b}?"
+    T "What is it about beautiful girls that makes them so dumb?"
     C "(What are they playing at? I was practically invisible in middle school. All the popular girls got tons of attention from boys, but me and my friends were always left alone.)"
     play sound feedback
     "The microphone squeals yet again, and the crowd quiets in response."
@@ -1287,7 +1316,7 @@ label predance:
     C "(They one-hundred-percent practiced that, those show-offs!)"
     mi "Challenging the prince and princess of the academy for the crowns tonight, the star freshman midfielders of our victorious Wild Roses, Tanya Yang and Clover Ipswich!"
     "Tanya steps forward as prompted, while I do the same on unsteady legs beside her.If it weren't for my iron grasp returning to her hand pulling me forward, I might never have moved an inch at all."
-    "When we do step out into the spotlight, I don't feel any better. I can't see the crowd, but I sure can hear them, and I {b}know{/b} they're all right there staring Tanya and I down in judgement."
+    "When we do step out into the spotlight, I don't feel any better. I can't see the crowd, but I sure can hear them, and I know they're all right there staring Tanya and I down in judgement."
     "The crowd cheers much the same as they had when we first took the stage, and I think I hear the word \"barf\" thrown around just as many times as \"vomit\" too."
     "It's a lot to handle. The sea of faces, already obscured by the spotlights, start to blur and swirl again just like on the field earlier that day. A woozy feeling returns in force to my stomach"
     C "(Oh no, not again...)"
@@ -1298,7 +1327,9 @@ label predance:
     "The crowd doesn't care about my mental pleading one bit. Even after Tanya sets me back on my feet again, the crowd still applauds their approval of my piteous condition and Tanya's gallant succor."
     mi "Ladies and gentlewomen, we have our winners! Please congratulate Tanya Yang and Clover Ipswich, your Homecoming Queens!"
     "A set of metal tiaras is passed from just off-stage to the twins, who each simultaneously crown me and Tanya while the crowd of our peers and academy alumni goes wild just off-stage."
+    stop music fadeout 0.5
     "The whole world seems to fade out for a time after that, but I manage to survive. I regain my sense of presence as soon as I find myself off the stage and with Tanya pushing a cup of punch into my hands."
+    play music dance
     "Many of the students at the school perhaps understandably want to come over and talk to their chosen Homecoming Queens, but the twins helpfully have already started pulling all of the students' attention back into their orbit."
     H "This dance music is dreadfully loud, sister. Should I fetch my viola instead?"
     O "Alas! If only you had your viola to play a melody, I would dance as we did as children."
@@ -1311,20 +1342,21 @@ label predance:
     "Even from a small distance away, I manage to spot a small smirk but also a worried glance from Vittoria across to her sister in a blink-and-miss fashion."
     H "Yes, but... not today. I am tired after being on stage, and I have no sheet music besides."
     "Vittoria manages to find a way out of playing an instrument she clearly has never touched in her life just in time for Sibyl to push her way through the crowd to meet Tanya and I somewhere far away from curious fans."    
-    S "I can't believe you both won! This could not have {b}possibly{/b} worked out any better."
+    S "I can't believe you both won! This could not have possibly worked out any better."
     T "I knew I made some fans today after my performance in the game, but not enough to beat Vittoria and Vincenza in an all-out popularity contest."
     "The weight of the tiara atop my head confirms that, yes, everything that just happened was real."
     C "(This is all too realistic to be one of my crazy vivid dreams.)"
     S "Not just that, but Clover was able to hold her own out there on the stage all by herself!"
     T "If I have to stand next to her every time she's struck with stage fright, I might have to get a cyborg hand replacement."
-    C "I did survive that, didn't I? {b}Barely{/b}, maybe, but I made it through that ordeal without spontaneously combusting at least."
+    C "I did survive that, didn't I? Barely, maybe, but I made it through that ordeal without spontaneously combusting at least."
     S "And it's not like the whole school will be coming to all your games anyway, right?"
     C "No! I'll play, and I want Sibyl to be there, but the less spectators the better!"
     S "Fears: conquered. Let's go dance, Clover!"
     "I may not agree with Sibyl's method, but the results speak for themselves. After everything she's done for me, there's no way I can reject the invitation."
     C "Plus, now I have a whole week free of homework thanks to Tanya!"
-    T "Umm, {b}what?{/b}"
+    T "Umm, what did you just say?"
     S "As I recall it, you told Sibyl that you would do her homework for a week if anyone asked her to the dance."
     "Sibyl grabs a hand from both me and Tanya to pull us out onto the dance floor while the latter is still fuming to herself."
     "The music might not be my style and I might not be any good at dancing, but for the first time in a long while I feel lighter on my feet than ever before."
+    stop music fadeout 0.5
     jump easter

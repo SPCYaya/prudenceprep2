@@ -1,7 +1,8 @@
 label howto:
     scene bg hallway with dissolve
+    play music piano2
     "The twins don't chase me as I stomp back down the hallway the way I came, burning with fury the whole way. Such a challenge as the twins presented only strengthens my resolve to prove them wrong."
-    C "(I'll show {b}them{/b} how serious I am about Sibyl!)"
+    C "(I'll show them how serious I am about Sibyl!)"
     scene bg bedroom with dissolve
     "My legs walk on auto pilot while I dream up grand strategies and plans for throwing my victory in the faces of all my doubters — mostly the latter."
     "My daydreams all come to an end when my subconscious brain walks me right up to the subject of my thoughts, suddenly face to face with Sibyl."
@@ -44,7 +45,7 @@ label howto:
     "In small print I write simply, \"befriend Tanya\"."
     C "(Enough of that. Step Five: Be flirtatious!)"
     "Once again, I physically blink at the outrageously simple heading for something so impossibly difficult."
-    C "(Why does it just {b}assume{/b} I know how to flirt?)"
+    C "(Why does it just assume I know how to flirt?)"
     "I read through the paragraph below the header for more details. It's clearly written for a guy but isn't not entirely unhelpful for me either."
     C "(\"Make her know you're interested in more than friendship.\" Smiling, frequent eye contact, playful comments...)"
     "I read on further to try to find out how this is any different from normal friendship, but entirely fail to understand what makes flirting \"flirting\"."
@@ -105,11 +106,13 @@ label howto:
     C "(That's because you're so close!)"
     C "Yup, I feel great! I've never been better!"
     "Sibyl doesn't seem to think me any more sane than before even after I try to assure her, so I just take the little victories I've earned and play off the rest as an awkward way of asking for help with homework."
-    "As it turns out, homework is {b}so{/b} much more enjoyable when Sibyl is sitting close beside me and explaining everything right into my ear. I almost don't want to it be over so quickly."
+    "As it turns out, homework is so much more enjoyable when Sibyl is sitting close beside me and explaining everything right into my ear. I almost don't want to it be over so quickly."
+    stop music fadeout 0.5
     jump failed_seduction
 
 label failed_seduction:
     scene bg transition with fade
+    play sound guitar1
     scene bg cafeteria winter with dissolve
     "At lunch on Monday I take the seat at Sibyl's other side completely opposite of Tanya rather than sit across from her as usual."
     "I intentionally sit close enough that I'm sure to brush my shoulders against her plenty. When Sibyl slides down the bench slightly, I subtly do the same until we're rubbing shoulders once again."
@@ -121,10 +124,10 @@ label failed_seduction:
     S "I meant how they're always tightly packed together into cans."
     T "Just move to the other side of the table, Clover."
     "Tanya only just now breaks from her back and forth conversation with Sibyl, though I have caught some glowering glances my direction thus far into our mealtime."
-    C "Why don't {b}you{/b}? Didn't you used to sit across from her every day before I did?"
+    C "Why don't you? Didn't you used to sit across from her every day before I did?"
     T "I have come to enjoy sitting beside Sibyl since you stole my former seat."
     C "But I want to sit beside Sibyl too!"
-    S "You can both be so {b}stubborn{/b} sometimes!"
+    S "You can both be so stubborn sometimes!"
     "Sibyl stands right up and moves to the other side of the table herself, leaving a Sibyl-sized hole between me and Tanya which goes unfilled the rest of the meal."
     scene bg classroom winter with fade
     C "So what are all these vials for?"
@@ -135,13 +138,12 @@ label failed_seduction:
     S "You've been kinda spacey lately, Clover. Are you sure you're alright?"
     "I try again to reassure her that I'm just fine without giving away my strong new feelings for her. I still need to ensure she's ready to accept them."
     S "The abstract for the experiment should go over the basics. Please read through it while I sort these out."
-    "Lifting up the page, I read the title of the experiment we are doing today."
-    "\"Determining Acidity by Titration with an Indicator Solution\""
+    "Lifting up the page, I read the title of the experiment we are doing today — {i}Determining Acidity by Titration with an Indicator Solution{/i}."
     C "What's a \"tit-ration\"."
     S "{b}Titration{/b}."
     "Sibyl corrects me quickly, probably embarrassed at my phrasing given how she glances around to see if anyone heard me say that aloud."
     S "\"Titration\" is the process of determining the concentration of a substance in a solution by reacting it with a solution of known concentration."
-    S "For the purposes of our lab, we are going to first note the change of color as we add the {i}titrant{/i}."
+    S "For the purposes of our lab, we are going to first note the change of color as we add the \"titrant\"."
     C "(Tit-rant.)"
     "I must be feeling extras stupid today. Every since discovering how I feel about Sibyl it's just about all I can think about."
     "Sibyl goes on to explain even more about the experiment, but it only half gets through my head as I zone out once more to focus on how pretty she looks while concentrating."
@@ -173,7 +175,7 @@ label failed_seduction:
     scene bg library winter with fade
     "I keep on trying my hardest to break through to Sibyl, but my efforts seem only to be doing the opposite. Rather than make her fall in love wih me, I feel like she is only getting pushed further away."
     "I know I'm not exactly an expert at seduction, but Sibyl really is a total brick wall. She's not picking up on a single thing I say or do."
-    C "(There's not a {b}single{/b} article about same-sex relationships in any of these {i}Girls' Mix{/i} issues!)"
+    C "(There's not a single lousy article about same-sex relationships in any of these {i}Girls' Mix{/i} issues!)"
     "While picking through a stack of magazines in the library one evening, I come across a book title which I think I can use to flirt with Sibyl."
     C "Hey, Sibyl check it out! I didn't know they wrote a book about you?"
     "I hold back the book for just long enough to pique her interest and draw her attention away from the new novel she picked up just a few minutes ago."
@@ -198,7 +200,7 @@ label failed_seduction:
     C "What sort of plans do you have, Sibyl? Are you going to be an award-winning author? Or maybe some kind of famous artist?"
     "I've never heard any of these grand plans Sibyl has, so naturally it's all I really want to hear about when she brings it up so suddenly."
     S "I do not believe I am skilled enough for any of that."
-    C "You're skilled enough! You're {b}way{/b} skilled enough!"
+    C "You're skilled enough! You're way skilled enough!"
     "Sibyl laughs softly and tells me to calm down, then reiterates that her art isn't anything special despite my renewed protests."
     S "What I mean is that I want to be a mother. Some day I am going to have a big, happy family, and I'll be the best mother in the world."
     "Unlike before when she was looking down, with her head held up I can now see the warmth return to pool behind Sibyl's cool blue eyes."
@@ -215,12 +217,14 @@ label failed_seduction:
     "Sibyl smiles so brightly when I reply to her that all other thoughts completely leave my mind. She releases my hand herself after I fail to do it on my own."
     "I sit there for what must be a few minutes but instead feels like hours, just contemplating the short exchange we shared while Sibyl silently returns to her novel across from me."
     "The only conclusion that I arrive at is that I will have to resort to the one thing I most wish I would not have to if I'm going to be serious about making Sibyl love me."
+    stop music fadeout 0.5
     jump beg_twins
 
 label beg_twins:
     scene bg transition with fade
+    play music piano1
     scene bg black with dissolve
-    "I don't want to do it. I said I'd never do it ever again. I absolutely {b}hate{/b} that this is my only option left."
+    "I don't want to do it. I said I'd never do it ever again. I absolutely detest that this is my only option left."
     scene bg meeting winter with dissolve
     H "What is this? Has surly little Miss Lovestruck came crawling back?"
     O "Surely this does not bode well at all for her fortunes of the heart."
@@ -230,7 +234,7 @@ label beg_twins:
     C "I need your help with Sibyl."
     "I swallow the thick lump forming in my throat, feeling kind of sick for having voiced what I did."
     "With Sibyl and Tanya away at their art club session and all my own attempts failing, it's basically now or never to get the assistance I need to make her mine."
-    O "You need {b}our{/b} help, you say?"
+    O "You need our help, you say?"
     H "You wish to consort with \"devils\" such as us?"
     C "Go ahead and have your fun at my expense. I'm desperate, okay?"
     "Finding me no longer pushing back against them, the set of twins return to a more relaxed posture, each taking their seat around the big table. I find my own seat, glad to have them finally back off."
@@ -247,9 +251,9 @@ label beg_twins:
     "The twins look toward each other in quiet communication, then back toward me."
     O "At some point, Clover, you will have to give up."
     C "B-But...! Don't you have a magic technique or other some sure-fire way to win her over? I mean, you're both doing it all the time with other students here!"
-    H "We are not {b}witches{/b}, Clover. There is no magic love potion."
+    H "We are not witches, Clover. There is no magic love potion."
     O "If she is not at all receptive to your advances, then there is simply nothing to be done about it."
-    C "{b}No!{/b} I refuse to accept that!"
+    C "No! I refuse to accept that!"
     "I'm standing out of my chair before I know it. I'm not mad at Vittoria and Vincenza exactly, merely mad that these two are so cool about telling me my love is in vain, again."
     C "Isn't there {b}anything{/b} you can do?"
     "Once more the twins exchange a connection of gazes with one another. I can tell this time that they're both apprehensive about whatever it is they are thinking to one another."
@@ -257,9 +261,9 @@ label beg_twins:
     O "If you're up to the task..."
     "The twins draw out their answer as slo as molasses, clearly fishing for something new. That infuriating lilt of their voices that they use for teasing returns once more."
     C "I'll do anything!"
-    H "{b}Anything{/b}, she says."
+    H "Anything, she says."
     "Vittoria gives a frisky grin to her sister, who returns the playful grin back to me."
-    O "Are you {b}sure{/b} about that, Clover?"
+    O "Are you sure about that, Clover?"
     "The twins both smile back at me silently. I feel a hunger emanating from Vittoria which makes me shiver to my toes, while from Vincenza I sense a different but no less disturbing aura."
     "All sorts of possibilities flow through my imagination, each one more extreme and less pleasant than the next."
     C "(This is {b}Sibyl{/b} on the line here!)"
@@ -269,10 +273,10 @@ label beg_twins:
     O "Kiss our shoes."
     "What Vincenza states is obviously not what Vittoria was going to say. That Vincenza silenced her sister is the biggest surprise here, followed by the fact that Vittoria accepted it immediately."
     "I thought the two of them shared a mind entirely as one, but there actually does seem to be a difference between the two beside their prince and princess acts."
-    C "You want me to... {b}grovel{/b} on my knees before you and kiss your shoes!?"
+    C "You want me to... grovel on my knees before you and kiss your shoes!?"
     O "A delightful idea, thank you for suggesting it."
     "Vittoria wants me in some fashion, that much I am ninety-nine percent sure. I thought that could only be the worst of it, but instead I find that Vincenza wants something far more dangerous — my pride."
-    O "Tell us clearly how you want— no, {b}need{/b} our help. Say please and {b}mean{/b} it."
+    O "Tell us clearly how you want— no, {b}need{/b} our help. I want to hear you mean it."
     C "Ugh!"
     "Vincenza must know that for a stubborn and spirited girl like me this is most truly the worst possible thing she could ask, and so here she is asking for me to willingly have my dignity debased before them."
     "I knew I wouldn't like whatever the price of this would be, and sure enough, I don't like it. The alternative, however, would be to let go of my love for Sibyl forever, and that is not an option."
@@ -298,18 +302,20 @@ label beg_twins:
     H "The rest is up to you. You must be willing to give it your all."
     C "I am!"
     O "Be confident. Push yourself onto her if you have to, but also hold back when appropriate."
-    H "Use your wiles. {b}All{/b} of them. Maybe hike your skirt up a little."
+    H "Use your wiles. {b}All{/b} of them. Maybe hike your skirt up a little; it can't hurt."
     "That I don't know exactly what the twins have planned concerns me slightly, but with a renewed fire in my heart I brush the dust off my knees and commit their subsequent advice to memory."
+    stop music fadeout 0.5
     jump aqua_date
 
 label aqua_date:
     scene bg transition with fade
+    play music guitar2
     scene bg cafeteria winter with dissolve
     "I don't have to wait long to bear witness to the fruits of sacrificing my dignity to Vincenza and Vittoria."
     "That Saturday after lacrosse practice while I'm eating lunch together with Sibyl and Tanya, the twins walk up to our table to deliver an odd request to Sibyl personally."
     scene bg hallway with dissolve
     S "You don't have to come with me, Clover. They said it's a two person job but I can handle a few fish by myself."
-    C "No, I need a break! I was getting tired of trying to wrap my head around trigonometrics anyway."
+    C "No, I need a break! I was getting tired of trying to wrap my head around trigonometry anyway."
     "Excitement speeds my limbs into walking extra fast to the point where I'm almost racing ahead of Sibyl toward the aquarium."
     "I don't know exactly what they have planned, but it cannot be a coincidence that they ask this specifically of Sibyl and tell her to bring someone with her."
     C "(They specifically chose a time that Tanya isn't around too! This cannot be a coincidence.)"
@@ -326,7 +332,7 @@ label aqua_date:
     C "Oh come on, doesn't this look so cool? I mean, check out this bean bag!"
     "I flop right down into it and immediately sink more deeply than I expect into it's legume-stuffed depths, but try to remain cool despite that."
     "Subtly, I try to raise the hem of my skirt way up my thigh like it just happened to land that way when I flopped down."
-    C "It's so comfortable! Sibyl, you {b}have{/b} to try this!"
+    C "It's so comfortable! Sibyl, you have to try this!"
     "I pat at the empty space beside me knowing she's definitely going to be sinking deeper into the bag right next to me when she sits down, just as planned."
     S "Eww, no thanks. I don't want to know what's soaked into that thing."
     "Before I can say any more, Sibyl has already stepped over to blow out one of the many candles providing the atmosphere in the room."
@@ -369,12 +375,14 @@ label aqua_date:
     "Sibyl just smiles at me softly, then takes her hands back from mine."
     S "You're three months too late for the masquerade ball, Clover."
     "Just like that, the whole evening is wasted. I give it my all and Sibyl shuts me down every single time."
-    C "(Is she just dense or what? Do I have to come right out and say it? {b}Should{/b} I have? Did I miss my chance?)"
+    C "(Is she just dense or what? Do I have to come right out and say it? Should I have? Did I miss my chance?)"
     "The questions about my failed seduction plague me relentlessly all the way through the remainder of my math homework. The questions on my homework are tough, but nothing compared to my love questions."
+    stop music fadeout 0.5
     jump tanya_trouble
 
 label tanya_trouble:
     scene bg transition with fade
+    play music piano2
     scene bg cafeteria winter with dissolve
     "Breakfast on Sunday starts like any other, except that something is clearly eating at Tanya since we saw her after lacrosse practice the day before."
     "Sibyl tries to pry it out of her, to no avail. It's not really my concern at all so I just happily eat away at my French toast until I'm ready for seconds."
@@ -388,13 +396,13 @@ label tanya_trouble:
     C "What the heck was that about—"
     T "Stop making a scene. I just want to talk. Somewhere private."
     "Tanya is being particularly terse, but not overtly hostile aside from the initial jerk to my body."
-    C "(You're {b}already{/b} making a scene!)"
+    C "(You're already making a scene!)"
     "The other girls in the line for the chefs stare at us, some more discreetly than others, but everyone in the cafeteria proper can't not see us."
     C "I don't care what's wrong with you. Go tell it to Sibyl."
     T "It's not about me, it's about Sibyl."
     scene bg dorm winter with dissolve
     "After just a little bit more of half-whispered back and forth arguing, Tanya and I end up around the corner of the hallway just outside the cafeteria."
-    C "What's your {b}problem{/b}, Tanya?"
+    C "What's your problem, Tanya?"
     "She's more irritable than normal today, that much was clear before, but as she looks at me she's practically throwing daggers with her eyes."
     T "What's {b}my{/b} problem? I thought I told you to stay away from Sibyl!"
     C "I can do whatever I want with Sibyl. She's {b}my{/b} Vertu."
@@ -406,16 +414,16 @@ label tanya_trouble:
     T "First of all, because she's never going to return your feelings and all you're doing is troubling her, and secondly, because I—"
     T "I may have... \"liked\" Sibyl too."
     "This surprises me probably more so than it should. It actually makes a lot of sense given brief moment to think about it, even with Tanya still angrily hovering close to me in the hallway."
-    C "S-So, what? It's her choice if she wants to go out with me. You've had {b}months{/b} already to take your shot."
-    T "Clover, will you {b}listen{/b} to me!? There is no \"shot\" to take. Sibyl is straight and that's the end of it. You're only going to hurt her if you keep pursuing her like this."
+    C "S-So, what? It's her choice if she wants to go out with me. You've had entire months already to take your shot."
+    T "Clover, will you listen to me!? There is no \"shot\" to take. Sibyl is straight and that's the end of it. You're only going to hurt her if you keep pursuing her like this."
     C "That's exactly what a love rival would say."
-    T "Yes, exactly, I'm {b}trying{/b} to make you give up on her! {b}I{/b} already gave up on her and am content to stay her best friend."
+    T "Yes, exactly, I'm trying to make you give up on her! {b}I{/b} already gave up on her and am content to stay her best friend."
     "Tanya keeps saying things forcefully in my direction, nearly backing me against the wall. I make my own attempt at trying to look cool and unbothered despite how annoyed she is making me."
-    C "Maybe {b}you{/b} just don't love her enough if you gave up so easily."
-    T "Would you {b}please{/b} think about someone beside {b}yourself{/b} for a microsecond?"
+    C "Maybe you just don't love her enough if you gave up so easily."
+    T "Would you {b}please{/b} think about someone beside yourself for a single microsecond?"
     "Tanya gets that look in her eyes that she's about to rip my hair out of my scalp for just a moment, but cools herself down quickly with a few deep breaths."
     T "I'm not going to let you get to me again, Clover. If you want to think about it from your perspective, fine."
-    T "Consider this: if things don't work out as you hope — and they won't — it will {b}at best{/b} be incredibly awkward between the two of you."
+    T "Consider this: if things don't work out as you hope — and they won't — it will at best be incredibly awkward between the two of you."
     T "If you value the friendship you have with Sibyl now. you should just accept the inevitable and remain only her platonic friend."
     "It's a good point and we both know it. I don't want to admit, but the thought has crossed my mind before."
     C "Okay, yeah, I've thought about that, but what do you want me to do, deny my feelings forever?"
@@ -438,7 +446,7 @@ label tanya_trouble:
     T "So what now? We agree to disagree, and I come back to beat your ass when you eventually make Sibyl cry?"
     C "Unlikely, seeing as how I'm going to make her fall madly in love with me in no time."
     "Tanya snorts dramatically with disbelief at my unflinching assertion, but I don't take it personally."
-    T "What do you even love about her anyway? You've known her for a {b}month{/b}."
+    T "What do you even love about her anyway? You've known her for all of a month."
     C "Well, she's totally amazing at everything, isn't she? She's kind, and playful, and..."
     T "And what? Lots of people are kind and playful."
     C "(Why {b}do{/b} I love Sibyl?)"
@@ -451,12 +459,11 @@ label tanya_trouble:
     "For a moment I am lost in thinking about Sibyl's eyes and how well the aquamarine description fits them, but a sudden small outburst from Tanya beside me breaks the hold."
     T "I can't {b}believe{/b} you."
     C "What are you on about now?"
-    T "All this and you don't even know {b}why{/b} you love her? Are you sure you're not just, like, mega horny?"
+    T "All this and you don't even know {b}why{/b} you love her? Are you sure you're not just mega horny or something?"
     C "What? No! I'm not—"
     "I pause for a moment to consider what Tanya says, finding it perhaps more accurate than I'd like to admit, which gives Tanya a terrible shock that shows clearly on her face."
     C "Wait, no, I'm totally serious about Sibyl, for real! It was love at first sight!"
-    T "There's {b}no such thing{/b} as \"love at first sight\", Clover!"
-    T "If you don't actually love Sibyl as a person for real, then I'm going to murder you for real."
+    T "There's no such thing as \"love at first sight\", Clover! If you don't actually love Sibyl as a person for real, then I'm going to murder you for real."
     C "Well what do {b}you{/b} love about Sibyl then, huh!?"
     "I deflect the question right back at Tanya to get her off my case and maybe find out what I truly love about Sibyl based upon what she says."
     T "Her compassion, kind and limitless. Her freedom, so simple and joyous."
@@ -470,9 +477,11 @@ label tanya_trouble:
     S "Is that all? I'm glad."
     C "(What did she think was happening?)"
     "Our excuses appear to alleviate Sibyl's concerns. I am relieved to find a bright smile return to her face in no time now that her friends have come back to her."
+    stop music fadeout 0.5
     jump libraryflirt
 
 label libraryflirt:
+    play music guitar1
     scene bg library winter with fade
     "A significant portion of Sunday is spent in the library, as has become the routine since I have begun to settle into my life with Sibyl at the academy."
     "Tanya comes with us today as she sometimes does, though now she has cranked up her efforts to put space between me and Sibyl to eleven."
@@ -488,7 +497,7 @@ label libraryflirt:
     C "What? No! There's nothing like that in there!"
     "I know there are no articles about capybaras in that back issue of a stupid teen fashion magazine, and Tanya likely does too."
     "Tanya also seems to know that Sibyl is crazy about them to the point where she passes the next few minutes telling me all about them with Tanya's prompting in between to keep her going."
-    C "(Sibyl is {b}so{/b} cute when she's gushing about capybaras.)"
+    C "(Sibyl is so incredibly cute when she's gushing about capybaras.)"
     "I'm enjoying seeing the bright, happy expression of wonder on her face while Sibyl tell me all about something she loves, even if the whole topic was just a plot by Tanya to disturb my attempt at flirting."
     S "Did you know their teeth are constantly growing? Can you imagine if our teeth did that?"
     "From where I sit at the table facing the door, I spot Vittoria and Vincenza step into the library. The pair immediately give me a clandestine wave and make their way toward me."
@@ -515,7 +524,7 @@ label libraryflirt:
     "Tanya's head whips back and forth between the twins and Sibyl, then rests on me for a moment with a dark grimace."
     C "(Better luck next time, Tanya!)"
     "I give her a smile flush with the thrill of victory, then pile on the train right after Sibyl."
-    C "You'd be best to help her, Tanya. You can support her with that {b}chunky{/b} lacrosse body you have."
+    C "You'd be best to help her, Tanya. You can support her with that chunky lacrosse body you have."
     T "{b}Ch-Chunky!?{/b}"
     "I cannot help but giggle internally from seeing Tanya fume at me from across the table, but mostly succeed at stifling my grin externally."
     O "Ow, ouch!"
@@ -530,8 +539,8 @@ label libraryflirt:
     "I read the title myself, then turn the cover toward Sibyl who is immediately curious."
     S "{i}Little Women{/i}."
     C "What's it about?"
-    S "I ave yet to read it, but I know it is about the lives of four sisters."
-    C "So there are books you {b}haven't{/b} read?"
+    S "I have yet to read it, but I know it is about the lives of four sisters."
+    C "So there are books you haven't read?"
     S "Of course there are, Clover!"
     "I'm only teasing, and I'm pretty sure Sibyl knows that, but it feels so good to get a reaction out of her that I cannot help but do it."
     "As I set the book down, I notice a slip of yellow paper sticking out of the side and remember what Vittoria told me. I flip open to the page to find a whole bunch of sticky notes rucked inside."
@@ -586,20 +595,22 @@ label libraryflirt:
             "Brushing my hair back into place as best I can, I clear my throat to sneakily gain Sibyl's attention and prepare myself to be as alluring as possible."
             "When Sibyl glances up toward me, I lower my eyelids and rake my teeth gently along my lower lips. I think it's bound to be a sure-fire win, but Sibyl instead goes right back to her magazine."
             "Trying again, I clear my throat louder. Sibyl once again glances above her magazine at me and I lightly flick my tongue out across my lips as sensually as possible. Still, Sibyl goes right back to her magazine."
-            C "(I'll show you something better than that magazine. You can't ignore {b}this{/b}!)"
+            C "(I'll show you something better than that magazine. You can't ignore this!)"
             "I clear my throat again for the third time even louder than before, drawing the attention of not just Sibyl but also the library committee member on duty, who raises a finger to her lips to silence me."
             S "I have some cough drops in my bag, Clover. Let me get you one."
             "I'm about to say no, but after all that false throat clearing, my throat does kind of hurt now."
     "It's just in that moment that Tanya trudges back into the library and flops into her seat beside Sibyl once again."
     S "You're back already, Tanya? Is Vincenza doing okay?"
-    T "She'll be just fine. I've never {b}seen{/b} her more healthy."
+    T "She'll be just fine. I've never seen her more healthy than she is right now."
     "Sibyl is all smiles to know that the Vincenza is recovering quickly from her \"injury\", and goes even further to praise Tanya for being willing to help a friend in need."
     "I may have failed to capitalize on the twins' helpful tips, but getting to see Sibyl's peerless compassion in action is its own reward."
     "That I also have the rest of the sticky notes stashed away after returning Vincenza's book is another reason for me to smile too. I will surely have more opportunities to try the rest."
+    stop music fadeout 0.5
     jump artclassflirt
 
 label artclassflirt:
     scene bg transition with fade
+    play sound piano1
     scene bg bedroom with dissolve
     "Long nights are passed lying in my bed trying to think up the best way to get Sibyl to fall in love with me."
     "Even longer days of looking for opportunities to make Sibyl miraculously fall in love with me prove continually fruitless."
@@ -621,7 +632,7 @@ label artclassflirt:
     C "Miss Izzie?"
     mi "Your little doggie. The layers are all off after the table was bumped, see?"
     "My eyes scan over the dog manifesting itself in the printer, now knocked over and with new layers being printed on his side. Despite my model getting all messed up, my brain is currently elsewhere."
-    C "(Vittoria and Vincenza seriously told {b}our art teacher{/b} of all people? It's bad enough that Tanya knows!)"
+    C "(Vittoria and Vincenza seriously told our art teacher of all people? It's bad enough that Tanya knows!)"
     "I feel a distinct amount of betrayal from the twins, but then again, I've already seen how friendly they are with Miss Izzie so maybe I shouldn't be so surprised."
     C "You can't tell anyone!"
     mi "We have dozens of rolls of printer filament. It's no problem at all to print another."
@@ -639,7 +650,7 @@ label artclassflirt:
     C "O-Okay..."
     "Miss Izzie slithers off toward Sibyl to engage Sibyl in conversation about something. Rather than stare now that I've been made conscious of it, I pull my failed sculpture from the 3D printer to start it again."
     "When the moment arrives, or what feels like I've waited long enough anyway, I start my walk over toward where Sibyl and Miss Izzie remain chatting."
-    T "I fail to see why she can't just do this with {b}me{/b}, Miss Izzie."
+    T "I fail to see why she can't just do this with anyone else, Miss Izzie."
     mi "You know exactly why, Tanya."
     T "Enlighten me. Please."
     "Whatever this plan of hers may be, Tanya doesn't seem to be very enthused about it."
@@ -652,8 +663,8 @@ label artclassflirt:
     "My reply comes out with a modest \"yes\" without needing to tell her about all the rest."
     S "Miss Izzie thinks it's a good opportunity to translate the same subject into a tactile medium."
     C "Tactile...?"
-    S "Like a sculpture! Rather than look at you and translate that into a two dimensional drawing, Miss Izzie thinks it would be beneficial for me to {b}feel{/b} you with my hands to mold clay."
-    C "(She wants to... {b}feel{/b} me. My naked body. Over and over again. Diligently enough to perfectly sculpt me by touch alone.)"
+    S "Like a sculpture! Rather than look at you and translate that into a two dimensional drawing, Miss Izzie thinks it would be beneficial for me to feel you with my hands to mold clay."
+    C "(She wants to... feel me. My naked body. Over and over again. Diligently enough to perfectly sculpt me by touch alone.)"
     "My brain freezes over for a few moments. I don't know what expression could possibly be on my face but Tanya sure isn't about to let this incredible development proceed without a fight."
     T "Look at her! I knew this was a bad idea."
     "Tanya quickly turns to Sibyl, wasting no time in grabbing her hand and drawing her attention away from me."
@@ -663,7 +674,7 @@ label artclassflirt:
     "I shout out into the space between Sibyl and Tanya, drawing the attention of everyone immediately surrounding us. The eyes suddenly on me freeze me to my core but thankfully fade away just as quickly."
     C "I mean, Miss Izzie was right. I'm her Vertu partner, and she already drew me, so it's got to be me, right? I'll do it."
     S "Are you sure? if you really don't want to I'll just have Tanya—"
-    C "{b}I want to do it!{/b}"
+    C "I want to do it!"
     "I cannot begin to comprehend what Sibyl must be thinking, but in the end she agrees to model me and wanders off to the storeroom to fetch clay for the project."
     T "I'm seriously going to murder you."
     "Tanya makes her feelings about the situation clear the moment Sibyl leaves the two of us alone."
@@ -671,7 +682,7 @@ label artclassflirt:
     "It is expressly clear that Tanya has yet more to say, but Sibyl returns quickly enough that she just goes back to her painting while also keeping a sharp eye on the two of us."
     C "S-So do you want me to... s-strip here, or...?"
     "Now that it's come down to it, I'm starting to feel self-conscious about the prospect of stripping down right in the middle of art class, even if it means Sibyl touching my naked body."
-    "The combination of lacrosse exercise and fewer French toast breakfasts has been working like a charm, but I'm still not {b}that{/b} confident in my body."
+    "The combination of lacrosse exercise and fewer French toast breakfasts has been working like a charm, but I'm still not that confident in my body."
     S "Strip? I'm just doing a bust, Clover."
     C "B-Bust...?"
     "My hands raise up to my chest without thinking. My breasts aren't anything particularly special but it would still be awkward to take my top off here."
@@ -680,7 +691,7 @@ label artclassflirt:
     C "O-Oh...."
     "I know that my face must be burning crimson but Sibyl doesn't call me on it, instead just getting her workspace set up while I sit patiently trying not to squirm in my chair."
     "When the time finally comes to begin, Sibyl merely stands before me visually inspecting me all over but not touching one bit."
-    C "I thought you were supposed to, umm, {b}touch{/b} me."
+    C "I thought you were supposed to, umm, touch me."
     S "Yes, you're right, but... hmm, I just don't know where to start."
     "I suddenly realize that it's not just me who is anxious about this whole thing and that maybe my uneasiness might be taking Sibyl off her game as well."
     C "(I'm making this even harder for her. I have to calm down.)"
@@ -691,7 +702,7 @@ label artclassflirt:
     "Pausing for the moment, Sibyl rubs her hands together vigorously to warm them up, then reaches out to start touching my face again."
     "It's embarrassing and a totally weird feeling, the way she pulls and prods at my flesh, trying to feel the curves and contours of my face."
     C "(Is she going to mold the clay or mold my face?)"
-    "When she withdraws her hands for the first time to mold her clay, it suddenly feels even more strange to {b}not{/b} have her hands working into my skin."
+    "When she withdraws her hands for the first time to mold her clay, it suddenly feels even more strange to not have her hands working into my skin at all."
     C "(It was a good idea at least even if it didn't work out, Miss Izzie.)"
     "I still have no idea if my teacher really expected one of her students to strip down and fondle another, but she sure seemed enthusiastic about it."
     "As Sibyl returns to rubs her hands all around my face and down my neck, my eyes are drawn to her face. Her expression remains still and focused, much like when she works on her other art projects."
@@ -699,7 +710,7 @@ label artclassflirt:
     "Even though the project goal is to sculpt by feel, Sibyl still puts her large blue eyes to work inspecting how my flesh reacts to probing by her fingers."
     "Her face is so incredibly close that I can smell her shampoo, and my heart once again starts beating into overdrive."
     C "(Her lips!)"
-    "Right before me, that soft pink pout. I could lean just a {b}little{/b} closer and touch her lips with my own."
+    "Right before me, that soft pink pout. I could lean just a little bit closer and touch her lips with my own."
     C "(Should I kiss her? Would she freak out? Can I play it off an an accident?)"
     "A multitude of thoughts in a similar fashion continue to play through my mind, devolving rapidly with my mental state."
     C "(Is the mood \"right\" now? Should I do it!)"
@@ -713,24 +724,25 @@ label artclassflirt:
     "I'm not at all \"pretty good\", but I can't exactly tell her that I was just about to surprise kiss her a few moments ago."
     "Now that I remember that I'm still in the middle of art class and have an audience of my peers, I just can't bring myself to attempt it anymore."
     C "(I'm sorry, Miss Izzie, I don't know what you intended for me to do but I just couldn't do any of it.)"
-    "The whole setup by Miss Izzie ultimately does not result in any real progress with Sibyl, but what it does do is harden my resolve to be make Sibyl {b}mine{/b}, by any means necessary."
+    "The whole setup by Miss Izzie ultimately does not result in any real progress with Sibyl, but what it does do is harden my resolve to be make Sibyl mine, by any means necessary."
     "I thought I was going to be able to make Sibyl fall for me naturally, just like how she charmed me so easily, but now I realize that may not work out so well at all."
-    C "(Maybe I've been a little naive in thinking that all I need to do is surround her with my affection and she would automatically fall in love with me.)"
+    C "(Maybe I've been a little naive in thinking that all I need to do is surround her with my affection and she would automatically fall in love with me. I need to be confident. I need to be bold.)"
     "Vittoria and Vincenza warned me that Sibyl wouldn't be so easy to win over."
-    C "(I need to be {b}confident{/b}. I need to be {b}bold{/b}.)"
+    stop music fadeout 0.5
     jump cloverdecorations
 
 label cloverdecorations:
     scene bg transition with fade
+    play music guitar2
     scene bg hallway with dissolve
     "Maybe it's because the frigid throes of winter still blanket the grounds of the academy, but every day feels frozen to a standstill at the academy."
     "Somehow, the feeling doesn't extend to Sibyl, who is always caught up in doing something or another during her free time."
-    "She occupies her time with activities which might not be totally to my interest, but {b}she{/b} herself is, so I follow along with her every time."
+    "She occupies her time with activities which might not be totally to my interest, but she herself is, so I follow along with her every time."
     show naomi smile with dd
     mw "Thanks for helping out, girls! I knew I could count on you!"
     C "(Now we're doing chores for Miss Woolsey? I'd rather remain bored in my own room than this!)"
     hide naomi with dd
-    "Sibyl agrees to help put up the Saint Patrick's Day decorations even though our teacher pointedly asks {b}me{/b} if the two of us could do the task."
+    "Sibyl agrees to help put up the Saint Patrick's Day decorations even though our teacher instead pointedly asks me if the two of us could do the task."
     "It's absolutely no mystery to me why I in particular should be asked to do this task, and when I open the box of decorations I find exactly what I expect starting back at me."
     C "Here's the next shamrock, Sibyl."
     S "Thanks for the clover, Clover!"
@@ -757,6 +769,7 @@ label cloverdecorations:
     "The question is spoken aloud so Sibyl, who hops down off the stepladder before me, is the one to answer."
     S "It's a mistletoe from the Christmas decorations we put up in December. How did this get in here?"
     C "A mistletoe..."
+    stop music fadeout 0.5
     "My eyes zone in on the paper decoration held between us, fading everything else but it into the background. My eyes flicker between the flimsy decoration and Sibyl behind it, still chatting away."
     C "(Did Miss Woolsey... slip this into the box on purpose. She did seem rather eager for me and Sibyl to do this task ourselves.)"
     "I come back to myself the instant Sibyl reaches out to take the mistletoe from me, but don't let it go. I can't let her have it. I can't let the mistletoe held aloft between us go away yet, not when I'm still wavering."
@@ -773,6 +786,7 @@ label cloverdecorations:
     "My beloved roommate doesn't look angry, but she also doesn't look happy. If anything, she's left distressed by my sudden attempt to kiss her."
     "I'm also shocked, that's for sure. I don't know what reaction I expected out of her exactly, but this certainly wasn't it."
     C "(I... messed up.)"
+    play music drama
     "All the blood in my body is once again rushing to my face and I stammer out some nonsense quickly, desperate to get that look of horror wiped off of Sibyl's face."
     C "B-Because it's a m-mistletoe... we k-kiss..."
     "I was aiming for the lips, but maybe it's actually better that she moved enough that I kissed her on the cheek. I wouldn't have been able to come back from it otherwise."
@@ -783,15 +797,17 @@ label cloverdecorations:
     C "(It's all over. She hates me. She'll never look at me again. I'll never talk to her again.)"
     "My eyesight rapidly becomes blurry as I rush headlong through the hallway. I bump into things around me more than once while totally unaware whether it's another human or piece of furniture. None of that matters."
     "Terrible thoughts swirl and compound upon themselves, building into a frightening tsunami of negativity and doom crashing over my heart in repeated waves."
-    C "(Sibyl is gone! {b}Forever{/b}.)"
+    C "(Sibyl is gone. Forever.)"
     "As I reach the end of the hallway at the far end of the school, I merely stand there huffing and puffing before a great big window."
     "The urge to simply throw my worthless body right out of it bubbles up potently from deep inside me. I fumble with the latch for a brief moment, but with how much my hands tremble I cannot manage to grasp the mechanics of the latch."
     "Giving up the idea entirely, I turn swiftly on my feet to run away somewhere else to hide my shameful self from the world, but end up suddenly halted by something firm around my waist."
+    stop music fadeout 0.5
     mw "Got you!"
     "There's a minor tussle where my arms flail about around me, but my excitations simmer down enough that Miss Woolsey stands me upright and wipes the tears out of my eyes herself."
     mw "Clover. You need to calm down."
     "When my eyes focus, I can see Miss Woolsey looking just as frantic as I am, and further behind her, a small gathering of students looking on with curiosity at the scene I'm making."
     scene bg kotatsu with dissolve
+    play music sad
     "Before I can begin to consider how mortifying it is to be seen by the crowd, I find myself forcibly shuffled aside by the very same athletics teacher and seated right down atop a low table in some room I've never seen before."
     "Everything from fingers to my toes feels numb, but somehow my body is still shaking all over. My legs tremble and quiver even though absolutely no weight is upon them at all."
     mw "How are you feeling, Clover?"
@@ -804,23 +820,24 @@ label cloverdecorations:
     "But I do anyway, slowly and painfully, after working through a few deep breathing exercises to try to calm myself down."
     "It hurts to get through, but as I recount what happened with Sibyl in the hallway, I feel a little better about myself and that maybe the world hasn't ended after all."
     C "(Maybe I overreacted... a tiny bit.)"
+    stop music fadeout 0.5
+    play music guitar2
     "I know that is putting it lightly, but after calming down and thinking it through, I am left ashamed that I almost tried to end it all over something so trivial."
     C "(Of course Sibyl was shocked. I suddenly lunged my face at her to kiss her. Anyone would be shocked by that.)"
     C "(Sibyl won't hate me for it. Sibyl is just as freaked out as I am. She probably doesn't even know why I tried to kiss her.)"
     "I say it over and over again in my head, which makes me feel a little lighter yet also somehow hollow inside."
     C "You purposely put the mistletoe in the shamrock box, didn't you?"
     mw "The twins asked me to help with— well, you know."
-    C "(Is there anyone those twins {b}haven't{/b} told? Does the {b}school board{/b} know by now!?)"
+    C "(Is there anyone those twins haven't told? Does the whole darn school board know by now!?)"
     mw "I'm so sorry, Clover. I didn't think anything like this—!"
     "I may have stabilized myself, but it's clear that Miss Woolsey is wracked with guilt over what happened — or maybe what could have happened."
     C "(She definitely saw me almost try to jump out the window there...)"
     C "Listen, umm... I'm fine now."
-    C "And, uhh, it's all my fault, so you definitely shouldn't apologize for my own freak out."
-    "It's so awkward to say out loud, but I don't want to make Miss Woolsey feel any more terrible than she deserves."
-    C "{b}I{/b} asked Vittoria and Vincenza to help me, and it was {b}me{/b} who royally screwed up when you were just trying to help."
+    C "And, uhh, it's all my fault. It was me who royally screwed up, so you definitely shouldn't apologize for my own freak out."
+    "It's so awkward to say out loud, but I don't want to make Miss Woolsey feel any more terrible than she deserves. She's never been anything but super good to me."
     "Miss Woolsey nods carefully at my words, still keeping a distant look in her eyes like she's trying to determine what happens next."
     "I don't know what happens next either. There's no reason for me to stay here in this weird room crammed with books, but I also don't exactly cherish the thought of facing Sibyl again so soon."
-    C "(Where {b}am{/b} I anyway?)"
+    C "(Where am I anyway?)"
     "When I actually take a moment to look around the room, I find it looks almost like a library. The difference is that it's much smaller and every book is colorful and has an Asian script printed on it."
     C "(Is this manga?)"
     "The inspection of the room soothes my mind a little by distracting the burden of reliving recent events with all of the colorful books I cannot read at all."
@@ -838,8 +855,8 @@ label cloverdecorations:
     "After delivering what I believe to be a joke, Miss Izzie traipses closer to flop onto a cushion resting on the floor beside the table and subsequently stick her legs under it."
     if secret_lilies_romance == "blanche":
         mi "Come on, it's not like Blanche is the jealous type, right? She wouldn't mind me stealing a pinch or three."
-        mw "Izzie, stop, you {b}know{/b} that Blanche very much {b}is{/b} the type to be jealous."
-        mw "Besides, just because we agreed to go stay long distance while her astrophysics dissertation project gets off the ground, does {b}not{/b} mean she's any less my girlfriend."
+        mw "Izzie, stop, you know that Blanche very much {b}is{/b} the type to be jealous."
+        mw "Besides, just because we agreed to go stay long distance while her astrophysics dissertation project gets off the ground, does not mean she's any less my girlfriend."
         C "(\"Girlfriend\"? So Miss Woolsey is gay too?)"
         "Miss Woolsey apparently cannot be any more of a cliché female gym teacher than she is now."
         mi "Calm down, Nao-chan, I'm just messing with you."
@@ -849,7 +866,7 @@ label cloverdecorations:
         mi "If I text Veronika and get her permission, would you let me?"
         mw "Wait, no, Izzie, stop! Veronika gets {b}really{/b} protective over my breasts!"
         "Miss Izzie already has her smartphone pulled out as she starts talking. Miss Woolsey lunges at her and fumbles to grab it out of her hand in the fastest motion I've ever seen in my life."
-        C "(Well she {b}is{/b} the athletics instructor. But who is this \"Veronika\" and why does she care about her breasts so much?)"
+        C "(Well she is the athletics instructor after all, but who is this \"Veronika\" and why does she care about her breasts so much?)"
         "Miss Izzie plays a short game of keep-away with her smartphone, which seems to amuse her incredibly until eventually giving up and promising not to contact the woman she mentioned."
         mi "I'm sorry, you know I just can't stop myself from teasing a maiden in love."
         mw "You're the worst, Izzie."
@@ -857,7 +874,7 @@ label cloverdecorations:
     elif secret_lilies_romance == "izzie":
         mi "So the Grand Macaron herself is breaking protocol and bringing one of the uninitiated into our sacred temple."
         "Miss Izzie shakes her head disapprovingly despite grinning the whole time."
-        mi "Nao-chan, you {b}bad girl{/b}! I'm going to have to punish you {b}thoroughly{/b}."
+        mi "Nao-chan, you bad girl! I'm going to have to punish you {b}thoroughly{/b}."
         mw "Izziiiie...!"
         "Miss Woolsey exclaims my art teacher's name with a hushed but drawn out whine and a bright red blush across her face. She covers my ears with her hands as she shushes Miss Izzie, though I can still hear everything through them."
         mw "Be careful what you're saying around students!"
@@ -904,7 +921,7 @@ label cloverdecorations:
     jump failed_confession
 
 label failed_confession:
-    scene bg bedroom night with dd
+    scene bg bedroom night with fade
     "It's already past curfew so we're both stuck in our bedroom together. I can tell that there's something off about Sibyl even though she pretends to be reading her latest novel like everything is the same as before."
     C "(There's not going to be any playing off that attempted kiss, is there?)"
     "I try to ask Sibyl for help with a part of the homework, not because I really need it but because I want to see if I can get her to look at me again."
@@ -931,22 +948,24 @@ label failed_confession:
     "But it's too late for her apologies. My brain has already suspended all higher functions. My hand even still remains slightly outstretched where I tried to initiate contact with Sibyl."
     C "(She... {b}flinched{/b}.)"
     "Coldness more profound than the winter's bite creeps in around me, draining all the warmth in my body in an instant."
-    C "(She's afraid to even touch me. Sibyl is afraid of {b}me{/b}.)"
+    C "(She's afraid to even touch me. Sibyl is {B}afraid{/b} of me.)"
     "I find just enough strength left to throw myself into the bathroom and slam the door behind me, locking it for good measure."
     "All that I can manage is to sit on the toilet with my head in my hands and let the tears roll freely down my cheeks."
     "Impassioned apologies and pleas to \"just open the door\" filter through the cracks of the frame, but simply turning on the shower right beside me is enough to drown them out until they fade away."
     C "(Why me? Why does my first love have to be this hard? Why can't it just work out perfectly like in every single book and movie that has ever existed?)"
-    C "(Why do I have to feel this much {b}pain{/b}? Haven't I had enough pain and torment in my life lately?)"
+    C "(Why do I have to feel this much pain? Haven't I had enough pain and torment in my life lately?)"
     "When I come to realize that my tear ducts have run dry, I turn off the shower. There's not a peep from outside the door anymore and I'm certain it must be well into the night."
     C "(Sibyl's probably asleep by now.)"
     "Just thinking her name makes my stomach turn inside, but there are no more tears left to shed anymore so the sadness comes out merely as a violent shudder across my body."
     "I find the light still on in the bedroom when I finally emerge from the bathroom. My eyes flick immediately over to Sibyl's bed where the girl herself lies sleeping atop it."
     "She's still in her uniform, and the way she's rolled up sideways over her sheets makes it obvious she'd also been sitting up awake before merciful sleep came to take her."
     "The same mercy is calling for me. The lateness of the hour and the energy drain of crying my eyes out makes sleep comes faster than ever before."
+    stop music fadeout 0.5
     jump heart2heart
 
 label heart2heart:
-    scene bg black with fade
+    scene bg transition with fade
+    play music piano2
     scene bg bedroom with dissolve
     "The next day is a school day but I awaken well into the morning classes. Sibyl obviously hadn't roused me in time for homeroom, and she herself is longer in the room with me either."
     C "(I did it. I told Sibyl how I feel, and now even the vaunted bonds of Vertu-hood no longer apply.)"
@@ -958,6 +977,8 @@ label heart2heart:
     C "S-Sibyl!"
     "I quickly brace myself for the flutter of auburn curls which will surely be coming through the doorway, but it's not Sibyl who walks first through the opening."
     T "{b}Clover!{/b}"
+    stop music fadeout 0.5
+    play music drama
     "It's Tanya, and boy does she ever look mad."
     C "(I'm dead, for real this time. Tanya has come to make good on her promise to murder me.)"
     "Entering the room reluctantly after her is Sibyl, who stands limply with her arm securely captured by Tanya like she put up a fight and ultimately surrendered to her much stronger friend."
@@ -966,8 +987,8 @@ label heart2heart:
     S "Umm... hello, Clover."
     "Something is definitely wrong with Sibyl more than the awkwardness of being dragged by your friend into an unpleasant confrontation."
     "Little of the vitality and vivaciousness I find so endearing in Sibyl remains today, replaced instead by the shadowed eyes of someone who got as little sleep as I did the night before."
-    T "I {b}know{/b} this is your fault, so {b}fix{/b} it!"
-    "I'm nearly about to shout back that I didn't do a single thing at all and that {b}I'm{/b} the one hurting here, but I know that's not true."
+    T "I know this is your fault, so fix it!"
+    "I'm nearly about to shout back that I didn't do a single thing at all and that I'm the one hurting here, but I know that's not even remotely true."
     "The sole reason that Sibyl is looking as pitiful as she does is because I did all sorts of things without considering her feelings, just as Tanya warned me against."
     C "(What do I even say to fix this?)"
     "Sibyl's already placed right before me, making it so I can't even look up without seeing her and leaving me to examine closely the state of the floors in the corner of the room."
@@ -979,19 +1000,21 @@ label heart2heart:
     C "Get your hands off her!"
     "I lunge forward to smack away Tanya's hands from Sibyl's sides, and in response Tanya swats back at me, leading quickly to us both shoving and slap-fighting with Sibyl caught in the middle."
     "Sibyl quickly steps in to break it up before anything gets out of hand, pushing us both back with a palm across each of our chests."
+    stop music fadeout 0.5
     S "No {b}fighting{/b} in my room!"
     "I shoot a nasty look to Tanya and get the same gesture back, but the two of us come to no further blows."
     S "We'll talk it out, okay? So could you maybe... give us some space, Tanya?"
     "It's clear that Tanya has some things to say about this but ultimately gives her wordless approval by brushing a hand through her hair and leaving with the door slammed behind her."
     play sound doorslam
     C "I hate her."
+    play music sad
     S "She's just looking out for me. For both of us."
     C "By dragging you here against your will? And what about all that shoving you around?"
     "Both of us face each other but do little more than take quick, awkward glances at one another. Despite the awkwardness, we manage to hold conversation better than the night before."
     "It helps probably a little that we're not talking about the elephant in the room and instead the unpleasant tiger now outside it."
     S "Tanya's a good girl. She my have a strong will but also a gentle soul."
     C "\"Gentle soul\" my butt! She's threatened to {b}murder{/b} me more than once already!"
-    S "She doesn't {b}mean{/b} it, like literally. She wouldn't hurt a fly, unless that fly was picking on another smaller fly, and even then she wouldn't kill the bigger fly."
+    S "She doesn't mean it, like literally. Tanya wouldn't hurt a fly, unless that fly was picking on another smaller fly, and even then she wouldn't kill the bigger fly."
     "For the first time this morning Sibyl is starting to sound like herself again in the way she conjures up this whole imaginative fly bullying scenario."
     "It occurs to me all of a sudden that Sibyl only ever sees the good in a person, and that probably was the source of her ability to tolerate someone like me when I first arrived."
     S "If you both would stop trying to fight each other, you might notice how alike you both are."
@@ -1005,21 +1028,21 @@ label heart2heart:
     "I cringe as I force the words out, but I know they have to come out eventually. Tanya will no doubt smack us both down if we try to weasel our way out of this."
     S "So you... \"love\" me?"
     C "Y-Yeah..."
-    S "But {b}why{/b}?"
+    S "But... why?"
     "The question surprises me not in the query, but how frustrated she seems as she asks it. It almost sounds to be rhetorical."
     C "You're really cute, and... you're so patient with irritating people like me and Tanya."
-    S "But I'm {b}not gay{/b}, Clover!"
+    S "But I'm not gay, Clover!"
     C "I-I... umm..."
     "Things have gotten way out of hand. I thought I was apologizing but it seems like Sibyl is instead frustrated that a girl like me would love her in the first place."
     C "I want to be your friend, and... well I sort of caught more feelings than that. That doesn't mean I can't be your friend, does it?"
-    S "I... I {b}knew{/b} you liked me that way, okay?"
+    S "I... I knew you liked me that way, okay?"
     C "You... what?"
     S "I'm sorry. I already... suspected you had these feelings for me, but didn't know how to react. Maybe I hoped I could ignore it until it went away."
     C "(So I went through all the trouble to try to seduce her and she was purposely ignoring it the whole time!?)"
     "Sibyl was hoping my feelings would just \"subside\" so she wouldn't have to face a difficult conversation like this. At the same time, I was hoping I could just keep pushing her further until she finally returned my feelings."
     "It's with a dark humor that I feel like we're both two rotten peas in a pod."
     C "I'm sorry too. I never meant to burden you with all this emotional torment over my own stupid, clumsy feelings. I really messed up too, thinking that maybe if I pushed just a little harder you might fall for me eventually."
-    S "I'm {b}straight{/b}, Clover. There's nothing you or I can do to change that. Besides, I've told you about my plans for the future and I mean to make them come true."
+    S "I'm straight, Clover. There's nothing you or I can do to change that. Besides, I've told you about my plans for the future and I mean to make them come true."
     "Sibyl's \"plans\" — her children of her own, a big foster family cottage, and all that stuff she spoke to me so dreamily about before."
     C "Why can't those plans be with someone like me? Someone like... you know, a woman?"
     "One one level I know there's a very realistic reason that her plans cannot be with a woman."
@@ -1029,7 +1052,7 @@ label heart2heart:
     "It's a bitter silence that follows. Though we've exchanged many words, few of them have led to anything meaningful."
     C "So what do we do now? We both apologized."
     S "You're my Vertu partner and my {b}friend{/b}, Clover, so it pains me to ask this of you, but..."
-    S "{b}Please{/b} give up on me. It's what's best for both of us."
+    S "Please give up on me. It's what's best for both of us."
     "The metaphorical force of her words hits strongly even knowing this whole time that I wouldn't walk away from this encounter smiling."
     C "(Does she expect me to just... \"stop loving her\" that easily? Or is she asking me to bury it deep down like Tanya?)"
     C "You're right. That's a terrible thing to ask of me."
@@ -1040,6 +1063,7 @@ label heart2heart:
     "I can barely believe I'm saying it, but I do. I don't know whether it's a vindictive request or merely my selfishness coming to the fore."
     C "That's the proof of what we're both saying, isn't it? If you find you like it, then that proves your future can include a girl like me."
     "I know that everything I'm saying is total crap, but either because Sibyl only sees the good side of my intentions or not, she stuns me by accepting the ridiculous proposal."
+    stop music fadeout 0.5
     S "One kiss."
     C "Okay!"
     S "No tongue."
@@ -1059,12 +1083,13 @@ label heart2heart:
     "I spare not a single thought in taking the request back, however guilty I may feel."
     S "Well...?"
     "My heart feels like it's going to jump out of my chest just sitting beside her, and when she brushes her hair behind her ear while turning toward me, I feel like I might just faint."
-    C "(I came this far; I can't blow it {b}now{/b}!)"
+    C "(I came this far; I can't blow it now!)"
     "Steeling myself, I push my stiff body forward at her with all my strength only to find that she leans slightly back away from me at the same time. Shocked and hurt, I cannot help but immediately call out."
     C "You moved away—!"
     S "You {b}lunged{/b} at me!"
     "We both reset again but my anxiety doesn't abate. I place my hand affectionately on her knee as I lean in closer but her bright blue eyes staring back at me shatter my resolve."
     "A soft frown forms at Sibyl's lips and for a fraction of a second I think I've lost the moment altogether, but then her hand reaches out quickly to warmly rest upon my cheek."
+    play music happy
     C "Mm!"
     "The feeling of Sibyl's plush lips against my own stifles the small squeak of surprise which jumps out of me spontaneously."
     "My vision is full of Sibyl's face from up way closer than ever before. Instinct alone is what allows me to close my eyes and fully lose myself in the feeling of her kiss."
@@ -1073,9 +1098,11 @@ label heart2heart:
     "Her hand leaves my cheek to brace against my chest, keeping me from falling atop her as she pulls away, and my eyes open lowly in accordance with the desire flooding through my body."
     C "Wow..."
     "I'm obviously riding high on cloud nine, but the euphoria fades away quickly when I fully observe Sibyl's reaction to the kiss."
+    stop music fadeout 0.5
     S "I'm sorry, Clover."
     "She smiles, but it's a sad smile befitting someone who has to break bad news to a friend. The meaning is clear. Sibyl did not feel a thing from our kiss. It was only me melting into sweet ecstasy at the touch of our lips."
     C "(So that's it then. It's all over.)"
+    play sound bedcreak
     "Her bed creaks softly as she rises from it, but the sound is louder than any emo screamer concert I've ever been to. A million thoughts race through my head but my mind is still lost in the confusing haze."
     S "Would you like to come to lunch with us, Clover?"
     "Sibyl is in much more a hurry to move on from the moment than I am. The awkwardness is clear in her voice despite how well she's trying to hide it. All I can manage to do is shake my head in reply, casting it down instead toward the floor."
@@ -1095,8 +1122,9 @@ label languishing:
     play sound doorclose
     C "Sibyl?"
     "It's well into the afternoon classes when the door to our room suddenly swings open. Naturally, I expect it to be Sibyl in the doorway as no one else's key card should be able to unlock our door."
+    play music guitar1
     H "So you're already on speaking terms with your Vertu again. Excellent."
-    C "What are {b}you two{/b} doing here and how did you get into my room?"
+    C "What are you two doing here and how did you get into my room?"
     O "We feared the worst when we heard you have't been to any of your classes."
     "With no small amount of annoyance do I note how neither answers my latter question, and decide to roll myself up into the safety of my sheets once more."
     "At the very least, neither of them are putting on their \"prince\" or \"princess\" act."
@@ -1109,10 +1137,10 @@ label languishing:
     H "I propose that we have our way with her, Vincenza."
     "I quiver in my cocoon of sheets. This shelter has always felt so safe and secure before, but it's also never been tested against this sort of danger."
     C "Don't touch me!"
-    H "Was that a {b}reply{/b} just now, dearest sister?"
+    H "Was that a reply just now, dearest sister?"
     O "Certainly not. Clover is, after all, completely unable to hear us."
     C "I wasn't replying. That was a totally random warning to stay away from me."
-    O "Now {b}that{/b} most certainly sounded like a reply, but no— I must be imaging it, for cotton is soundproof."
+    O "Now that most certainly sounded like a reply, but no— I must be imaging it, for cotton is soundproof."
     H "It matters not. So long as Clover remains in her impenetrable bubble, we are free to play with Sibyl to our hearts' des—"
     C "{b}Don't you dare touch her!{/b}"
     "I whip my cocoon apart dramatically to stare down the twins, bursting from my sheets like a vengeful butterfly newly reborn from her silken shell."
@@ -1182,13 +1210,15 @@ label languishing:
     O "\"Beating under the bush\"?"
     H "\"Celebrating Palm Sunday\"?"
     O "\"Flooding the basement\"?"
+    stop music fadeout 0.5
     C "{b}STOP!{/b}"
-    "Vittoria and Vincenza both pause when I forcefully end their back and forth of euphemisms. It only took a few for me to catch on but they just wouldn't stop."
+    "Vittoria and Vincenza both pause when I forcefully end their back and forth of euphemisms. It only took a few for me to catch on but they just wouldn't quit it."
     C "I know what you're getting at, and I— I tried it, but Sibyl was still in my mind the whole time."
+    play music guitar1
     "I felt really guilty at the time doing \"that\" while thinking about Sibyl, but knowing in my mind that Sibyl would never actually touch me in the same way made the fantasy a little easier to bear."
-    C "Maybe I just need to find someone else like you said, and {b}quickly{/b}. Someone who I can do these things with to take my mind off Sibyl."
+    C "Maybe I just need to quickly find someone else, like you said. Someone who I can do these things with to take my mind off Sibyl."
     "It's not a conclusion I come to lightly, trying to give up on Sibyl by forcibly moving on, but from what the twins said it might just be the easiest."
-    "To my surprise, Vittoria and Vincenza both immediately explain to me how this is exactly the {b}wrong{/b} way to do it."
+    "To my surprise, Vittoria and Vincenza both immediately explain to me how this is, in their opinions, exactly the wrong way to go about it."
     H "That's called a \"rebound\", Clover, and jumping in bed with another girl while you're still emotionally vulnerable is a terrible idea."
     C "But you said I should move on and find someone else!"
     O "We did say so, but we meant after you fully come to terms with how things ended with Sibyl and are ready to move on."
@@ -1197,10 +1227,10 @@ label languishing:
     C "If getting with another girl right away with stanch the flow of despair filling up my soul, then of course I want to do it!"
     H "Clover, you are hurting right now, but you shouldn't do anything you're going to regret later."
     C "(They tell me all these things about how it's not going to be easy to move on from Sibyl, then tell me the one way that I'll get over her, then tell me that I can't do it!?)"
-    C "If I'm so {b}emotionally vulnerable{/b} as you say, then why aren't you taking advantage of me right now? Isn't that what you're best at?"
+    C "If I'm so \"emotionally vulnerable\" as you say, then why aren't you taking advantage of me right now? Isn't that what you're best at?"
     O "We are not nearly so heartless as you imagine us to be, Clover."
     "My heart rate reaches a peak yet again, having been slowly climbing over the last minute. After everything they've done, now of all times do the twins become reticent."
-    C "I take back everything I told you before. Permission to touch: {b}granted{/b}."
+    C "I take back everything I told you before. Permission to touch: granted."
     "Both Vittoria and Vincenza balk at my sudden change of heart, looking more than mildly perturbed by the barely hidden meaning behind what I declared to them."
     H "You are not in a proper state of mind, Clover."
     O "Do not ask us to do something that we know will hurt you."
@@ -1210,14 +1240,16 @@ label languishing:
     O "Is this really how you want your first time to be?"
     "The twins correctly guessing that it's my \"first time\" only makes me more annoyed by their current resistance to do what I'm sure they normally do without a care."
     C "Yes, I am very sure!"
+    stop music fadeout 0.5
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
+    play music drama
     "Vittoria locks eyes with me and begins crawling up the bed toward me on her hands and knees like a lioness stalking her prey. She's quick to pull my legs out from under me and tease her hands up them without delay."
     "Vincenza, who chose to stand from the edge of the bed, now sits down again upon it beside me, and with one hand turns my face away from her sister towards her own."
     O "Close your eyes, Clover."
     "I do as Vincenza asks, though I find it increasingly hard to calm down as Vittoria creeps higher and higher up my thighs without showing any sign of slowing down."
-    "The now-familiar sensation of lips pressed against my own returns, feeling much like the way Sibyl kissed me but also much {b}more{/b}."
+    "The now-familiar sensation of lips pressed against my own returns, feeling much like the way Sibyl kissed me but also much more than that kiss at the same time."
     "The tip of Vincenza's tongue glides with a slight pressure across my upper lip, driving me to release a soft whimper in response. She next pinches my lower lip between hers, sucking on it ever so faintly to drive my senses wild."
-    "I want to kiss so much more, and so much more {b}deeply{/b}, but Vincenza holds herself back like the maddening tease she is."
+    "I want to kiss so much more, and so much more deeply, but Vincenza holds herself back like the maddening tease she is."
     "A soft pressure alights on my shoulders, which I quickly realize to be Vincenza's hands. I just barely crack my eyes open when she pushes her weight forward against me, knocking me onto my back with my legs splayed out below me."
     H "Surrender yourself to us."
     "Vittoria inserts herself into the space between my spread legs such that I cannot squeeze them back together without her pulling them apart again."
@@ -1225,14 +1257,15 @@ label languishing:
     "Greedy fingers take the opportunity to tug my undergarments effortlessly over my hips while equally rapacious lips return to stifle the breathy whimpers of desire which bubble up from my chest."
     "My heartbreak-wearied mind races once more, alight with new-found discoveries of sensations previously unknown."
     scene bg black with fade
-    pause 3.0
+    stop music fadeout 0.5
+    pause 2.5
     scene bg bedroom with fade
+    play music guitar1
     "For the longest time after the twins leave me alone once more, I remain lying naked on my bed, staring blankly up at the ceiling above me."
     "I do not regret the time I shared with Vittoria and Vincenza. They both proved superbly adept at lighting my fire, and were doubly thorough about it too. In fact, I doubt I'll ever be able to look either one in the face ever again."
     "What troubles me most now is how particularly well it all worked; I'm no longer plagued by the longing for Sibyl which had been so relentless before the twins' visit."
-    C "(I thought Sibyl's kiss was simply divine, but...)"
-    "What the twins did to me was also extraordinary, and most importantly, I definitely {b}don't{/b} love them."
-    C "(Could what Tanya said really be true?)"
+    C "(I thought Sibyl's kiss was simply divine, but what the twins did to me was also extraordinary.)"
+    C "(Most importantly, I definitely don't love Vittoria or Vincenza. Could what Tanya said really be true?)"
     "You hear it all the time in movies and TV shows, where some character jokes about their \"raging teenage hormones\"."
     C "(Was everything I thought I felt about Sibyl... just me being \"mega horny\"?)"
     "With the knowledge that classes will surely be letting out sooner rather than later, I make my way through a shower and get re-dressed for Sibyl's eventual return."
@@ -1248,4 +1281,5 @@ label languishing:
     S "Of course, Clover! You else is a Vertu for if not to lean on in your hour of need?"
     S "But before we start, it's Tex-Mex night in the cafeteria. Let's go grab a couple burritos and some churros to bring back here."
     "I almost fall in love with Sibyl all over again. Almost."
+    stop music fadeout 0.5
     jump lacrosse_anew
