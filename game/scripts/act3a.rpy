@@ -674,7 +674,7 @@ label before_the_storm:
     C "And here's one more thing! If you want someone to cheer for, cheer for me! Coach Woolsey told me to be prepared to play next game!"
     S "You're starting in the next game, Clover? This is big news!"
     C "Well, no, I'm not starting in the game, but she is for sure going to substitute me in!"
-    "Though the girls who earned their roles in tryouts play most of the time, Miss Woolsey does swap in substitute players like me for part of the game."
+    "Though the girls who earned their roles in tryouts play most of the time, Ms. Woolsey does swap in substitute players like me for part of the game."
     C "I'm not going to let this chance slip by again. I'm going to show Coach Woolsey and everyone else how much I have to offer for our team."
     stop music fadeout 0.5
     jump gametwo
@@ -698,11 +698,11 @@ label gametwo:
     "I almost totally forget that I'd be playing in this game until I hear Coach Woolsey call out my name."
     # hide clover
     "The entire first half passes in a total nailbiter of a game, with our Wild Roses and the other school trading leads back and forth the whole way."
-    "After we swap in for the three most tired girls leaving the field, Miss Woolsey gives the rest of us a little pep talk with the remaining intermission minutes."
+    "After we swap in for the three most tired girls leaving the field, Ms. Woolsey gives the rest of us a little pep talk with the remaining intermission minutes."
     # show everyone show naomi talk with dd
     mw "Wachusett High may have brought their A-game today, but that doesn't mean we're going to roll over and let them put an end to our win streak, does it?"
     "\"No!\""
-    "We all respond back to Miss Woolsey in unison and huddle up together as she starts to disseminate game plans to each part of the field."
+    "We all respond back to Ms. Woolsey in unison and huddle up together as she starts to disseminate game plans to each part of the field."
     mw "They're passing long through the center, so we won't be able to keep up the pressure play that we normally do."
     mw "I want to see the midfield run less and remain open more. Stay in your zones and try to put yourself in the middle of the passing lanes."
     mw "If you have the chance to get up close and personal, take it, but otherwise I want to see you making them work to move down the field by putting yourself between your mark and her target."
@@ -731,7 +731,7 @@ label gametwo:
     "Tanya probably sees my dark expression at her question right away, because she's instantly re-phrasing what she said just a moment before."
     T "What I mean is— you've clearly been giving this a lot of thought. I'll try it your way."
     C "Just you watch. Soon {b}I'll{/b} have the crowd of adoring fans!"
-    "My advice is basically just what Miss Woolsey said combined with what is obvious watching the first half of the game, but I'm not above trying to pull a personal win over Tanya's head."
+    "My advice is basically just what Ms. Woolsey said combined with what is obvious watching the first half of the game, but I'm not above trying to pull a personal win over Tanya's head."
     play sound whistle
     pause 0.5
     "At the sound of the official's whistle, Tanya and I jog off to take out places at opposite ends of the midfield. One of our new substitutes takes the toss at the center and play begins once more."
@@ -762,9 +762,9 @@ label gametwo:
     play sound whistle
     scene bg lacrosse with dissolve
     "We ultimately lose the game, but it was close enough that no one is too upset about the outcome. The person most devastated by the loss is Miss Izzie, who dramatically collapses into the grass at the final whistle."
-    "While our most fervent supporter might be down about the results, our coach, Miss Woolsey, only praises us for our play during the post-game huddle."
+    "While our most fervent supporter might be down about the results, our coach, Ms. Woolsey, only praises us for our play during the post-game huddle."
     mw "They came here thinking they could read our play book, but we showed them just how adaptable our team can be."
-    "While Tanya and the forwards remain the stars of the game, Miss Woolsey does praise the defense, and me by name, in the post-game review too."
+    "While Tanya and the forwards remain the stars of the game, Ms. Woolsey does praise the defense, and me by name, in the post-game review too."
     scene bg lockers with fade
     "Despite the loss, the mood is suitably celebratory when we return to the locker room."
     "I look for Tanya to allow her to shower praises upon me for executing that perfect pass across the field in the second half, but find her already rushing off to the showers way ahead of everyone else."
@@ -788,7 +788,7 @@ label gametwo:
     stop music fadeout 0.5
     "Everyone, truly everyone assembled in the locker room, goes silent when confronted with the tempered fury which Coach Woolsey displays in the moment. We all quickly follow her orders without a moment's delay."
     "While the three miscreants slink out of the locker room toward the gym teacher's office, the rest of us quickly don our school uniforms and get out of there with all haste."
-    "As we shuffle out into the hallway, only the sound of Miss Woolsey's gentle whispering and Tanya's pitiful whimpers muffled by running water follow us out the door."
+    "As we shuffle out into the hallway, only the sound of Ms. Woolsey's gentle whispering and Tanya's pitiful whimpers muffled by running water follow us out the door."
     scene bg black with fade
     pause 1.0
     scene bg hallway with dissolve
@@ -882,7 +882,7 @@ label easterp2: # not the holiday, the school celebration
     C "Yeah."
     S "You poor thing."
     "Rather than dispersing, all of the students who were in the chapel merely mill about outside it like we're waiting for something."
-    "What we're waiting for arrives without much delay in the form of Miss Woolsey, Miss Izzie, the academy royalty, and a few other presumed member of the student council each with a big box in their hands."
+    "What we're waiting for arrives without much delay in the form of Ms. Woolsey, Miss Izzie, the academy royalty, and a few other presumed member of the student council each with a big box in their hands."
     "A line forms quickly in front of Vittoria and Vincenza, so Sibyl, her friend, and I jump in before we get stuck in the way back."
     S "It's the Easter egg hunt!"
     "While listening to our teachers explain the hunt, Sibyl chatters away with her library friend. Her Vertu also shows up eventually, and though I give my greetings, I don't try to join in the conversation all that much."
@@ -932,7 +932,7 @@ label easterp2: # not the holiday, the school celebration
     C "They asked how Tanya is doing. I told them I don't really know."
     S "Oh..."
     "Sibyl's face darkens as she questions me about the hushed conversation, but quickly turns around when we reach the starting grounds for the Easter egg hunt on the other side of the chapel."
-    "Ostensibly we plan to take part in the Easter egg hunt together with Sibyl's library friend and her Vertu, but when Miss Woolsey blows her whistle, the entire academy grounds turn into a mad stampede."
+    "Ostensibly we plan to take part in the Easter egg hunt together with Sibyl's library friend and her Vertu, but when Ms. Woolsey blows her whistle, the entire academy grounds turn into a mad stampede."
     scene bg path with dissolve
     S "Clover, this way, I see some by the fence posts!"
     "Having thought I was good at running by now, I realize that I'm just not as properly motivated during my daily training as Sibyl is right now by the excitement of the Easter egg hunt."
@@ -1139,7 +1139,7 @@ label peltingballs:
     "The moment she makes any motion to start her approach, Tanya's fan start up again. I can see clearly her grip on her stick tense up. Her first shot goes astray, as does the second, but her fans still cheer every time."
     C "(Could they please just {b}stop{/b}?)"
     "It's not just me annoyed by the cheering. As I look around, some of my teammates give small frowning side glances up to the bleachers."
-    "Even Miss Woolsey gives a stern glare directed at the girls spectating form the gym bleachers until they finally shut up."
+    "Even Ms. Woolsey gives a stern glare directed at the girls spectating form the gym bleachers until they finally shut up."
     mw "Girls, please keep your voices down. Our practices are open to the whole school to watch, but you must respect the needs of the team as they focus on taking their shots."
     "After shakily failing her third shot, Tanya whips around from the goal, head down, to return to the back of the line. Being next in line, I step forward to pluck a ball from the basket for my first attempt."
     "The cheering returns again, but it's not for me. As it turns out, the fan club is just cheering Tanya out of the line even after her poor performance."
@@ -1165,7 +1165,7 @@ label peltingballs:
     "I throw myself back against the lockers and bang my head against the metal with frustration. The creeping nausea is gone, but the return of rational clarity of thought is more painful."
     mw "Clover."
     C "Hyah!"
-    "A pitiful little squeal erupts from my lips at the sudden sound of Miss Woolsey calling my name, making me jump with surprise to know that she's already tracked me here."
+    "A pitiful little squeal erupts from my lips at the sudden sound of Ms. Woolsey calling my name, making me jump with surprise to know that she's already tracked me here."
     play music guitar2
     C "(Well of course she would; I just attacked the girls on the bleachers!)"
     "I don't think any more blood could drain from my face in the exact same moment and still have enough left to keep my brain functioning, and maybe that's accurate because it sure doesn't seem to be functioning properly anymore at all."
@@ -1174,19 +1174,19 @@ label peltingballs:
     "Her stability actually works wonders to calm my erratic mental state. Without a word, she leads me to the row of benches between the lockers where we both sit."
     C "I'm sorry. What I did was wrong."
     mw "Yes, it was."
-    "The way Miss Woolsey accepts and agrees with the blame I cast on myself feels like swallowing a boulder, and all I can do is hang my head in shame."
+    "The way Ms. Woolsey accepts and agrees with the blame I cast on myself feels like swallowing a boulder, and all I can do is hang my head in shame."
     C "(There goes my lacrosse career... over before it ever started.)"
     mw "I am sorry too. Some of the blame is on me; I should have asked those girls to leave sooner."
-    "It's a surprise to me to hear Miss Woolsey take the blame right back from me, especially since she was a total bystander and I was the one hurling rubberized balls into the bleachers with all my might."
+    "It's a surprise to me to hear Ms. Woolsey take the blame right back from me, especially since she was a total bystander and I was the one hurling rubberized balls into the bleachers with all my might."
     C "So you're not going to punish me?"
-    "For just a moment, I dare to hope, but when I look up from the ground to meet Miss Woolsey's face, the smile there isn't quite so forgiving."
+    "For just a moment, I dare to hope, but when I look up from the ground to meet Ms. Woolsey's face, the smile there isn't quite so forgiving."
     mw "You may have have been acting in defense of your friend, but that does not mean you can walk away cleanly from the consequences of your actions."
     "Somehow, my head hangs even lower than before while I await my sentencing. In fact, it probably is at a very good angle to get a clean slice when the guillotine comes down."
     mw "I'll talk it over with the school board, but I think two weeks of athletic probation should do."
     C "Probation?"
     mw "You will take those two weeks to think upon on your actions and how they reflect on the Wild Roses as a team. During this time, you will not be taking part in any games or practices."
     C "So you're... not booting me off the team?"
-    "Finally, a real, genuine smile comes to Miss Woolsey's lips, and that in concert with the slightly-less-than-catastrophic punishment lightens my mood in turn."
+    "Finally, a real, genuine smile comes to Ms. Woolsey's lips, and that in concert with the slightly-less-than-catastrophic punishment lightens my mood in turn."
     mw "No. I rather believe that having you remain on the team is probably what is best for Tanya right now."
     mw "And don't think I haven't noticed how hard both of you have been training every morning, nor how well in concert you both played during our last game."
     C "You were watching me?"
@@ -1196,16 +1196,16 @@ label peltingballs:
     C "Well, she's—"
     "\"Off\" is what I'm about to say to call her, but before I can get the words out, the girl herself bursts into the locker room to demonstrate it for herself."
     T "Naomi, you {b}can't{/b} kick Clover off the team!"
-    "Both Miss Woolsey and I gawk back at Tanya in stunned silence, who in contrast to us is red to the face and still catching breaths through her rapid speech."
+    "Both Ms. Woolsey and I gawk back at Tanya in stunned silence, who in contrast to us is red to the face and still catching breaths through her rapid speech."
     T "She may be stupid and annoying, but she's also worked incredibly hard to become a true asset to the Wild Roses that we cannot afford to lose."
     "I'm flattered, in some ways, by what Tanya expresses so emphatically, and also understandably a little peeved in others."
     C "(It's true enough though that things aren't looking so good in the midfield after we lost three midfield specialists to the bullying incident.)"
-    "The way she uses Miss Woolsey's first name is also weird, but I chalk it up to a slip of the tongue in the heat of the moment."
+    "The way she uses Ms. Woolsey's first name is also weird, but I chalk it up to a slip of the tongue in the heat of the moment."
     mw "You're absolutely right, Tanya, which is why I am recommending you to the team for Assistant Captain and assigning you to work closely with Clover in re-organizing our fractured midfield."
     T "A-Assistant Captain?"
     mw "Just now, you've stood up to your coach to fight for your teammate's dignity and the welfare of the team. That kind of leadership is exactly why I am offering you the role, if you will accept it."
     T "I do!"
-    "Miss Woolsey stands to leave my side and instead join Tanya, placing her hand upon her shoulders softly as if she were a regent conferring knighthood upon Tanya."
+    "Ms. Woolsey stands to leave my side and instead join Tanya, placing her hand upon her shoulders softly as if she were a regent conferring knighthood upon Tanya."
     mw "Congratulations, Assistant Captain Yang. I look forward to hearing about what strategies you both come up with to fortify our midfield, {b}after{/b} Miss Ipswich's two week probation of course."
     T "Yes, Coach Woolsey!"
     C "(One little promotion and all of a sudden she goes from \"Naomi\" to \"Coach Woolsey\" again?)"
@@ -1219,7 +1219,7 @@ label peltingballs:
     mw "No \"buts\"! I need you in tip top shape for this week's rematch with Snipatuit."
     scene bg black with fade
     C "This is awkward..."
-    "A thick silence fills the locker room after Miss Woolsey departs, leaving just me and Tanya alone together in the locker room."
+    "A thick silence fills the locker room after Ms. Woolsey departs, leaving just me and Tanya alone together in the locker room."
     "I don't want to have to be the one to break the silence, and apparently neither does Tanya, who remains standing motionless nearby against the lockers."
     C "(Sibyl would be way upset if I didn't take the opportunity, wouldn't she?)"
     "When I clear my throat, Tanya turns her attention toward me like she was expecting it to happen and not like I'm being magnanimous in my current actions."
@@ -1277,7 +1277,7 @@ label peltingballs:
     play music guitar2
     scene bg hallway with dissolve
     "With my school uniform now re-equipped, I exit the locker room first and am immediately beset upon by Sibyl just outside the door."
-    S "I rushed right over when I saw Miss Woolsey return to the gymnasium without you or Tanya! Please tell me nothing bad has happened, Clover!"
+    S "I rushed right over when I saw Ms. Woolsey return to the gymnasium without you or Tanya! Please tell me nothing bad has happened, Clover!"
     C "Relax, Sibyl, we're both fine. Coach Woolsey only gave me a two week probation."
     S "A two week probation? What does that mean?"
     C "It means I can't play with the team for two weeks."

@@ -7,7 +7,7 @@ define TL = Character("Tanya", image="tlax", who_outlines=[ (3, "#ffffff") ])
 define C = Character("Clover", image="clover", who_outlines=[ (3, "#ffffff") ])
 define CL = Character("Clover", image="clax", who_outlines=[ (3, "#ffffff") ])
 define mi = Character("Miss Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
-define mw = Character("Miss Woolsey", image="naomi", who_outlines=[ (3, "#ffffff") ])
+define mw = Character("Ms. Woolsey", image="naomi", who_outlines=[ (3, "#ffffff") ])
 
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
@@ -17,7 +17,7 @@ define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 define phone = Character("Smartphone", who_outlines=[ (3, "#ffffff") ])
 define blanche = Character("Blanche", who_outlines=[ (3, "#ffffff") ])
 define veronika = Character("Veronika", who_outlines=[ (3, "#ffffff") ])
-define player = Character("Player", who_outlines=[ (3, "#ffffff") ])
+define player = Character("Midfielder", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform center:
@@ -48,8 +48,8 @@ default secret_lilies_romance = None
 # The game starts here.
 label start:
     stop music fadeout 0.5 # stops main menu music 
-    jump test
-    #jump sl_rom
+    #jump test
+    jump sl_rom
 
 # The game ends here.
 label end:
@@ -58,8 +58,9 @@ label end:
 # testing
 label test:
     scene bg cafeteria
-    show naomi stern at left
-    show clover scowl at right with dd
-    C annoyed "dialogue 1"
-    show naomi stern at center with dd
-    mw excited "dialogue 2"
+    show tanya neutral at qmright
+    show clover neutral at qmleft
+    show tlax neutral at qright
+    show clax neutral at qleft
+    with dd
+    TL "fjghdjfkgdfgdf"
