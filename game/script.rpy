@@ -1,6 +1,6 @@
 ﻿# Character Definitions
-define H = Character("Vittoria", image="vit", who_outlines=[ (3, "#ffffff") ])
-define O = Character("Vincenza", image="vin", who_outlines=[ (3, "#ffffff") ])
+define H = Character("Vittoria", image="vitti", who_outlines=[ (3, "#ffffff") ])
+define O = Character("Vincenza", image="vinci", who_outlines=[ (3, "#ffffff") ])
 define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 define TL = Character("Tanya", image="tlax", who_outlines=[ (3, "#ffffff") ])

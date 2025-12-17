@@ -289,7 +289,7 @@ label woolsey_intro:
     "Before I can think of another way out of this, the teacher who must be Ms. Woolsey arrives from behind us to fully seal my doom."
     mw happy talk "What's the matter, Sibyl— and, oh! You must be Clover! I'm Ms. Woolsey, your athletics instructor."
     "My first very first thought when I look at my new athletics instructor is that she is probably the textbook definition of a high school gym teacher — right down to the ponytail, sneakers, and athletic zip-up hoodie."
-    "The only thing that is perhaps unusual is the golden ring she wears on the little finger of her left hand."
+    "The only thing that is perhaps unusual is the golden ring she wears around her neck besides the requisite silver whistle. I think for a moment she might be married, but then remember she's a gym teacher."
     mw sad talk "I'm so sorry I couldn't meet you at the gate tonight. I see that Sibyl was able to greet you properly though!"
     S contemplative blush "About that..."
     "With some obvious embarrassment on her part, Sibyl finally chimes in beside me."
@@ -577,7 +577,7 @@ label shower_time:
     "The whole sickening display of friendship leaves a bitter taste in my mouth when I think about my former friends back home, all of whom seem to have slowly forgotten about me as schools change and life goes on."
     show clover frown at qleft
     show sibyl smile at qmright
-    show tanya smile at2 blush at qright
+    show tanya smile alt2 blush at qright
     with dd
     "When my roommate and her friend eventually make their return, the latter immediately takes off the top of her yogurt parfait the uppermost strawberry capping the layers and turns to plop it into the former's open mouth like it's an everyday ritual."
     C "(They might actually do this same this every day for all I know.)"
@@ -640,232 +640,300 @@ label shower_time:
 label class_intro:
     play music guitar1
     scene bg mary winter with fade
-    "Sibyl keeps a close watch on me as we wind our way through campus toward the school building."
-    C "(She's probably afraid I will run off, and to be fair I probably would if she weren't watching me like a hawk.)"
-    scene bg classroom winter with dissolve
-    "Now, as I stand in front of the classroom with a crowd of matching uniforms staring at me, I suddenly wish I'd taken off sprinting anyway."
+    "Sibyl keeps a close watch on me as she, Tanya, and I wind our way through the white-coated campus grounds toward the school building."
+    C "(Sibyl is probably afraid I will run off, and to be fair I probably would if she weren't watching me like a hawk with binoculars.)"
+    scene bg classroom winter
+    show clover deer
+    with dissolve
+    "When I soon come to find myself standing in front of my homeroom class with a crowd of matching uniforms staring back at me, I suddenly wish I'd taken off sprinting anyway."
     C "M-My name is Clover Ipswich..."
-    "Self-consciousness hits me like an overstuffed tanker truck full of liquid lead, as is usual for me."
-    "Having to get up in front of so many people typically ends up with a total disaster. Knowing that a total disaster is impending always hastens its arrival like some terrible chain reaction."
-    C "(Why do I have to introduce myself!? Can't the homeroom teacher just let me slink unnoticed into a seat in the back of the classroom like I planned!?)"
-    "Sweat feels like it's pouring out all over me, my brain pounds like mad against my skull, and to top it off I'm also suddenly way too conscious of the weight of the arms at my sides."
-    C "(Imagine them in their underwear! Isn't that what they always say?)"
+    "Anxiety and self-consciousness hit me like an overstuffed tanker truck of liquid lead."
+    "Standing all alone at the center of attention in front of so many people typically ends up a total disaster. Knowing that a total disaster is impending always hastens its arrival like some terrible chain reaction."
+    C @ tired "(Why do I have to introduce myself!? Can't the homeroom teacher just let me slink unnoticed into a seat in the back of the classroom like I planned!?)"
+    "Sweat feels like it's pouring out all over my body, my brain pounds like mad against my skull, and to top it off I'm also suddenly way too conscious of the weight of the arms at my sides."
+    C excited "(Imagine them in their underwear! Isn't that what they always say?)"
+    show clover deer blush with dd
     "I try to imagine all the girls before me in their underwear, but to no avail. My attention is only brought to the one girl who I've already seen undressed the night before."
     te "I'd like you all to please assist Clover as she joins your classes today."
-    "There's a chorus of agreement from the audience when the homeroom teacher makes the necessary introductions. All too quickly, however, does she put the spotlight right back on me in the worst way."
-    te "Is there anything else you'd like to tell the class, Clover? Maybe about your hobbies, achievements from your old school, or what you have on your mind as you begin your time here?"
-    "The dreaded \"tell us about yourself\" question. It paralyses my brain, caught somewhere between frozen like a block of ice and overheating trying to think of a way out of this situation."
+    "There's a chorus of agreement from the audience after the homeroom teacher makes the necessary introductions. All too quickly, however, does she put the spotlight right back on me in the worst way."
+    te "Is there anything you'd like to tell your new classmates, Clover? Maybe about your hobbies, achievements, or what you have on your mind as you begin your time here at Prudence Prep?"
+    "The dreaded \"tell us about yourself\" question. It paralyses my brain, caught somewhere between frozen solid like a block of ice and overheating trying to think of a way out of this situation."
     show choice_darkness with dissolve
     menu:
         "\"I think I'm gonna throw up...\"":
             hide choice_darkness with dissolve
-            C "I think I'm gonna throw up..."
-            "I can't see what I look like, but I certainly feel positively green just standing there at the front of the classroom with every eye on me."
+            C vulnerable "I think I'm gonna throw up..."
+            "I obviously cannot see what I look like, but I certainly feel positively green just standing there at the front of the classroom with every eye on me."
             "From somewhere beyond my heart pounding loudly in my ears I hear the teacher ask if I need to see the nurse. On instinct I state the truth that I just need to sit down."
+            hide clover with dd
+            show clover frown at qmleft with dd
             "It's only when I finally feel the seat under me and the brain fog clears up that I realize I could have just gone to the nurse's office and gotten out of this whole mess altogether."
+            show sibyl neutral talk at qmright with dd
             S "Tell me if you start feeling bad again. I'll show you the way to the nurse."
         "\"I-I can't stop thinking about Sibyl's underwear.\"":
             hide choice_darkness with dissolve
-            C "I-I can't stop thinking about Sibyl's underwear."
+            C anxious blush "I-I can't stop thinking about Sibyl's underwear."
             "Unbelievably, I say exactly what's on my mind despite how it's quite possibly the worst thing I could say at this moment."
             "There's an immediate round of giggles from the assembled class before me, leading me to say a quick prayer to whichever deity may be listening that I'll drop dead any second now."
             "The sweet relief of a lightning strike from the heavens never comes, however, and I quickly stammer out a weak explanation in possibly the highest pitched voice to ever leave my throat."
-            C "I-I was trying to imagine... y-you all in your u-underwear..."
-            "I don't know why the class should believe me. I don't even know what I'm saying myself anymore. I just shut my mouth to quickly shuffle off toward my seat when the teacher dismisses me."
+            C surprised blush "I-I was trying to imagine... y-you all in your u-underwear..."
+            "I don't know why the class should believe me. I don't even know what I'm saying myself anymore. I just shut my mouth and quickly shuffle off toward my seat when the teacher finally takes pity on me."
+            hide clover with dd
+            show clover frown blush at qmleft
+            show sibyl laugh
+            with dd
             S "I'm flattered, Clover."
-            "I know Sibyl is just joking to lighten my mood but it's really not helping one bit."
-            S "It's tough being put on the spot, even for me."
+            "I know Sibyl is just joking in an attempt to lighten my mood, but it's really not helping one bit."
+            S smile talk "It's tough to be put on the spot, even for me."
         "\"I like k-koalas.\"":
             hide choice_darkness with dissolve
-            C "I like k-koalas."
-            C "..."
+            C surprised "I like k-koalas."
+            C surprised blush "..."
             "There's a small silence as everyone, including myself, takes in what I have to say. All three words of it."
-            C "(What. The heck.)"
+            C tired "(What. The heck.)"
             te "Thank you, Clover. Why don't you take a seat?"
+            hide clover with dd
             "I don't even have any particular interest in koalas, it's just the first thing that came to mind somehow."
-            C "Y-Yeah..."
             "I just {b}know{/b} that from this day forth, I'm going to be forever known as \"the koala girl\"."
+            show clover frown at qmleft
+            show sibyl laugh
+            with dd
             S "I think koalas are cute too, Clover!"
     "Sibyl whispers some kind but unhelpful words from the seat beside me in a futile attempt to revive my pale, deathly visage."
+    show sibyl smile
+    show clover bangs blush
+    with dd
     "The embarrassment just hits me all the more forcefully because of it, leading me to seek refuge by drawing my hair around my face like curtains in which to hide my shame."
     jump after_lunch
 
 label after_lunch:
     scene bg classroom winter with fade
     "The classes I attend during the first half of the day pass in a blur. The lessons themselves go in one ear and out the other."
-    "While all the others students are already in the groove of how things work at the academy, I am absolutely lost in every way despite Sibyl trying her best to keep me up to speed."
+    "While all the others students quickly fall back in the groove of how things work at the academy, I am absolutely lost in every way despite Sibyl trying her best to keep me up to speed."
     C "(I just arrived the previous day. I don't even want to be here. And now I have a quiz on material I've never learned!?)"
     scene bg cafeteria winter with dissolve
-    "It's all entirely too overwhelming for me. I feel like the whole academy skipped the frying pan and just threw me directly into the fire to start with."
-    "The coming of lunch time and an extra large dollop of creamy macaroni and cheese eases my taxed mind to a degree, but the foreboding of the latter half of classes remains."
+    "Her notebooks are very detailed, but it's all entirely too overwhelming for me. I feel like my first day at the academy skipped the frying pan and threw me directly into the fire."
+    "The coming of lunch time and an extra large dollop of creamy macaroni and cheese eases my mind to a small degree, but the foreboding of the latter half of classes remains."
     "Feigning a trip to get a second helping, I sneak away from Sibyl and out of the cafeteria entirely in favor of wandering around until I find someplace quiet to finally be alone."
     scene bg library winter with dissolve
-    "My first stop is to the library, which I am at first surprised to find entirely deserted until I remember that most people are likely to be eating lunch or attending classes."
-    "I idly pace down the rows of shelves while scanning the spines. The titles float in my brain and back out again without processing any in particular."
-    "One book's fancy gilded edges catch my attention so I pull it from the shelf without reading the title and subsequently flop down into a chair."
+    "My first stop is to the library, which I am at first surprised to find entirely deserted, until I remember that most people are likely to be eating lunch or attending classes at such a time."
+    "I idly pace down the rows of shelves while scanning the spines. One book's fancy gilded edges catch my attention so I pull it from the shelf and subsequently flop down into a nearby chair."
     "The words of the open book read line-by-line through my brain without being processed as anything sensible, much like the titles before them."
     stop music fadeout 0.5
     play music sad
+    show clover vulnerable at center with dd
     C "(Where did everything go so wrong?)"
-    "I've only been here less than twenty-four hours and yet I've already been both sexually assaulted and then humiliated in front of the whole class."
-    "All of that just feels like extra bitter icing on the terrible cake of my life. Everything truly started unraveling long before I ever arrived at the academy."
-    "It still feels like just yesterday that I was at home playing with my dog Abraxas in the yard or enjoying Monday pizza and a movie night while sandwiched between my parents on the sofa."
-    C "(Now Mom and Dad are probably fighting over me, Abraxas, and everything else like we're both items to be traded and bartered!)"
-    "Just thinking about it infuriates me such I chuck the open book in front of me at random into the emptiness of the otherwise still library."
-    "I don't know when it starts, but the tickle of a wet drop running down my arm finally informs the remaining logical part of my brain to me both that my face is buried in my hands and that I'm just barely choking back tears."
-    C "(Gosh, I'm pathetic. Like, \"barely holding it together\" pathetic.)"
-    "My head drops onto my arms atop the the table with the futility of reading to distract myself a foregone conclusion at this point. The end result would only have been a wet book."
+    "I've only been at the academy for less than twenty-four hours and yet I've already been both sexually assaulted and then humiliated in front of the whole class."
+    "All of that just feels like extra bitter icing on the burnt cake of my life, which truly started unraveling long before I ever arrived at the academy."
+    "It still feels like just yesterday that I was at home playing with my dog Abraxas in the backyard or enjoying Monday pizza-and-a-movie night while sandwiched between my parents on the sofa."
+    C anxious "(Now Mom and Dad are probably fighting over me, Abraxas, and everything else like we're both items to be traded and bartered!)"
+    "Just thinking about it infuriates me so much that I chuck the open book at random into the emptiness of the otherwise still library."
+    "I don't know exactly when it starts, but the tickle of a wet drop running down my arm soon informs the remaining logical part of my brain that I'm just barely choking back tears."
+    C teary "(Gosh, I'm pathetic. Like, \"barely holding it together\" pathetic.)"
     stop music fadeout 0.5
     scene bg black with dissolve
+    "My head drops onto my arms atop the the table with finality. The futility of reading to distract myself is a foregone conclusion at this point. The end result would only have been a wet book."
     "The same cruel thoughts pass through my brain over and over, desperate to determine where I went wrong, and what I could have done differently to prevent my current fate."
     play music guitar1
-    scene bg library winter with dissolve
-    "The sound of a door opening behind me startles my head back upright from the table. I shrug my shoulders softly, suddenly feeling a stiffness there which I hadn't just before."
+    scene bg library winter
+    show clover neutral at center
+    with dissolve
+    "The sound of a door opening behind me startles my head back upright from the table. I shrug my shoulders softly, suddenly feeling a stiffness there which I hadn't before."
     "A girl I've never met gives nothing but a passing glance my direction on her way to the shelves on the opposite side of the room."
-    C "(Guess I'm not the only one skipping class.)"
+    C "(Guess I'm not the only person skipping class today.)"
     "Perhaps in a touch better spirits now than before, I rise from my seat to replace the book I had thrown and continue on to the next stop in my meandering exploration of the school building."
-    scene bg hallway with dissolve
+    scene bg hallway
+    show clover contemplative at center
+    with dissolve
     "There are many more girls in the hallway than just a short time ago, I quickly find. I don't pay them any mind in particular and none of them seem to notice me being out of place either."
-    "What does catch my attention is how strangely long my shadow is cast by the deep orange glow pouring through the academy's tall windows."
+    "What does quickly catch my attention is how strangely long my shadow is cast by the deep orange glow pouring through the academy's tall windows."
     C "(Just how long was I in the library...?)"
-    "Not that it really matters to me, but it suddenly makes sense with how much more refreshed I feel. After sleeping so poorly in my new bed, a little nap is exactly what I needed."
+    "It suddenly makes sense why I feel so much less stressed and more fully refreshed than I did at lunch. After sleeping so poorly in my new bed, a little nap is exactly what I needed."
     "As I progress down the hallway, I turn a corner off toward a less traveled route and slip through a quiet looking doorway."
     scene bg aquarium winter with dissolve
     "What I find is an impressively equipped aquarium room, which this school has for some reason I cannot begin to fathom."
     "Most importantly, the room is deserted and soothingly silent. Only the unblinking eyes of the fish around me trace my footsteps."
-    C "You don't have a care in the world, huh?"
+    show clover neutral talk at center with dd
+    C "You don't have a care in the world, do you?"
     "The fish crowd around my finger as I tap it softly against the glass of their tanks, and in return I imitate their wide open fish mouths right back at them."
     "That is, until a breathy sigh heaves from my chest to chase away the assembled fish back into various corners of the tank."
-    C "Fine, I came here to be alone anyway."
+    C shout "Fine, I came here to be alone anyway."
+    show clover frown with dd
     "As I sit and stare at the fish swimming about their circuits in their stiflingly small tanks, I cannot help but feel the academy will be the same prison to me."
-    C "(Confined to campus, making me speak in front of the class, loading me all up with homework...)"
+    C @ tired "(Confined to campus, making me speak in front of the class, loading me all up with homework...)"
     "The amount of homework I have already been assigned seems overkill for just half a day of lessons."
-    "In desperation, I tell myself that the class was only assigned so much because they want students to refresh what they learned before break, and that it will give me time to catch up."
-    C "(Wishful thinking. Ugh.)"
-    "One of the earliest classes of the day was French language studies. Sibyl started out whispering translations of every word for me until the teacher made her stop."
+    "One of the earliest classes of the day was French language studies. Helplessly lost, Sibyl whispered translations of every word for me until the teacher made her stop."
     "In addition to normal subjects there was also an etiquette class, which came as much of a complete surprise to me as it was unwelcome to discover."
-    C "(I {b}really{/b} need to read that academy pamphlet sometime. I was just so distracted at my old school, and then suddenly packing everything up...)"
-    "Thinking about awful classes instead of my awful life makes me come around slightly, but it also dredges up all the bad thoughts which had been suppressed by the soothing balm of sleep."
-    "Clenching my fists to my side, I try to stem the bad feelings before they well up further."
-    C "(I'm alright. You're alright. Clover's alright. See? We're all alright.)"
-    "Releasing the tension in my fists, I raise my loosened fingers through to toss my blonde tresses out in a physical manifestation of doing away with my emotional instability."
+    C @ anxiety "(I {b}really{/b} need to read that academy pamphlet. I don't think I can handle another surprise like that.)"
+    "Thinking about my awful classes instead of my awful life makes me come around slightly, but it also dredges up all the bad thoughts which had been suppressed by the soothing balm of sleep."
+    "Clenching my fists to my side, I try to stem the tide of bad feelings before they well up further."
+    C tired "(I'm alright. You're alright. Clover's alright. See? We're all alright.)"
+    show clover neutral with dd
+    "Releasing the tension in my fists, I raise my loosened fingers to toss my blonde tresses out in a physical manifestation of doing away with my emotional instability."
     C "Hahn..."
-    "I sit still like I'm calm, trying to will away the resurging angst, but deep down I can feel the pain welling back up inside me. Much like my anxiety in front of crowds, my other emotions follow the same chain reactions."
+    "I sit still like I'm calm, trying to will away the resurging angst, but deep down I can feel the pain swelling inside me. Much like my anxiety in front of crowds, my other emotions follow the same chain reactions."
     C "(If I don't suppress it now—)"
     play sound doorclose
-    "It's just at that moment that the door clicks open. My head raises instinctively to discover who could be coming to discover me in such a terrible state."
-    C "Sibyl?"
-    "There's a light swell in my chest which surprises even me as I look expectantly toward the doorway, but it's not luxurious brown curls which I discover fluttering through the doorway."
-    "Rather, it's straight black locks shining like a negative of my own fair-toned strands."
-    T "So this is where you ran off to."
+    pause 0.5
+    show clover neutral talk with dd
+    "It's just at that moment that the door clicks open. My head raises instinctively to identify who could be coming to discover me in such a terrible state."
+    C @ surprised "Sibyl?"
+    "There's a light swell in my chest which surprises even me as I look expectantly toward the doorway, but it's not luxurious auburn curls which I discover fluttering through the doorway."
+    "Rather, it's straight black tresses shining like a negative of my own fair-toned strands."
+    show clover neutral at qmleft
+    show tanya neutral at qmright
+    with dd
+    T @ neutral talk "So this is where you ran off to."
     "Deep down I know it was foolish to have assumed I would know some random person entering the room, let alone that it would be my roommate. That it's someone I've met in the short time I've been here is miraculous enough."
-    C "Y-Yeah. I just needed some time alone."
-    "Knowing that my expression must be quite dark, I turn my head aside away from Tanya back toward the fish swimming in the tanks."
+    C frown "Y-Yeah. I needed some time alone."
     "My tone of voice sounds out rather dismissively, having no particular feelings about making terribly nice with my new roommate's best friend that I only just met a few hours before."
-    T "That's what Sibyl thought."
-    C "She knows me so well."
-    "What should probably be positive praise is actually ironic acclaim when I speak the words. Tanya maybe can also sense it judging by her rising impatience."
-    T "Look, it's almost curfew time so you really should be getting back to the dorms."
-    C "(Is it that late already? Wait, I have a curfew!?)"
+    "Knowing that my expression must be quite dark, I turn my head aside away from Tanya and back toward the fish swimming in their tanks. The blurry figure of my roommate's friend is visible by reflection."
+    T @ contemplative "That's what Sibyl thought."
+    C scowl "She knows me so well."
+    "What should probably be positive praise is actually ironic when I speak the words. Tanya maybe can also sense it judging by her rising impatience."
+    T neutral talk alt2 "Look, it's almost curfew time so you really should be getting back to the dorms."
+    C @ surprised "(Is it that late already? Wait, I have a curfew!?)"
     "I distinctly recall Sibyl saying something about that, but like many things it fell silently on deaf ears."
-    C "...Why didn't Sibyl come for me?"
-    T "Huh?"
+    C "So why didn't Sibyl come for me?"
+    T surprised "Huh?"
     "The question must have caught her off guard because she's momentarily quieted into staring back at me. I'm a little surprised at it myself even though it came from my own lips."
-    C "She's the one always saying that we're partners and we're supposed to support each other. Why didn't she come looking for me?"
-    T "We {b}both{/b} went looking for you, Clover, and a couple others besides. It's a big school."
+    C annoyed "She's the one always saying that we're partners and we're supposed to support each other. Why didn't she come looking for me?"
+    T scowl alt2 "We {b}both{/b} went looking for you, Clover, and a couple others besides. It's a big school."
+    show clover neutral with dd
     "I glance back blankly at Tanya, unsure what to feel about the answer or how to follow it up. She follows with a sighs of dismay and shakes her head side to side, then tosses a hand to rest at her hip to reset."
-    T "Hey, are you feeling alright, Clover?"
+    T neutral "Hey, are you feeling alright, Clover?"
     "The soft tone of concern about a girl she barely knows ticks me off. I cannot stop myself from letting it come out through my words again."
-    C "What does it matter to you anyway? Don't you have your own \"Virtue\" to worry about?"
+    C scowl "What's it matter to you anyway? Don't you have your own \"Virtue\" to worry about?"
+    show tanya scowl with dd
     "Tanya's tone again turns, this time more firmly, which is really no surprise with how obstinate I'm being toward her."
-    T "{b}Vertu{/b}. It's a French word, {b}Vertu{/b}, and it is a foundational aspect of this academy."
+    T neutral talk "{b}Vertu{/b}. It's a French word, {b}Vertu{/b}, and it is a foundational aspect of this academy."
     "Tanya corrects me with a measure of her fading patience clear in her choice of words and the hardness with which they are spoken, but some of the concern yet remains as she continues right on pestering me."
     T "It matters to me because it matters to Sibyl. You're all she's talked about all day. She's barely said a word to me that wasn't about {b}you{/b}!"
-    T "So please, quit arguing with me and let's hurry back before the bell rings for curfew."
+    T neutral talk alt2 "So please, quit arguing with me and let's hurry back before the bell rings for curfew."
+    hide tanya
+    hide clover
+    with dd
     "Tanya reaches out toward me to clutch at my hand in a total invasion of my personal space. She's surprisingly strong and is already pulling me toward the door by the time I manage to brush her off and shove back at her."
+    show clover shout at qmleft
+    show tanya scowl alt2 at qmright
     C "Don't touch me!"
+    show clover scowl with dd
     T "{b}Augh!{b}"
     stop music fadeout 0.5
     play music drama
     "My cantankerous behavior has clearly ticked her off, bringing the grand total of off ticks in the room up to two."
-    T "Don't you know how hard Sibyl is trying to help you? Could you please at least {b}try{/b} to not fight her every step of the way?"
-    C "I didn't {b}ask{/b} for, and I don't {b}need{/b} any help."
+    T shout "Don't you know how hard Sibyl is trying to help you? Could you please at least {b}try{/b} to not fight her every step of the way?"
+    C shout "I didn't {b}ask{/b} for, and I don't {b}need{/b} any help."
+    show clover annoyed with dd
     T "That's exactly what she said you would say. You're infuriating, you know that?"
     T "Maybe Sibyl isn't pissed off, but I sure am! And the worst part is that I've only known you for a single day!"
     T "You should count yourself fortunate that Sibyl has enough patience and compassion to put up with your moody bullshit."
     "Amidst her tirade, Tanya steps closer, nearly backing me into a fish tank as she presses a finger angrily sharp into my chest. I'm taller than her, if only barely, but somehow she feels so much more dangerous in the moment."
-    T "You {b}do{/b} need help. There's clearly something wrong with you. Every time someone tries to help you or even say a single thing nice to you, you have to spit it back in their faces!"
-    T "You don't deserve someone as special as Sibyl for a Vertu partner, and if you aren't going to respect her, then stay away from her!"
+    T shout alt2 "You {b}do{/b} need help. There's clearly something wrong with you. Every time someone tries to help you or even say a single thing nice to you, you have to spit it back in their faces!"
+    T "You don't deserve someone as special as Sibyl for a Vertu partner, and if you aren't going to respect her, then stay away from her."
+    show tanya scowl with dd
     "Tanya's rant doesn't scare me, even if she is stronger than she looks. I've had worse language thrown in my face before and half of that stupid rant was just praising Sibyl anyway."
-    "As my reprisal, I hiss a childish \"if you love her so much, why don't you marry her\" which succeeds beautifully in getting under little-miss-best-friend's skin."
-    "Tanya nearly looks like she's about to claw my face off but instead shoves me back against the fish tank to turn away and stomp out of the aquarium."
-    C "(Good riddance!)"
+    show clover impish
+    show tanya surprised
+    with dd
+    "As for my reprisal, I hiss a childish \"if you love her so much, why don't you marry her\" which succeeds beautifully in getting under little-miss-best-friend's skin."
+    show tanya annoyed with dd
+    "Tanya nearly looks like she's about to claw my face off, but instead only shoves me back against the fish tank to herself turn away and stomp out of the aquarium."
+    hide tanya with dd
+    C scowl "(Good riddance!)"
     stop music fadeout 0.5
     play sound doorslam
-    "With the irate presence before me suddenly gone, I slump down right there with my back against the cold, hard glass with fresh painful memories to accompany those I'd already been nursing."
-    C "(She was the one getting all up in my business. She was asking for that.)"
-    scene bg black with dissolve
-    "The irritable mood brought on by Tanya's presence gradually fades back into the creeping darkness, and consequently my brain plays right back everything that just happened."
+    "With the irate presence before me suddenly gone, I slump down right there with my back against the cold, hard glass with fresh painful memories to accompany those I've already been nursing."
+    C frown "(She was the one getting all up in my business. She was asking for that.)"
+    scene bg aquarium winter with dissolve
+    "The irritable mood brought on by Tanya's presence gradually fades back into the creeping darkness, and consequently my brain replays everything that just happened."
     "In one moment my mood shifts such that I feel like I deserved all that abuse, and in the next my mood shifts again such that I'm certain Tanya is a fake and pushy bitch who deserved it."
     "I find no conclusions, merely yet another writhing mass of conflicted emotions to add to the pile."
     pause 0.5
     play sound bingbong
     pause 0.5
+    show clover surprised with dd
     C "Crap. That's got to be the curfew bell."
-    "As much as I don't want to return to the shared dorm room where Sibyl, and my doom, assuredly awaits me, it's preferable to literally sleeping with the fishes here."
+    "As much as I don't want to return to the shared dorm room where Sibyl, and my doom, assuredly awaits me, my blanket-laden bed is preferable to literally sleeping with the fishes in the aquarium."
     play music guitar1
     scene bg hallway night with dissolve
     "I creep down the hallway as stealthily as I can like the heroine of a spy movie — mostly successfully, until I turn around a corner straight into an even worse obstacle than the dorm mother."
-    H "There she is, our missing Clover!"
-    O "Flaunting curfew on your first da—"
-    "Before they can even begin doing anything intolerable again, I take off running down the hallway. Thankfully, they don't appear to be taking up chase behind."
+    show vitti neutral
+    show vinci neutral
+    with dd
+    H smile "There she is, our missing Clover!"
+    O neutral talk "Flaunting curfew on your first da—"
     scene bg dorm night with dissolve
-    "I'm way out of breath by the time I make it back to my dorm building but otherwise make it back in one piece, unmolested, and without drawing attention of any of the teachers."
+    "Before the twin demons can even think about doing anything intolerable again, I take off running down the hallway. Thankfully, they don't appear to be taking up chase behind."
+    "I'm way out of breath by the time I make it back to my dorm building,  but otherwise make it back in one piece, unmolested, and without drawing attention of any of the teachers."
+    show sibyl contemplative at qmright with dd
     "The first thing I see when I sneak down the hallway toward my room is Sibyl, pacing anxiously in place outside the door."
     C "(Uh oh.)"
-    "I brace myself for whatever unpleasantness is about to happen, but when Sibyl's face alights only with simple relief. She throw her arms around me without hesitation in a warm hug which could thaw the coldest outdoor chill."
+    "I brace myself for whatever unpleasantness is about to happen, but Sibyl's face alights only with simple relief. She throw her arms around me without hesitation in a warm hug which could thaw the coldest outdoor chill."
+    show clover surprised at qmleft
+    show sibyl smile talk
+    with dd
     S "You made it back!"
-    C "Y-Yeah..."
-    "I don't even know what to say. Feeling Sibyl's warmth around me seemingly saps all the anger and angst right out of my body, leaving me a weak, emotionally-tired wreck."
-    S "Clover, you're freezing!"
+    show sibyl smile with dd
+    C anxious "Y-Yeah..."
+    "I don't even know what to say. Feeling Sibyl's warmth around me saps all the anger and angst right out of my body, leaving me a weak, emotionally-tired wreck."
+    S frown talk "Clover, you're freezing!"
     "Sibyl squeezes my hands in her own and pulls me in through the door to our room like she's afraid I'm going to get lost again if she were to let me slip from her grasp."
-    S "I got so worried when you didn't come back!"
-    "Feelings of guilt swell now that I'm back here safe and sound, such that I can scarcely bear to look at her face."
+    scene bg bedroom night
+    show clover vulnerable blush at qmright
+    show sibyl neutral talk at qmleft
+    with dissolve
+    S "I was so worried when you didn't come back!"
+    "Feelings of guilt swell now that I'm back in my dorm room getting lectured by Sibyl, such that I can scarcely bear to look at her face."
+    show sibyl frown with dd
     "Coming to my senses, I whip my hand out of Sibyl's and turn back to my own bed before she starts trying to chip away at the carefully maintained distance between us any further."
-    C "...I just needed to be alone. It's been a long day."
+    C frown talk "...I just needed to be alone. It's been a long day."
     "Something about Sibyl keeps getting me all out of whack, or at least even more than I have been lately, and while it's not painful I do find it disconcerting."
-    S "I knew you weren't going back for seconds, you know. I meant to let you have your time alone but as the clock kept ticking later I became more and more worried."
-    C "You could have just left me. Is the penalty for braking curfew that steep?"
-    S "No. I wasn't worried about getting in trouble for breaking curfew. I was concerned about {b}you{/b}, Clover."
-    C "Why? I'm just your roommate."
+    S neutral talk "I knew you weren't going back for seconds of mac and cheese, you know. I meant to let you have your time alone, but as the clock kept ticking later I became more and more worried."
+    C neutral talk "You could have just left me. Is the penalty for braking curfew that steep?"
+    S frown talk "No. I wasn't worried about getting in trouble for breaking curfew. I was concerned about {b}you{/b}, Clover."
+    C neutral talk blush "Why? I'm just your roommate."
     S "The hours dragged on and on and on and you still did not show up back at our room! I was afraid you might have done something more rash than just skip classes."
+    show sibyl frown
+    show clover contemplative
+    with dd
     "I cannot begin to fathom what she thought I might have done. I'm already regretting merely having skipped eating a proper dinner for the second day in a row, which feels to be more than punishment enough."
-    C "Why do you care so much about me? You don't even {b}know{/b} me."
+    C @ neutral talk "Why do you care so much about me? You don't even {b}know{/b} me."
     "I try to spit out the words with as much edge as I can to give off the impression that I don't really care, but deep down the mystery is eating at me for reasons unknown."
-    S "I know you enough to know that you're in a lot of pain, and I know that you've been through a big life adjustment by coming here."
-    "Women of ancient days who sat in their high temples and divined the Gods' truths bore the name \"sibyl\", but my roommate Sibyl is not one of them."
-    S "(She does not know a single thing about me and can not understand anything about the reasons I'm suffering.)"
-    S "There's nothing more that I need to know. I'll wait as long as it takes for you to come around, so when you're ready to talk about anything I'll be right here."
+    S @ frown talk "I know you enough to know that you're in a lot of pain, and I know that you've been through a big life adjustment by coming here. That's not easy for anyone, Clover."
+    "Women of ancient days who sat in their high temples and divined the Gods' truths bore the name \"sibyl\", but my roommate is not one of those women."
+    C "(Sibyl does not know a single thing about me and has no hope of understanding anything about the reasons I'm suffering.)"
+    S "I'll wait as long as it takes for you to come around, so when you're ready to talk about anything I'll be right here."
     "Just like Ms. Woolsey, Sibyl is doing the whole \"patience and understanding\" routine like she's certain I'm going to eventually come running to cry on her shoulder."
     C "(At least Tanya tells me how she really feels about me.)"
-    S "Oh, and before I forget, your phone was ringing like crazy earlier."
-    "The warmth of my dorm room which had slowly been returning to body all of a sudden dissipates into thin air."
+    S neutral talk "Oh, and before I forget, your phone was ringing like crazy earlier."
+    "The warmth of my dorm room which had slowly been returning to my body all of a sudden dissipates into thin air."
+    hide sibyl
+    show clover surprised at qright
+    with dd
     "I jump across my bed to clutch at my smartphone. One missed call and a text message blink on the display. \"Hi sweetie, how was your first day at school?\""
-    C "(Like she cares a single bit about me anymore!)"
-    "It's from my mom. She's asking about my first day at school like it wasn't half her fault for abandon me here in the first place."
-    "Or like she and Dad aren't tearing our family apart and destroy our lives together — the life I've always known and loved up until just recently."
+    C scowl "(Like she cares a single bit about me anymore!)"
+    "It's from Mom. She's asking about my first day at school like it wasn't half her fault for abandoning me here in the first place."
+    "Or like she and Dad aren't tearing our family apart and destroying our lives together — the life I've always known and loved up until just recently."
+    show sibyl surprised at qleft with dd
     "I chuck the smartphone into my pillow at full force, clearly alarming Sibyl across the room."
     S "C-Clover?"
-    C "I'm {b}fine{/b}! It's just my mom."
-    S "Your mom? That's great!"
+    C shout "I'm {b}fine{/b}! It's just my mom."
+    S smile talk "Your mom? That's great!"
+    show clover scowl with dd
     "Whatever Sibyl thinks is so great about it, I cannot possibly understand. What would be great is if she said the divorce was canceled, I can come home, and we are going to be a whole family again."
-    "But that's definitely not going to happen. They may try to hide it from me but I can tell how far gone relations are between Mom and Dad."
+    "But that's definitely not going to happen. They may try to hide it from me but I can tell how bad Mom and Dad's relationship has become."
+    show sibyl neutral with dd
     "Contrary to the act of having just pitched my smartphone into the bed, I immediately swipe it back up again to be sure it's safe. It is, after all, my only precious line outside of this nightmare school."
-    S "I've found, Clover, that I feel better when I talk out my issues. Would you like to try it?"
-    "It's clear that Sibyl is being cautious with her pressure in poking at what is definitely a sore subject, which is beyond annoying in itself."
-    C "You wouldn't understand!"
+    S contemplative "I've found, Clover, that I feel better when I talk out my issues. Would you like to try it?"
+    "It's clear that Sibyl is being cautious with her approach into poking at what is definitely a sore subject, which is beyond annoying in itself."
+    C shout "You wouldn't understand!"
+    show sibyl bashful
+    show clover annoyed
+    with dd
     "There's a silence for a few moments after the stinging reply before Sibyl's soft, calming voice returns."
-    S "I truly would not understand, but I also might be able to empathize with your troubles more than you might think."
+    S frown talk "I truly would not understand, but I also might be able to empathize with your troubles more than you might think."
+    scene bg bedroom night dark with dd
     "After showing absolutely no signs that I am going to say anything more, Sibyl finally leaves me to my own misery once again."
     "I expect my mind to wander familiar dark pathways as it has often in recent weeks, but with all the emotional toil of the day I've endured, sleep takes me before I even know it."
     stop music fadeout 0.5
@@ -875,168 +943,210 @@ label a1_art:
     scene bg transition with fade
     play music piano1
     scene bg black with dissolve
-    "I skip the next day of classes, or maybe two."
-    "Sibyl brings food back for me even though I refuse to eat it when she's around. I don't want to see her compassionate smile while I'm sulking so hard."
+    "I skip the next day or two of classes. It's too much effort to keep count."
+    "Sibyl brings food back to our dorm room for me even though I refuse to eat it when she's around. I don't want to see her compassionate smile while I'm sulking so hard."
     scene bg bedroom with dissolve
-    "On the third day I am awoken with the gentle sound of Sibyl's voice calling my name."
+    "On the third day, I am awoken by the gentle sound of Sibyl's voice calling my name."
     S "Clover..."
     S "Clover... please wake up. It's time for breakfast. I'm not going to bring you anything today so you'll have to get up if you want to eat."
     C "No."
-    "As my brain comes around to processing the shining light of day that comes in through the window, so does it process Sibyl's words more clearly."
+    "As my brain comes around to processing the shining light of day that comes in through the windows, so does it process Sibyl's words more clearly."
+    show sibyl neutral talk at qmleft with dd
     S "I'm going to pull the sheets off again if you don't get up."
     C "Do your worst."
-    S "Okay, but you asked for this. Literally."
+    S frown talk "Okay, but you asked for this. Literally."
+    hide sibyl with dd
     "Whoosh, off come the top sheets. I brace against the shock of the cold air but stay flopped resolutely on my bed."
+    show sibyl frown talk at qmleft with dd
     S "Clover..."
     C "No."
-    S "Hmmm."
+    S contemplative "Hmmm."
+    hide sibyl with dd
     "I believe for a moment that I've won against all odds, but then I feel cold fingers tighten around my ankles."
     C "What happened to leaving me alo—"
     S "{b}Hngg!{/b}"
     "With one big tug, Sibyl pulls my legs right off the bed all the way up to my knees."
+    show sibyl smile talk at qmleft with dd
     S "Having a proper daily routine will help, I promise. You've had time to stew on what is bothering you, so now please get up and come to class."
     C "Nuh-uh."
-    S "{b}Hnng!{/b}"
+    S annoyed "{b}Hnng!{/b}"
+    hide sibyl with dd
     "My hips leave the bed with another tremendous pull, leaving me hanging limp between where she holds my legs like a wheelbarrow and where my upper body rests on the bed."
-    S "One last chance, Clover. You're going to attend class today, aren't you?"
+    show sibyl smile talk at qmleft with dd
+    S smile talk "One last chance, Clover. You're going to attend class today, aren't you?"
     C "N—"
-    S "{b}Hnnnnnngggg!{/b}"
-    scene bg cafeteria winter with dissolve
+    S laugh "{b}Hnnnnnngggg!{/b}"
+    scene bg cafeteria winter with fade
     "Sibyl and Tanya start chatting the moment they meet in the cafeteria, apparently about Sierra once again. I don't pay much attention, instead wandering off in search of French toast."
     "Just as I've gotten back to my seat and stuffed the first bite of fluffy bread into my mouth, Sibyl goes off to get her own food, leaving me alone with Tanya."
-    C "(Awkward. Think she's still angry about the other day?)"
+    show clover neutral at qleft
+    show tanya neutral at qright
+    with dd
+    C @ contemplative "(Awkward. Think she's still angry about the other day?)"
+    show tanya scowl with dd
     "A quick glance while I've still got my fork in my mouth catches Tanya's eyes. All she does is give me a sharp, dismissive glare and return to her yogurt parfait."
-    C "(Oh well, maybe I can make friends with Sierra instead. That'll really burn her behind.)"
+    show tanya neutral with dd
+    C @ impish "(Oh well, maybe I can make friends with Sierra instead. That'll really burn her behind.)"
+    show sibyl smile at qmright
     "When Sibyl returns, the two of them continue their lively chatting while I stay silent and stare down at the syrup remaining on the plate which formerly contained French toast."
-    "While still re-playing in my mind what I learned about licking plates in my first ever etiquette class, which was exactly \"do not lick plates\", I manage to catch Sibyl calling my name."
-    S "Earth to Clover, hello."
-    C "Huh? What is it?"
-    S "Good. I was just saying that we have art class today so you'll finally get to meet Miss Izzie."
-    C "What's so special about her?"
-    "I'm sure she must have a good reason to bring it up like this but it's hard to be excited for something I have no idea about in the first place."
-    S "I mentioned her briefly a few days ago. She's a popular teacher amongst the students. She's, well, pretty strange, but fun."
+    "While still replaying in my mind what I learned about licking plates in my first ever etiquette class, which was namely \"do not lick plates\", I manage to catch Sibyl calling my name."
+    S neutral talk "Earth to Clover, hello."
+    C @ neutral talk "Huh? What is it?"
+    S smile talk "I was just saying that we have art class today so you'll finally get to meet Miss Izzie."
+    C @ frown talk "What's so special about her?"
+    "I'm sure she must have a good reason to bring up the topic, but it's hard to be excited for something which I have no idea about in the first place."
+    S "I mentioned her briefly a few days ago. She's a popular teacher amongst the students. She's, well, pretty strange, but also fun."
     "I don't say anything in reply, instead rebelliously defying etiquette to lick the syrup off my plate. Sibyl continues her one-sided conversation without any further input from my end."
-    S "Maybe getting to work on something creative might snap you out of this funk too!"
-    C "I've never had a single artistic bone in my body."
-    T "Oh, just leave her be, Sibyl. If she want to be miserable, let her be miserable without dragging {b}us{/b} down with her."
+    S laugh "Maybe getting to work on something creative might snap you out of this funk too!"
+    C @ neutral talk "I've never had a single artistic bone in my body."
+    show sibyl contemplative with dd
+    T @ neutral talk "Oh, just leave her be, Sibyl. If she want to be miserable, let her be miserable without dragging {b}us{/b} down with her."
     "Tanya and I agree on something in an unlikely turn of events, but Sibyl remains adamant that going to art class will be good for me."
-    scene bg artroom winter with dissolve
+    scene bg artroom winter
+    show izzie excited at qleft
+    show clover surprised at qmleft
+    show sibyl smile at qmright
+    show tanya neutral at qright
+    with fade
     who "So cute! And such beautiful hair too!"
     "I try desperately to duck out of some surprise head-patting foisted upon me by a smaller girl right as I enter the art room."
-    who "No wonder Vittoria and Vincenza couldn't keep their hands off of her! You'd better not wait too long, Miss Yang."
-    T "I have no idea what you're talking about, Miss Izzie."
-    C "Umm... could you not?"
+    show izzie smile talk with dd
+    who "No wonder HimeOuji couldn't keep their hands off of her! You'd better not wait too long, Miss Yang."
+    T @ contemplative alt2 "I have no idea what you're talking about, Miss Izzie."
+    C scowl "Umm... could you not?"
+    show izzie excited with dd
     who "So {i}tsun{/i} too!"
-    C "(\"Soon?\" Was she expecting me later?)"
+    C contemplative "(\"Soon?\" Was she expecting me later?)"
     "As I shift away from her overbearing fixation on patting my head, I begin to realize just how strange my current assailant really is. She's wearing what is sure to be a grave violation of the uniform code for starters."
-    "Whatever is up with this oddity, I don't like it. She clearly knows who I am already, is possibly in league with my two previous assailants, and clearly also has no issue with invading my personal space."
     C "(This one is big trouble. I hope I don't have any other classes with her.)"
-    S "Clover, this is—"
-    mi "Miss Izzie!"
+    "Whatever is up with this oddity, I don't like it. She clearly knows who I am already, and is possibly in league with my two previous assailants as she clearly also has no issue with invading my personal space."
+    S @ smile talk "Clover, this is—"
+    mi smile "Miss Izzie!"
     "Striking a silly pose, she sticks a hand out to raise two fingers toward me like a peace sign."
-    mi "I'm your art teacher!"
-    C "You're a {b}teacher{/b}!?"
-    mi "Five years and counting!"
-    "None of the other students seem to think anything odd is happening, and neither does Sibyl beside me, so I am forced to conclude this woman is in fact my art teacher."
-    "That she has paint splattered all over her top and a paintbrush stuck in her hair only fittingly adds to the image of an eccentric artist."
-    S "I think that's enough, Miss Izzie. Clover has been... sick the past few days and is still recovering, so she needs to take things slow and have her space."
-    "Now that Sibyl has helpfully dragged Miss Izzie back to a respectable student-teacher distance, I am able to better appraise my strange art teacher."
+    mi smile talk "I'm your art teacher!"
+    C surprised "You're a {b}teacher{/b}!?"
+    mi smile "Five years and counting!"
+    "None of the other students seem to acknowledge anything odd as happening, and neither does Sibyl beside me, so I am forced to conclude this woman is in fact my art teacher."
+    "That she has paint splattered all over her top fittingly adds to the persona of an eccentric artist I am forming in my mind."
+    S @ neutral talk "I think that's enough, Miss Izzie. Clover has been... sick the past few days and is still recovering, so she needs to take things slow and have her space."
+    show clover neutral with dd
+    "Now that Sibyl has helpfully dragged Miss Izzie back to a respectable student-teacher distance, I am able to better formulate my appraisal of my strange art teacher."
     "Her debasement of the uniform code makes sense now as she is obviously not bound to it, though I swear that she's wearing a uniform issue skirt."
     "I may have soured right away when she chose to get right up in my face, but in a way I actually respect how fearlessly she chooses to be different."
     C "(My old inclination toward non-conformity has resurfaced. Better push that back down, quickly.)"
-    mi "So what's your medium, Clover?"
+    mi smile talk "So what's your medium, Clover?"
     C "(What a strange question to ask for an art teacher...)"
     show choice_darkness with dissolve
     menu:
         "\"I've done a few séances in the past...\"":
             hide choice_darkness with dissolve
-            C "I've done a few séances in the past..."
+            C @ neutral talk "I've done a few séances in the past..."
             "I can still remember the huge smile on my friend's little brother's face when he was able to speak with their deceased pet hamster again."
             C "(That boy absolutely adored me. Until someone told him that séances are all fake.)"
         "\"My old classmate told me I was the state's foremost expert with Ouija boards.\"":
             hide choice_darkness with dissolve
+            C @ neutral talk "My old classmate told me I was the state's foremost expert with Ouija boards."
             "What I say is the total truth, except that she said it in a way less flattering manner."
-            C "(The spirits were not very kind to her after that.)"
+            C @ impish "(The spirits were not very kind to her after that.)"
+    show izzie contemplative
+    show sibyl laugh
+    show tanya frown
+    with dd
     "From behind me there's a quiet snicker, and with a quick glance I'm both surprised and even a little hurt to find the sound originate from Sibyl rather than Tanya as I had expected."
-    mi "No, no, I mean with regard to your creative pursuits! We have everything: clay, graphite, acrylics... I want to know how best to unleash your artistic passions!"
-    C "O-Oh..."
+    mi smile "No, no, I mean with regard to your creative pursuits! We have everything: clay, graphite, acrylics... I want to know how best to unleash your artistic passions!"
+    C frown talk blush "O-Oh..."
     "I got so caught up thinking about my past self that I went and said something totally unnecessary and embarrassing about the old \"me\" that no one needed to know."
-    mi "The freedom of creative expression is a salve for the soul!"
+    mi excited "The freedom of creative expression is a salve for the soul!"
     mi "I know from experience how tough it can be transferring to a new school like this so I'd like to see you get started on your own project right away."
-    C "Sorry, Miss Izzie, but I'm not much of an artist."
+    C neutral talk "Sorry, Miss Izzie, but I'm not much of an artist."
     "Just as I'm getting geared up to fight off my teacher's idea of throwing me into some dumb art project, Sibyl unexpectedly comes to my rescue."
-    S "Miss Izzie? Could I have Clover sit with me while I get accustomed to the oil pastels again? I think my skills are rusty after the long break and she can learn from me while she considers what she wants to start with for herself."
-    mi "Approved! You know where to find the pastel paper, Sibyl. Hop to it!"
-    "Tanya follows after Miss Izzie to speak further about something. I'm glad to have the former's high energy presence kept away so I regain control over my personal space, and the latter too because I just don't like her."
-    C "Thanks for saving me, Sibyl."
-    S "You're very welcome, but you will have to take on your own project when I'm finished, so try to pay attention."
-    C "Urgh... alright. So what do I have to do for your portrait anyway?"
-    S "Just sit here and watch what I'm doing. If you have any questions, just ask!"
-    "Sibyl pats a nearby wooden stool with a cheerful grin plastered on her face, then sets up her work easel and paints to begin work."
-    C "(She looks so serious when she's drawing.)"
-    S "The oil pastels are thick, so they can be layered like this... and then some of the top layer can be scraped off like..."
-    "My roommate's striking blue eyes shift dramatically back and forth from her easel to me, and back again, while at the same time, her lips remain thin and pursed."
-    "It's clear she's concentrating hard even as she tries to explain certain techniques to me, like \"sgraffito\" and whatever she was doing with the bottle of turpentine."
-    C "(It's really unfair how pretty she is too.)"
-    "I don't think I've ever felt as jealous about another girl as I do looking at Sibyl. I've wished to have been born with wavy hair all my life."
-    S "So, were you able to communicate with the spirits, Clover?"
-    C "W-What?"
+    show clover neutral with dd
+    S @ neutral talk "Miss Izzie? Could I have Clover sit with me while I get accustomed to the oil pastels again? I think my skills are rusty after the long break and she can learn from me while she considers what she wants to start with for herself."
+    mi smile "Approved! You know where to find the pastel paper, Sibyl. Hop to it!"
+    hide tanya
+    hide izzie
+    with dd
+    "Tanya follows after Miss Izzie to speak further about something. I'm glad to have the latter's high energy presence kept away so I regain control over my personal space, and the forme too because I just don't like her."
+    C neutral talk "Thanks for saving me, Sibyl."
+    S smile talk "You're very welcome, but you will have to take on your own project when I'm finished, so try to pay attention."
+    C frown talk "Urgh... alright. So what do I have to do for your portrait anyway?"
+    S laugh "Just sit here and watch what I'm doing. If you have any questions, just ask!"
+    show clover neutral with dd
+    "Sibyl pats at a nearby wooden stool with a cheerful grin plastered on her face, then sets up her work easel and paints to begin work."
+    show sibyl annoyed with dd
+    C contemplative blush "(She looks so serious when she's drawing.)"
+    S @ neutral talk "The oil pastels are thick, so they can be layered like this... and then some of the top layer can be scraped off like..."
+    "My roommate's striking blue eyes shift dramatically back and forth from her easel to me and back again, while at the same time her lips remain thin and pursed."
+    "It's clear that she's concentrating hard even as she tries to explain certain techniques to me, like \"sgraffito\" and whatever she was doing with the bottle of turpentine."
+    C scowl blush "(It's really unfair how pretty she is too.)"
+    "I don't think I've ever felt as jealous about another girl as I do while staring back at Sibyl. I've wished to have been born with wavy hair all my life."
+    S @ neutral talk "So, were you able to communicate with the spirits, Clover?"
+    C surprised "W-What?"
     "Being so focused on Sibyl's face, I stumble for my thoughts when she suddenly drops her attention from the canvas to speak to me instead."
-    S "...When you did all that medium stuff."
-    S "Sorry, that's probably out of the blue, but you looked like you were on the verge of rigor mortis watching me."
-    C "It was just some stupid little thing I did with my friends in middle school. Forget about it."
+    S smile talk "...When you did all that medium stuff."
+    S "Sorry, that's probably out of the blue, but you looked like you were on the verge of rigor mortis just now."
+    C tired blush "It was just some stupid little thing I did with my friends in middle school."
     "I try to save face by acting all casual and dismissive, but Sibyl doesn't seem to take the hint — or maybe refuses to."
-    S "Oh, is that so? It sounds fun either way."
-    C "Do you actually believe in all that?"
-    "After trying so hard to put all that juvenile stuff from middle school behind me, to find someone like Sibyl interested, and in this Christian school of all places, is a definite surprise."
-    S "There are many people who would be willing to go to great lengths to speak to the departed."
-    S "I know it's all fluff but it's still fun to think about. And I'm very open-minded in general, or so I like to think."
-    C "I just can't imagine that you or anyone else at a school like this would find the supernatural and macabre to be interesting. Everyone seems so... formal and stuffy."
-    C "(Except Miss Izzie...)"
-    S "Do you really see me as that type of person, Clover? After covering for you skipping class for two days?"
-    "It really is hard to imagine Sibyl as someone serious and stuck up now while watching her with a stripe of blue color accidentally flecked across the tip of her nose."
-    S "Clover, if you'd just shoo away those storm clouds you've built around your head, you might learn something surprising about me and everyone else here too."
-    C "So this was all a little ploy to get me to open up, was it? Somewhere I can't make a scene?"
+    S laugh "Oh, is that so? It sounds fun either way."
+    C neutral talk "Do you actually believe in all that?"
+    "After trying so hard to put the juvenile stuff from middle school behind me, to find someone like Sibyl interested, and in this Christian school of all places, is a definite surprise."
+    S contemplative blush "There are many people who would be willing to go to great lengths to speak to the departed."
+    S neutral talk "I know it's all fluff but it's still fun to think about. And I'm very open-minded in general, or so I like to think."
+    C frown talk "I just can't imagine that you or anyone else at a school like this would find the supernatural and macabre to be interesting. Everyone here seems so... formal and stuffy."
+    C @ contemplative "(Except Miss Izzie...)"
+    S smile "Do you really see me as that type of person, Clover? After covering for you skipping class for two days?"
+    "It really is difficult to imagine Sibyl as someone serious and stuck up while watching her with a stripe of blue paint accidentally flecked across the tip of her nose."
+    S smile talk "Clover, if you'd just shoo away those storm clouds you've built around your head, you might learn something surprising about me and everyone else here too."
+    C annoyed "So this was all a little ploy to get me to open up, was it? Somewhere I can't make a scene?"
+    show sibyl annoyed with dd
     "Sibyl's eyes turn from her canvas to look directly at me, stabbing her blue pearls into me not angrily, but with a clear rebuke of my changing tone. Her own expression remains stern but supportive."
-    S "No, Clover. I'm not out to get you. No one here is."
-    C "It sure feels like it the way you keep trying to pry into my life."
-    C "(And I'm pretty sure Tanya does have it out for me.)"
+    S frown talk "No, Clover. I'm not out to get you. No one here is."
+    C neutral talk "It sure feels like it the way you keep trying to pry into my life."
+    C @ tired "(And I'm pretty sure Tanya does have it out for me.)"
     S "Clover, I'm only trying to help you realize that you're not alone. Your world isn't ending, it has only expanded to include this academy and all of us in it."
-    C "That's easy for you to say."
+    C annoyed "That's easy for you to say."
+    show sibyl neutral with dd
     "Sibyl sighs softly and drops the discussion altogether to return to her work, as well as possibly try another route to get to me, so I think."
-    C "(I know plenty about Sibyl! Like how she's into art, likes strawberries, and... she has pretty eyes and her shampoo smells nice.)"
-    "We both are quiet all the way through to the end of class when the bell rings to signal the end of the class period."
+    C scowl "(I know plenty about Sibyl! Like how she's into art, likes strawberries, and... she has pretty blue eyes and her shampoo smells nice.)"
+    "We both are quiet all the way through to the end of class when the bell rings to signal the migration to our next torturous lesson."
     play sound schoolbell
-    C "(Finally!)"
+    C excited "(Finally!)"
     "Despite still holding onto a bit of a grudge from our earlier talk, I cannot resist the invitation to see what Sibyl has been working so hard on this whole time that I've been ignoring her."
-    S "I call it \"The Birth of Clover\"!"
+    show clover neutral with dd
+    S laugh "I call it \"The Birth of Clover\"!"
+    show clover surprised blush with dd
     "It's a picture of me, obviously, but stark naked and covering up my lady bits with my arms."
     "Not only that, but I'm bursting out of a four leaf clover like that naked woman from a clamshell in that one famous painting."
-    S "So? What do you think?"
+    S smile talk "So? What do you think?"
     show choice_darkness with dissolve
     menu:
         "\"Why am I naked?\"":
             hide choice_darkness with dissolve
-            C "Why am I naked?"
+            C anxious blush "Why am I naked?"
             S "It just felt \"right\", y'know?"
             C "No, I really don't."
-            mi "It's {i}The Birth of Venus{/i} by Botticelli, but with Clover and her namesake! That's so clever, Sibyl!"
+            show izzie smile talk at qright
+            mi smile talk "It's {i}The Birth of Venus{/i} by Botticelli, but with Clover and her namesake! That's so clever, Sibyl!"
+            show clover surprised
+            show sibyl smile
+            with dd
             "I nearly jump through the ceiling when Miss Izzie shows up suddenly behind us unannounced."
-            S "Exactly! I knew you would understand, Miss Izzie."
-            "With another look between the faux nude drawing of me and the real thing, the strange teacher wanders off to attend to other students again."
-            C "I still don't understand why you needed me to be naked."
-            S "The human form has long been a subject of artists' curiosity. It's okay if you don't quite get it yet."
+            S @ laugh "Exactly! I knew you would understand, Miss Izzie."
+            hide izzie with dd
+            "With another eerie glance between the faux nude drawing of me and the real thing, the strange teacher finally wanders off to attend to other students again."
+            C frown talk "I still don't understand why you needed me to be naked."
+            S smile "The human form has long been a subject of artists' curiosity. It's okay if you don't quite get it yet."
         "\"It's a pun on my name.\"":
             hide choice_darkness with dissolve
-            C "It's a pun on my name."
+            C annoyed "It's a pun on my name."
             "This is the kind of thing that's been done a billion times before and my disinterest is evident in the flat tone of voice."
-            S "What's the matter, you don't like it?"
-            C "Not really. Everyone is always making puns on my name. How would you feel if I painted you like a Greek oracle or something?"
-            S "I think that would be lovely."
-            C "Well don't get your hopes up. I'm bad at art, remember?"
+            S frown talk "What's the matter, you don't like it?"
+            C neutral talk "Not really. Everyone is always making puns on my name. How would you feel if I painted you like a Greek oracle or something?"
+            S laugh "I think that would be lovely."
+            C neutral "Well don't get your hopes up. I'm bad at art, remember?"
     S "I'll help you develop your sense of artistry in no time!"
-    C "I've already warned you that it's an impossible task."
-    S "I'm up to the challenge."
+    C neutral talk "I've already warned you that it's an impossible task."
+    S smile talk "I'm up to the challenge."
     "My heart sinks when I think about how long of a day it's going to be, and then drops all the way through the floor when I think about the whole rest of the year too."
     stop music fadeout 0.5
     jump home_ec
@@ -1046,69 +1156,80 @@ label home_ec:
     show bg cafeteria winter with fade
     "Sibyl doesn't seem to be holding any grudge against me, as usual, but things are no less awkward between me and Tanya by the time lunch arrives."
     "She continues to pretty much ignore my existence altogether and instead holds onto Sibyl's attention near entirely with talk of their separate works of art in progress."
-    "I get up and inspect the contents of the salad bar a couple times, picking out the loudest, crunchiest vegetables so that I don't have to hear her talk."
+    show clover excited at center with dd
+    C "(Ooh, ham cubes!)"
+    "I inspect the contents of the salad bar a couple times, picking out the loudest, crunchiest vegetables to go with my ham and ranch dressing so that I don't have to hear Tanya talk."
     show bg classroom winter with dissolve
-    "To my surprise and great fortune, I find out that Tanya actually isn't in every single one of our classes."
-    "Though most classes are common between everyone in homeroom, some students have alternate class periods to suit their individual needs."
-    S "Tanya was placed in an English as a Second Language class since she grew up with Chinese spoken at home."
-    "Sibyl is also quick to remind me that I would have known this already if I hadn't skipped so many classes."
-    S "I suppose they did not know she was already fluent in English when she enrolled."
-    "I also think that Tanya's English is really, really good but am loathe to compliment her out load even when she is around to hear the compliment."
-    C "It's nice to have a class without Tanya."
-    S "Clover, don't be rude!"
-    C "W-Hwa!"
+    "To my surprise and great fortune, I find out later in Family and Consumer Sciences class that Tanya actually is not in every single one of our daily lessons."
+    "Though most classes are common between everyone in our homeroom, some students have alternate class periods to suit their individual needs."
+    show clover neutral at qmleft
+    show sibyl neutral talk at qmright
+    with dd
+    S "Tanya was placed in an English as a Second Language class because she grew up with Chinese spoken at home."
+    "Sibyl is also quick to remind me that I would have known this already if I hadn't skipped so many days of class."
+    S contemplative "I suppose they did not know she was already fluent in English when she enrolled."
+    "I also think that Tanya's English is really, really good considering it's not her first language, but I am loath to compliment her out loud even when she is not around to hear the compliment."
+    C @ neutral talk "It's nice to have a class without Tanya."
+    S angry "Clover, don't be rude!"
+    C surprised "W-Hwa!"
     "I jump sideways after feeling a firm thwack against my rear, and whip my head around to see Sibyl wielding her wooden spatula with a stern but playful grin."
-    S "You earned that smack. You really ought to be nicer to Tanya; she's very sweet."
-    C "I'm not exactly feeling the love."
-    S "What do you expect? You were mean to her!"
-    S "That's right, she told me about what happened in the aquarium."
+    S neutral talk "You earned that smack. You really ought to be nicer to Tanya; she's very sweet."
+    C annoyed "I'm not exactly feeling the love."
+    S frown talk "What do you expect? You were mean to her!"
+    S neutral talk "That's right, she told me about what happened in the aquarium."
     "At that moment, our pot of water begins to bubble and I am thankful to have a change of subject."
-    C "Sibyl, we're ready for the spaghetti."
-    S "Oh! Let me quickly weigh it out so we can calculate the calories for our worksheet."
-    C "(It's easy {b}and{/b} we get to eat food. This class is the best.)"
-    "Making food isn't the entirety of the class. We also have boring lessons like sewing and tax preparation too, which is a lot less enjoyable."
-    S "Got it! Here we go!"
+    C neutral talk "Sibyl, we're ready for the spaghetti."
+    S excited "Oh! Let me quickly weigh it out so we can calculate the calories for our worksheet."
+    show sibyl neutral with dd
+    C smile "(It's easy {b}and{/b} we get to eat food. This class is the best.)"
+    "Making food isn't the entirety of the class. We also have boring lessons like sewing and tax preparation too, which is far less enjoyable."
+    S @ smile talk "Got it! Here we go!"
     "The spaghetti clatters into the pot, the boiling hot water slowly turning each stalk more translucent and less perfectly straight until they're all loose and wriggly in the water."
     "The sight jogs something loose in my mind — some particular piece of unfinished business I've yet to attend to."
-    C "...Sibyl?"
-    S "What is it, Clover?"
+    C neutral talk "...Sibyl?"
+    S neutral talk "What is it, Clover?"
     C "Tell me more about the \"Royal Twins\", Vittoria and Vincenza."
-    S "You want to know more about them and not me? Here I was hoping you'd finally opened up."
-    C "I-I'm not opening up, I just want to get revenge... or something."
+    S frown "You want to know more about them and not me? Here I was hoping you'd finally opened up."
+    C surprised "I-I'm not opening up, I just want to get revenge... or something."
     "I totally didn't mean to say the part about revenge out loud, but thankfully Sibyl remains as understanding as ever."
-    S "Revenge? For what?"
-    C "They kind of... sexually assaulted me when I first arrived."
-    S "Did they now? They told me you were in a little tizzy when they gave you the key card but I should have figured they were the reason for it."
-    S "I don't condone their actions, of course, but there are quite a few girls here who would gladly have taken your place to be subject to their flirting."
-    C "It was a little more than just a little unwanted flirting!"
-    "My outburst comes out a little too loud, leading me to quiet myself down lest I start drawing more attention to myself, which is the last thing I want."
-    S "Okay, well, to begin with they're in the junior class, and my understanding is that they have had a huge following in the school ever since they got here."
-    C "{b}Why?{/b}"
+    S frown talk "Revenge? For what?"
+    C annoyed blush "Those two twins kind of... sexually assaulted me when I first arrived."
+    S annoyed "Did they now? They told me you were in a little tizzy when they gave you the key card to our room, but I should have figured they were the reason for it."
+    S angry "I don't condone their actions, of course, but there are quite a few girls here who would gladly have taken your place to be subject to their flirting."
+    S "Instead of getting revenge, you should go talk to them earnestly and clear things up."
+    C shout "It was a little more than just a little unwanted flirting!"
+    show clover neutral
+    show sibyl neutral
+    with dd
+    "My outburst comes out a little too loud, leading me to quiet myself down before I start drawing more attention to myself, which is the last thing I want."
+    S @ neutral talk "Okay, well, to begin with they're in the junior class, and my understanding is that they have had a huge following in the school ever since they arrived as freshmen."
+    C deer "{b}Why?{/b}"
     "I interrupt just as Sibyl is getting started, still very irritated with how they treated me and only further angered to hear that it's a common thing for them to do to others."
-    C "(Not that I care about anyone else here, but I want to see them apologize to {b}me{/b} at least!)"
-    S "Some students really admire Vittoria's ladylike attitude, and others are drawn to Vincenza's playful behavior."
-    C "(Ladylike? Is that what you call shoving your hand up someone else's skirt?)"
-    S "They're basically the prince and princess of the school. That's why they're called the \"Royal Twins\"."
-    C "So they're not actually some sort of European royalty then?"
-    S "No, but they are Italian. They are in the same ESL class as Tanya."
-    "I am, for a moment, gleeful that Tanya is probably suffering the same fate as I did on my first day, every single class period she shares with those two devils."
-    C "Which one are you most a fan of then, Sibyl?"
+    C scowl "(Not that I care about anyone else here, but I want to see them apologize to {b}me{/b} at least!)"
+    S contemplative "Some students really admire Vittoria's ladylike attitude, and others are drawn to Vincenza's playful behavior."
+    C @ annoyed "(Ladylike? Is that what you call shoving your hand up someone else's skirt?)"
+    S neutral talk "They're basically the prince and princess of the school. That's why they're called the \"Royal Twins\"."
+    C neutral talk "So they're not actually some sort of European royalty then?"
+    S neutral "No, but they are Italian. They are in the same ESL class as Tanya."
+    "I am, for a moment, full of glee to imagine that Tanya is probably suffering the same fate as I did on my first day, every single class period she shares with those two devils."
+    C anxious blush "Which one are you most a fan of then, Sibyl?"
     "I don't even know why I'm asking. Morbid curiosity I suppose."
-    S "I said it was common among students, not that I personally am in either of their sizeable fan clubs."
+    S @ neutral talk "I said it was common among students, not that I personally am in either of their sizeable fan clubs."
     "My plan to get revenge is starting to sound more and more problematic but I still want my payback for jumping me before I even had the chance to step foot onto school grounds proper."
-    C "(I could get a teacher involved, but that might be a little too much.)"
+    C contemplative "(I could get a teacher involved, but that might be a little too much.)"
     C "Sibyl, where is the student council located?"
-    S "Are you going to visit? That's great!"
-    S "Vittoria and Vincenza really are nice when you get to know them, Clover. They even helped look for you when you went missing."
+    S smile talk "Are you going to visit? That's great!"
+    S "Vittoria and Vincenza really are nice when you get past their eccentric personalities, Clover. They even helped look for you when you went missing."
     "I commit to memory Sibyl's detailed instructions on how to find the student council meeting room while stirring the tomato sauce in a separate sauce pan."
-    S "Would you like me to come along with you?"
+    S neutral "Would you like me to come along with you?"
+    show clover neutral with dd
     "Maybe she's expecting that I need more help or just hoping to get more information out of me, because Sibyl keeps talking even after I learn what I needed."
     C "(Why would I need her to come with me for this? This is my own personal revenge here.)"
-    C "No, I'm going alone after classes."
-    S "Oh... I have art club after classes today anyway, but maybe you can stop by after you're finished with the twins."
+    C neutral talk "No, I'm going alone after classes."
+    S frown talk "Oh... I have art club after classes today anyway, but maybe you can stop by after you're finished with the student council?"
     C "I'll be fine. You don't have to think about me at all."
-    S "Maybe not, but I want to. You're my Vertu after all."
-    C "(There she goes again with the \"helpful roommate\" routine.)"
+    S smile "Maybe not, but I want to. You're my Vertu after all."
+    C frown "(There she goes again with the \"helpful roommate\" routine.)"
     "Something warm and wriggly stirs in my stomach, but the pot boiling over on the nearby burner draws my attention away from whatever is eating at me inside."
     stop music fadeout 0.5
     jump student_council
@@ -1118,29 +1239,32 @@ label student_council:
     play music piano2
     show bg classroom winter with dissolve
     "I end up scheming the whole rest of the day about what I'm going to tell the student council so that those twins get their just desserts."
+    show clover contemplative at qmleft with dd
     C "(Maybe not expelled but, like, getting called to the principal over the PA system. That'll be sure to embarrass them!)"
-    C "Yow!"
+    C surprised "Yow!"
     "My hand strays a little too close to an active bunsen burner for my nerves' liking. On instinct, I shove the finger into my mouth to suck away the pain."
-    S "Clover, honestly, you've had your head even deeper in the clouds than usual ever since home economics..."
+    show sibyl frown talk at qmright with dd
+    S "Clover, honestly, you've had your head even deeper in the clouds than usual ever since home ec..."
     show bg hallway with dissolve
-    "I part ways with Sibyl at the end of the day's classes. She heads back toward the school building to go to club while I make for the chamber where the Student Council meets."
+    "I part ways with Sibyl at the end of the day's classes. She heads back toward the school building to go to her art club with Tanya while I make for the chamber where the student council meets."
     "Before she leaves Sibyl asks once again whether I would like her to accompany me. Why she's so nervous about me going to the student council alone, I have no clue."
+    show clover contemplative with dd
     C "(She probably wants to make sure I can't get anyone into trouble at all. She's too nice to let her special roommate do anything bad!)"
     "From outside the doorway to the meeting room muffled voices seep through the edges of the doorway, confirming to me that I've found the right room."
-    C "Here we go!"
-    "I knock at the door then push it open while the vim and vigor of unsatisfied revenge yet flows through me."
+    C impish "Here we go!"
+    "I knock at the door then push it open while the vim and vigor of son-to-be-satisfied revenge yet flows through me."
     play sound doorclose
     show bg meeting winter with dissolve
-    C "Hello, Student Council. I have an important issue to bring to your attention."
+    C happy talk "Hello, Student Council. I have an important issue to bring to your attention."
     "Triumphantly I stand just through the entryway and announce my intentions. It's only when the entire student council turns their gaze my way that everything falls apart."
-    C "(W-Wow... there's a lot of girls on the student council, huh...?)"
+    C deer "(W-Wow... there's a lot of girls on the student council, huh...?)"
     "Nine of them. Eighteen eyes in total. All staring at the girl who just burst into the room like an idiot."
     C "I-I have a... c-complaint..."
     "All the fiery passion for getting even with the twins which had kept my spirits buoyed up suddenly flies right out the window, replaced with a deathly pallor weighing down on me like a block of concrete."
     C "(This must be what Sibyl was concerned—)"
-    "And then, before I even finish my thought, I notice {b}them{/b}."
-    C "{b}Y-You!{/b}"
-    "It's such a genuine surprise that I experience that I even raise my arm to point with dramatic fervor."
+    "And then, before I even finish my thought, I notice {b}them{/b}. It's such a genuine surprise that I even raise my arm to point with dramatic fervor."
+    C shout "{b}Y-You!{/b}"
+
     H "Me!"
     O "Us?"
     "At the very head of the meeting table sit my two tormentors, gently taking turns sipping from their steaming tea cups with dignified amusement."
