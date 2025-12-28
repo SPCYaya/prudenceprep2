@@ -1112,9 +1112,9 @@ label heart2heart:
     C "(Ms. Woolsey and Miss Izzie were right.)"
     "As much as I'd like to have continued to believe that was some slim amount of hope, it's better now for all of us that my feelings were pushed out into the open and the book of my first loved closed."
     "My heart aches but no tears stain my bed sheets. All I can do is pray that time works it's wound-healing magic sooner rather than later."
-    jump languishing
+    jump rebound
 
-label languishing:
+label rebound:
     scene bg transition with fade
     scene bg bedroom with dissolve
     "Sibyl lets me brood over my failed first love the whole rest of the school week. I attend no classes and barely leave my bed except to load up on food to bring back to the room."

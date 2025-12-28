@@ -1411,7 +1411,7 @@ label seconddate:
     "I blink down at Tanya who pushes me up and away by my shoulder with one arm like it's entirely effortless, but I'm too focused on the rosiness of her heated cheeks to think too much of her strength."
     T "Today... isn't good for me."
     C "You mean...?"
-    T "Yeah. So I don't want to have sex. Is that alright...?"
+    T "Yeah, so no sex. Is that alright...?"
     "I hadn't even intended to be reaching that low just yet, but clearly Tanya was concerned that I might get there enough to stop what we were doing cold."
     C "Y-Yeah..."
     C "(I think I've heard that you have to wait for the third date to have sex anyway...? This is the second, or, like, two and a half-th?)"
