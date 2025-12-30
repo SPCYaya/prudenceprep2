@@ -2,16 +2,20 @@ label sibyl_talk:
     show bg transition with fade
     play music guitar1
     show bg cafeteria winter with dissolve
-    "It turns out that one good sleep is all I really need. I get out of bed without a fuss the following morning to eagerly accompany Sibyl to breakfast."
-    "She and Tanya follow their usual routine of exchanging the strawberry while I revel in my extra high stack of French tost with extra maple syrup."
+    "It turns out that one good night of sleep is all I really need. I get out of bed without a fuss the following morning to eagerly accompany Sibyl to breakfast."
+    "She and Tanya follow their usual routine of exchanging the strawberry while I revel in my extra high stack of French toast with double butter and triple maple syrup."
+    show clover frown at qleft with dd
     C "(If I stay at this school any longer they're going to have to roll me out.)"
-    "I resolve to go with a lighter calorie yogurt parfait another day, but for today am satisfied that I need the calories after crying half my water weight out of my eyes the night before."
+    "I know that I will probably need to be lighter on calories another day, but for today I am certain that I need the extra calories after crying half my water weight out of my eyes the night before."
+    show sibyl neutral at qmright
+    show tanya scowl alt2 at qright
+    with dd
     T "...And then she told me that I had \"perfectly perfunctory perfumery\"!"
-    S "I think... I think that was an insult."
-    T "When it comes to Sierra, who even knows?"
+    S @ neutral talk "I think... I think that was a complement."
+    T scowl "When it comes to Sierra, who even knows?"
     "A cube of cantaloupe speared on a fork slips through Sibyl's lips while she listens to her friend prattle on."
-    "It occurs to me suddenly and randomly that I could do the same with the strawberry atop my yogurt parfait, just like Tanya does every day."
-    C "(I like strawberries, but maybe Sibyl likes them way more than me?)"
+    "It occurs to me suddenly and randomly that I could do the same with the strawberry atop my yogurt parfait, just like Tanya does every day, if I were to have that for breakfast instead of French toast."
+    C tired "(I like strawberries, but maybe Sibyl likes them way more than me?)"
     "Mundane thoughts like these are new as of yesterday. After calming down considerably from the emotional highs of the care package, I finally called my parents."
     "I initially felt a considerable amount of anxiety tightening my chest, almost like Abraxas was sitting on my chest as I dialed the numbers, but it did not last."
     "When the phone connected and I heard my parents' voices again, the rush of furious bile that I had feared never materialized."
