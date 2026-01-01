@@ -422,7 +422,7 @@ label woolsey_intro:
     "Just once, I dream vividly of those vultures and their grabby claws, but this time they're both replaced by my strange new roommate, Sibyl."
     "Her wavy auburn hair bounces around me from either side as she and her double sweep their hands across my body in smooth, sensuous motions."
     "The phantom Sibyls say nothing, merely giving me that infuriatingly knowing smile she showed me in the kitchen."
-    show bg bedroom night
+    scene bg bedroom night
     C "Hahn!"
     "Awaking with a start, the phantom images of my roommate linger to haunt my vision with the fading dream, replaced quickly with the dark emptiness of the ceiling above my bed."
     stop music fadeout 0.5
@@ -1153,13 +1153,13 @@ label a1_art:
 
 label home_ec:
     play music guitar2
-    show bg cafeteria winter with fade
+    scene bg cafeteria winter with fade
     "Sibyl doesn't seem to be holding any grudge against me, as usual, but things are no less awkward between me and Tanya by the time lunch arrives."
     "She continues to pretty much ignore my existence altogether and instead holds onto Sibyl's attention near entirely with talk of their separate works of art in progress."
     show clover excited at center with dd
     C "(Ooh, ham cubes!)"
     "I inspect the contents of the salad bar a couple times, picking out the loudest, crunchiest vegetables to go with my ham and ranch dressing so that I don't have to hear Tanya talk."
-    show bg classroom winter with dissolve
+    scene bg classroom winter with dissolve
     "To my surprise and great fortune, I find out later in Family and Consumer Sciences class that Tanya actually is not in every single one of our daily lessons."
     "Though most classes are common between everyone in our homeroom, some students have alternate class periods to suit their individual needs."
     show clover neutral at qmleft
@@ -1235,9 +1235,9 @@ label home_ec:
     jump student_council
 
 label student_council:
-    show bg black with fade
+    scene bg black with fade
     play music piano2
-    show bg classroom winter with dissolve
+    scene bg classroom winter with dissolve
     "I wind up scheming the whole rest of the day about what I'm going to tell the student council so that those twins get their just desserts."
     show clover contemplative at qmleft with dd
     C "(Maybe not expelled but, like, getting called to the principal over the PA system. That'll be sure to embarrass them!)"
