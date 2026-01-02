@@ -292,7 +292,7 @@ label firstdate:
     T "When we made a comprehensive ranking of who on campus we'd most like to fuck, you came in {b}second{/b} out of everyone else here!"
     # in case you're wondering, first was Izzie, because everyone in the cabal knows she'd blow their minds
     C "Who is the \"we\" that's making these weird lists—"
-    C "Wait a minute, I came in {b}second{/b!? Who got first!?"
+    C "Wait a minute, I came in {b}second{/b}!? Who was first!?"
     T "{b}Now{/b} you believe what I'm saying?"
     T "Weren't you bullied by jealous girls in your old school? Like, for being prettier than them, or for stealing their boyfriends' attention? Isn't that why you're so afraid of everyone else?"
     "Tanya finally lets me cut in, but rather than be able to respond to all the stuff she was just spewing, I'm left astonished by what she says last."

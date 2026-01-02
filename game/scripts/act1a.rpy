@@ -162,8 +162,8 @@ label vertu:
     who "...Clover?"
     "The words float out airily behind me, soft enough for them to tickle at my ears but firm enough to force their way between all the dark thoughts brewing in the back of my head."
     "Once they worm deep enough into the my brain, I whip back around quickly toward my suddenly very awake roommate, who rests propped up on one arm where she fell asleep."
-    show clover surprised blush at qright
-    show sibyl bashful at qleft
+    show clover surprised blush at mright
+    show sibyl bashful at mleft
     with dd
     "She is more awake than before, anyway. Her long lashes lay heavy over her crisp blue eyes. The soft pout from being pulled out of a dream too early remains on her lips."
     C neutral talk "What do you want?"
@@ -284,7 +284,7 @@ label woolsey_intro:
     S "Some people get cranky when they're hungry, Clover."
     "I can only surmise this ambiguously worded statement is directed at my earlier performance, but to be fair, my grand arrival was promptly spoiled by two perverts."
     C @ scowl "(And you know what's also not my fault? The cheap airline only giving out a tiny pretzel snack bag.)"
-    show naomi smile at left with dd
+    show naomi smile at qleft with dd
     who "Sorry girls, I got held up back in the school building."
     "Before I can think of another way out of this, the teacher who must be Ms. Woolsey arrives from behind us to fully seal my doom."
     mw happy talk "What's the matter, Sibyl— and, oh! You must be Clover! I'm Ms. Woolsey, your athletics instructor."
@@ -408,7 +408,7 @@ label woolsey_intro:
     C surprised "(Is this normal for roommates!?)"
     "Logically, there's nowhere else to change into my sleepwear but right here, and I can't figure out why I really care so much in the first place, so I suffer through the self-consciousness and do the same."
     scene bg bedroom night with dissolve
-    show sibyl neutral talk at left with dd
+    show sibyl neutral talk at mleft with dd
     S "Good night, Clover."
     hide sibyl with dd
     "The voice of the roommate I was trying to avoid thinking about floats in my direction through the darkness."
@@ -909,13 +909,13 @@ label after_lunch:
     S neutral talk "Oh, and before I forget, your phone was ringing like crazy earlier."
     "The warmth of my dorm room which had slowly been returning to my body all of a sudden dissipates into thin air."
     hide sibyl
-    show clover surprised at qright
+    show clover surprised at mright
     with dd
     "I jump across my bed to clutch at my smartphone. One missed call and a text message blink on the display. \"Hi sweetie, how was your first day at school?\""
     C scowl "(Like she cares a single bit about me anymore!)"
     "It's from Mom. She's asking about my first day at school like it wasn't half her fault for abandoning me here in the first place."
     "Or like she and Dad aren't tearing our family apart and destroying our lives together — the life I've always known and loved up until just recently."
-    show sibyl surprised at qleft with dd
+    show sibyl surprised at mleft with dd
     "I chuck the smartphone into my pillow at full force, clearly alarming Sibyl across the room."
     S "C-Clover?"
     C shout "I'm {b}fine{/b}! It's just my mom."

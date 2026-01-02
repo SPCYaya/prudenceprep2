@@ -11,6 +11,7 @@ define mw = Character("Ms. Woolsey", image="naomi", who_outlines=[ (3, "#ffffff"
 
 # Misc Characters
 define st = Character("Student", who_outlines=[ (3, "#ffffff") ])
+define rachel = Character("Rachel", who_outlines=[ (3, "#ffffff") ])
 define te = Character("Teacher", who_outlines=[ (3, "#ffffff") ])
 define who = Character("???", who_outlines=[ (3, "#ffffff") ])
 define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
