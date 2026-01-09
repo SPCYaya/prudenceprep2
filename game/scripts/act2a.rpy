@@ -1591,8 +1591,8 @@ label rebound:
     H @ alt frown talk "You are not in a proper state of mind, Clover."
     O @ alt frown talk "Do not ask us to do something that we know will hurt you."
     C @ shout "I don't care. If you really came here to help me, then I want you to do this for me now. I want to forget about these feelings for Sibyl!"
-    show vitti vulnerable2 blush
-    show vinci alt contemplative blush
+    show vitti vulnerable2
+    show vinci alt contemplative
     with dd
     "The twins understandably consult one another with their infuriating face-to-face meeting of their eyes, then tentatively turn back to me."
     show vinci alt neutral
@@ -1603,8 +1603,8 @@ label rebound:
     "Vincenza correctly guessing that it's my \"first time\" only makes me more annoyed by their current resistance to do what I'm sure they normally do without a care."
     C @ shout "Yes, I am very sure!"
     stop music fadeout 0.5
-    show vitti vulnerable2 blush
-    show vinci alt contemplative blush
+    show vitti vulnerable2
+    show vinci alt contemplative
     with dd
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
     scene bg rebound
