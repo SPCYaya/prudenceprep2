@@ -108,7 +108,9 @@ label vertu:
     scene bg mary winter snow night with fade
     "Despite the wintry Massachusetts chill and the promise of a warm place to rest, the prospect of having to formally \"arrive\" at this new school does not speed my footsteps."
     "As I trudge deeper into the campus, I find many girls in similar uniforms hurry past me toward the living quarters, as expected given the hour of the day. I follow them at a small distance."
-    show clover scowl blush at center with dd
+    scene bg dorm
+    show clover scowl blush at center
+    with dissolve
     C "(That was definitely sexual assault, right?)"
     "I don't try to talk to a single one of my new fellow students. I'm still reeling from my first interaction with the strange enrollees from this academy and don't want to invite another incident."
     C annoyed blush "(She stuck her hand... {b}all{/b} the way up there!)"

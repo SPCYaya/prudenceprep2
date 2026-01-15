@@ -59,8 +59,6 @@ label end:
 # testing
 label test:
     scene bg cafeteria
-    show tanya neutral at qmright
-    show clover neutral at qmleft
     show tlax neutral at qright
     show clax neutral at qleft
     with dd

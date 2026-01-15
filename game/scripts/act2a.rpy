@@ -1607,7 +1607,7 @@ label rebound:
     show vinci alt contemplative
     with dd
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
-    scene bg rebound
+    scene cg rebound
     play music drama
     "Vittoria locks eyes with me and begins crawling up the bed toward me on her hands and knees like a lioness stalking her prey. She's quick to pull my legs out from under me and tease her hands up them without delay."
     "Vincenza, who chose to stand from the edge of the bed, now sits down again upon it beside my shoulder, and with one hand turns my face away from her sister towards her own."
