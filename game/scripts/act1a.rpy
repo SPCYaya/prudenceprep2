@@ -41,7 +41,9 @@ label spaghetti_start:
     show clover anxious at center with dd
     C "W-Who's there?"
     "I almost begin to think I've frozen to death and passed into the astral plane as a result of my desperate trek, but my corporeality is soon validated when a sudden weight presses around the back of my neck and upon my shoulders."
+    stop music fadeout 0.5
     scene cg spaghetti with dissolve
+    play music drama
     O "The proper young ladies of this academy do such things in the confines of their own rooms."
     "The second girl to speak, who judging by her voice was addressed as Vincenza, is close enough for me to feel the warmth of her breath tickle against the chill of my left cheek."
     "Flipping my head swiftly to the side, I catch sight of the face of the girl in question. She wears an easy grin upon a pretty face, with eyes as relaxed as her posture."
@@ -82,6 +84,8 @@ label spaghetti_start:
     "Distracted and slowed from logical thought by the strange caresses and warmth blooming all over my body, it's only then that my brain finally comes to the heart of the matter."
     C "R-Room key?"
     "With a soft giggle, the wavy-haired girl's fingertips clip against my stomach where the white tights meet their end, followed by the cold touch of something entirely unnatural against my bare skin."
+    stop music fadeout 0.5
+    play music guitar1
     scene bg mary winter snow night
     show clover surprised blush at center
     with dissolve
@@ -378,6 +382,7 @@ label woolsey_intro:
     C neutral talk "I don't need your apologies."
     mw awkward "W-Well... I have long felt that the people I met here at the academy are like a second family to me, so if you ever need—"
     "She's just trying to console me, I know, but she unwittingly stepped right onto the land mine already primed to explode."
+    stop music fadeout 0.5
     C shout "I already {b}have{/b} a family, I don't need a second one!"
     show naomi surprised
     show sibyl frown
@@ -387,6 +392,7 @@ label woolsey_intro:
     S "Oh, Clover..."
     "It's unnerving, to see this strange reaction to me being so frigidly cold. Sibyl's soothing concern and big, sparkling eyes peering directly at me drive right through my icy exterior to make my stomach flutter the half-digested sandwich within."
     C annoyed "(What could she possibly be thinking now? She doesn't know a single thing about me!)"
+    play music guitar2
     show naomi pensive with dd
     "Sibyl might have the mysterious expression of utmost compassion and understanding on her face but my athletics teacher is only further troubled by everything that's happening."
     mw neutral talk "I shouldn't have pried into your personal life, Clover, I'm sorry."
@@ -406,7 +412,7 @@ label woolsey_intro:
     C "(What gives? First she wants to be my BFF and now she's acting all aloof? Are {b}all{/b} the girls here totally insane?)"
     "She barely demands my attention or says any words beyond what is required. She merely goes about her routine for the night as do I mine."
     "It's kind of infuriating actually that I don't know what she's getting at, and I find myself keep looking back at her as I make my bed and finish my nightly preparations."
-    "I keep right on watching her until she starts stripping out of her uniform right in front of me, from which I suddenly jerk my head away fast enough to break my neck."
+    "I keep right on watching her until she starts stripping out of her uniform right in front of me, from which I suddenly jerk my head away nearly fast enough to break my neck."
     C surprised "(Is this normal for roommates!?)"
     "Logically, there's nowhere else to change into my sleepwear but right here, and I can't figure out why I really care so much in the first place, so I suffer through the self-consciousness and do the same."
     scene bg bedroom night with dissolve
@@ -435,15 +441,17 @@ label shower_time:
     play music piano2
     scene bg bedroom with dissolve
     "I am anything but well rested by the time the sun breaks over the horizon."
+    show cpj tired at mright with dd
     "More than anything else in the world, I desire to remain in the assigned bed, eyes closed, pretending to be safely back in my own bed in my own room at my own house with all being well in the world."
     C "(I want to go home! How long will I have to be here?)"
+    show cpj frown with dd
     "Daylight streams in through the open windows when my eyes do open. The restless fits of sleep must have caught up to me at some point in the early morning because I have no recollection of the dawn ever coming."
     show sibyl neutral at mleft with dd
     S "Good morning, Clover. The cafeteria is already open and homeroom is at eight, so you'd better hurry up."
     "As if to answer the question which had yet to form, Sibyl emerges at that very moment from the bathroom fully dressed in her uniform and pulling a brush through her hair."
-    C "Dun wanna."
+    CPJ annoyed "Dun wanna."
     "I squirm around under my warm covers, snuggling the sheets tighter around me in protest and shutting my eyes as tight as possible to block out the miserable sun."
-    C "(So what if I skip class. What are they gonna do, send me back home? That's what I want anyway.)"
+    C tired "(So what if I skip class. What are they gonna do, send me back home? That's what I want anyway.)"
     S neutral talk "If you don't get up you're going to miss breakfast."
     C "I'll survive."
     "I'm not quite at the level of desperation that calls for a hunger strike, but I am reasonably confident that I can hold out until lunch if I have to."
@@ -459,8 +467,9 @@ label shower_time:
     C "No."
     hide sibyl with dd
     "All at once a wave of cool air washes over me as the topmost layers of my bed are whipped clear off my body."
-    C "{b}Nooooo!{/b}"
+    C shout "{b}Nooooo!{/b}"
     "I writhe about in a frenzy against the chill air assaulting me, knowing full well and caring little about how childish and petulant I must look in that moment."
+    show cpj scowl with dd
     "Defeated and increasingly more hungry by the minute, I slump off the edge of the bed, wipe the heaviest of the sleep from my eyes, and make for the shower where I stand half asleep with the water beating down on my face."
     scene bg black with dissolve
     C "Sibyl... What does she think she knows about know about how I feel anyway?"
@@ -909,12 +918,14 @@ label after_lunch:
     "Just like Ms. Woolsey, Sibyl is doing the whole \"patience and understanding\" routine like she's certain I'm going to eventually come running to cry on her shoulder."
     C "(At least Tanya tells me how she really feels about me.)"
     S neutral talk "Oh, and before I forget, your phone was ringing like crazy earlier."
+    stop music fadeout 0.5
     "The warmth of my dorm room which had slowly been returning to my body all of a sudden dissipates into thin air."
     hide sibyl
     show clover surprised at mright
     with dd
     "I jump across my bed to clutch at my smartphone. One missed call and a text message blink on the display. \"Hi sweetie, how was your first day at school?\""
     C scowl "(Like she cares a single bit about me anymore!)"
+    play music sad
     "It's from Mom. She's asking about my first day at school like it wasn't half her fault for abandoning me here in the first place."
     "Or like she and Dad aren't tearing our family apart and destroying our lives together — the life I've always known and loved up until just recently."
     show sibyl surprised at mleft with dd
@@ -1406,7 +1417,9 @@ label student_council:
     O @ alt frown talk "Clover, there's no easy way to say this so we're just going to tell you plain and simple."
     H @ alt frown talk "Your attitude is unpleasant. Everyone you've come into direct contact with has come away with major concerns or negative feelings about you."
     C scowl "So what? I don't want to be popular!"
+    stop music fadeout 0.5
     O alt awkward "One student told us you were, quote: \"an unstable self-centered bitch\"."
+    play music drama
     C @ shout "{b}Who said that!? Was it Tanya!?{/b}"
     show vinci alt smug
     show vitti alt smug
@@ -1503,7 +1516,6 @@ label introspection:
     "\"Keep your head up and your heart open. Good things are sure to find their way in if you let them.\""
     "I do what Dad asks, raising my head to regard Sibyl across the room."
     C smile blush "No. I'm... going to be alright. You can stay."
-    hide sibyl with dd
     show sibyl smile at qmleft with dd
     "With an understanding smile that I've come expect from her, Sibyl sets down her bag and moves to sit on my bed across from me at a comfortable distance."
     S @ smile talk "What'cha got here?"

@@ -597,7 +597,9 @@ label manhuatalk:
     C @ neutral talk "You're still here? Are you locked out of the equipment room?"
     "I opt to break the silence to start out. It's clear that Tanya has something to say and I'd rather just get it over with."
     TL @ neutral talk "I was waiting for you to arrive. There's something I have to do where no one will disturb us."
+    stop music fadeout 0.5
     "Either Tanya and I are about to re-enact that smutty video I curiously opened and quickly closed right after on my smartphone while Sibyl was out of the room... or more likely, Tanya is about to beat the snot out of me."
+    play music drama
     C deer "W-Wait! I'm sorry, okay!?"
     TL neutral talk "You're sorry?"
     show tlax neutral with dd
@@ -617,6 +619,8 @@ label manhuatalk:
     TL @ shout "You're {b}such{/b} an idiot, Clover. And to think I was going to say you might have some brain cells yet clinging to life in your empty skull after all!"
     C annoyed "You could stand to say it nicer than that!"
     TL shy blush "I was {b}going{/b} to, but not anymore! I'm not going to hurt you, just... shut up and let me talk."
+    stop music fadeout 0.5
+    play music sad
     show clover neutral with dd
     "Tanya gives a short huff, fluffs her fingers through her bangs, and resumes staring at the point in which the lockers meet the floor in front of her. It's like whatever she's trying to say is the most difficult thing in the world."
     TL neutral talk "Sibyl can be a terrifying force of nature sometimes, when she wants to be."
@@ -664,6 +668,8 @@ label manhuatalk:
     "It makes perfect sense not to divulge all these secrets to Sibyl when she has not officially come out to her yet. I know Tanya is friends with the twins too, but I seriously doubt they have the emotional capacity to handle anything serious."
     C tired "(Sibyl must have planned this all along. She's just too crafty!)"
     C neutral talk "I definitely know—"
+    stop music fadeout 0.2
+    play music guitar2
     TL smile talk "Phew! I feel so light in my chest. You're going to have to run extra hard today if you don't want to choke on all my dust."
     show clover surprised with dd
     "My emotional sensors get whiplash from the sudden change in tone that Tanya gives off. Just a moment before she was all serious, and now she's just about back to normal herself, half way out of the locker room before I can blink."
@@ -676,11 +682,13 @@ label homeroom_queens:
     "After running so hard in front of me on the track that I literally get the taste of the soft Spring dirt in my mouth, I'm totally exhausted by the time we meet Sibyl in the cafeteria for breakfast."
     "Nothing much is said as I shovel down a whole plate of French toast as a personal reward after what feels like a millennium of eating only yogurt parfaits for breakfast."
     scene bg classroom with dissolve
+    stop music fadeout 0.5
     "Even the saccharine embrace of fluffy French toast cannot replenish my energy enough to face the trials that soon await in homeroom the first day back from Easter break and after the surprise win of the Homecoming court."
     show tanya neutral alt2 at qmright
     show clover vulnerable blush at qmleft
     show sibyl neutral at qleft
     with dd
+    play music drama
     st "Did you play lacrosse in your last school too?"
     T @ neutral talk "I never so much as picked up a crosse until the day of the academy club faire."
     "Most of the classroom surrounds me, Tanya, and Sibyl before we can even get to our assigned seats."
@@ -731,6 +739,8 @@ label homeroom_queens:
     show tanya neutral alt2
     show clover neutral
     with dd 
+    stop music fadeout 0.5
+    play music guitar2
     T neutral talk alt "Just ignore them. They'll find anything at all to gossip about."
     "I glance back toward Tanya, but she isn't even looking way way. Her attention lies at nothing in particular across the room while a hand brushes through her own shining black strands idly."
     C excited "I'm not bothered at all. I'm cool as a cucumber!"
@@ -794,6 +804,7 @@ label beforestormpractice:
     "Sibyl describes every little detail that the author gave away over the course of her short interview while I finish up my jumbo-sized bowl of shrimp and andouille sausage jambalaya."
     "Then she continues right along comparing the previous novels even after I lick clean the spoon I used to eat my bananas foster."
     "I allow Sibyl to keep chattering mindlessly about {i}Sylvia Valemont{/i} right up to when the kitchen staff comes to gently shoo we, the last two students, out of the deserted cafeteria."
+    stop music fadeout 0.5
     show sibyl bashful with dd
     C @ neutral talk "She's not coming, Sibyl. We need to let the kitchen staff clean up before it gets too late."
     scene bg mary night
@@ -809,10 +820,10 @@ label beforestormpractice:
     "I instinctively try to ask in such a way that implies it could have been an accident, but my phrasing makes it clear that I already know the truth of the matter."
     S frown talk "It was a dragon — the Eastern kind. She spent {b}ages{/b} carving each scale with a fettling knife."
     C neutral "That sounds impressive."
+    "I withhold myself from asking what the heck a \"fettling knife\" is for fear of making the somber mood Sibyl is in worse."
     S bashful "It was."
     scene bg dorm night with dissolve
     "There's a brief moment when we reach the dorms that Sibyl seems like she's going to walk down the hallway to Tanya's door, but she must know as well as I do that she probably wanted to be alone for a reason."
-    stop music fadeout 0.5
     jump before_the_storm
 
 label before_the_storm:
@@ -1142,46 +1153,47 @@ label easterp2: # not the holiday, the school celebration
     T "Wake up!"
     C surprised "Huh?"
     scene bg bedroom
-    show clover excited at qmright
+    show cpj excited at qmright
     show sibyl excited at qmleft
-    C "Haahh!"
+    CPJ "Haahh!"
     S "Yow!"
     show sibyl frown
-    show clover frown
+    show cpj frown
     with dd
     "A heavy \"bonk\" reverberates through my skull, a feeling which fades slowly even with how much I rub at the sore spot on my forehead."
     S @ angry "Next time I have to wake you up, I'm going to poke you from a safe distance with a yardstick!"
     "Judging by the bright red spot adorning Sibyl's forehead in front of me, my awakening was rude for both of us."
-    C @ frown talk "Sorry, Sibyl..."
+    CPJ @ frown talk "Sorry, Sibyl..."
     S neutral "You're {b}such{/b} a heavy sleeper, you know that?"
-    C frown talk "Yeah, I always have been. And I have the craziest dreams too."
-    show clover frown
+    CPJ frown talk "Yeah, I always have been. And I have the craziest dreams too."
+    show cpj frown
     show sibyl smile
     with dd
     "It's not a great feeling to be reprimanded while still groggy, but Sibyl isn't really angrily remonstrating me so much as playfully chiding, and I owe her that much after the nasty head-to-head just now."
     S @ smile talk "What was it today? Something good?"
-    C contemplative blush "Umm...? Yeah, kind of."
+    CPJ contemplative blush "Umm...? Yeah, kind of."
     S @ smile talk "What was it?"
     "My mouth opens before my sluggish morning brain can determine that it's definitely not a good idea to tell her what I was dreaming about, and I'm left gaping like a fish while I think of something quickly."
-    C excited blush "Churros. Cinco de Mayo is coming up and I just {b}know{/b} the cafeteria is going to have churros again."
+    CPJ excited blush "Churros. Cinco de Mayo is coming up and I just {b}know{/b} the cafeteria is going to have churros again."
     S contemplative "Oh yeah, it is coming up, isn't it? I wonder if the academy will do anything special for it even though it isn't our holiday."
-    C happy talk "Maybe. It's fun to celebrate it even if that just means eating delicious churros."
+    CPJ happy talk "Maybe. It's fun to celebrate it even if that just means eating delicious churros."
     "It was just something to throw Sibyl off the scent of the strange dream I had, but now that I'm thinking of churros, I actually start daydreaming about them for real. Thankfully, Sibyl here there to pull me back from the brink."
     S neutral "Tanya texted me to tell you that she's not going to do any training this morning."
-    C anxious "Oh, okay."
+    CPJ anxious "Oh, okay."
     S "You really ought to trade numbers with her rather than go through me every time."
-    C neutral "You're probably right, Sibyl."
+    CPJ neutral "You're probably right, Sibyl."
     "With my recent morning activities canceled, I quickly flop back down onto my sheets and shut my eyes to return to my soporific former morning pastime."
     S neutral talk "Wait, before you go away again—"
     "Sibyl has other plans for me, however, and sharply yanks me back up by my arms before the sweet relief of sleep takes me again."
     S "The academy has Easter celebration activities today. My library friend invited me to come with her to the chapel and then to take part in the fun parts afterwards. Would you like to come with me?"
     show sibyl smile with dd
     "The call of my bed beckons so sweetly, but some part of me also is curious about what kind of easter activities might be happening after the chapel services."
-    C contemplative "Will there be chocolate?"
+    CPJ contemplative "Will there be chocolate?"
     S @ smile talk "I don't know, but if I had to hazard a guess, I would say \"yes\"."
     "Sibyl answers matter-of-factly without any delay. Either she anticipated I would ask such a question, or she was thinking about it herself."
-    C neutral talk "Okay, I'll come, but there'd better be chocolate."
+    CPJ neutral talk "Okay, I'll come, but there'd better be chocolate."
     scene bg chapel
+    play sound churchbells
     show clover excited at center
     with fade
     "I think that the chapel is actually quite impressive when I step foot into it for the first time. With it's echoing stone walls and colorful stained glass windows, such a grand chamber pulls on the soul of even the least devout such as myself."

@@ -26,10 +26,10 @@ define config.version = "0.1.0"
 
 define gui.about = _p("""
 
-Created and written by the Society for the Prevention of Cruelty to Yayas (SPCYaya).
+Created by the Society for the Prevention of Cruelty to Yayas (SPCYaya).
 All questions and concerns may be addressed to yaya.did.nothing.wrong@gmail.com!
 
-Character art, backgrounds, and CGs by Hiwonoafu - https://linktr.ee/Hiwonoafu
+Character art, backgrounds, and CGs drawn by Hiwonoafu
 
 Special Thanks - /u/
 
@@ -86,6 +86,9 @@ https://freesound.org/people/thomashill1/sounds/478797/
 
 volleyball spike
 https://freesound.org/people/Luisa_Sanchez/sounds/816991/
+
+church bells
+https://freesound.org/people/JarredGibb/sounds/219051/
 
 
 

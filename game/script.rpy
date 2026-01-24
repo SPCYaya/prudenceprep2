@@ -4,8 +4,10 @@ define O = Character("Vincenza", image="vinci", who_outlines=[ (3, "#ffffff") ])
 define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 define TL = Character("Tanya", image="tlax", who_outlines=[ (3, "#ffffff") ])
+define chinese = Character("Tanya", image="tanya", what_font="fonts/Source Han Sans CN Light.otf", who_outlines=[ (3, "#ffffff") ])
 define C = Character("Clover", image="clover", who_outlines=[ (3, "#ffffff") ])
 define CL = Character("Clover", image="clax", who_outlines=[ (3, "#ffffff") ])
+define CPJ = Character("Clover", image="cpj", who_outlines=[ (3, "#ffffff") ])
 define mi = Character("Miss Izzie", image="izzie", who_outlines=[ (3, "#ffffff") ])
 define mw = Character("Ms. Woolsey", image="naomi", who_outlines=[ (3, "#ffffff") ])
 
@@ -59,7 +61,7 @@ label end:
 # testing
 label test:
     scene bg cafeteria
-    show tlax neutral at qright
-    show clax neutral at qleft
-    with dd
+    show tlax neutral at left
+    TL "fgdfgdfg"
+    show tlax neutral at right
     TL "fjghdjfkgdfgdf"

@@ -374,10 +374,14 @@ label firstdate:
     C "(Of course I set a goal!)"
     "After hearing all about Tanya's forthright plans to evaluate her and my feelings for one another, it's kind of hard to tell her what my goal was."
     "At the same time, not telling her and pretending I didn't have a goal at all would be dishonest and totally against the entire rationale of her goal, so I try to push down the anxiety creeping up my chest to be quite honest with Tanya."
+    stop music fadeout 0.2
+    play music sad
     C "C-Can I... k-kiss you?"
     T "Clover..."
     C "Y-Yeah...?"
     "Tanya speaks my name so softly, drawing me in. I inch just a little closer, nearly rubbing my side against hers as I gaze into her eyes, so happy she didn't shut me down."
+    stop music fadeout 0.2
+    play music drama
     T "You don't {b}ask{/b} for a kiss!"
     C "H-wha!?"
     T "You just {b}do it{/b} when the mood is good! {b}Idiot{/b}!"
@@ -385,6 +389,8 @@ label firstdate:
     T "Make me!"
     C "I {b}will{/b}!"
     "Like a foolhardy swimmer into a lake of piranhas, I grab Tanya by the arm and close the gap between us without any hesitation."
+    stop music fadeout 0.2
+    play music happy
     "I brace myself for an awkward meeting of our faces, but rather than bump noses or bash foreheads, our lips come together so smoothly that it almost feels natural and welcomed by Tanya."
     C "(There's no way... She was yelling at me just a mere fraction of a second ago!)"
     "The kiss is sublime, like the kiss I shared with Sibyl but at least three and a five-eighths times better. Not only am I obviously way into it, but this time the girl whose lips I'm squishing against my own is very into it too."
@@ -396,7 +402,9 @@ label firstdate:
     T "Mmn."
     "Our first was clean. Pure. The second is less so."
     "There's a desire plainly in both of us, and though we do not quite get French about it, we're well on our way as neither wants to pull away despite sinking ever deeper into the kiss."
+    stop music fadeout 0.2
     "{b}Tanya and Clover, sittin' in a tree! K-I-S-S-I-{/b}"
+    play music guitar1
     "Tanya and I both separate the instant we hear our names called from back by the campus buildings all the way across the field, followed by some ensuing commotion and many giggles."
     C "(Were we always this close?)"
     "My first surprise, before even looking in the direction of the sounds, is just how much the two of us had come together physically while we were kissing."
@@ -486,6 +494,8 @@ label sunday_after_date:
     H "Good morning, Tanya."
     T "Ugh."
     play sound doorclose
+    stop music fadeout 0.2
+    play music drama
     "Tanya's displeasure at seeing Vittoria is clear. Just as I'm wondering where Vincenza might be, the sound of the door closing firmly shut behind us rings out, followed by her voice coming up behind Tanya."
     O "Did you think you could give us the slip that easily?"
     T "How did you even get in here? This locker room is only for sports club members."
@@ -527,6 +537,8 @@ label sunday_after_date:
     "Tanya might be trying to downplay this new revelation, but the twins are less circumspect."
     H "Heavens forgive us."
     O "We've created a monster."
+    stop music fadeout 0.5
+    play music piano1
     "The twins quit circling Tanya and assume their standard posture side-by-side one another in a more casual stance."
     "They even apologize to Tanya for assuming that she had been keeping them in the dark about an ongoing relationship between me and her."
     T "I wanted our relationship to develop at our own pace — {b}without{/b} any outside interference. We would have told you when the time was right."
@@ -618,8 +630,10 @@ label datepart2:
     C "(So this is the part where we share the dark days of middle school with one another, huh?)"
     "It's still a terrifying prospect, to dig up and break open the casket of my middle school years which I thought I had entombed for good, but if it's to get closer with Tanya I'll do it."
     C "(And I'm kinda curious about her drawings too...)"
+    stop music fadeout 0.5
     play sound doorknock
     S "Oh! There's Tanya!"
+    play music happy
     play sound doorclose
     "I jump up from my bed to greet Tanya as she enters. We both pause in front of one another like we want to share a quick peck of a kiss as we did that morning after our date, but with Sibyl right there I feel it's too awkward, and maybe Tanya does too."
     S "Were you able to smuggle your smartphone here without any issue?"
@@ -785,12 +799,14 @@ label datepart2:
     C "Mng, Ta... nya!"
     "My heart feels like's it's going to burst out of my chest with very passing moment."
     "I feel as though I might even faint, though that could be due to my paltry oxygen intake and not the way Tanya's chest brushes against mine or the way our legs entwine together to the detriment of how carefully I mad my sheets that morning."
+    stop music fadeout 0.5
     play sound doorclose
     S "I'm back, sorry that took so—"
     "The sound of Sibyl's voice is enough to make both of us currently getting tied closer together by the second suddenly freeze up."
     play sound doorslam
     "By the time we both extricate our faces far enough from each other to whip our heads toward the bathroom door, Sibyl's brown curls are already bounding back into the bathroom with a heavy slam of the door behind them."
     "..."
+    play music drama
     T "You forgot about Sibyl!"
     "The heavy arms drop from my back to push up on my shoulders instead, keeping me atop Tanya at a safe distance for her to firmly accuse me of wrongdoing."
     C "{b}I{/b} forgot about Sibyl? {b}You{/b} pulled me down!"
@@ -799,11 +815,11 @@ label datepart2:
     "Whichever girl or spirit might be at fault here, both of us scramble off the bed and line up outside the door to the bathroom to apologize to Sibyl and try to coax her out."
     S "S-Sorry... you can... ignore me..."
     "Her voice is terribly quiet even from behind the thick wooden door, which only makes Tanya and I all the more insistent that she comes out."
+    stop music fadeout 0.5
     "She does eventually, after some more pleading, and looking a bit warmer to her cheeks than usual. The awkwardness fades slowly but surely, and seen enough all three of us are laughing on my bed once again while I show off my tarot cards."
     scene bg bedroom night with dissolve
     "Tanya and I never do get back to what we started, however much I want desperately to be wrapped up in her arms once again."
     "It's not until I rest my head and close my eyes that my wishes are fulfilled by a very titillating dream which, upon waking suddenly, leaves me only wanting to have yet more of Tanya all to myself."
-    stop music fadeout 0.5
     jump after_date1
 
 label after_date1:
@@ -852,9 +868,11 @@ label after_date1:
     C "Yeah, what's with that, anyway? You don't normally push us that hard."
     "We take a few more steps down the hallway toward the cafeteria in silence, while with each step Tanya looks off in the distance while playing with her hair."
     T "I had a lot of pent up energy this morning that I needed to get out of my system."
+    stop music fadeout 0.5
     scene bg cafeteria with dissolve
     pause 1.0
     scene bg classroom with dissolve
+    play music happy
     C "(\"In triangle ABC, suppose D, E, and F are the midpoints of BC, CA, and AB, respectively. Prove that AD, BE, CF are concurrent.\")"
     C "(What the heck does that mean? Where are the numbers!?)"
     "The entire math class is written down in my notebook as three pages of triangles with lines drawn all through them and lots of capitalized letters all over, without me getting any closer to understanding what I'm supposed to be taught."
@@ -901,6 +919,8 @@ label after_date1:
     "I twist my ankle in response to press more of my foot flat against hers, but Tanya isn't going easy on me whatsoever. She quickly changes tack, instead brushing the front side of her shoe slowly up my calf."
     "This small contact initiated by Tanya is enough to send a shiver of excitement racing up my spine, or maybe it's the way her eyes bore into me half-lidded, and her lips curl into a transient grin when she spots my reaction."
     "The flirtation grows more and more aggressive until Sibyl returns with our homework and tells us to stop kicking each other under the desk."
+    stop music fadeout 0.2
+    play music piano2
     show sibyl talking with dd
     S "Three worksheets for homework, and every one of them are stuffed to the margins with proofs."
     "In one respect, I'm glad to find that she also hates these proofs as much as I do, but in another I really wish she hadn't disturbed me and Tanya. My leg only hurts a little and I'd survive a few more love-kicks."
@@ -913,6 +933,8 @@ label after_date1:
     S "What about this Monday?"
     T "Oh, right, we'll have off all day, don't we?"
     C "Huh? There are no classes on Monday?"
+    stop music fadeout 0.2
+    play music drama
     S "Monday is Memorial Day."
     "Glorious thoughts about sleeping in late and eating my breakfast in bed flood into my mind right away, but are soon enough chased out by a sudden and shocking revelation."
     C "M- {b}Memorial Day{/b}!? It's {b}Memorial Day{/b} already!?"
@@ -921,6 +943,8 @@ label after_date1:
     C "Well, because..."
     "I want to blurt right out every last thing that is wrong with this and make them understand, but the anxiety about how they both don't feel the same as I do keeps me quietly brooding on the inside."
     C "(Aren't they concerned that the \"unofficial first day of summer\" is rapidly approaching?)"
+    stop music fadeout 0.2
+    play music piano2
     scene bg dorm with fade
     "I keep quiet all through the rest of classes, the homework session together in the library, and through a late dinner, but the angst of the impending holiday remains niggling in the back of my mind throughout."
     C "Umm, Sibyl, I'm going to talk to Ms. Woolsey real quick. I'll catch up with you back in the room?"
@@ -945,6 +969,8 @@ label after_date1:
         "With a certain degree of trepidation no doubt caused by my forboding demeanor, Ms. Woolsey informs me how classes end in just about a month's time from today."
         C "(One month. Four weeks. Thirty days.)"
         mw "Is something wrong, Clover? I have the time to listen to whatever you need to say, I promise."
+        stop music fadeout 0.2
+        play music sad
         "I want to stamp my feet and scream out in agony that there's absolutely no way I can possibly leave the academy and my friends behind now, but not in front of Ms. Woolsey after making such a scene to her about not wanting to be here at all on my first day."
         "My eyes glue to the ground in front of me, my feet resolutely planted in a clear sign that I'm not done yet. I stumble to start a few times but end up finding the strength to spit out the heart of the matter with a bit of a childish whine."
         C "But I only {b}just{/b} started dating Tanya..."
@@ -996,6 +1022,8 @@ label after_date1:
         "With a certain degree of trepidation no doubt caused by my forboding demeanor, Ms. Woolsey informs me how classes end in just about a month's time from today."
         C "(One month. Four weeks. Thirty days.)"
         mw "Is something wrong, Clover? I have the time to listen to whatever you need to say, I promise."
+        stop music fadeout 0.2
+        play music sad
         "I want to stamp my feet and scream out in agony that there's absolutely no way I can possibly leave the academy and my friends behind now, but not in front of Ms. Woolsey after making such a scene to her about not wanting to be here at all on my first day."
         "My eyes glue to the ground in front of me, my feet resolutely planted in a clear sign that I'm not done yet. I stumble to start a few times but end up finding the strength to spit out the heart of the matter with a bit of a childish whine."
         C "But I only {b}just{/b} started dating Tanya..."
@@ -1054,6 +1082,8 @@ label after_date1:
         "With a certain degree of trepidation no doubt caused by my forboding demeanor, Ms. Woolsey informs me how classes end in just about a month's time from today."
         C "(One month. Four weeks. Thirty days.)"
         mw "Is something wrong, Clover? I have the time to listen to whatever you need to say, I promise."
+        stop music fadeout 0.2
+        play music sad
         "I want to stamp my feet and scream out in agony that there's absolutely no way I can possibly leave the academy and my friends behind now, but not in front of Ms. Woolsey after making such a scene to her about not wanting to be here at all on my first day."
         "My eyes glue to the ground in front of me, my feet resolutely planted in a clear sign that I'm not done yet. I stumble to start a few times but end up finding the strength to spit out the heart of the matter."
         C "But I only {b}just{/b} started dating Tanya..."
@@ -1077,9 +1107,11 @@ label after_date1:
         "Ms. Woolsey returns my appreciation, and after removing the hands from around her mouth, so too does Miss Izzie."
         mi "I'm rooting for you and Tanya, and that's no joke!"
     
+    stop music fadeout 0.5
     scene bg dorm night with dissolve
     "After once more apologizing for disrupting her, I say good night to Ms. Woolsey and shuffle off toward my room before curfew kicks in."
     "There's a chance that I could remain here at the academy with Tanya. Maybe even Sibyl too, if she doesn't want to go back to her foster home."
+    play music piano2
     scene bg bedroom night with dissolve
     S "Welcome back, Clover."
     "When I return, Sibyl is busy re-organizing her art supplies, likely for her art club tomorrow afternoon. With the topic still fresh in my mind, I decide to quit being such a coward and just ask Sibyl outright what her summer plans are."
@@ -1202,7 +1234,7 @@ label gardening:
 
 label sibyl_intermission:
     scene bg transition with fade
-    play music piano1
+    play music happy
     scene bg cafeteria with dissolve
     S "Are you really sure?"
     T "Completely."
@@ -1271,9 +1303,11 @@ label sibyl_intermission:
     S "There's no way you'll miss the starting roster next year, Clover."
     T "Yeah, Ms. Woolsey would be crazy to not start you in the midfielder next season. Your skills have grown so much since placement."
     "That I'd place on the starting roster next season is without a doubt in my mind. It is the uncertainty of whether I'll be here at the academy next year at all that darkens my outlook."
+    stop music fadeout 0.5
     jump seconddate
 
 label seconddate:
+    play music sad
     scene bg path with fade
     "After a well-deserved lunch at which I observe Sibyl eat more than I have ever seen her eat before, the three of us next roam outdoors to chase butterflies that Sibyl spotted fluttering about the gardens."
     scene bg bedroom with fade

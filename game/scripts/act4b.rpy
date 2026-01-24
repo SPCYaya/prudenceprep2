@@ -35,6 +35,7 @@ label tanya_injured:
     "I yell it out loud and point toward the offender, and so do many of my teammates, but the official does nothing. What should have ended there only continues, with the defender not giving up."
     "Perhaps emboldened by getting away with a penalty already, the defender attempts another risky poke check to try to knock the ball free."
     "She only succeeds in whacking her crosse against Tanya's face, stunning her briefly, but with enough time that she has no hope of trying to block a nasty follow-up cross check that sends her tumbling hard face-first into the grass below."
+    stop music fadeout 0.5
     C "{b}Tanya!{/b}"
     "My girlfriend lies still in the dirt for far too long. My heart thumps so heavily in my chest that it feels like it'll explode out, and I take off running toward where Tanya crumpled on ground atop the torn up grass and dirt."
     "I'm not the first to make it to her side. By the time I arrive, Tanya's already helped up into sitting position on the field.d I'm happy to see her eyes open and a consciousness present in her face."
@@ -43,6 +44,7 @@ label tanya_injured:
     play sound whistle
     "While I'm still brushing grass out fo Tanya's hair, the officials's whistle blows loudly in my ears, and I catch a flash of yellow between her fingers."
     C "{b}Yellow!?{/b}"
+    play music drama
     "My head whips angrily toward the official so fast that my braided blonde pigtails cut through the air like golden chains that bounce off my shoulders."
     "Leaving the dazed Tanya to Ms. Woolsey's capable arms, I let off on the official about her missed call in a fury, my words more fast-paced angry rambling than anything that makes coherent sense. She knows what I'm angry about regardless."
     "In another moment, I'm pushed right up to the defender herself, still nearby and mourning the yellow card she received dismissively, not even looking after Tanya as she gets walked to the edge of the field."
@@ -64,7 +66,7 @@ label tanya_injured:
     scene bg lacrosse with dissolve
     C "How is she?"
     "Tanya appears more alert than I last saw her when I catch up to where she sits on the bench surrounded Coach Woolsey and Miss Izzie, but still not quite all the way \"there\"."
-    T "我会玩! 让我玩吧!" # I can play! Let me play!
+    chinese "我会玩! 让我玩吧!" # I can play! Let me play!
     "I blink at Tanya who is stammering something passionately back up at me and Coach Woolsey, with whom I share a confused and very concerned grimace." 
     C "(She doesn't even realize she's speaking Chinese, does she?)"
     "The frightening words are shared between me and my teacher despite neither of us saying them aloud."
@@ -77,7 +79,7 @@ label tanya_injured:
     scene bg hallway with dissolve
     "With how much smaller Miss Izzie is, I as someone more Tanya's size end up having to bear the most of her weight on the way to the nurse's office."
     "I'd do just about anything for my girlfriend of course, but it seems like everything Tanya does trying to walk hinders more than helps."
-    T "我的金色王子, Clover, 我非常爱你!" # my blonde prince, Clover, I love you so much
+    chinese "我的金色王子, Clover, 我非常爱你!" # my blonde prince, Clover, I love you so much
     C "She said my name!"
     mi "That's good! I think."
     C "But what is she trying to say?"
@@ -86,7 +88,7 @@ label tanya_injured:
     play sound doorclose
     scene bg nurse with dissolve
     "The nurse meets us half way through the school building and takes over for Miss Izzie the rest of the way to depositing my loopy girlfriend to rest on the bed of the infirmary."
-    T "我可以再把你漂亮的头发编成辫子吗?" # can I braid your pretty hair again?
+    chinese "我可以再把你漂亮的头发编成辫子吗?" # can I braid your pretty hair again?
     "I stand right next to the bed and hold Tanya's hand while she jabbers at me in Chinese, but am quickly enough shooed away by the nurse who insists that what Tanya needs most is undisturbed rest and not my clammy palm."
     "Tanya seems to very much disagree with her based on the tone with which she starts speaking, but as much as it pains me to leave her now when she clearly wants me to stay, I'd rather she get better quickly under the nurse's supervision."
     play sound doorclose
@@ -135,6 +137,7 @@ label tanya_injured:
     scene bg cafeteria with dissolve
     "Sibyl always knows the right way to motivate me. Though the matcha-flavored chia seed pudding I select proves to be especially melt-in-your-mouth delicious, the first thought that comes to mind as I taste it returns to Tanya."
     C "(She would never be able to so much as {b}look{/b} at this pudding.)"
+    stop music fadeout 0.5
     scene bg black with fade
     scene bg hallway with dissolve
     "I awaken the next day and am already half way to where I normally meet Tanya for our daily training sessions before I realize the folly in that and make off toward the nurse's office instead."
@@ -147,11 +150,14 @@ label tanya_injured:
     C "Oh, you're awake. You didn't answer when I knocked at the door. How are you feeling?"
     "I trot gaily up to Tanya with a relieved smile, but in a manner which quickly turns worrisome when she only follows me silently with her eyes upon approach and fails to greet me at all."
     T "Who... are you?"
+    play music drama
     "The timid question shocks me numb, making me take a physical step back away from the bed while my emotions run teh gamut from shock to fear and finally home to despair."
     C "(Tanya, my girlfriend... {b}doesn't even remember me{/b}!)"
     "The terrifying reality of the moment leaves me paralyzed and stuck unable to decide what I should do."
     "I could wait for the nurse to arrive and probably tell me that this is a symptom of her concussion which will hopefully pass, but I could also run back to my room, dive back into my bed, and try waking up for real this time."
     "The latter option increasingly feels like my best hope, but just as my muscles are warming up to sprint all the way back to the dorms, the vacuous expression on Tanya's face slowly begins fill in once more."
+    stop music fadeout 0.2
+    play music happy
     T "Clover, I don't have amnesia. I was only playing a prank on you."
     "The color which had quickly drained out of my face returns just as swiftly, but goes even further as I turn red with anger."
     "Without a single word, I jump atop the nurse's bed to straddle my knees on either side of Tanya and reach out to grab at Tanya's uniform by the collar."
@@ -199,6 +205,8 @@ label tanya_injured:
     "I can {b}feel{/b} the desire radiating off her. It does not abate once our lips make contact, instead only amplifying in intensity with an ardent squeeze of her fingers through mine."
     pause 1.0
     "Unfortunately, the nurse does discover Tanya's transgression of her orders. She walks right into the room just as our kiss was really heating up, leading to an awkward silence when we separate."
+    stop music fadeout 0.5
+    play music guitar2
     nurse "Ahem— you have some more visitors, Tanya."
     "A whole gaggle of girls push through the doorway after the nurse. Each and every one of them are fellow Wild Roses coming to shower their best wishes upon Tanya, and most amazingly tell me how cool I was too."
     C "(So they're not mad at me for that whole incident?)"
@@ -300,8 +308,10 @@ label third_date:
     "After finishing another volume of the series, my arms start to grow tired from holding up the books so far from my face and I instead settle into a quiet happiness squeezing my arms around Tanya in my lap like she's a living, breathing body pillow."
     C "(Her core is so strong and firm. Does she do a lot of crunches and planks when I'm not looking?)"
     "Tanya, with her head resting back and rolled over my shoulder, seems just about to nod off completely due to the lull in activity, giving me ample time to appreciate the graceful curves of her face and delicate black stalks of her eyelashes."
+    stop music fadeout 0.5
     C "Hey, Tanya. I'm going to go home for the summer — to wherever that may be."
     T "Hmm?"
+    play music sad
     "Somehow, despite sleeping all day, Tanya still accumulates enough drowsiness that she needs to shake it off herself when I suddenly start talking again."
     C "I said I'm going to go back home once the school year ends. I don't know what \"home\" I'll be going back to, but it's probably time that I get some closure on how things went down."
     C "I need to re-build my relationship with both of my parents. We call and chat but it still feels like there's a distance. I don't know anything about their lives now that they're apart."
@@ -318,6 +328,7 @@ label third_date:
     C "So you're going to break up with me two years from now? Wow, okay..."
     "Tanya turns in her seat atop my lap, curling up to squeeze into the bean bag chair beside me, our heads pressed together by the sinking embrace of the seat."
     "She smiles at me, so sweetly, while our foreheads rub together and our noses stick out against one another. The mood is just right, but just before we sink into one another's lips yet again, a sharp pinch makes me side flinch painfully."
+    stop music fadeout 0.5
     C "Yowch!"
     T "Don't even joke about breaking up with me."
     "After taking the payback for my joke, Tanya allows me to drown fully into her lips once more."
@@ -600,10 +611,12 @@ label sibylbreaks:
     T "Yeah... tonight is fine. Just let me tell Sierra."
     scene bg dorm night with dissolve
     play sound doorclose
+    play music drama
     "I whip around away from Tanya's door the second she disappears behind it to stuff both palms into my face and stifle a little scream."
     C "(Oh my gosh. It's happening. Oh my freakin' gosh.)"
     "A whole list of things that I really wish I had time to prepare for races through my mind as I await Tanya's return. For a moment I think I should race away to pick up my room, but don't know how long she will be."
     C "(I shaved my legs this morning, right? Yeah. Phew.)"
+    stop music fadeout 0.5
     play sound doorclose
     "When Tanya does re-appear from her room, I try to resume my normal attitude, maybe even showing a little aloofness like I'm totally not freaking out inside."
     C "Oh, hey."
@@ -1168,6 +1181,8 @@ label yearbooks_part2:
     C "(So she's also fretting about what she'll write in my yearbook.)"
     "As the bulk of the yearbook signing frenzy has settled, groups of students have retired with friends to sit in blobs on the bleachers. The three of us see no reason to not do the same."
     "Tanya and I trade yearbooks, then both flip to an open page and look down toward it. Her pen clicks after only a short delay, but my pink glitter gel never gets closer than a hair's breadth from the paper."
+    stop music fadeout 0.2
+    play music drama
     C "(It's hard enough to summarize everything that's happened between me and Tanya in the time I've known her, let alone knowing that this'll be the all-time {b}permanent record{/b} of this moment.)"
     "I search for some inspiration in glancing above the edge of the yearbook at Tanya. Her head is down, hand sliding back and forth across the page of my yearbook in the midst of writing."
     C "(Hurry up, Clover! Tanya's already, like, a whole paragraph in and you haven't written a single word!)"
@@ -1176,6 +1191,7 @@ label yearbooks_part2:
     "My inspiration ends there, while I spy Tanya's deep brown eyes still trailing back and forth across my own yearbook with each line. Her sleek black hair falls down across her face in such a way that she has to pause to swipe it back over her ear."
     C "(It's not fair! I can't put everything I'm feeling into words! I can't even take my eyes off of Tanya long enough to start!)"
     T "And... done! Almost finished, Clover?"
+    stop music fadeout 0.5
     "Tanya's pen clicks closed. Her bright smile weighs on me, knowing that she's managed to do exactly what I'm struggling with."
     C "J-Just a moment..."
     "My eyes scan over Tanya's name glittering in pink where I wrote it. In the moment, I reach for the right words to symbolize all the days we've spent quarreling, flirting, and pushing one another forward together."
@@ -1189,6 +1205,7 @@ label yearbooks_part2:
     "\"Remember that time we started shoving each other in gym class and you fell on top of me? I thought I was going to die. Not because you were going to kill me, but because I realized at that moment just how much I liked you.\""
     C "(I got so nervous I couldn't write, and Tanya was so nervous she started word vomiting. Glad I'm not the only one bad at this.)"
     "\"I like you a whole lot, Clover. So much that I think about you every day. Sometimes I think there's—\""
+    play music happy
     T "Clover!"
     C "Huh?"
     "I'm still only just scraping the surface of the rambling love letter Tanya left in my yearbook when I hear her call my name, and look up in just enough time to prepare myself for the compressive force of her arms thrown around me, yearbook still in her hand."

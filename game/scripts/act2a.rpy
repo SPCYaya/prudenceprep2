@@ -62,7 +62,6 @@ label howto:
     C smile "Okay, done! Now I just need to work on those few tricky parts."
     "Skipping quickly over step four, I review the other steps to my master seduction plan and decide to put it into practice right away."
     C happy talk "Sibyl!"
-    hide clover
     show clover smile at mright
     show sibyl neutral at mleft
     with dd
@@ -118,9 +117,7 @@ label howto:
     S @ frown talk "You feel warm..."
     C "(That's because you're so close!)"
     C happy talk blush "Yup, I feel great! I've never been better!"
-    hide clover
-    hide sibyl
-    with dd
+    scene bg bedroom with dd
     "Sibyl doesn't seem to think me any more sane than before even after I try to assure her, so I just take the little victories I've earned and play off the rest as an awkward way of asking for help with homework."
     "As it turns out, homework is so much more enjoyable when Sibyl is sitting close beside me and explaining everything right into my ear. I almost don't want to it be over so quickly."
     stop music fadeout 0.5
@@ -198,9 +195,7 @@ label failed_seduction:
     S @ neutral talk "You have to learn all this for yourself, Clover. I will not always be around to teach you."
     "Sibyl withdraws the hand I took of hers to bring back close to her chest, then turns away from me to finish writing down the details of our experimental results."
     C frown "(She's just worried about my performance on our exams, right?)"
-    hide clover
-    hide sibyl
-    with dd
+    scene bg classroom winter with dd
     "While I am left wondering about the shift in mood behind Sibyl's back, I spot Tanya and Sierra at the far end of the room."
     "Something clearly has gone wrong because Tanya's face is dripping wet with one of the colored solutions and she's angrily brandishing one of those tubes which Sibyl calls a {i}burette{/i} at Sierra."
     show clover neutral at mleft
@@ -214,7 +209,6 @@ label failed_seduction:
     show clover scowl at center with dd
     C "(There's not a single lousy article about same-sex relationships in any of these {i}Girls' Mix{/i} issues!)"
     "While picking through a stack of magazines in the library one evening, I come across a book title which I think I can use to flirt with Sibyl."
-    hide clover
     show clover happy talk at mright
     show sibyl neutral at mleft
     with dd
@@ -478,7 +472,6 @@ label tanya_trouble:
     "My only priority for the moment is getting back in line to order another stack of my favorite breakfast dish from the chefs, but even that gets ruined right away."
     show tanya neutral talk at right with dd
     T "Come with me."
-    hide clover
     show clover surprised at mright with dd
     "I feel a sharp tug at my arm just as I hear the words spoken abruptly in my ear. She tugs me so hard I nearly fall flat on my face as I'm pulled out of the line."
     C shout "What the heck was that about—"
@@ -489,7 +482,9 @@ label tanya_trouble:
     "The other girls in the line for the chefs stare at us, some more discreetly than others, but everyone in the cafeteria proper can't not see us bickering."
     C annoyed "I don't care what's wrong with you. Go tell it to Sibyl."
     T neutral talk "It's not about me, it's about Sibyl."
+    stop music fadeout 0.5
     scene bg dorm winter with dissolve
+    play music drama
     "After just a little bit more of half-whispered back and forth arguing, Tanya and I end up around the corner of the hallway just outside the cafeteria."
     show clover scowl at mleft
     show tanya scowl alt2 at mright
@@ -517,7 +512,9 @@ label tanya_trouble:
     C @ impish "Maybe you just don't love her enough if you gave up so easily."
     T @ shout "Would you {b}please{/b} think about someone beside yourself for a single microsecond?"
     show tanya annoyed with dd
+    stop music fadeout 0.5
     "Tanya gets that look in her eyes that she's about to rip my hair out of my scalp for just a moment, but cools herself down quickly with a few deep breaths."
+    play music piano2
     T neutral talk "I'm not going to let you get to me again, Clover. If you want to think about it from your perspective, fine."
     T "Consider this: if things don't work out as you hope — and they won't — it will at best be incredibly awkward between the two of you."
     T contemplative "If you value the friendship you have with Sibyl now. you should just accept the inevitable and remain her platonic friend."
@@ -1071,7 +1068,6 @@ label cloverdecorations:
     show izzie contemplative with dd
     mw stern "Izzie! I'm with a student!"
     mi neutral "...I'm not sharing."
-    hide izzie
     show izzie smile at mright
     show naomi frown
     show clover neutral
@@ -1154,7 +1150,6 @@ label cloverdecorations:
     mw smile "That's great, Sibyl!"
     S contemplative "Also... Have you seen Clover anywhere?"
     mw happy talk "As a matter of fact, I have!"
-    hide naomi
     show naomi smile at qright
     show clover frown blush at qmright
     show sibyl surprised
@@ -1164,6 +1159,7 @@ label cloverdecorations:
     "To my surprise, Sibyl also looks just as white coming face to face with me as I surely must be to her."
     scene bg bedroom with dissolve
     "Ms. Woolsey leaves me in the care of my Vertu, and I reluctantly find myself walking back to my room side by side with Sibyl. Neither of us particularly says anything, nor even look each other in the face for very long."
+    stop music fadeout 0.5
     jump failed_confession
 
 label failed_confession:
@@ -1171,6 +1167,7 @@ label failed_confession:
     show clover frown at mright
     show sibyl neutral at mleft
     with fade
+    play music sad
     "It's already past curfew so we're both stuck in our bedroom together. I can tell that there's something off about Sibyl even though she pretends to be reading her latest novel like everything is the same as before."
     C @ contemplative "(There's not going to be any playing off that attempted kiss, is there?)"
     "I try to ask Sibyl for help with a part of the homework, not because I really need it but because I want to see if I can get her to look at me again."
@@ -1178,7 +1175,6 @@ label failed_confession:
     C @ tired "(Yup, she's definitely on guard like crazy. I guess I have no choice now but to come clean.)"
     "I already feel sick to my stomach just thinking about it, but I probably already hit the point where I either go for broke or die trying way before today's disaster anyway."
     C anxious blush "H-Hey, Sibyl..."
-    hide clover
     show clover at center
     with dd
     "I physically walk over to where Sibyl sits at her own desk to close the physical gap myself where she has not shown herself willing."
@@ -1193,6 +1189,7 @@ label failed_confession:
     C @ tired "(This might just be way out of the blue for her, and that's why she's so shaken about it?)"
     "Trying to make the moment perhaps a little romantic and salvage this setback, I try to bring to mind what I like about her so much. At the same time, I reach out to touch my hand to her own, trying to make the moment as tender as possible."
     C anxious blush "You're so kind and—"
+    stop music fadeout 0.5
     show sibyl surprised with dd
     "The rest of my lame confession never is verbalized. The instant my hand touches Sibyl's, she flinches dramatically in recoil."
     C surprised "..."
@@ -1201,6 +1198,7 @@ label failed_confession:
     S frown talk "C-Clover, I didn't mean—"
     "But it's too late for her apologies. My brain has already suspended all higher functions. My hand even still remains slightly outstretched where I tried to initiate contact with Sibyl."
     C deer "(She... {b}flinched{/b}.)"
+    play music drama
     "Coldness more profound than the winter's bite creeps in around me, draining all the warmth in my body in an instant."
     C "(She's afraid to even touch me. Sibyl is {b}afraid{/b} of me.)"
     scene bg black with dd
@@ -1210,6 +1208,7 @@ label failed_confession:
     "Impassioned apologies and pleas to \"just open the door\" filter through the cracks of the frame, but simply turning on the shower right beside me is enough to drown them out until they fade away."
     C "(Why do I have to feel this much pain? Haven't I had enough pain and torment in my life lately?)"
     pause 0.5
+    stop music fadeout 0.5
     "When I come to realize that my tear ducts have run dry, I turn off the shower. There's not a peep from outside the door anymore and I'm certain it must be well into the night."
     C "(Sibyl's probably asleep by now.)"
     "Just thinking her name makes my stomach turn inside, but there are no more tears left to shed anymore so the sadness comes out merely as a violent shudder across my body."
@@ -1221,23 +1220,24 @@ label failed_confession:
     "She's still in her uniform, and the way she's rolled up sideways over her sheets makes it obvious she'd also been sitting up awake before merciful sleep came to take her."
     scene bg bedroom night dark with dissolve
     "The same mercy is calling for me. The lateness of the hour and the energy drain of crying my eyes out makes sleep comes faster than ever before."
-    stop music fadeout 0.5
     jump heart2heart
 
 label heart2heart:
     scene bg transition with fade
     play music piano2
     scene bg bedroom
-    show clover neutral
+    show cpj neutral at center
     with dissolve
     "Even though the next day is a school day, I awaken well into the morning classes. Sibyl obviously hadn't roused me in time for homeroom, and she herself is no longer in the room with me either."
-    C @ anxiety "(I did it. I told Sibyl how I feel, and now even the vaunted bonds of Vertu-hood no longer apply.)"
+    CPJ @ anxiety "(I did it. I told Sibyl how I feel, and now even the vaunted bonds of Vertu-hood no longer apply.)"
     "I stare up at the ceiling above my bed for quite a long time but arrive at no solution for how to get out of the academy as fast as possible, and preferably before Sibyl returns to the room."
-    C contemplative "(I've already mostly processed all the divorce angst and accepted that my parents are splitting up and all that, so isn't it time I go home anyway?)"
+    CPJ frown "(I've already mostly processed all the divorce angst and accepted that my parents are splitting up and all that, so isn't it time I go home anyway?)"
+    hide cpj with dd
     "When the hour hand rolls back around to twelve, I finally toss the sheets off with a mind to stealthily sneaking out to fetch some lunch to bring back to my bed."
     play sound doorclose
     "Just as I'm finishing tying the ribbon around my neck, the door unexpectedly swings wide open."
-    C surprised blush "S-Sibyl!"
+    show clover surprised blush at center with dd
+    C "S-Sibyl!"
     "I quickly brace myself for the flutter of auburn curls which will surely be coming through the doorway, but it's not Sibyl who walks first through the opening."
     show tanya scowl at left with dd
     T "{b}Clover.{/b}"
@@ -1430,6 +1430,7 @@ label heart2heart:
 label rebound:
     scene bg transition with fade
     scene bg bedroom with dissolve
+    play music guitar1
     "As it turns out, the singular kiss, while wonderful, was no miracle cure to seal away my one-sided feelings for Sibyl."
     "My thoughtful Vertu allows me to brood over my failed first love the whole rest of the school week. I attend no classes and barely leave my bed except to load up on food to bring back to the room."
     "What she tells the teachers about my continued absence must be convincing enough because I don't see anyone else until that Friday afternoon."
@@ -1437,7 +1438,6 @@ label rebound:
     show clover neutral at center with dd
     C "Sibyl?"
     "It's well into the afternoon classes when the door to our room suddenly swings open. Naturally, I expect it to be Sibyl in the doorway as no one else's key card should be able to unlock our door."
-    play music guitar1
     show vinci alt smile at mleft
     show vitti alt smile at mright
     with dd

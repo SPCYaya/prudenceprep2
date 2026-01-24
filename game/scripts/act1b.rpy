@@ -121,9 +121,7 @@ label lacrosse_practice:
     mw happy talk "That's what I like to hear! You've been a great gym partner, Sibyl, but now it's your turn to teach Clover the ropes. Are you up for it?"
     S "Yes, ma'am!"
     "A certain thought sticks with me while watching Sibyl and Ms. Woolsey go back and forth in such a warm and friendly manner. I cannot help but voice it when our teacher finally leaves."
-    hide naomi
-    hide clover
-    hide sibyl
+    scene bg gym lacrosse winter
     show clover neutral at qmleft
     show sibyl smile at qmright
     with dd
@@ -165,15 +163,13 @@ label lacrosse_practice:
     S @ neutral talk "I am not on the team, no, but it is possible to split time with the art club on days when the lacrosse team has no training."
     "I cannot deny that the crosse feels pretty good in my hands. but I don't know how I'd compare against actual players — and without the major confidence boost from Sibyl's encouragement for that matter."
     C @ neutral talk "I'll think about it."
-    hide clover
-    hide sibyl
-    with dd
+    scene bg gym lacrosse winter
     "As much fun as I may be having, the exertion finally catches up to both of us and we have to pause to catch our breaths. A small commotion catches my eye across the gym."
     show tanya surprised blush with dd
     "It's Tanya, with her hair all disarrayed and face flushed like that time I made her mad in the aquarium, but this time I'm not the one facing her fury."
     T shout blush "Hraaah!"
     "Her stick swishes through the air in a mighty arc, propelling the ball forcefully toward another girl across from her who dodges it with a sharp squeal."
-    hide tanya
+    scene bg gym lacrosse winter
     show clover neutral at qmleft
     show sibyl neutral at qmright
     with dd
@@ -199,7 +195,7 @@ label lacrosse_practice:
 
 label lunch_sans_tanya:
     scene bg transition with fade
-    play music guitar2
+    
     scene bg path
     show clover smile at qleft
     with dissolve
@@ -214,7 +210,6 @@ label lunch_sans_tanya:
     with dd
     "Suddenly, standing before me are many shadowy figures blocking the path between me and Sibyl. Their hard eyes glare at me as sharply as their sleek, straight black hair cuts down their blurred faces."
     S @ laugh "Clover!"
-    hide tanya
     show tanya shadow at qmleft
     "One shadowy figure leaps forward to grab at my leg to hold me down, crushing my hopes of reaching Sibyl into a fine powder which dissipates into the breeze."
     C neutral talk "Sibyl, catch!"
@@ -223,11 +218,14 @@ label lunch_sans_tanya:
     "It soars through the air toward Sibyl, who continues cheering me on with all her might. The evil shadowy figures hiss at the fruit as it flies over their heads."
     S @ laugh "Clover!"
     "My aim is perfect. The strawberry reaches the apex of the arc and descends toward Sibyl's waiting stick..."
-    scene bg bedroom with fade
+    scene bg bedroom
+    show cpj neutral
+    with fade
+    play music guitar2
     "When my eyes open again, sunlight once more streams in through the large glass-paned windows of my dorm room. The rays of sunshine are warm, but the air around me not so much."
     S neutral talk "Clover!"
     "A small pressure wiggles against my leg. Finally, my brain connects the dots."
-    C surprised "S-Sibyl!"
+    CPJ surprised "S-Sibyl!"
     "Sitting up in bed, I find Sibyl there at the edge gently shaking my leg over the covers, calling my name."
     S smile talk "You're a super heavy sleeper!"
     S "It's almost noon already. If you don't get out of bed soon you'll miss lunch."
@@ -345,9 +343,7 @@ label a2_library:
     C @ contemplative "(So this \"made Sibyl who she is\", huh?)"
     "We eventually make our way to a table to begin reading our selections. I sit across from Sibyl, who immediately dives right into devouring every page of her book. With comparatively little fanfare, I do the same."
     C "(\"Mrs. Rachel Lynde lived where...\")"
-    hide clover
-    hide sibyl
-    with dd
+    scene bg library winter with dd
     "I find that getting into the novel is, admittedly, a struggle to begin with, but once I become accustomed to the writing style and the main character finally gets introduced, it gradually becomes more enjoyable."
     "The story is about Anne, an eleven year old orphan girl who is mistakenly sent to her eventual adoptive family, and her desire to find a home there at at the farmstead they call Green Gables."
     "At first I am a little unsure how to feel about Anne, but her strong imagination and inquisitive nature wins me over as quickly as it does her adoptive parents."
@@ -432,15 +428,15 @@ label a2_sunday:
     "My overactive brain conjures all sorts of dreams featuring Sibyl and I frolicking around flowery landscapes while wearing dresses with puffy sleeves, much like Anne and Diana."
     "Out of one such dream adventure I am awoken by the real-life Sibyl. Her face hovers blurrily above me while my eyes adjust to the bright light of day."
     scene bg bedroom night
-    show clover neutral talk at qmleft
+    show sibyl neutral talk at qmleft
     with fade
     S "Clover, I really, really meant to let you sleep in but I forgot to ask yesterday—"
     S "They do services in the chapel every Sunday morning, and if you wanted to attend you kind of need to get up right away."
     "The last thing I have ever wanted to do on a Sunday morning is have my nose burnt out by the thick, nauseating smell of incense, but Sibyl of course has no way of knowing that."
-    show clover frown at qmright with dd
-    C "No. Thank you."
+    show cpj frown at qmright with dd
+    CPJ "No. Thank you."
     "My voice comes out low and groggy from deep within my warm cocoon of sheets. If it were to be anyone else waking me she might be offended by the curt reply, but Sibyl must have learned by now what a wretch I can be with an empty stomach."
-    C "(I'm a simple girl. I sleep and I eat, then I sleep and I eat some more, and so on in that fashion.)"
+    CPJ "(I'm a simple girl. I sleep and I eat, then I sleep and I eat some more, and so on in that fashion.)"
     S contemplative "Gotcha! Sorry for waking you again!"
     "I manage to sound another soft grumble in unspecified reply before enveloping myself tightly back into the sheets once more."
     scene bg bedroom with fade
@@ -1180,7 +1176,9 @@ label first_lacrosse:
     "We both look off at nothing very interesting on either side of the hallway, unsure what to say to one another, or perhaps unwilling. If we were to talk, it'd be inevitable that we would wind up butting heads again."
     C @ frown "(We're both naturally stubborn people. It's not a good combination. Surely Sibyl knows that trying to force us to interact will only result in a bad outcome?)"
     "Tanya interrupts my thoughts and breaks the silence between us with a surprise statement just before we reach the double doors to the gymnasium."
+    stop music fadeout 0.5
     T @ neutral talk alt2 "You should just quit now. It's never going to work out."
+    play music drama
     show clover scowl with dd
     "My anger flares up immediately. To suggest that I quit before having even shown up for my first day of practice only hardens my resolve."
     C shout "Quit before I even start playing? Are you that afraid of how good I might be?"
@@ -1195,10 +1193,12 @@ label first_lacrosse:
     T frown talk "Seriously, Clover. Do you think I haven't noticed how you're always hanging off Sibyl's arm and following after her heels? How stupid do you think I am?"
     C "I don't know what—"
     T frown talk alt2 "I really don't care if {b}you{/b} get hurt. I just don't want {b}Sibyl{/b} to get hurt because of your carelessness with her feelings, got it?"
+    stop music fadeout 0.5
     "Tanya isn't even looking at me while she talks, merely vomiting the words out of her mouth onto the floor in front of me then disappearing through the doors while I'm left speechless."
     hide tanya with dd
     C "(What... was that...?)"
     scene bg gym lacrosse winter
+    play music guitar1
     show clax anxiety at center
     with dissolve
     "I'm so thrown off by Tanya's unexpected statements that I can't even enjoy getting my own personal lacrosse stick and stylish lacrosse uniform with my name across the back."
@@ -1247,9 +1247,6 @@ label confusion:
     C "(Sibyl!)"
     "The sight of my Vertu partner would normally be pleasant, but just catching a glimpse of her bushy auburn pigtails stops me in my tracks. Tanya's words echo between my ears on repeat."
     S laugh "There's Clover now!"
-    hide clover
-    hide sibyl
-    hide tanya
     show tanya neutral alt2 at mright
     show sibyl smile at center
     show clover neutral blush at mleft
@@ -1286,7 +1283,6 @@ label confusion:
     show clover frown at qleft
     show sibyl smile at qmright
     show tanya neutral talk alt2 at qright
-    with dd
     with dissolve
     "I spend an inordinate amount of time focusing on my garden salad during lunch while Tanya recounts the practice session play by play with Sibyl. The lettuce crunches gleefully under my fork in contrast to my attitude eating it."
     C "(I so wish this was a meat lover's pizza. Or a pepperoni and mushroom. Heck, I'll take a plain cheese and nothing else.)"
@@ -1329,11 +1325,13 @@ label confusion:
     "While I'm trying to think up the best way to say that I totally slacked off the whole time she was away, Sibyl starts stripping off her mud-splattered uniform just a few feet away."
     S @ smile talk "It's a good thing I was going to do laundry tomorrow anyway, huh?"
     C "Yeah..."
+    stop music fadeout 0.5
     "Her uniform is a total mess so it's no surprise she's taking it off right away, but from where I lie in bed it feels kind of risqué to have her stripping right in front of me."
     C excited blush "(She's my roommate and we're friends. This is no big deal!)"
     "But when the skirt finally drops I cannot tear my eyes away from the firm roundness of her thighs, or the way her underwear stretches around her hips as she steps out of the aggressively pink garment."
     show clover neutral blush with dd
     "Whatever Gods, Goddesses, or other cosmic entities are out there must be looking out for me in this moment because Sibyl is facing away from me and thus cannot see my blank stare."
+    play music drama
     C scowl blush "(This is... This is all Tanya's fault! She's putting strange ideas in my head!)"
     "This isn't even the first time I've seen Sibyl change out of her uniform like this. I've seen her half naked a bunch of times by now."
     C deer blush "(I can't be gay. I mean, I've never cared so much about any other girl.)"
@@ -1350,6 +1348,8 @@ label confusion:
     "Sibyl isn't even wearing something \"sexy\". Everything she has is the kind of stuff you buy in a pack of six at the department store."
     "There's objectively nothing provocative about her underwear whatsoever, but if that isn't what I'm so enthralled with, that only leaves one possibility."
     C tired blush "(It's not Sibyl's underwear making me feel this funny...)"
+    stop music fadeout 0.5
+    play music sad
     scene bg black with dissolve
     "I manage to tug the sheets over my head and cocoon myself into them tightly, unable to bear betraying my best friend and roommate's privacy any longer."
     C "(...it's because {b}Sibyl{/b} is wearing it.)"
@@ -1385,7 +1385,6 @@ label guidance:
     "A bitter smile creeps across my face when I realize that my line of thought has once again turned to Sibyl."
     "I strike out the opposite way the rest of my fellow students are heading to find somewhere quiet to be alone, but it seems I'm not the only girl looking for a quiet spot so early in the morning."
     C @ deer "(Why am I always running into {b}them{/b}!)"
-    hide clover
     show clover at left
     show twins smile at mright
     with dd
@@ -1395,7 +1394,6 @@ label guidance:
     "It certainly seems like it. My classmate is all but pushed up against the wall, sandwiched between the false \"royalty\"."
     "Her face is lightly flushed and her eyes are closed tightly in what looks to be a squint. Her body trembles, pushed back against the wall by the two taller girls."
     st "Ahh, no, Vincenza...!"
-    hide clover
     show clover scowl at mleft with dd
     "I hear her cry out with a soft gasp and immediately step forward to confront them, incensed that they're up to these shenanigans again more than simply caring about my classmate."
     C shout "Hey you two, let her go!"
@@ -1563,7 +1561,9 @@ label guidance:
     H @ alt frown talk "You're not the first to try to pluck that stubborn flower."
     C anxious "What do you mean?"
     "The words tumble out of my lips in a tone tinged with desperation. I wouldn't normally put any stock in what the twins say whatsoever, but something inside of me knows they are not joking this time."
+    stop music fadeout 0.5
     O @ alt frown talk "Sibyl is {b}straight{/b}, Clover."
+    play music sad
     show clover deer with dd
     "The simple sentence drives a stake right through my heart."
     C "No..."

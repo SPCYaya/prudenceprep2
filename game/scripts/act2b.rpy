@@ -169,31 +169,33 @@ label lacrosse_anew:
 
 label distancefromSibyl:
     scene bg transition with fade
-    play music guitar2
     scene bg bedroom with dissolve
+    play sound churchbells
     "Sunday starts with the sound of bells tolling from the campus chapel."
     "On any other Sunday, the sound would merely drive me to bundle the sheets up tighter around my head and fall back into the depths of slumber, but not today."
     "Today is March seventeenth, the Feast of Saint Patrick — also known as the day that every single person alive pokes fun at my name."
-    show sibyl frown at center with dd
+    show sibyl frown at mleft with dd
+    play music guitar2
     S @ frown talk "Are you sure you're feeling okay this morning, Clover?"
     "That I haven't gotten out of bed until well into the breakfast period is normal enough, but to skip it entirely is almost unheard-of to the point of deep concern for Sibyl."
-    C "One hundred percent fit as a fiddle, I promise. I'm just not hungry this morning."
+    show cpj contemplative at mright with dd
+    CPJ "One hundred percent fit as a fiddle, I promise. I'm just not hungry this morning."
     show sibyl contemplative with dd
     "I can read Sibyl's thoughts written across her face. \"Clover? Not hungry?\""
     "Sibyl doesn't look at all convinced by what I say, and I probably wouldn't either if I were in her shoes. I don't want to make her worry about me but I also don't want to look so uncool making such a big deal about my name."
     S neutral "Tanya and I are going to snap some reference photos of the early blooms shooting up in the flower beds outside the chapel after lunch. Would you like to come with us?"
     "Sibyl only looks mildly disappointed when I turn her down. The sight would have torn my heart in twain just a short time ago, but today I have other priorities."
     hide sibyl with dd
-    C "(Just as Spring has brought the first buds of new life to the chapel flour garden, so too shall I be reborn anew this season.)"
+    CPJ @ tired "(Just as Spring has brought the first buds of new life to the chapel flour garden, so too shall I be reborn anew this season.)"
     "Thinking grand poetic thoughts is one thing, but actually having a plan to make this next personal metamorphosis stick after botching all the others is quite another."
     "The first step is, of course, not just doing whatever Sibyl wants to do. I need to identify what I like and make tangible plans to act on that to achieve my goals."
-    C "(I like lacrosse!)"
+    CPJ smile "(I like lacrosse!)"
     "I've already committed to lacrosse, mostly thanks to the hard work of Sibyl trying to snap me out of my funk when I was down in the dumps."
     "There hasn't been a single practice out of every Tuesday evening and Saturday morning session that I've missed thus far, and I plan to keep it that way."
     "My other interests and hobbies are much less easy to identify. After having abandoned most of my old, uncool passions from middle school, I don't even know myself anymore."
-    C "(I like... sleeping. Eating has always been one of my favorite pastimes too.)"
+    CPJ contemplative "(I like... sleeping. Eating has always been one of my favorite pastimes too.)"
     "Sleeping doesn't count as a hobby at all. I know there are such things as professional eating contests, but maybe not in this dignified academy. Cooking is a related but entirely different discipline which I have yet to fully grasp."
-    C "(And then there's, uhh...)"
+    CPJ "(And then there's, uhh...)"
     "The hands on Sibyl's clock spin around shockingly fast as I rack my brain trying to identify my interests and potential hobbies. A rumbling in my stomach eventually drags me out of my bed altogether in search of lunch."
     scene bg cafeteria winter with dissolve
     "In keeping with my desire to live more for myself, I skip right to the kitchens and grab a triple bacon BLT to-go so that there's no chance of accidentally running into Sibyl and Tanya."
@@ -1049,7 +1051,6 @@ label aprilfools:
     CL surprised "Ms. Woolsey, that would be— I mean, {b}yes{/b}, I'd love to!"
     mw "Consider it a done deal, Miss Ipswich! I hope you're ready because those Snipatuit girls are tough cookies."
     hide naomi
-    hide clax
     show clax smile at center
     with dd
     "I don't even feel the cold chilling me to the bone as I jog back into the locker room; I'm flying too high in the clouds to care."
@@ -1350,7 +1351,7 @@ label pregame_Homecoming:
     show clax vulnerable at qmright
     show sibyl frown at qmleft
     with dissolve
-    play music guitar1
+    play music sad
     "The nurse lays me on the bed to attend to my illness, but now that I'm away from the hundreds of prying, judgemental eyes, I feel perfectly fine."
     CL sleepy "(Yeah, perfectly fine, except for all the self-loathing I'm drowning in.)"
     show clax bangs with dd
@@ -1438,8 +1439,6 @@ label pregame_Homecoming:
     show clover frown
     with dd
     "It's not like I don't know that Tanya has some very good points, and it's not like I don't like playing lacrosse, but I also feel deep down that it's impossible to change who I am."
-    stop music fadeout 0.2
-    play music guitar1 fadein 0.2
     CL sleepy "(Every attempt to re-invent myself ultimately fails. I'll always be a good for nothing background character.)"
     "With a sudden silence falling between Tanya and I, Sibyl takes the opportunity to squeak in meekly, adding her voice to the chorus."
     S neutral "I don't think you should give up either, Clover. I've seen how hard you've been working in the lead up to Homecoming, and most importantly how happy and motivated it has made you."
@@ -1449,6 +1448,8 @@ label pregame_Homecoming:
     CL @ frown talk "I get hit bad with social anxiety when I'm put too much into the spotlight. My brain starts fogging up and I start stuttering, like the day I was introduced in homeroom."
     CL deer "When it gets really bad I just shut down completely, like today out on the field. There were just... so many people out there watching me..."
     "A reflexive shudder rocks my body at the mere recollection of the terrible events which transpired, and already I'm feeling myself getting drawn back inward once again."
+    stop music fadeout 0.2
+    play music guitar1 fadein 0.2
     TL neutral talk "You need to get over it, Clover."
     show tanya neutral with dd
     S @ angry "Tanya! I'm sure it's not that easy!"
@@ -1805,7 +1806,7 @@ label predance:
     with dd
     "Tanya steps forward as prompted, while I do the same on unsteady legs beside her. If it weren't for my iron grasp returning to her hand pulling me forward, I might never have moved an inch at all."
     "When we do step out into the spotlight, I don't feel any better. I can't see the crowd, but I sure can hear them, and I know they're all right there staring Tanya and I down in judgement."
-    "The crowd cheers much the same as they had when we first took the stage, and this time I definitely hear the word \"barf\" thrown around alognside \"vomit\"."
+    "The crowd cheers much the same as they had when we first took the stage, and this time I definitely hear the word \"barf\" thrown around alongside \"vomit\"."
     "It's a lot to handle. The sea of faces, already obscured by the spotlights, start to blur and swirl again just like on the field earlier that day. A woozy feeling returns in force to my stomach"
     C deer blush "(Oh no, not again...)"
     "But rather than feel sick, I only feel lightheaded. My grip remains adamantine around Tanya's hand but my legs falter, and with a particularly nasty jolt of dizziness my legs momentarily buckle to send me falling backward."
