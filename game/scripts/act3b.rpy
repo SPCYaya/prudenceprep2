@@ -1373,7 +1373,7 @@ label getototalk:
     C anxious "No, I mean, like... We just start dating? Just like that? It's that easy?"
     show tanya smile with dd
     "The expression Tanya returns changes very little, perhaps turning a little more amused at my continued disbelief rather than purely exhausted disbelief."
-    T @ smile talk alt2 "There's no need for any drama if we already might \"like\" one another, is there?"
+    T @ smile talk alt2 "There's no need for any drama if we already might \"like\" one another, is there? The least we can do is give it a try."
     "After all the effort in my chase of Sibyl, and all the resulting pain and heartache that followed, to think it'll just be that effortless with Tanya is hard to believe, and yet..."
     C happy talk blush "No!"
     "I'm so happy. I've made a lot of progress in improving my life the past few months, and getting an honest to gosh lover will no doubt be another big step which I am so ready to take."
