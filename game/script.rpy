@@ -4,7 +4,7 @@ define O = Character("Vincenza", image="vinci", who_outlines=[ (3, "#ffffff") ])
 define S = Character("Sibyl", image="sibyl", who_outlines=[ (3, "#ffffff") ])
 define T = Character("Tanya", image="tanya", who_outlines=[ (3, "#ffffff") ])
 define TL = Character("Tanya", image="tlax", who_outlines=[ (3, "#ffffff") ])
-define chinese = Character("Tanya", image="tanya", what_font="fonts/Source Han Sans CN Light.otf", who_outlines=[ (3, "#ffffff") ])
+define chinese = Character("Tanya", image="tlax", what_font="fonts/Source Han Sans CN Light.otf", who_outlines=[ (3, "#ffffff") ])
 define C = Character("Clover", image="clover", who_outlines=[ (3, "#ffffff") ])
 define CL = Character("Clover", image="clax", who_outlines=[ (3, "#ffffff") ])
 define CPJ = Character("Clover", image="cpj", who_outlines=[ (3, "#ffffff") ])
@@ -20,7 +20,7 @@ define nurse = Character("Nurse", who_outlines=[ (3, "#ffffff") ])
 define phone = Character("Smartphone", who_outlines=[ (3, "#ffffff") ])
 define blanche = Character("Blanche", who_outlines=[ (3, "#ffffff") ])
 define veronika = Character("Veronika", who_outlines=[ (3, "#ffffff") ])
-define player = Character("Midfielder", who_outlines=[ (3, "#ffffff") ])
+define player = Character("Quabbin Player", who_outlines=[ (3, "#ffffff") ])
 
 # Custom Sprite Transforms
 transform center:
