@@ -1,7 +1,8 @@
 label sibyl_talk:
     scene bg transition with fade
+    pause 1.0
     play music guitar1
-    scene bg cafeteria winter with dissolve
+    scene bg cafeteria winter with fade
     "It turns out that one good night of sleep is all I really need. I get out of bed without a fuss the following morning to eagerly accompany Sibyl to breakfast."
     "She and Tanya follow their usual routine of exchanging the strawberry while I revel in my extra high stack of French toast with double butter and triple maple syrup."
     show clover frown at qleft with dd
