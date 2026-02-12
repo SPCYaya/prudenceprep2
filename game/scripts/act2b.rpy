@@ -1,9 +1,10 @@
 label lacrosse_anew:
     scene bg transition with fade
+    pause 1.0
     play music piano1
     scene bg gym lacrosse winter
     show clax smile at center
-    with dissolve
+    with fade
     "With my name written in bold pink letters across my back and the crosse held confidently in my hands, I envision myself as a brand new woman ready to tackle any obstacle in her path."
     CL "(Goodbye creepy goth, angsty bitch, and love-struck loser Clover; nice to meet you, fun and sporty athlete Clover!)"
     "I haven't felt this clear-minded and energized in months, or maybe even years. I've put all the darkness behind me and now finally also moved out of Sibyl's shadow."
