@@ -967,8 +967,8 @@ label lacrosse_observation:
     "I can tell that there is some serious play happening down below on the gym floor but cannot make any real sense of the game besides the obvious."
     S @ smile talk "Tanya talks about it sometimes. When they're out on the field, that's called \"field lacrosse\". What they're playing here in the gym is called \"lacrosse sixes\"."
     C contemplative "Because there's six players on each side."
-    S neutral talk "Right. Five out in the middle part who all play both offense and defense, as well as one goalkeeper in the net."
-    S "In field lacrosse, there's a total of ten players including the goalkeeper, and they have specific roles on the field."
+    S neutral talk "Right. Five out in the middle part who all play both offense and defense, as well as one goaltender in the net."
+    S "In field lacrosse, there's a total of ten players including the goaltender, and they have specific roles on the field."
     show sibyl smile with dd
     "Both teams are players from Prudence Prep given this is just practice. Every so often players will swap in and out from the bench at the sidelines."
     "It honestly looks like a lot of fun, and with how hard they're all pushing in what is merely a practice game, I can see myself once again being able to enjoy French toast for breakfast in good conscience."

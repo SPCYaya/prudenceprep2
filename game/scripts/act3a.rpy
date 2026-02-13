@@ -1,4 +1,6 @@
 label easter:
+    scene bg transition with fade
+    pause 1.0
     scene bg bedroom with fade
     play music guitar1
     "The excitement of Homecoming swiftly fades into the intense boredom of passing the week-long Easter break when most students have left for home."
@@ -1563,7 +1565,7 @@ label peltingballs:
     CL scowl "(I wouldn't like all this attention either, but it's just plain mean to be this disdainful to your teammates when all they want to do is be supportive.)"
     scene bg gym lacrosse with dissolve
     "I was only trying to get a rise out of Tanya when I said that today was the day I'd out-perform her in practice, but that's actually what happens."
-    "It becomes most clear that something is very wrong when we line up to take our turn with the basket of balls and our top-tier goalkeeper in the net before us."
+    "It becomes most clear that something is very wrong when we line up to take our turn with the basket of balls and our top-tier goaltender in the net before us."
     show tlax neutral at center with dd
     "Tanya almost seems like normal when she steps up to face down the goalie, but it's obvious to me as I watch her back intently that the sudden burst of cheers from her fan club high on the bleachers throws her off her game."
     show tlax scowl with dd
@@ -1590,7 +1592,7 @@ label peltingballs:
     stop music fadeout 0.2
     play music drama fadein 0.2
     CL neutral talk "Would you {b}shut up{/b}!?"
-    "The ball held securely in my crosse is launched out on pure emotional instinct, but rather than whizzing toward the well-padded goalkeeper, it bounces at an odd angle off the bleachers."
+    "The ball held securely in my crosse is launched out on pure emotional instinct, but rather than whizzing toward the well-padded goaltender, it bounces at an odd angle off the bleachers."
     CL shout "{b}Just. Go. Away!{/b}"
     "A freshly launched ball punctuates each of my words. It only takes a couple shots for the cheering to turn to shrieks as Tanya's fan club scatters from the assault."
     show clax scowl with dd

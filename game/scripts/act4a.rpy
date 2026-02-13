@@ -1685,7 +1685,7 @@ label sibyl_intermission:
     with dd
     "I stand up tall for Sibyl to put her back at ease, and it's not just for show. The pain really is starting to fade already."
     C tired "(Tanya and I both know the goaltenders normally wear pads, but I don't think either of us expected Sibyl to be able to shoot the ball this forcefully.)"
-    C smile "Maybe Tanya could take a turn goalkeeping?"
+    C smile "Maybe Tanya could take a turn goaltending?"
     T @ neutral talk "Didn't you just say that you are already over it?"
     show clax scowl with dd
     "I shoot Tanya an evil glare when Sibyl leans in to look closer at my bruise. She sure doesn't seem all that concerned about my injury for someone who is supposed to be dating me."
@@ -1697,7 +1697,7 @@ label sibyl_intermission:
     show tlax neutral
     show sibyl neutral
     with dd
-    "Still, noticing that I've honestly just about had enough with goalkeeping, Tanya draws Sibyl back away from the net with the promise of moving on to working on her passing skills."
+    "Still, noticing that I've honestly just about had enough with goaltending, Tanya draws Sibyl back away from the net with the promise of moving on to working on her passing skills."
     T @ neutral talk "Shooting the ball is important to score points and win games, of course, but as midfielders what Clover and I do most is passing the ball up the field from the defensive team to the offensive team."
     C @ neutral talk "Tanya's right; controlled passing is the most important skill in the game."
     "Happy to escape the net, I join Sibyl at Tanya's side while the latter explains the finer points of passing with the crosse sticks that Ms. Woolsey did not cover in our short time playing lacrosse for gym class."
