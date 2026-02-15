@@ -1,10 +1,11 @@
 label cincodemmayo:
     scene bg transition with fade
+    pause 1.0
     play music piano2
     scene bg lacrosse
     show sibyl annoyed at mleft
     show tlax neutral at mright
-    with dissolve
+    with fade
     S @ angry "Do you really have to run her this hard so early in the morning?"
     T @ neutral talk "This much is just to keep her skills sharp until the probation period is over."
     S frown talk "But she looks like a fish lying on a dry pier."

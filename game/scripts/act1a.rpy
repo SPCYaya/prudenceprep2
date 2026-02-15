@@ -568,7 +568,7 @@ label shower_time:
     S smile talk "For a religious school, homosexuality is remarkably very well tolerated here. I was surprised myself."
     C @ frown "(Being religious doesn't mean hating gays. Even I know that and I'm, like, the exact opposite of religious.)"
     S laugh "When I first decided I wanted to apply here, one of my older sisters stated with such horror: \"A {b}girls'{/b} school? With no {b}boys{/b}!?\"."
-    S smile talk "I've only been here a few months but I get what she means now. I guess that sort of thing is just more common at an all-girls school."
+    S smile talk "I've only been here a few months, but I get what she means now. I guess that sort of thing is just more common at an all-girls school."
     show sibyl smile with dd
     "My eyes stay fixed on the pair of girls who had kissed long past what might be considered merely rude, watching them now enjoy their breakfast."
     "When I shift my gaze back to Sibyl I am overcome with a strange awkwardness watching her, so I turn my attention instead toward some unexceptional, empty section of the dining hall."

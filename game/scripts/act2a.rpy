@@ -939,6 +939,7 @@ label artclassflirt:
     show clover smile
     with dd
     "I cannot begin to comprehend what Sibyl must be thinking, but in the end she agrees to model me and wanders off to the storeroom to fetch clay for the project."
+    show clover surprised with dd
     T @ neutral talk alt2 "I'm seriously going to murder you."
     "Tanya makes her feelings about the situation clear the moment Sibyl leaves the two of us alone."
     C impish "Not before I get felt up all over by Sibyl, you're not."
