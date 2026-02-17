@@ -155,7 +155,8 @@ label lacrosse_anew:
     C @ neutral talk "Nothing's wrong. Tanya's just being a sourpuss."
     T @ neutral talk "I {b}am not{/b}."
     S angry "Clover, no antagonizing her!"
-    C annoyed "She started it."
+    C annoyed talk "She started it."
+    show clover annoyed with dd
     S neutral "Tanya?"
     "Sibyl looks right back to Tanya for her defense, and though she looks like she wants to protest my statement, she surely knows it to be accurate and stays silent."
     T contemplative talk alt2 "Whatever, let's go get lunch. I'm starving."
@@ -333,7 +334,8 @@ label distancefromSibyl:
     C neutral talk "What secrets?"
     show clover contemplative with dd
     H @ smile talk "If you wish to know the secrets, you must run for president yourself one day."
-    C annoyed "There {b}are{/b} no secrets, are there?"
+    C annoyed talk "There {b}are{/b} no secrets, are there?"
+    show clover neutral with dd
     "Maybe she has had enough of my questioning, or maybe she just doesn't care to answer anymore, but Vittoria decides to assume her princess persona and speak to her sister instead of answering me."
     H smile talk "Good heavens! Is not the young lady simply full of queries, dear sister?"
     show vitti smile with dd
@@ -607,7 +609,8 @@ label lacrosse_explainer:
     show naomi neutral with dd
     CL @ scowl "(So what if I don't have as many goals on my stick as the other girls? Once I start my intensive training I'll be as good as any of them!)"
     TL @ frown talk "A forward? Do you really think you're good enough for that?"
-    CL annoyed "Shut your drooling face hole, Tanya! You don't get to tell me what I can and can't play, or maybe are you just scared I'll score more goals than you?"
+    CL annoyed talk "Shut your drooling face hole, Tanya! You don't get to tell me what I can and can't play, or maybe are you just scared I'll score more goals than you?"
+    show clax annoyed with dd
     TL @ neutral talk "Maybe I can't tell you what to play, but Ms. Woolsey will."
     "Tanya is far too calm for my liking after my aggressive retort, so I look back to Ms. Woolsey for support against her but receive only the opposite."
     mw sad talk "What Tanya means to say is that you will have to compete in tryouts with everyone else who wants to play forward, including Tanya."
@@ -1077,7 +1080,7 @@ label aprilfools:
     "Once again, I am stunned by this sudden change of heart. More than being angry at Tanya, I'm angry at myself for being played like such a fool by her yet again."
     C shout "Tanya, I swear, I'm going to take the next plane to New Orleans and spend the next ten years living in a swamp while apprenticing under the world's preeminent voodoo priestess, {b}all{/b} so I can hex you with endless suffering."
     show clover scowl with dd
-    T annoyed "I'm {b}so{/b} scared."
+    T @ annoyed talk "I'm {b}so{/b} scared."
     C @ shout "You should be!"
     "The emphatically deadpan response to my threats only makes me that much more angry. Sibyl meanwhile, merely frowns and shakes her head with disapproval at both of us."
     "She doesn't have to say anything for both me and Tanya to know exactly how she feels about our most recent exchange."
@@ -1211,7 +1214,8 @@ label spirit_week:
     S neutral "I know for a fact that Tanya has yet to—"
     C shout "{b}Tanya!?{/b}"
     "Unlike how quietly Sibyl was trying to whisper her name, I almost shout out the name in my surprise and disbelief."
-    C annoyed "She's the {b}last{/b} person I'd ever ask to the dance!"
+    C annoyed talk "She's the {b}last{/b} person I'd ever ask to the dance!"
+    show clover annoyed with dd
     S @ frown talk "But why?"
     C shout "What do you mean, why? She's—"
     show clover neutral with dd
@@ -1222,7 +1226,8 @@ label spirit_week:
     show tanya neutral at mright
     show sibyl neutral
     with dd
-    T annoyed alt2 "Yeah, right, I'll do your homework for a week if someone asks {b}you{/b} to the dance, Clover."
+    T annoyed talk alt2 "Yeah, right, I'll do your homework for a week if someone asks {b}you{/b} to the dance, Clover."
+    show tanya annoyed alt2 with dd
     C shout "S-Shut up, Tanya!"
     S angry "Tanya! That's not very nice!"
     show clover scowl
@@ -1543,7 +1548,8 @@ label pregame_Homecoming:
     with dissolve
     S @ angry "Tanya, stop! If she doesn't want to go, she doesn't have to."
     "Sibyl inserts herself between Tanya standing at the edge of the bed, and me lying atop it. Both me and my assailant glare past Sibyl at one another, breathing heavily after our battle."
-    CL annoyed "Whether I quit lacrosse or not is none of your business, Tanya."
+    CL annoyed talk "Whether I quit lacrosse or not is none of your business, Tanya."
+    show clax annoyed with dd
     TL shout "Maybe it's not any of my business, but you are abandoning the {b}team{/b}, and that I will not tolerate!"
     TL "Are you really going to do this to everyone who you've worked so hard training alongside? How do you plan to tell Coach Woolsey you're giving up after all of this?"
     show tlax scowl with dd
@@ -1594,7 +1600,8 @@ label pregame_Homecoming:
     show tlax frown
     with dd
     "A multitude of expressions pass across the latter's face, from questioning, to surprise, and all the way to repugnance."
-    TL annoyed "Why does it have to be {b}me{/b}!?"
+    TL annoyed talk "Why does it have to be {b}me{/b}!?"
+    show tlax annoyed with dd
     "Sibyl does not answer the question, merely returning it with a wordless, bright beaming smile."
     TL shout "No, I'm {b}not{/b} doing it!"
     S bashful "Pleeaaase?"
@@ -1657,7 +1664,7 @@ label predance:
     S @ neutral talk "About the dance. About trying to work through your social anxiety. About... Tanya."
     C @ neutral talk "What about her?"
     S @ smile talk "Just give her a chance, please?"
-    C annoyed "...I promise, {b}if{/b} she does the same."
+    C @ annoyed talk "...I promise, {b}if{/b} she does the same."
     S neutral talk "One of my foster brothers once told me: \"Sibyl, if you think only of what can go wrong, you'll find that it always does goes wrong. Start thinking about what can go right instead.\""
     show clover neutral
     show sibyl smile
@@ -1794,7 +1801,8 @@ label predance:
     C surprised "(How does Tanya know about my favorite girl band!?)"
     C excited "Y-Yeah, like she just doesn't give a crap about the beat and bends all the notes to her will through the power of her voice alone!"
     "A little too much excitement sneaks out in my voice as I reply to Tanya, which I try to suppress before she has a chance to use it against me."
-    C annoyed blush "But, uhh... I haven't really listened to them lately."
+    C annoyed talk blush "But, uhh... I haven't really listened to them lately."
+    show clover frown blush with dd
     T contemplative talk alt2 blush "...Me neither."
     show tanya contemplative alt2 blush with dd
     "The discussion drops just as quickly as it had arrived. Both of us find something particularly interesting to entertain us in the bottom of our punch cups until the moment Sibyl emerges from the crowd before us."
@@ -1909,17 +1917,17 @@ label predance:
     O @ smile talk "We thought we'd locked down this year's crown, but then you both went and made such a splash earlier today."
     H @ smile talk "May the best pairing win!"
     "The twins utilize the time of the defeated contestants shuffling off the stage to whisper a conversations between us."
-    C annoyed "Me and Tanya? No way!"
-    T annoyed alt2 "Don't make {b}me{/b} throw up too."
-    show tanya scowl alt2
-    show clover scowl
-    with dd
+    C annoyed talk "Me and Tanya? No way!"
+    show clover scowl with dd
+    T annoyed talk alt2 "Don't make {b}me{/b} throw up too."
+    show tanya scowl alt2 with dd
     "Vittoria and Vincenza chitter amongst themselves, clearly disregarding both of our refusals of their understanding of the situation with an abundance of mirth."
     O @ smile talk "Like an old married couple."
     C @ shout "And don't call me \"pitiable\"! Trying to call me \"beautiful\" right after doesn't make it any nicer!"
     H @ smile talk "But you are beautiful, Clover."
     C @ shout blush "No I'm not!"
-    T annoyed blush "What is it about pretty girls that makes them so dumb?"
+    T annoyed talk blush "What is it about pretty girls that makes them so dumb?"
+    show tanya annoyed blush with dd
     C anxiety blush "(What are they playing at? I was practically invisible in middle school. All the popular girls got tons of attention from boys, but me and my friends were always left alone.)"
     play sound feedback
     show tanya neutral

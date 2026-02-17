@@ -142,7 +142,8 @@ label failed_seduction:
     S @ frown talk "That's all well and good, but I feel like a sardine."
     C @ happy talk "No way! You're not extremely salty and disgusting!"
     S @ frown talk "I meant how they're always tightly packed together into cans."
-    T annoyed alt2 "Just move to the other side of the table, Clover."
+    T annoyed talk alt2 "Just move to the other side of the table, Clover."
+    show tanya annoyed alt2 with dd
     "Tanya only just now breaks from her back and forth conversation with Sibyl, though I have caught some glowering glances my direction thus far into our mealtime."
     C @ neutral talk "Why don't you? Didn't you used to sit across from her every day before I did?"
     T frown talk alt2 "I have come to enjoy sitting beside Sibyl since you stole my former seat."
@@ -299,7 +300,7 @@ label beg_twins:
     "With Sibyl and Tanya away at their art club session and all my own attempts failing, it's basically now or never to get the assistance I need to make her mine."
     O @ smile talk "You need our help, you say?"
     H @ smile talk "You wish to consort with \"devils\" such as us?"
-    C annoyed "Go ahead and have your fun at my expense. I'm desperate, okay?"
+    C annoyed talk "Go ahead and have your fun at my expense. I'm desperate, okay?"
     scene bg meeting winter
     show clover neutral at mleft
     show vinci alt neutral at center
@@ -369,7 +370,7 @@ label beg_twins:
     H @ smile talk "We're waiting, Clover."
     "Vittoria is the first to hop out of her chair and lift her shoe up slightly toward me. Vincenza follows up beside her, smug grin all but plastered across her face."
     "I thankfully don't need to bend down super low, but the floor doesn't feel too great against my knees and I just want to get this over with as fast as possible."
-    C annoyed "Please, I beg you."
+    C @ annoyed talk "Please, I beg you."
     O @ smile talk "Who is this \"you\" person? We have names."
     C @ shout "Vincenza and Vittoria, I beg you to help me."
     "I punctuate the words uttered twice now through gritted teeth as I press my lips very lightly to the top of Vittoria's shoe, then switch to Vincenza's. They both taste of bitter shoe polish."
@@ -473,7 +474,7 @@ label aqua_date:
             "I very nearly blurt out that I want to do whatever it is with her right then and there but hold my tongue enough to quickly step over and grab her hands for one last go at winning her over."
         "\"I'm all hyped up from lacrosse practice this morning.\"":
             hide choice_darkness with dissolve
-            C @ smile talk "I'm all hyped up from lacrosse practice this morning."
+            C @ happy talk "I'm all hyped up from lacrosse practice this morning."
             "The first thing that comes to mind also tumbles right out of my mouth."
             C @ contemplative talk "...I got, like, so jittery and excited from that, and now that I'm free from the trigonometry all the energy is coming back again."
             S @ neutral talk "I'm happy you're enjoying lacrosse, Clover. Have you been getting along well with Tanya?"
@@ -523,7 +524,7 @@ label tanya_trouble:
     C scowl "(You're already making a scene!)"
     "Tanya is being particularly terse, but not overtly hostile aside from the initial jerk to my body."
     "The other girls in the line for the chefs stare at us, some more discreetly than others, but everyone in the cafeteria proper can't not see us bickering."
-    C annoyed "I don't care what's wrong with you. Go tell it to Sibyl."
+    C @ annoyed talk "I don't care what's wrong with you. Go tell it to Sibyl."
     T neutral talk "It's not about me, it's about Sibyl."
     stop music fadeout 0.5
     scene bg dorm winter with dissolve
@@ -536,7 +537,7 @@ label tanya_trouble:
     "She's more irritable than normal today, that much was clear before, but as she looks at me she's practically throwing daggers with her eyes."
     T @ shout "What's {b}my{/b} problem? I thought I told you to stay away from Sibyl!"
     C impish "I can do whatever I want with Sibyl. She's {b}my{/b} Vertu."
-    T annoyed alt2 "She's her own person, not yours to do whatever you want with."
+    T annoyed talk alt2 "She's her own person, not yours to do whatever you want with."
     T shout alt2 "I heard all about it, you know — that Vincenza and Vittoria are trying to set you up with Sibyl. You know they think it's as foolish as I do, right?"
     show clover surprised
     show tanya scowl alt2
@@ -552,7 +553,7 @@ label tanya_trouble:
     show clover scowl with dd
     T frown talk "Clover, will you listen to me!? There is no \"shot\" to take. Sibyl is straight and that's the end of it. You're only going to hurt her if you keep pursuing her like this."
     show tanya neutral with dd
-    C annoyed "That's exactly what a love rival would say."
+    C @ annoyed talk "That's exactly what a love rival would say."
     T @ shout "Yes, exactly, I'm trying to make you give up on her. {b}I{/b} already gave up on her and am content to stay her best friend."
     show clover neutral with dd
     "Tanya keeps saying things forcefully in my direction, nearly backing me against the wall. I make my own attempt at trying to look cool and unbothered despite how annoyed she is making me."
@@ -595,9 +596,11 @@ label tanya_trouble:
     C shout "Shut up!"
     T neutral talk alt2 "So what now? We agree to disagree, and I come back to beat your ass when you eventually make Sibyl cry?"
     show tanya scowl alt2 with dd
-    C annoyed "Unlikely, seeing as how I'm going to make her fall madly in love with me in no time."
+    C annoyed talk "Unlikely, seeing as how I'm going to make her fall madly in love with me in no time."
+    show clover annoyed with dd
     "Tanya snorts dramatically with disbelief at my unflinching assertion, but I try not to take it personally."
-    T annoyed alt2 "What do you even love about her anyway? You've known her for all of a month."
+    T annoyed talk alt2 "What do you even love about her anyway? You've known her for all of a month."
+    show tanya annoyed alt2 with dd
     C neutral talk blush "Well, she's totally amazing at everything, isn't she? She's kind, and playful, and..."
     show clover contemplative with dd
     T neutral talk "And what? Lots of people are kind and playful."
@@ -830,7 +833,7 @@ label libraryflirt:
     with dd
     "It's just in that moment that Tanya trudges back into the library and flops into her seat beside Sibyl once again."
     S @ neutral talk "You're back already, Tanya? Is Vincenza doing okay?"
-    T annoyed alt2 "She'll be just fine. I've never seen her more healthy than she is right now."
+    T @ annoyed talk alt2 "She'll be just fine. I've never seen her more healthy than she is right now."
     show sibyl smile
     show clover smile
     with dd
@@ -933,7 +936,8 @@ label artclassflirt:
     S @ smile talk "Like a sculpture! Rather than look at you and translate that into a two dimensional drawing, Miss Izzie thinks it would be beneficial for me to feel you with my hands to mold clay."
     C surprised blush "(She wants to... feel my body. Over and over again. Diligently enough to perfectly sculpt me by touch alone.)"
     "My brain freezes over for a few moments. I don't know what expression could possibly be on my face but Tanya sure isn't about to let this incredible development proceed without a fight."
-    T annoyed "Look at her! I knew this was a bad idea."
+    T annoyed talk "Look at her! I knew this was a bad idea."
+    show tanya frown with dd
     "Tanya quickly turns to Sibyl, wasting no time in grabbing her hand and drawing her attention away from me."
     T smile talk "I'm totally fine with it though! I know how to model properly, unlike Clover."
     "I've never seen Tanya speak as quickly as she does now, half vomiting words and half pleading with Sibyl to sculpt her over me."

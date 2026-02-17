@@ -50,7 +50,8 @@ label easter:
     T @ neutral talk alt2 "Did you really expect me to fly all the way to Singapore and back again over a one week break?"
     C surprised "Singa-what? I thought you were Chinese?"
     T neutral talk alt2 "I {b}am{/b} Chinese, but my parents and siblings all live in Singapore. We used to go back and forth living between here and there when I was little."
-    T annoyed "Now I'm the only one left over here."
+    T annoyed talk "Now I'm the only one left over here."
+    show tanya annoyed with dd
     C neutral talk "Then why don't you go back?"
     show clover neutral with dd
     "It's obvious that the topic is more than a little touchy for Tanya and that she doesn't want to talk about it, so I drop the topic altogether. There's no sense in aggravating Tanya, especially when Sibyl is around to tell us off."
@@ -101,7 +102,8 @@ label easter:
     show clover scowl with dd
     T neutral talk "You really don't."
     show tanya neutral with dd
-    C annoyed "Maybe {b}you{/b} don't!"
+    C annoyed talk "Maybe {b}you{/b} don't!"
+    show clover annoyed with dd
     S excited "Let's go find a book about sports nutrition, Clover! There's sure to be one around here somewhere."
     scene bg library with dd
     "When we do find the book and finish poring through the impressively dense text, Tanya doesn't hesitate to gloat about being correct the whole time."
@@ -110,7 +112,7 @@ label easter:
     show tlax annoyed at qmright
     show clax neutral at qmleft
     with fade
-    TL "What are you doing here, Clover?"
+    TL @ annoyed talk "What are you doing here, Clover?"
     "Against my better judgement, I manage to drag myself out of the sweet caress of sleep early the next morning to ambush Tanya before she goes out on her morning jog."
     CL @ neutral talk "Training. Since you have {b}all{/b} the answers, I'm gong to do everything you do."
     TL shout "What? No!"
@@ -223,7 +225,8 @@ label startintrigue:
     show vinci alt smug
     with dd
     CL surprised "Girlfriend!?"
-    TL annoyed "You're both {b}way{/b} off base, as usual. I don't even {b}like{/b} Clover, let alone want to be her girlfriend."
+    TL annoyed talk "You're both {b}way{/b} off base, as usual. I don't even {b}like{/b} Clover, let alone want to be her girlfriend."
+    show tlax annoyed with dd
     show clax frown with dd
     "Somehow, Tanya's words actually hurt me a little after all that hard training we just completed together. I feel that I should have earned at least some amount of her respect, but apparently not."
     CL shout "Y-Yeah, Tanya is the worst. I hate her."
@@ -249,7 +252,7 @@ label startintrigue:
     H @ alt frown talk "Tanya has something of a \"love-hate relationship\" with blondes."
     O @ alt frown talk "Worry not. We will apologize later."
     "I turn to follow the twins' gazes and take one more glance at the retreating figure of my rival as she stomps off toward the locker room, then make to set the record straight with Vittoria and Vincenza."
-    CL annoyed "Let me first make one thing clear; I'm {b}not{/b} worried about Tanya."
+    CL annoyed talk "Let me first make one thing clear; I'm {b}not{/b} worried about Tanya."
     CL neutral talk "But... What does she have against blondes anyway?"
     show clax neutral
     show vitti alt neutral
@@ -604,7 +607,7 @@ label truthordare:
     show clover scowl with dd
     T @ shout "What I said was honestly how I feel though!"
     C @ shout "Well, what {b}I{/b} said is true too!"
-    T annoyed alt2 "Whatever, I'm leaving. Sibyl can help you finish the rest of your homework."
+    T annoyed talk alt2 "Whatever, I'm leaving. Sibyl can help you finish the rest of your homework."
     scene bg bedroom
     show sibyl frown at qmleft
     show clover annoyed at qmright
@@ -645,7 +648,8 @@ label manhuatalk:
     C teary "(Oh crap, I'm {b}so{/b} dead.)"
     show tlax neutral with dd
     "Before I can even begin to try to remember those prayers which I haven't recited in years, Tanya has surprisingly already cooled down from her temper just a moment before."
-    TL annoyed "Fine. I also don't truly think you \"have a mutation in your twenty-fifth chromosome pair\", nor that your intelligence is \"asymptotically approaching zero\"."
+    TL annoyed talk "Fine. I also don't truly think you \"have a mutation in your twenty-fifth chromosome pair\", nor that your intelligence is \"asymptotically approaching zero\"."
+    show tlax annoyed with dd
     C shout "Hey, I'm not {b}that{/b} dumb!"
     "I truly don't know what Tanya means about either description, but I know they're insults and I'm not happy about it regardless of whether I understand them or not."
     C anxious "So you're not going to murder me?"
@@ -653,7 +657,8 @@ label manhuatalk:
     show tlax neutral with dd
     C deer "Because you've told me you're going to murder me a bunch of times before, and now you have me alone in the empty locker room early in the morning where no one will hear it or even find my body for hours."
     TL @ shout "You're {b}such{/b} an idiot, Clover. And to think I was going to say you might have some brain cells yet clinging to life in your empty skull after all!"
-    C annoyed "You could stand to say it nicer than that!"
+    C annoyed talk "You could stand to say it nicer than that!"
+    show clover annoyed with dd
     TL shy blush "I was {b}going{/b} to, but not anymore! I'm not going to hurt you, just... shut up and let me talk."
     stop music fadeout 0.5
     play music sad
@@ -663,7 +668,8 @@ label manhuatalk:
     show tlax neutral with dd
     C @ frown "(Don't I know that!)"
     TL frown talk "I thought she was trying to help you by making me tell you about my family, but then she made you talk about what you went through too."
-    TL annoyed "I just can't believe it took you telling me how you resolved your own personal problems for me to understand mine."
+    TL annoyed talk "I just can't believe it took you telling me how you resolved your own personal problems for me to understand mine."
+    show tlax annoyed with dd
     "Tanya doesn't shout, but the calm manner in which she speaks belies the obvious frustration stirring behind her straight black locks of hair."
     C contemplative talk "I have no idea what you're talking about, Tanya."
     show clover contemplative with dd
@@ -937,7 +943,7 @@ label before_the_storm:
     show tlax annoyed at qmright
     show clax smile at qmleft
     with dd
-    TL "I'm off my game today; don't get used to it."
+    TL @ annoyed talk "I'm off my game today; don't get used to it."
     CL @ happy talk "Thank you for admitting I am the winner, Tanya."
     show tlax neutral
     show clax neutral
@@ -952,7 +958,8 @@ label before_the_storm:
     "When my head whips back around to Tanya, I snatch the crosse out of her hands and demand answers."
     CL @ shout "Did you put Sibyl up to this?"
     TL @ neutral talk "Of course not, but I did suspect that this is what she was up to when she started following us to practice and watching over us in the locker room."
-    CL annoyed "I don't like it."
+    CL annoyed talk "I don't like it."
+    show clax annoyed with dd
     TL @ neutral talk "You know very well how Sibyl gets when she sets herself upon helping someone. She won't stop even if you tell her to, just like when she was trying everything possible to make you stop being such whiney sourpuss."
     CL shout "What did you call me!?"
     show clax scowl with dd
@@ -1239,7 +1246,8 @@ label easterp2: # not the holiday, the school celebration
     with dd
     "It's not a great feeling to be reprimanded while still groggy, but Sibyl isn't really angrily remonstrating me so much as playfully chiding, and I owe her that much after the nasty head-to-head just now."
     S @ smile talk "What was it today? Something good?"
-    CPJ contemplative blush "Umm...? Yeah, kind of."
+    CPJ neutral talk blush "Umm...? Yeah, kind of."
+    show cpj neutral blush with dd
     S @ smile talk "What was it?"
     "My mouth opens before my sluggish morning brain can determine that it's definitely not a good idea to tell her what I was dreaming about, and I'm left gaping like a fish while I think of something quickly."
     CPJ excited blush "Churros. Cinco de Mayo is coming up and I just {b}know{/b} the cafeteria is going to have churros again."
@@ -1307,7 +1315,8 @@ label easterp2: # not the holiday, the school celebration
     "Sibyl's friends, and just about everyone else in line behind us, watch with spellbound attention as the twins play at flirting with me for all to see."
     "Maybe Sibyl's training really did pay off, because more than be unnerved by the attention, I am plainly just annoyed at the twins."
     "Even Vincenza's attempt to unnerve me by tugging at my necktie doesn't bother me. All it does is set the girls behind us atwitter to watch."
-    C annoyed "Oh, shut it, you know I don't have a fan club."
+    C annoyed talk "Oh, shut it, you know I don't have a fan club."
+    show clover annoyed with dd
     "I hiss my reply out quietly so as not to make a scene, and yank at the basket only to find Vincenza release it without a struggle. She only grins at my sharp reply, then adds a soft note of her own."
     O @ neutral talk "Lighten up, you. It's all for the act."
     H @ smile talk "Best of luck in the hunt to you, Clover."
@@ -1352,7 +1361,8 @@ label easterp2: # not the holiday, the school celebration
     O alt neutral talk "It's student council homework. We'd like you to go check on Tanya."
     show vinci alt neutral with dd
     C neutral talk "Why? If she wants to be alone for a while, I'll let her be alone."
-    C annoyed "Besides, if you want to know how she's doing, why don't you both go check on her yourselves?"
+    C annoyed talk "Besides, if you want to know how she's doing, why don't you both go check on her yourselves?"
+    show clover annoyed with dd
     H @ alt neutral talk "Do not misunderstand, Clover. You need not report back to us."
     O @ alt neutral talk "We simply request that you support her now, one teammate to another."
     show clover shout with dd
@@ -1362,7 +1372,7 @@ label easterp2: # not the holiday, the school celebration
     show sibyl neutral at qmright
     with dd
     S @ smile talk "What did the twins want?"
-    C annoyed "They asked how Tanya is doing. I told them I don't really know."
+    C @ annoyed talk "They asked how Tanya is doing. I told them I don't really know."
     S bashful "Oh..."
     scene bg path with dissolve
     "Sibyl's face darkens as she questions me about the hushed conversation, but quickly turns around when we reach the starting grounds for the Easter egg hunt on the other side of the chapel."
@@ -1490,7 +1500,7 @@ label eastertanya:
     show tanya scowl with dd
     C shout "H-Hey, wait a minute, that's not fair!"
     C scowl "(Maybe the twins did put me up to this initially, but now I'm really here because I want to be!)"
-    T annoyed alt "You can tell Sibyl that I'll be in class tomorrow and at lacrosse practice too, okay?"
+    T annoyed talk alt "You can tell Sibyl that I'll be in class tomorrow and at lacrosse practice too, okay?"
     play sound doorslam
     hide tanya with dd
     "Before I can even get another word in, the door slams shut in front of me. I hear the lock click snugly into place from the other side of the door."
@@ -1549,7 +1559,8 @@ label eastertanya:
     with dd
     "Vittoria trails off her speech intentionally, then turns to giggle toward Vincenza, who meets her amused gaze only briefly in favor of turning to a ponderous assessment of my own reaction."
     "Fragments of the dream I had the other day are brought quickly to mind, but I know them to be false. My brain has used physical desires to trick me before, and I'm never letting that happen ever again."
-    C annoyed blush "I don't see how you two, of all people, can be Tanya's friends. You're nothing alike. At least Sibyl is in the same art club as her."
+    C annoyed talk blush "I don't see how you two, of all people, can be Tanya's friends. You're nothing alike. At least Sibyl is in the same art club as her."
+    show clover annoyed blush with dd
     O @ alt smile talk "We have more in common than you know."
     C scowl "What, like, that you all like girls? I know that already."
     H @ alt smile talk "Is that all it takes to be friends? In some ways, perhaps so in our case."
@@ -1566,7 +1577,7 @@ label eastertanya:
     H @ excited "Yours in not the only thread of intrigue that needs the occasional pluck."
     C @ neutral talk "I'm leaving."
     O @ alt smile talk "Please inform Tanya that we missed her on Saturday."
-    C annoyed "Tell her yourself."
+    C annoyed talk "Tell her yourself."
     scene bg bedroom
     show sibyl bashful at qmleft
     show clover neutral at qmright
@@ -1602,7 +1613,7 @@ label peltingballs:
     "Sibyl's head whips back around toward the entrance to the cafeteria just as Tanya steps through the doorway. Her hand shoots up to wave her friend down a bit too over-enthusiastically."
     "After finding that Tanya is for sure heading our way, she turns back around to quietly tell me off about my earlier comment before she arrives."
     S @ smile talk "Tanya is not a devil."
-    C annoyed "She certainly seemed like it yesterday."
+    C annoyed talk "She certainly seemed like it yesterday."
     scene bg cafeteria
     show clover neutral at mleft
     show sibyl smile at center
@@ -1625,7 +1636,7 @@ label peltingballs:
     show sibyl annoyed
     with dd
     S @ angry "Did you {b}have{/b} to instigate?"
-    C annoyed "I was trying to get a little bit of a rise out of her. You can see how well that went."
+    C annoyed talk "I was trying to get a little bit of a rise out of her. You can see how well that went."
     scene bg classroom with dissolve
     "Sibyl tries again to softly probe into Tanya's mental state throughout the day, to no avail."
     "With multiple tests being administered during the day, I try to focus my own mind off of her entirely before my already tenuous grades start to drop further."
@@ -1792,8 +1803,10 @@ label peltingballs:
     "Tanya doesn't even look my way when she replies, instead crossing her arms and turning away to stare down at nothing in the corner of the locker room."
     CL @ scowl "(Yeah, I know you need me, but that isn't what made you come running in here, is it?)"
     TL shy "And thank you for getting rid of those girls back there. I thought I could just ignore them, but in the end they were being a problem for everyone else too."
-    CL annoyed "Yeah, they were totally annoying {b}me{/b}, so I made them go away. That's all there is to it."
-    show tlax neutral with dd
+    CL annoyed talk "Yeah, they were totally annoying {b}me{/b}, so I made them go away. That's all there is to it."
+    show clax neutral
+    show tlax neutral
+    with dd
     "I try to return my response equally aloof as Tanya's, but mostly fail to be anywhere near convincing in the attempt."
     CL scowl "(Those girls really were bothering me though. Tanya honestly deserves none of my sympathy after how she treated me the other day.)"
     CL @ shout "Anyway, is there anything else {b}you{/b} want to apologize for? Maybe something that's been going on for a few days now?"
@@ -1806,8 +1819,9 @@ label peltingballs:
     stop music fadeout 0.5
     "This whole exchange underscores to me even more clearly how tough of a time Sibyl must have when she's caught between the two unmovable diamond-encrusted steel walls that are me and Tanya."
     play music sad
-    CL annoyed "I was in a lot of turmoil when I first got here, okay? Maybe my attitude wasn't the best, but neither was yours."
-    TL annoyed "You started it."
+    CL @ annoyed talk "I was in a lot of turmoil when I first got here, okay? Maybe my attitude wasn't the best, but neither was yours."
+    TL annoyed talk "You started it."
+    show tlax annoyed with dd
     CL shout "Do you {b}want{/b} me to apologize or not?"
     show clax scowl
     show tlax neutral
@@ -1839,7 +1853,8 @@ label peltingballs:
     TL shy "Even today, with my \"fans\" in the crowd, all I could think about was how much they were judging me, how much expectation they had placed on me, and how they were making others on the team view me."
     CL shout "What about them? They don't really care about you, or even know anything at all about lacrosse. You said that yourself."
     show tlax frown with dd
-    CL annoyed "Those girls I chased away — your \"fans\" — are just the same as your bullies; all they want is to distract from their own shortcomings by taking it out on you."
+    CL annoyed talk "Those girls I chased away — your \"fans\" — are just the same as your bullies; all they want is to distract from their own shortcomings by taking it out on you."
+    show clax annoyed with dd
     "Tanya already knows everything I'm telling her. In fact, I'm basically just reminding her of what she told me and Sibyl when this whole drama first started."
     TL contemplative talk "It took you eating a two week probation to remind me that I don't have to give a monkey's butt what they want out of me."
     show tlax contemplative with dd

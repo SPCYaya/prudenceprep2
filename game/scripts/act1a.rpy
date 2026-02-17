@@ -219,7 +219,8 @@ label vertu:
             C neutral talk "My life's been pretty well flipped and turned upside down lately, so no." # And I'd like to take a minute, just sit right there. I'll tell you how I became the princess of a school called Prudence Prep.
             show clover neutral with dd
             S @ frown talk "I am so sorry, Clover."
-            C annoyed "Yeah, well, it's not you who needs to apologize."
+            C annoyed talk "Yeah, well, it's not you who needs to apologize."
+            show clover annoyed with dd
             "My tone comes out pretty dark, and Sibyl apparently chooses not to pry into it any further."
     show clover neutral
     show sibyl neutral
@@ -250,7 +251,7 @@ label vertu:
     show clover neutral with dd
     "Sibyl catches me momentarily zoning out back into recent events, and makes it known that she's still in the room with me."
     S smile talk "Maybe I didn't make a good first impression on account of dozing off, but I really would like to help you adjust to the academy."
-    C annoyed "I don't need help."
+    C @ annoyed talk "I don't need help."
     S "I'm your Vertu partner, Clover. This is what Vertu partners do."
     C scowl "Thank you, Sibyl, but I'm very {b}self-sufficient{/b}."
     show sibyl frown
@@ -408,7 +409,7 @@ label woolsey_intro:
     with dd
     "Returning my attention to my sandwich with a chill dismissal, I try to ignore the sideways glances that passes between Sibyl and my new teacher."
     mw @ neutral talk "If you don't mind me asking, Clover, why did you choose to attend Prudence Prep?"
-    C annoyed "I didn't {b}choose{/b} to be here. My parents {b}sent{/b} me here."
+    C annoyed talk "I didn't {b}choose{/b} to be here. My parents {b}sent{/b} me here."
     C scowl "(Like a lone button when you can't find the sweater to which it belongs. It just gets tossed in a drawer for safekeeping while you go about your life.)"
     "Ms. Woolsey, while friendly, is being awfully persistent at trying to get me to open up when I have no intention of doing so, and the annoyance leads me to say more aloud than I want to."
     "The room couldn't be getting any chillier even if we had left the refrigerator door open. I know I'm acting really terrible but I have a valid reason to be this rightfully touchy about the subject."
@@ -501,7 +502,8 @@ label shower_time:
     show sibyl neutral at mleft with dd
     S @ neutral talk "Good morning, Clover. The cafeteria is already open and homeroom is at eight, so you'd better hurry up."
     "As if to answer the question which had yet to form, Sibyl emerges at that very moment from the bathroom fully dressed in her uniform and pulling a brush through her hair."
-    CPJ annoyed "Dun wanna."
+    CPJ annoyed talk "Dun wanna."
+    show cpj annoyed with dd
     "I squirm around under my warm covers, snuggling the sheets tighter around me in protest and shutting my eyes as tight as possible to block out the miserable sun."
     CPJ tired "(So what if I skip class. What are they gonna do, send me back home? That's what I want anyway.)"
     S @ neutral talk "If you don't get up you're going to miss breakfast."
@@ -669,7 +671,8 @@ label shower_time:
     S @ laugh "Best friends."
     C @ neutral talk "I've had best friends before and we never fed each other."
     S @ smile talk "Tanya hates strawberries. I love strawberries. It's a win-win."
-    T annoyed blush "No fruit should have that many seeds. And why are they on the outside? It makes no sense."
+    T annoyed talk blush "No fruit should have that many seeds. And why are they on the outside? It makes no sense."
+    show tanya annoyed blush with dd
     C neutral "(She sure has strong opinions about fruit.)"
     show tanya neutral with dd
     S @ smile talk "The way I see it, we need more fruit like strawberries, and star fruits, and pawpaws, and whatnot. The stranger the better."
@@ -684,7 +687,7 @@ label shower_time:
     "The roll in Tanya's deep brown eyes demonstrates just how much Sibyl is understating the apparent dysfunctionality of their Vertu partnership."
     C scowl "So we're allowed to not act like we're eternal BFFs with our roommate here? I almost thought it was required by the way everyone here is acting."
     S annoyed "Some people enjoy the support and companionship a Vertu partnership provides, Clover."
-    T annoyed "If you're lucky enough to get a good Vertu partner."
+    T annoyed talk "If you're lucky enough to get a good Vertu partner."
     show tanya neutral with dd
     C impish "If it were up to me I would have my own room all to myself."
     S neutral talk "I too though the same at first, Clover."
@@ -892,7 +895,8 @@ label after_lunch:
     C @ neutral talk "So why didn't Sibyl come for me?"
     T surprised "Huh?"
     "The question must have caught her off guard because she's momentarily quieted into staring back at me. I'm a little surprised at it myself even though it came from my own lips."
-    C annoyed "She's the one always saying that we're partners and we're supposed to support each other. Why didn't she come looking for me?"
+    C annoyed talk "She's the one always saying that we're partners and we're supposed to support each other. Why didn't she come looking for me?"
+    show clover annoyed with dd
     T shout "We {b}both{/b} went looking for you, Clover, and a couple others besides. It's a big school."
     show clover neutral
     show tanya frown alt2
@@ -1231,8 +1235,10 @@ label a1_art:
     "It really is difficult to imagine Sibyl as someone serious and stuck up while watching her grin so brightly with a stripe of blue paint accidentally flecked across the tip of her nose."
     S smile talk "Clover, if you'd just shoo away those storm clouds you've built around your head, you might learn something surprising about me and everyone else here too."
     show sibyl smile with dd
-    C annoyed "So this was all a little ploy to get me to open up, was it? Somewhere I can't make a scene?"
-    show sibyl annoyed with dd
+    C annoyed talk "So this was all a little ploy to get me to open up, was it? Somewhere I can't make a scene?"
+    show sibyl annoyed
+    show clover annoyed
+    with dd
     "Sibyl's eyes turn from her canvas to look directly at me, stabbing her blue pearls into me not angrily, but with a clear rebuke of my changing tone. Her own expression remains stern but supportive."
     S frown talk "No, Clover. I'm not out to get you. No one here is."
     show sibyl frown with dd
@@ -1240,8 +1246,10 @@ label a1_art:
     C tired "(And I'm pretty sure Tanya does have it out for me.)"
     S smile talk "Clover, I'm only trying to help you realize that you're not alone. Your world isn't ending, it has only expanded to include this academy and all of us in it."
     show sibyl smile with dd
-    C annoyed "That's easy for you to say."
-    show sibyl neutral with dd
+    C annoyed talk "That's easy for you to say."
+    show sibyl neutral
+    show clover annoyed
+    with dd
     "Sibyl sighs softly and drops the discussion altogether to return to her work. She may quite possibly be trying to arrive at another route to get to me, so I think."
     C scowl "(I know plenty about Sibyl! Like how she's into art, likes strawberries, and... she has pretty blue eyes and her shampoo smells nice.)"
     "We both are quiet all the way through to the end of class when the bell rings to signal the migration to our next torturous lesson."
@@ -1273,13 +1281,16 @@ label a1_art:
             S neutral talk "The human form has long been a subject of artists' curiosity. It's okay if you don't quite get it yet."
         "\"It's a pun on my name.\"":
             hide choice_darkness with dissolve
-            C annoyed "It's a pun on my name."
-            show sibyl frown with dd
+            C annoyed talk "It's a pun on my name."
+            show clover annoyed
+            show sibyl frown
+            with dd
             "This is the kind of thing that's been done a billion times before and my disinterest is evident in the flat tone of voice."
             S @ frown talk "What's the matter, you don't like it?"
             C anxious "Not really. Everyone is always making puns on my name. How would you feel if I painted you like a Greek oracle or something?"
             S laugh "I think that would be lovely."
-            C annoyed "Well don't get your hopes up. I'm bad at art, remember?"
+            C annoyed talk "Well don't get your hopes up. I'm bad at art, remember?"
+            show clover annoyed with dd
     S laugh "I'll help you develop your sense of artistry in no time!"
     C tired "I've already warned you that it's an impossible task."
     S smile talk "I'm up to the challenge."
@@ -1336,7 +1347,7 @@ label home_ec:
     C @ surprised "I-I'm not opening up, I just want to get revenge... or something."
     "I totally didn't mean to say the part about revenge out loud, but thankfully Sibyl remains as understanding as ever."
     S @ frown talk "Revenge? For what?"
-    C annoyed blush "Those two twins kind of... sexually assaulted me when I first arrived."
+    C @ annoyed talk blush "Those two twins kind of... sexually assaulted me when I first arrived."
     S angry "Did they now? They told me you were in a little tizzy when they gave you the key card to our room, but I should have figured they were the reason for it."
     S neutral talk "I don't condone their actions, of course, but there are quite a few girls here who would gladly have taken your place to be subject to their flirting."
     S smile talk "Instead of getting revenge, you should go talk to them earnestly and clear things up."
@@ -1468,7 +1479,7 @@ label student_council:
     H alt smile talk "What an odd way to accept an apology, Vincenza."
     O alt smile talk "She's a most peculiar girl in every way, Vittoria."
     "Rather than respond to my outburst, the pair once again make show of their crazy back and forth dialogue that is addressed to one another but also clearly meant for me to hear."
-    C annoyed "Are you going to answer me or keep talking to yourselves in that creepy way?"
+    C @ annoyed talk "Are you going to answer me or keep talking to yourselves in that creepy way?"
     H alt contemplative2 "How did we attain these lofty positions you ask?"
     O smug "With my boyish charm..."
     show vinci alt smug
@@ -1495,7 +1506,8 @@ label student_council:
     with dd
     "I'm not really going to sue them but I'm also not above sneaking some fear into them that I might try."
     "I'm clear out of ideas of what to do to get my revenge now and that the twins themselves are not frightened in the slightest is taking all the wind out of my efforts."
-    C annoyed "Just... promise you won't do it again, okay?"
+    C annoyed talk "Just... promise you won't do it again, okay?"
+    show clover annoyed with dd
     H alt neutral talk "We are sorry for having been too forward too quickly, Clover."
     O alt smile talk "We promise not to touch you until you ask for it."
     show vinci alt neutral
@@ -1505,7 +1517,7 @@ label student_council:
     C "I will {b}never{/b} \"ask for it\"!"
     C scowl "(There is something seriously wrong with these two's heads! Where's a brain doctor when you need one?)"
     "This isn't exactly how I expected my revenge to go. I spent all day plotting and scheming for what now feels only like a hollow victory. The twins are the ones taking me on a ride when it was I who wanted to crush them."  
-    C annoyed "Okay, fine, I accept your apology. But if I catch you doing it again, I won't go so easy on you! I'm a lot more dangerous than I look!"
+    C annoyed talk "Okay, fine, I accept your apology. But if I catch you doing it again, I won't go so easy on you! I'm a lot more dangerous than I look!"
     show vinci alt awkward
     show vitti alt contemplative2
     show clover frown
@@ -1537,7 +1549,8 @@ label student_council:
     show vinci alt neutral
     with dd
     "I almost don't believe my ears. I even go so far as to chuckle at the comical statement before my attitude shifts right back to knife sharp."
-    C annoyed "In the first place, I definitely don't want whatever \"help\" you think you can provide; secondly, I don't {b}need{/b} help; and thirdly, my life is none of your business."
+    C annoyed talk "In the first place, I definitely don't want whatever \"help\" you think you can provide; secondly, I don't {b}need{/b} help; and thirdly, my life is none of your business."
+    show clover annoyed with dd
     O @ alt contemplative "We thought you'd say that. Or rather, we were warned you would."
     C surprised "Who said that? Sibyl?"
     H @ alt contemplative2 "Your Vertu partner, Sibyl, may have mentioned how concerned she was about you."
@@ -1545,7 +1558,8 @@ label student_council:
     H @ alt smile talk "She asked us only to quietly help smooth over your issues transitioning to academy life."
     O @ alt smile talk "It is touching how deeply she cares about you, Clover."
     "Vittoria nods sagely and adds onto the end a note about how wonderful of a Vertu partner she has been for me. I can only manage a scowl in response."
-    C annoyed "I am not {b}struggling{/b} with anything."
+    C annoyed talk "I am not {b}struggling{/b} with anything."
+    show clover annoyed
     show vinci alt frown
     show vitti alt frown
     with dd

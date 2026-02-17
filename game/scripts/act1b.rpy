@@ -14,7 +14,7 @@ label sibyl_talk:
     T "...And then she told me that I had \"perfectly perfunctory perfumery\"!"
     show tanya scowl with dd
     S @ neutral talk "I think... I think that was a complement."
-    T annoyed alt2 "When it comes to Sierra, who even knows?"
+    T annoyed talk alt2 "When it comes to Sierra, who even knows?"
     scene bg cafeteria winter with dd
     "A cube of cantaloupe speared on a fork slips through Sibyl's lips while she listens to her friend prattle on."
     "It occurs to me suddenly and randomly that I could do the same as Tanya with the strawberry atop my yogurt parfait, just like Tanya does every day, if I were to have that for breakfast instead of French toast."
@@ -589,7 +589,8 @@ label stop_by_art:
     "It's at the same time that the three by the desk notice it's not just Tanya. They each give a strange sort of momentary pause which they did not when she entered ahead of us."
     O @ alt neutral talk "Sibyl and Clover are here too."
     H alt smug "Our favorite threesome."
-    T annoyed "Never call us that ever again."
+    T annoyed talk "Never call us that ever again."
+    show tanya annoyed with dd
     "As we approach, Vincenza releases the braid she was making and Vittoria subsequently shakes her head to dissolve the weaving entirely. Miss Izzie kicks her feet off her desk to come and meet us properly."
     mi excited "Welcome! What's brought the new trio to my artsy abode today?"
     hide tanya
@@ -615,7 +616,7 @@ label stop_by_art:
     "I have no idea what they're talking about, but the aura around the twins is unmistakably similar to when they assaulted me out in the snow on my way to the academy."
     C "(So it's true that they do this with everyone!?)"
     "I feel as though the tension in the room has skyrocketed, but when I glance sideways to Sibyl I do not find any sense of unease about her at all. The only anxiety in the room is mine."
-    T annoyed alt2 "Har har, very funny."
+    T annoyed talk alt2 "Har har, very funny."
     show tanya neutral with dd
     "Tanya bats away both of them like it's nothing at all, and rather than be offended the twins retreat with a mild case of the giggles shared between them."
     C "(Was it always that easy to get them to back off?)"
@@ -1031,7 +1032,8 @@ label lacrosse_observation:
     menu:
         "\"The lacrosse team does look like they're having fun, but I don't want to play with Tanya.\"":
             hide choice_darkness with dissolve
-            C annoyed "The lacrosse team does look like they're having fun, but I don't want to play with Tanya."
+            C annoyed talk "The lacrosse team does look like they're having fun, but I don't want to play with Tanya."
+            show clover annoyed with dd
             S @ smile talk "Okay, but... think of it maybe as playing with the team instead of with Tanya specifically."
             C scowl "But I would be playing with Tanya."
             S @ contemplative "Yes, in a sense."
@@ -1678,7 +1680,8 @@ label guidance:
     show vinci alt smile
     with dd
     "I quickly stuff a hand over my mouth, but it's far too late. Vincenza in particular seems to be interested in my story now and I have a feeling she's not going to let me wiggle out of this one easily."
-    C annoyed "None of your business, that's who. I misspoke."
+    C annoyed talk "None of your business, that's who. I misspoke."
+    show clover annoyed
     show vitti alt contemplative2
     show vinci alt contemplative
     with dd
@@ -1688,7 +1691,8 @@ label guidance:
     O @ alt neutral talk "It's a good match."
     show clover deer with dd
     "A shiver of disgust trembles across my body as the image of Tanya's face explodes unbidden into my mind."
-    C annoyed "{b}Blegh.{/b} I'd rather die."
+    C annoyed talk "{b}Blegh.{/b} I'd rather die."
+    show clover scowl
     show vitti smile
     show vinci smile
     with dd
@@ -1708,7 +1712,7 @@ label guidance:
     H @ alt frown talk "Clover, darling..."
     O @ alt frown talk "There will be others."
     "Vittoria droops her head to one side to accentuate the look of absolute pity she offers me while Vincenza at least tries to seriously console me from whatever they're talking about."
-    C annoyed "I don't need any others, least of all you two, so stop trying."
+    C @ annoyed talk "I don't need any others, least of all you two, so stop trying."
     "The twins once again turn to speak to each other as if I am not present at all and also not being pressured back against a wall between the two of them."
     H neutral talk "She doesn't know, Vincenza. Do we crush her heart now or let it wither in time?"
     O neutral talk "It would be a mercy, Vittoria, to let her down easily while we still can."

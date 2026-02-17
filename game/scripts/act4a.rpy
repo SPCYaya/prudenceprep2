@@ -19,7 +19,7 @@ label firstdate:
     show clover neutral
     with dd
     "I try my best to persuade Sibyl that I'm perfectly fine the way I am, but she does not relent until I'm standing in front of the mirror in the bathroom while Sibyl buzzes around my hair and face with all kinds of products."
-    "When I question Sibyl as to why she has all this stuff but never uses it, she reminds me that there are no boys at a girls' school."
+    "When I question Sibyl as to why she has all this stuff but never uses it, she cheekily reminds me that there are no boys at a girls' school."
     S @ smile talk "There you go! Tanya is going to drop dead on the spot when she sees you!"
     C @ anxious "Can you not try to kill my— erm, \"potential girlfriend\", before I've even had my first date with her?"
     "Though I might put up a minor fuss, the girl in the mirror really does look incredible. Even while operating under the boundary that I not look too made-up, it's still incredible what Sibyl has pulled off with my face."
