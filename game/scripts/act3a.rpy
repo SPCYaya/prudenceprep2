@@ -427,7 +427,7 @@ label truthordare:
     menu:
         "Truth":
             hide choice_darkness with dissolve
-            C contemplative "Da—"
+            C contemplative talk "Da—"
             "I first think I should take an easy dare, but reconsider after thinking of all the terrifying or gruesome things that might be lurking inside Tanya's mind."
             C anxious "Truth."
             T neutral talk alt2 "You didn't actually kiss Sibyl, did you?"
@@ -441,7 +441,7 @@ label truthordare:
             "My follow up answer silences Tanya, who fails to come up with any retort when she spots the red-faced Sibyl with her face in her hands. Try as Tanya might, Sibyl remains tight-lipped even after insisting that we forge ahead with the game."
         "Dare":
             hide choice_darkness with dissolve
-            C contemplative "Tr—"
+            C contemplative talk "Tr—"
             "It's tempting to want to answer an easy question, but that would only give more ammunition to my rival. My stomach has digested worse things than biology homework before."
             C anxious "Dare."
             T shout "Eat. It."
@@ -665,7 +665,8 @@ label manhuatalk:
     TL frown talk "I thought she was trying to help you by making me tell you about my family, but then she made you talk about what you went through too."
     TL annoyed "I just can't believe it took you telling me how you resolved your own personal problems for me to understand mine."
     "Tanya doesn't shout, but the calm manner in which she speaks belies the obvious frustration stirring behind her straight black locks of hair."
-    C contemplative "I have no idea what you're talking about, Tanya."
+    C contemplative talk "I have no idea what you're talking about, Tanya."
+    show clover contemplative with dd
     TL neutral talk "What I'm trying to tell you is that Sibyl was right. {b}You{/b} were right."
     show tlax neutral with dd
     C happy talk "Of course I was right, but about what?"
@@ -673,7 +674,8 @@ label manhuatalk:
     TL shout "God, do you {b}ever{/b} quit it?"
     show clover neutral with dd
     TL neutral talk "I mean about why I was sent back to America when the rest of my family all moved to Singapore with my older brother."
-    TL contemplative "It's not because I was an embarrassment that had to be excised from the family, but because I can genuinely live the life I want to here when I couldn't over there."
+    TL contemplative talk "It's not because I was an embarrassment that had to be excised from the family, but because I can genuinely live the life I want to here when I couldn't over there."
+    show tlax contemplative with dd
     "Now relatively confident that Tanya isn't going to break my skull open with a crosse, I take a seat on the bench running through the aisle of lockers."
     C @ neutral talk "What were you even doing that caused all your trouble in the first place? You were being awfully coy about that during Truth or Dare."
     TL shy blush "I suspect she knows already, but... I haven't told Sibyl that I'm gay, or that I once had a crush on her."
@@ -683,8 +685,10 @@ label manhuatalk:
     C @ neutral talk "Is it, like, {b}illegal{/b} to be gay in China or something?"
     TL frown talk "Well, no, but it can be, umm... stigmatized. Even in Singapore where my family is now."
     TL shy blush "It doesn't help that I was an awkward middle-schooler self-publishing cringey self-insert {i}baihe manhua{/i} either, but that was the only way I knew how to express myself."
-    C contemplative "What's a \"baihe manhua\"?"
-    show tlax surprised with dd
+    C contemplative talk "What's a \"baihe manhua\"?"
+    show clover contemplative
+    show tlax surprised
+    with dd
     "Tanya finally looks up at me, blinking with a dumbfounded expression on her face like I asked the most stupid question in the world."
     "I fully expect to be told some analogy relating how incredibly stupid I am for not knowing something so obvious, but instead she actually just tells me for once."
     TL neutral talk "Do you know what {i}manga{/i} is?"
@@ -863,8 +867,8 @@ label beforestormpractice:
     S @ neutral talk "Bless you."
     C @ neutral talk "Thanks."
     "My always-prepared Vertu picks out some facial tissues from her bag to offer me. As I attempt to expel the offending pollen from my nose, Sibyl hits me with a sudden admission."
-    S contemplative "We found Tanya's sculpture smashed to pieces in art club yesterday."
-    C contemplative "Was it an accident?"
+    S @ contemplative talk "We found Tanya's sculpture smashed to pieces in art club yesterday."
+    C @ neutral talk "Was it an accident?"
     "I instinctively try to ask in such a way that implies it could have been an accident, but my bad phrasing makes it clear that I already know the truth of the matter."
     S frown talk "It was a dragon — the Eastern kind. She spent {b}ages{/b} carving each scale with a fettling knife."
     show sibyl frown with dd
@@ -974,7 +978,8 @@ label before_the_storm:
     C @ scowl "(I'd never be able to draw a real 3D shape even if I gave it my best shot, but when I don't want to draw a real shape, all of a sudden it's all that comes out!)"
     "The only real competition is between Tanya's M.C. Escher-like pencil sketch of the academy buildings, and Sibyl's autostereogram collection."
     "I naturally want Sibyl to win so she can beat Tanya for me even though I can never see the images no matter how hard I squint my eyes."
-    S contemplative "I will finish it during club if I have to, but there's something I want to make before the next lacrosse game."
+    S contemplative talk "I will finish it during club if I have to, but there's something I want to make before the next lacrosse game."
+    show sibyl contemplative with dd
     C contemplative "(Before our next game?)"
     "I know instinctively that this can only mean trouble with everything that has happened recently, and my intuition is confirmed when she explains in further detail."
     S laugh "I want to make the biggest, most flashiest banner to take to your next game, and use it to wish {b}all{/b} of our Wild Roses the best of luck."
@@ -1238,7 +1243,7 @@ label easterp2: # not the holiday, the school celebration
     S @ smile talk "What was it?"
     "My mouth opens before my sluggish morning brain can determine that it's definitely not a good idea to tell her what I was dreaming about, and I'm left gaping like a fish while I think of something quickly."
     CPJ excited blush "Churros. Cinco de Mayo is coming up and I just {b}know{/b} the cafeteria is going to have churros again."
-    S contemplative "Oh yeah, it is coming up, isn't it? I wonder if the academy will do anything special for it even though it isn't our holiday."
+    S @ contemplative talk "Oh yeah, it is coming up, isn't it? I wonder if the academy will do anything special for it even though it isn't our holiday."
     CPJ happy talk "Maybe. It's fun to celebrate it even if that just means eating delicious churros."
     show cpj smile
     show sibyl neutral
@@ -1395,7 +1400,7 @@ label easterp2: # not the holiday, the school celebration
     C @ happy talk "My Dad always loved them, so I guess I kind of grew to like them too. Plus, maybe little goth me felt some kind of kinship to the overlooked but sweet candy dressed in black."
     show clover frown with dd
     "For a moment I tense up slightly, realizing that maybe Sibyl doesn't want to hear about me and my normal life with my biological parents, but thankfully she doesn't seem to mind at all."
-    S contemplative "I once had a foster brother who liked black licorice, so we all gave him ours every year. I think our foster parents just stopped putting any in the eggs after he moved out."
+    S @ contemplative talk "I once had a foster brother who liked black licorice, so we all gave him ours every year. I think our foster parents just stopped putting any in the eggs after he moved out."
     show clover neutral with dd
     "The lollipop in my mouth is a strange savior, but one that I need right now to give me an excuse for taking my time to think over what my reply in this conversation should be."
     C contemplative "(Sibyl has never been touchy about being an orphan when we've talked about it before, but I still don't want to accidentally say something rude.)"
@@ -1405,7 +1410,8 @@ label easterp2: # not the holiday, the school celebration
             hide choice_darkness with dissolve
             C @ neutral talk "Does your foster family do an Easter egg hunt every year?"
             S @ smile talk "We do! My foster parents hide the eggs the night before, but we're only allowed to start looking for them when we get back from church services."
-            S contemplative "I wonder who found the most this year now that I'm not there?"
+            S contemplative talk "I wonder who found the most this year now that I'm not there?"
+            show sibyl contemplative with dd
             C "(That explains why Sibyl is so skilled at finding eggs. She's a true battle-tested expert egg hunter.)"
         "\"Did you get along well with your foster siblings?\"":
             hide choice_darkness with dissolve
@@ -1420,7 +1426,7 @@ label easterp2: # not the holiday, the school celebration
             S contemplative "Oh, umm, hmm..."
             "The question stumps Sibyl initially, but not for long."
             S laugh "Like any normal sort of people, Clover. There are no traits specific to foster parents, besides maybe an open and welcoming heart."
-            S contemplative "They did not talk about it much, but over time I was able to glean that they joined the foster system because they were unable to have children of their own."
+            S contemplative talk "They did not talk about it much, but over time I was able to glean that they joined the foster system because they were unable to have children of their own."
     show sibyl smile
     show clover neutral
     with dd
@@ -1551,7 +1557,8 @@ label eastertanya:
     show clover neutral with dd
     "I actually do feel better, and only just now realize that the way the twins have been verbally dancing around my heated exclamations has been very intentional."
     C @ neutral talk "Maybe. I'll let you off easy today. Plus, I need to return to Sibyl anyway."
-    C contemplative "What are you even doing out here around the back of the chapel to begin with?"
+    C contemplative talk "What are you even doing out here around the back of the chapel to begin with?"
+    show clover contemplative with dd
     "Without even having to share a communicative glance with one another, the twins break out into their trademark teasing grins to reply back."
     H @ alt smile talk "Plotting."
     O @ alt smile talk "Scheming."
@@ -1827,14 +1834,15 @@ label peltingballs:
     TL shy "Those girls {b}were{/b}... particularly cruel, but even so, I expected that I could shrug off whatever they, or anyone else, threw at me."
     CL @ frown talk "None of us thought what happened was okay, Tanya. No one blames you..."
     TL frown talk "Maybe not, but {b}I{/b} blamed {b}myself{/b}! The girl I thought I was should have pushed them away and told them off."
-    TL contemplative "Instead, I crumbled to pieces and bawled my eyes out in the shower in front of the whole team."
+    TL contemplative talk "Instead, I crumbled to pieces and bawled my eyes out in the shower in front of the whole team."
     TL frown talk "I've always unquestionably lived {b}my{/b} way, but suddenly I was made to feel so scared and vulnerable in a way I hadn't been before."
     TL shy "Even today, with my \"fans\" in the crowd, all I could think about was how much they were judging me, how much expectation they had placed on me, and how they were making others on the team view me."
     CL shout "What about them? They don't really care about you, or even know anything at all about lacrosse. You said that yourself."
     show tlax frown with dd
     CL annoyed "Those girls I chased away — your \"fans\" — are just the same as your bullies; all they want is to distract from their own shortcomings by taking it out on you."
     "Tanya already knows everything I'm telling her. In fact, I'm basically just reminding her of what she told me and Sibyl when this whole drama first started."
-    TL contemplative "It took you eating a two week probation to remind me that I don't have to give a monkey's butt what they want out of me."
+    TL contemplative talk "It took you eating a two week probation to remind me that I don't have to give a monkey's butt what they want out of me."
+    show tlax contemplative with dd
     CL scowl "I thought I told you that I did all that for myself?"
     TL neutral talk  "I won't let your sacrifice go to waste. I'm going to tell my fans to buzz off and demand an apology from those bullies too."
     show clax neutral

@@ -100,17 +100,17 @@ label howto:
             hide choice_darkness with dissolve
             C @ happy talk "What's your favorite color?"
             "Everything I've done is a sure win, or so I think initially, but every passing microsecond that Sibyl gives me a strange look like I'm not even speaking English lessens my confidence."
-            S contemplative "Umm, thanks, and... yellow."
+            S contemplative talk "Umm, thanks, and... yellow."
         "\"Are you a morning person or a night owl?\"":
             hide choice_darkness with dissolve
             C @ happy talk "Are you a morning person or a night owl?"
             "Everything I've done is a sure win, or so I think initially, but every passing microsecond that Sibyl gives me a strange look like I'm not even speaking English lessens my confidence."
-            S contemplative "Umm, thanks, and... probably a night owl if had to choose."
+            S contemplative talk "Umm, thanks, and... probably a night owl if had to choose."
         "\"What is your astrological sign?\"":
             hide choice_darkness with dissolve
             C @ happy talk "What is your astrological sign?"
             "Everything I've done is a sure win, or so I think initially, but every passing microsecond that Sibyl gives me a strange look like I'm not even speaking English lessens my confidence."
-            S contemplative "Umm, thanks, and... Libra."
+            S contemplative talk "Umm, thanks, and... Libra."
     S frown talk "Are you sure you're feeling all right, Clover?"
     show clover surprised blush
     show sibyl frown
@@ -229,7 +229,8 @@ label failed_seduction:
     show sibyl frown with dd
     "I wave the book I found in front of Sibyl, but her expression remains particularly stony."
     S @ frown talk "You don't know anything about that book, do you?"
-    C contemplative "Well the... girl on the cover kind of looks like you, doesn't she?"
+    C contemplative talk "Well the... girl on the cover kind of looks like you, doesn't she?"
+    show clover contemplative with dd
     S neutral talk "That novel is about a girl who suddenly becomes an orphan and all the terrible misfortunes that it brings."
     show sibyl neutral with dd
     C surprised "O-Oh sorry, I didn't realize..."
@@ -239,7 +240,8 @@ label failed_seduction:
     "I've been trying to leave Sibyl out of my family life for now after having early made such a big fuss about my parents' divorce and then showing her all the things they sent me to show they love me."
     S @ neutral talk "It's okay, Clover. I know you didn't mean anything by it. And the story ends well enough I suppose."
     "Somehow I am not surprised at all that Sibyl has read this random book I pulled off the shelves. Knowing now that it is about an orphan girl, perhaps it is not mere coincidence."
-    S contemplative "I'm fine with it, you know? Being an orphan, I mean. My foster families have always been kind and welcoming."
+    S contemplative talk "I'm fine with it, you know? Being an orphan, I mean. My foster families have always been kind and welcoming."
+    show sibyl contemplative with dd
     "This topic is something I've rarely heard Sibyl bring up. She always seems rather positive about it, but somehow I feel like there's a distinct lack of depth behind the smile."
     C frown "(Sibyl always seems to be looking down when she speaks about her birth family. I'd rather see her looking up!)"
     "When I sit down across the table from Sibyl, she turns her head back up again, peering right into my eyes."
@@ -306,7 +308,7 @@ label beg_twins:
     "Finding me no longer pushing back against them, the set of twins return to a more relaxed posture, each taking their seat around the big table. I find a seat of my own, glad to have them finally back off."
     O @ alt neutral talk "Well, what have you tried?"
     "I pause for just a moment, trying to think up how to summarize everything I learned, what I have tried, and how those results never really panned out."
-    C contemplative "I'm pretty new at this whole love business, so I did some research on the Internet and tried to use what I learned on Sibyl."
+    C @ contemplative talk "I'm pretty new at this whole love business, so I did some research on the Internet and tried to use what I learned on Sibyl."
     H @ alt neutral talk "Sibyl does not seem the type to respond well to pick up lines."
     "I'm a little surprised at how rationally Vittoria is listening to me. It occurs to me that it's quite possible that the way I have reacted to their teasing in the past only encourages them both to act out further."
     C @ neutral talk "No, not pick up lines. I mean, like, the basics — paying her compliments, taking an interest in her life, introducing small touches into our everyday exchanges."
@@ -452,7 +454,7 @@ label aqua_date:
     menu:
         "\"I just... think we shouldn't rush to waste this nice atmosphere, that's all.\"":
             hide choice_darkness with dissolve
-            C contemplative "I just... think we shouldn't rush to waste this nice atmosphere, that's all."
+            C @ contemplative talk "I just... think we shouldn't rush to waste this nice atmosphere, that's all."
             S @ frown talk "Clover, I think they set this all up for their... {b}trysts{/b}."
             "Part of me does think this is just way too perfect for it to be something they thought up last minute, but I don't care. It's exactly what I need right now, so I just feign surprise at Sibyl's words."
             C neutral talk "You think they really do that sort of thing?"
@@ -471,9 +473,9 @@ label aqua_date:
             "I very nearly blurt out that I want to do whatever it is with her right then and there but hold my tongue enough to quickly step over and grab her hands for one last go at winning her over."
         "\"I'm all hyped up from lacrosse practice this morning.\"":
             hide choice_darkness with dissolve
-            C "I'm all hyped up from lacrosse practice this morning."
+            C @ smile talk "I'm all hyped up from lacrosse practice this morning."
             "The first thing that comes to mind also tumbles right out of my mouth."
-            C contemplative "...I got, like, so jittery and excited from that, and now that I'm free from the trigonometry all the energy is coming back again."
+            C @ contemplative talk "...I got, like, so jittery and excited from that, and now that I'm free from the trigonometry all the energy is coming back again."
             S @ neutral talk "I'm happy you're enjoying lacrosse, Clover. Have you been getting along well with Tanya?"
             C @ frown "(Why is she talking about Tanya at a time like this? Can't you see that we're having a moment?)"
             "But the moment doesn't seem to be the same one that Sibyl is having, because she brushes right past me again to flip on the lights and dispel the atmosphere for good."
@@ -562,7 +564,8 @@ label tanya_trouble:
     play music piano2
     T neutral talk "I'm not going to let you get to me again, Clover. If you want to think about it from your perspective, fine."
     T "Consider this: if things don't work out as you hope — and they won't — it will at best be incredibly awkward between the two of you."
-    T contemplative "If you value the friendship you have with Sibyl now. you should just accept the inevitable and remain her platonic friend."
+    T contemplative talk "If you value the friendship you have with Sibyl now. you should just accept the inevitable and remain her platonic friend."
+    show tanya contemplative with dd
     "It's a good point and we both know it. I don't want to admit, but the thought has crossed my mind before."
     C frown talk "Okay, yeah, I've thought about that, but what do you want me to do, deny my feelings forever?"
     show clover neutral
@@ -573,7 +576,8 @@ label tanya_trouble:
     T @ neutral talk alt2 "If you have to, yeah. It's not easy but it's what's best for both of you."
     "Tanya pushes her back against the wall beside me, turning her head away from me. She mumbles quietly to herself."
     T @ vulnerable "Izzie was right; straight girls are nothing but problems."
-    C contemplative "What was that?"
+    C contemplative talk "What was that?"
+    show clover contemplative with dd
     T shout alt2 "Nothing. You're absolutely infuriating in every way, you know that?"
     show tanya frown alt2 with dd
     "I know Tanya is being dead serious when she says it, but with the slump of defeat in her tone of voice, it actually sounds kind of friendly in some strange way."
@@ -600,12 +604,14 @@ label tanya_trouble:
     show tanya frown with dd
     C tired "(Why {b}do{/b} I love Sibyl?)"
     "I can feel it so intensely in my chest, but when I try to compress those feelings into the form of words, nothing seems to fit properly."
-    C contemplative blush "Well she's super gorgeous. Her hair seems to shimmer in the sunlight, and at the same time her eyes sparkle like bright blue sapphires—"
+    C contemplative talk blush "Well she's super gorgeous. Her hair seems to shimmer in the sunlight, and at the same time her eyes sparkle like bright blue sapphires—"
+    show clover contemplative blush with dd
     T @ neutral talk "Aquamarine."
     C surprised "What?"
     T neutral talk alt2 "Sapphires are dark blue. Aquamarine are light blue, like Sibyl's eyes."
     show tanya neutral alt2 with dd
-    C contemplative blush "Huh, yeah... aquamarine."
+    C contemplative talk blush "Huh, yeah... aquamarine."
+    show clover contemplative blush with dd
     "For a moment I am lost in thinking about Sibyl's eyes and how well the aquamarine description fits them, but a sudden small outburst from Tanya beside me breaks the hold."
     T @ shout alt2 "I can't {b}believe{/b} you."
     C scowl "What are you on about now?"
@@ -737,7 +743,8 @@ label libraryflirt:
     S @ frown talk "I hope she's okay..."
     C @ happy talk "Vincenza is a tough girl. I'm sure she'll be just fine."
     "Sibyl remains a little on edge even after Tanya and the royal busybodies take their leave. She looks back toward the door occasionally; I just know in her mind she's thinking about going after them, so I try to distract her."
-    C contemplative "So this is what Vincenza likes to read?"
+    C contemplative talk "So this is what Vincenza likes to read?"
+    show clover neutral with dd
     S neutral talk "What is it?"
     show sibyl neutral with dd
     "My bookish friend has her interest drawn away right on cue. I read the title myself, then turn the cover toward Sibyl who is leaning out of her chair to try to glimpse the title herself."
@@ -885,7 +892,8 @@ label artclassflirt:
     with dd
     "A rush of warmth swells into my face, which I suddenly find intolerable to show freely out of shame. Miss Izzie ruffles the hair atop my head once again, trying to cheer me up."
     mi @ smile talk "So anyway, a charming pair of birdies flew in recently and told me that you needed some help catching a pretty peahen."
-    C contemplative blush "I... uhh..."
+    C contemplative talk blush "I... uhh..."
+    show clover contemplative blush with dd
     "Miss Izzie gives me a moment to hem and haw about whether I should acknowledge this crazy thing I asked of the twins, but then ultimately goes on anyway even without my assent."
     mi excited "Well today's your lucky day, because there's no better hands for a woman to be in than mine."
     "Miss Izzie gives me a little wink and a smile, which feels a little eerie coming from my teacher even if she is only indicating to me that she wants to help."
@@ -933,7 +941,7 @@ label artclassflirt:
     C shout "{b}No!{/b}"
     "I shout out into the space between Sibyl and Tanya, drawing the attention of everyone immediately surrounding us. The eyes suddenly on me freeze me to my core but thankfully fade away just as quickly."
     C happy talk "I mean, Miss Izzie was right. I'm her Vertu partner, and she already drew me, so it's got to be me, right? I'll do it."
-    S contemplative "Are you sure? if you really don't want to I'll just have Tanya—"
+    S contemplative talk "Are you sure? if you really don't want to I'll just have Tanya—"
     C excited "I want to do it!"
     hide sibyl
     show clover smile
@@ -1064,8 +1072,10 @@ label cloverdecorations:
     "Unfortunately, Sibyl has a faster reaction time than I might give her credit for. As I rush to steal a kiss right off her lips, she turns her head slightly, leading me to plant my lips right against her cheek."
     "What is only a fraction of a second gesture leads to a few silent seconds where we merely stare at one another with surprise."
     "The paper mistletoe falling to the ground between us is the only motion until Sibyl raises a hand to where I kissed her on the cheek."
-    S contemplative blush "Clover...?"
-    show clover deer blush with dd
+    S contemplative talk blush "Clover...?"
+    show clover deer blush
+    show sibyl contemplative blush
+    with dd
     "My beloved roommate doesn't look angry, but she also doesn't look happy. If anything, she's left distressed by my sudden attempt to kiss her."
     "I'm also shocked, that's for sure. I don't know what reaction I expected out of her exactly, but this certainly wasn't it."
     C "(I... messed up.)"
@@ -1249,7 +1259,8 @@ label secretchoice:
     S "Ms. Woolsey, I've finished putting up the shamrocks."
     show sibyl smile with dd
     mw @ happy talk "That's great, Sibyl! Thank you so much!"
-    S contemplative "Also... Have you seen Clover anywhere?"
+    S contemplative talk "Also... Have you seen Clover anywhere?"
+    show sibyl contemplative with dd
     mw awkward "As a matter of fact, I have!"
     show naomi smile at qleft
     show clover frown blush at qmleft
@@ -1415,7 +1426,7 @@ label heart2heart:
     S angry "You both can be incredibly obstinate, for starters."
     show sibyl neutral with dd
     "Sibyl replies back to my outburst with an uncharacteristic biting edge. Amazingly, this little spat has somehow gotten us to look directly at one another. We both realize it at the same time, diffusing the tension between us."
-    C contemplative "Okay, fine, we're both terrible then. And I'm sorry."
+    C @ contemplative talk "Okay, fine, we're both terrible then. And I'm sorry."
     S @ frown talk "You should apologize to Tanya, not to me."
     show sibyl neutral with dd
     C neutral talk "I'm not apologizing to Tanya, I'm apologizing to {b}you{/b} for— kissing you..."
@@ -1429,12 +1440,14 @@ label heart2heart:
     S frown talk "But... why?"
     show sibyl frown with dd
     "The question surprises me not in the query, but how frustrated she seems as she asks it. It almost sounds to be rhetorical."
-    C contemplative blush "You're really cute, and... you're so patient with irritating people like me and Tanya."
+    C contemplative talk blush "You're really cute, and... you're so patient with irritating people like me and Tanya."
+    show clover contemplative blush with dd
     S @ frown talk "But I'm not gay, Clover!"
     C anxious "I-I... umm..."
     "Things have gotten way out of hand. I thought I was apologizing for pushing my feelings on her, but it feels like Sibyl is instead frustrated that a girl like me would love her in the first place."
     C frown talk "I want to be your friend, and... well I sort of caught more feelings than that. That doesn't mean I can't be your friend, does it?"
-    S contemplative "I... I knew you liked me that way, okay?"
+    S contemplative talk "I... I knew you liked me that way, okay?"
+    show sibyl contemplative with dd
     C surprised "You... what?"
     S bashful "I'm sorry. I already suspected you had these feelings for me, but didn't know how to react. Maybe I hoped I could ignore it until it went away."
     C "(So I went through all the trouble to try to seduce her and she was purposely ignoring it the whole time!?)"
@@ -1498,7 +1511,8 @@ label heart2heart:
     show sibyl neutral blush
     with dd
     "Perhaps seeing that I'm struggling so much with working up the courage, Sibyl turns to sit on the edge of her bed beside us and grabs my arm to pull me down beside her."
-    S contemplative blush "It's just a kiss."
+    S contemplative talk blush "It's just a kiss."
+    show sibyl contemplative blush with dd
     "Sibyl speaks so quietly that I cannot decide whether the statement is for my benefit or hers, and in a rush of guilt I remember once again how I'm the one forcing her into this."
     "I spare not a single thought in taking the request back, though, however guilty I may feel."
     S neutral talk blush "Well...?"

@@ -197,7 +197,7 @@ label vertu:
     "Why I care enough about her feelings to not just dismiss her outright I do not know, but I rationalize that it's better to be on my roommate's good side than her bad."
     S @ frown talk "I'm so sorry, I meant to be there when you arrived to help you and— oh, my name is Sibyl. Sibyl Hyltebruk."
     "She stills seems half asleep to me by the way her thoughts are coming all at once, but her dopey face is too pleasant to object all too strongly against."
-    C contemplative blush "Umm... Clover Ipswich. So we're going to be roommates then, huh?"
+    C @ contemplative talk blush "Umm... Clover Ipswich. So we're going to be roommates then, huh?"
     "What I say is merely a polite greeting and a rhetorical question, so I swiftly turn back about to begun unpacking before I get any more caught up in her pitiful, sleepy expressions."
     "From behind me, Sibyl yawns into a reply with no intention to let the conversation drop there. It's clear her sleepiness is rapidly fading away for better or worse."
     S @ neutral talk "Not merely roommates, but Vertu partners. Haven't you read the academy pamphlet?"
@@ -233,13 +233,13 @@ label vertu:
     "Honestly, I couldn't care less about any of that flowery language, and it probably shows in the flat tone of voice which my reply sounds out with."
     C "(We share a room. We're roommates. That's it.)"
     "Despite how she holds off on lecturing me any further about the topic, I still get the sense that Sibyl very much cares about this whole \"Vertu\" business."
-    S contemplative "Do you need help unpacking?"
+    S contemplative talk "Do you need help unpacking?"
+    show sibyl neutral with dd
     "Even though she's on the other side of the room, it still feels very much like she's hovering around me."
     C @ neutral talk "No."
     "The momentary silence which follows is comfortable to me, but seemingly not to Sibyl. Her commitment to engaging in conversation with me remains as firm as ever."
-    S neutral talk "You're my first Vertu partner, you know that? Our grade level had an uneven number of students and I happened to be the odd one out in our year who received no Vertu."
+    S @ neutral talk "You're my first Vertu partner, you know that? Our grade level had an uneven number of students and I happened to be the odd one out in our year who received no Vertu."
     C scowl "(There she goes again.)"
-    show sibyl neutral with dd
     "Even though it's all just some dumb private school way of saying \"roommate\", she keeps saying \"Vertu\" with a strangely serious tone like it is some hallowed institution akin to marriage."
     C annoyed "(Like I'd ever marry a girl in the first place...)"
     show clover scowl blush with dd
@@ -273,10 +273,12 @@ label vertu:
     C tired "(What's wrong with me today? When did I becomes such a pushover?)"
     S surprised "Oh no, the cafeteria!"
     C anxious "W-What wrong with it?"
-    S "It's closed!"
+    S excited "It's closed!"
     C surprised "For how long!?"
-    S contemplative "Until tomorrow morning."
-    show clover neutral with dd
+    S contemplative talk "Until tomorrow morning."
+    show sibyl contemplative
+    show clover neutral
+    with dd
     "Relief washes over me, having thought for a moment there that I'd be starving due to a permanently closed cafeteria in addition to everything else that is sure to be terrible here."
     S frown talk "I must have snoozed right through meal time, and you must be famished too after all that traveling."
     show sibyl frown with dd
@@ -321,7 +323,8 @@ label woolsey_intro:
     "My first very first thought when I look at my new athletics instructor is that she is probably the textbook definition of a high school gym teacher — right down to the ponytail, sneakers, and athletic zip-up hoodie."
     "The only thing that is perhaps unusual is the golden ring she wears around her neck besides the requisite silver whistle. I think for a moment she might be married, but then remember she's a gym teacher."
     mw @ sad talk "I'm so sorry I couldn't meet you at the gate tonight. I see that Sibyl was able to greet you properly though!"
-    S contemplative blush "About that..."
+    S contemplative talk blush "About that..."
+    show sibyl contemplative blush with dd
     "With some obvious embarrassment on her part, Sibyl finally chimes in beside me."
     S frown talk "I, umm, missed her arrival too. I was just too fidgety to sleep at all last night and it finally caught up with me this afternoon."
     S "When I woke up, Clover was already in our room unpacking her belongings."
@@ -334,7 +337,8 @@ label woolsey_intro:
     "Ms. Woolsey looks to be rather young, probably barely out of college, and not altogether unpleasant at first meeting despite her apparent association with those two sexual predators."
     mw @ talk neutral "How are you settling in, Clover? Was there something you needed to speak with me about?"
     "Before I can promptly shut down Ms. Woolsey's good-natured assistance, Sibyl speaks out ahead of me."
-    S contemplative "Yes, there is! You see, it would appear that we both... entirely missed dinner."
+    S neutral talk "Yes, there is! You see, it would appear that we both... entirely missed dinner."
+    show sibyl contemplative with dd
     mw happy talk "Is that all? Let's go raid the kitchen and see what we can pull together."
     scene bg kitchen with fade
     "The cooks have long ago left for the day by the time we arrive to the cafeteria kitchens, but that doesn't stop Sibyl and Ms. Woolsey from scrounging up enough peanut butter and jelly for sandwiches."
@@ -577,7 +581,7 @@ label shower_time:
     C @ neutral talk "What do you mean?"
     show sibyl contemplative with dd
     "For a moment Sibyl is quiet, no doubt trying to find the correct way to answer my question. Her gaze turns upward like she's recalling something, and her reply begins slowly."
-    S contemplative "That one time in club when we did a nude study, she..."
+    S contemplative talk "That one time in club when we did a nude study, she..."
     S laugh "Well, anyway, she's a really great art instructor!"
     C neutral talk "That's, uhh, kinda weird. You're in the art club?"
     S angry "Why is me being in the art club weird to you, Clover?"
@@ -675,7 +679,8 @@ label shower_time:
     "At my next question, however, Tanya does huff angrily into her yogurt parfait."
     C @ neutral talk "Uh huh. And who's Sierra?"
     show tanya scowl with dd
-    S contemplative "Tanya's Vertu partner. They don't exactly see eye to eye on everything."
+    S contemplative talk "Tanya's Vertu partner. They don't exactly see eye to eye on everything."
+    show sibyl neutral with dd
     "The roll in Tanya's deep brown eyes demonstrates just how much Sibyl is understating the apparent dysfunctionality of their Vertu partnership."
     C scowl "So we're allowed to not act like we're eternal BFFs with our roommate here? I almost thought it was required by the way everyone here is acting."
     S annoyed "Some people enjoy the support and companionship a Vertu partnership provides, Clover."
@@ -683,7 +688,8 @@ label shower_time:
     show tanya neutral with dd
     C impish "If it were up to me I would have my own room all to myself."
     S neutral talk "I too though the same at first, Clover."
-    S contemplative "For a brief moment, it felt fortuitous that I had no Vertu partner to share my room with. I had a whole room to myself for the very first time in my life."
+    S contemplative talk "For a brief moment, it felt fortuitous that I had no Vertu partner to share my room with. I had a whole room to myself for the very first time in my life."
+    show sibyl neutral with dd
     C neutral talk "Do you want it back? Maybe there's an extra room I can camp out in."
     show clover neutral with dd
     "Sibyl seemingly ignores my interjection and continues on without acknowledging my interruption at all."
@@ -1026,7 +1032,7 @@ label after_lunch:
     "But that's definitely not going to happen. They may try to hide it from me but I can tell how bad Mom and Dad's relationship has become."
     show sibyl neutral with dd
     "Contrary to the act of having just pitched my smartphone into the bed, I immediately swipe it back up again to be sure it's safe. It is, after all, my only precious line outside of this nightmare school."
-    S contemplative "I've found, Clover, that I feel better when I talk out my issues. Would you like to try it?"
+    S @ contemplative talk "I've found, Clover, that I feel better when I talk out my issues. Would you like to try it?"
     "It's clear that Sibyl is being cautious with her approach into poking at what is definitely a sore subject, which is beyond annoying in itself."
     C shout "You wouldn't understand!"
     show sibyl bashful
@@ -1219,7 +1225,7 @@ label a1_art:
     S sleepy blush "There are many people who would be willing to go to great lengths to speak to the departed."
     S neutral talk "I know that it's all nothing but fluff, but even so it's still fun to think about. And I'm very open-minded in general, or so I like to think."
     show sibyl neutral with dd
-    C contemplative "I just can't imagine that you or anyone else at a school like this would find the supernatural and macabre to be interesting. Everyone here seems so... formal and stuffy."
+    C contemplative talk "I just can't imagine that you or anyone else at a school like this would find the supernatural and macabre to be interesting. Everyone here seems so... formal and stuffy."
     C neutral "(Except Miss Izzie...)"
     S laugh "Do you really see me as that type of person, Clover? After covering for you skipping class for two days?"
     "It really is difficult to imagine Sibyl as someone serious and stuck up while watching her grin so brightly with a stripe of blue paint accidentally flecked across the tip of her nose."
@@ -1297,7 +1303,8 @@ label home_ec:
     with dd
     S "Tanya was placed in an English as a Second Language class because she grew up speaking Chinese at home."
     "Sibyl is also quick to remind me that I would have known this already if I hadn't skipped so many days of class."
-    S contemplative "I suppose they did not know she was already fluent in English when she enrolled."
+    S contemplative talk "I suppose they did not know she was already fluent in English when she enrolled."
+    show sibyl contemplative with dd
     "I also think that Tanya's English is really, really good considering it's not her first language, but I am loath to compliment her out loud even when she is not around to hear the compliment."
     C @ neutral talk "It's nice to have a class without Tanya."
     S angry "Clover, don't be rude!"
@@ -1345,7 +1352,8 @@ label home_ec:
     S @ neutral talk "Some students really admire Vittoria's ladylike attitude, and others are drawn to Vincenza's playful behavior."
     C annoyed "(Ladylike? Is that what you call shoving your hand up someone else's skirt?)"
     S @ neutral talk "They're basically the prince and princess of the school. That's why they're called the \"Royal Twins\"."
-    C contemplative "So they're not actually some sort of European royalty then?"
+    C contemplative talk "So they're not actually some sort of European royalty then?"
+    show clover contemplative with dd
     S smile talk "No, but they are Italian. They are in the same ESL class as Tanya."
     show clover smile
     show sibyl neutral

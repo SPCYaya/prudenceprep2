@@ -39,7 +39,8 @@ label sibyl_talk:
     C surprised "A-Hunh?"
     "Lost in thought while observing fruit disappear between Sibyl's lips, at first I don't even realize when she addresses me directly. Tanya, it seems, has gone off somewhere, leaving the two of us alone."
     S @ frown talk "Are you feeling well? You've been kinda... lost in space, all morning."
-    C contemplative "I'm... I'm good."
+    C contemplative talk "I'm... I'm good."
+    show clover contemplative with dd
     "The anger and frustration I'd been suffering from may be mostly gone, but something is still off. Shaking off the daze from the depth of my mind, an awkwardness seeps in to replace it."
     "Sibyl must be feeling it too. I can tell she's restraining herself around me despite being such a chatterbox with Tanya. It's actually making me feel a little jealous for some reason."
     C frown talk "Sibyl, umm... what did you do?"
@@ -159,7 +160,7 @@ label lacrosse_practice:
     show clover frown blush with dd
     "My cheeks burn red but no one around seems to have noticed a thing. Sibyl merely smiles back as she offers out a lacrosse stick for me to grab."
     S @ smile talk "Have you played lacrosse before, Clover?"
-    C contemplative "Nope, but we did have a girls' team at my old school."
+    C contemplative talk "Nope, but we did have a girls' team at my old school."
     show sibyl neutral
     show clover frown
     with dd
@@ -273,8 +274,8 @@ label lunch_sans_tanya:
     "Sibyl sits across from me at the lunch table with not a single plate before her and all of her attention instead solely on me. She actually seems interested in my dream, for real."
     C @ happy talk "Yeah. I was playing lacrosse. It was a warm Spring day out and I was running down toward the goal to pass the strawberry to you, but then all these dark shadows got in the way."
     S @ smile talk "That explains why you were kicking your legs so much. We were playing lacrosse with a strawberry?"
-    C contemplative "Yup, a strawberry. My drams don't always make sense. My brain might be defective."
-    C "(Particularly as of late...)"
+    C contemplative talk "Yup, a strawberry. My drams don't always make sense. My brain might be defective."
+    C contemplative "(Particularly as of late...)"
     S @ laugh "I think this is a good omen. You should go join the lacrosse team after we visit the library, or at least observe them for a bit before you decide on it."
     C neutral "(Oh right, I was going to the library with Sibyl today.)"
     C @ neutral talk "Maybe I will. After all, who else should I trust to interpret my dreams than a \"Sibyl\"?"
@@ -295,7 +296,8 @@ label lunch_sans_tanya:
     show sibyl smile with dd
     "I obviously noticed that Tanya wasn't hanging around Sibyl as she usually does every day, but hadn't brought it up at all as if speaking her name aloud would be enough to summon her presence."
     C @ neutral talk "And she just... left you alone after that? Is such a thing possible?"
-    S contemplative "Tanya always disappears on Saturday afternoon."
+    S contemplative talk "Tanya always disappears on Saturday afternoon."
+    show sibyl contemplative with dd
     C @ neutral talk "Why?"
     S neutral talk "I don't know exactly but she says it's something to do with the ESL students."
     show sibyl neutral with dd
@@ -344,10 +346,11 @@ label a2_library:
             "After having had my little white lie seen through immediately, I try to be brutally honest with Sibyl this time."
             C @ tired "(You don't find the kind of books I was reading in middle school at just any library.)"
             S @ surprised "Not even once?"
-            C contemplative "I can't say for sure, but probably not."
+            C contemplative talk "I can't say for sure, but probably not."
         "\"If I were in middle school, I probably would have said something like \'esoteric grimoires from bygone civilizations\'.\"":
             hide choice_darkness with dissolve
-            C contemplative blush "If I were in middle school, I probably would have said something like \"esoteric grimoires from bygone civilizations\"."
+            C contemplative talk blush "If I were in middle school, I probably would have said something like \"esoteric grimoires from bygone civilizations\"."
+            show clover contemplative blush with dd
             "A warm flush of embarrassment comes quickly to my face as I remember all the late nights camped out under my sheets with a big tome and a flashlight, whispering spells late into the night."
             C frown talk blush "But I'm in high school now and left all that behind me, so I don't really know what I like these days."
             show clover frown with dd
@@ -451,8 +454,10 @@ label a2_library:
     S @ smile talk "I had hoped that she would be my Vertu partner."
     show clover smile with dd
     "Warmth enkindles inside my chest from some source unknown, only to be harshly doused by her next reply."
-    S contemplative "...Until she never came. Then I met Tanya."
-    show clover deer with dd
+    S contemplative talk "...Until she never came. Then I met Tanya."
+    show clover deer
+    show sibyl contemplative
+    with dd
     "I know Tanya probably hates me, and I am not by any means particularly fond of her either, but hearing Sibyl name Tanya as her \"bosom friend\" really sinks me into the depths emotionally."
     C anxious "So it's Tanya?"
     S laugh "Oh, but you're here now too, and I don't think Anne would ever say you can't have {b}two{/b} \"bosom friends\", would she?"
@@ -625,7 +630,7 @@ label stop_by_art:
     show izzie excited
     with dd
     "Whatever that may mean is yet illusive to me, but it makes the twins and Miss Izzie all smirk to themselves while Tanya merely rolls her eyes."
-    T contemplative "Yes, a frottage collage. I plan to use the same sheet for all textures and let them overlap some, thus creating a unique blend where they merge."
+    T contemplative talk "Yes, a frottage collage. I plan to use the same sheet for all textures and let them overlap some, thus creating a unique blend where they merge."
     hide tanya
     show sibyl smile talk at qright
     show izzie smile
@@ -669,7 +674,8 @@ label stop_by_art:
     "I don't really get it, but I can feel the joyous energy radiating off Sibyl as she shows me her work, and that's enough for me."
     S neutral talk "I did the Summer in acrylics and am currently working through Winter with watercolors. It's so hard to get {b}just{/b} the right hues of off-white for the snow, but I like the challenge."
     S laugh "I'm thinking about doing Spring with spray paint!"
-    C contemplative "Spray paint? Like on a wall?"
+    C contemplative talk "Spray paint? Like on a wall?"
+    show clover contemplative with dd
     S neutral talk "No, silly, on canvas, with stencils!"
     S "What you do is analyze the subject and break it down into a ton of little simple shapes, cut out those shapes from paper, then spray over it to leave only that shape on the canvas."
     S smile talk "It requires a very good eye for composition since everything has to be broken into those smaller shapes rather than created a whole, but I think I can do it."
@@ -687,7 +693,8 @@ label stop_by_art:
     C neutral talk "How did you get started with art, Sibyl?"
     show clover neutral with dd
     "While I was off in my own world, Sibyl seems to have returned her canvas to the stack and begun searching through the rest. When I ask her the question, she pauses to answer."
-    S contemplative blush "Oh, well, I told you about how I went through that embarrassing phase of acting like Anne Shirley, right?"
+    S contemplative talk blush "Oh, well, I told you about how I went through that embarrassing phase of acting like Anne Shirley, right?"
+    show sibyl contemplative blush with dd
     "A soft flush comes to Sibyl's cheeks, which I find incredibly adorable to witness."
     C "(I'm so glad I'm not the only one here embarrassed by her past, but mine is definitely far and away more mortifying.)"
     S neutral talk "My foster parents sat me down with a bunch of art supplies as a way to channel my outpouring of imagination into a more constructive outlet."
@@ -738,8 +745,10 @@ label choco_making:
     "Grinning brightly at me, Sibyl drops a few bags onto the countertop along with some bowls and pots. Inside the bags are what looks to be already formed chocolate discs in milk, dark, white chocolate varieties."
     C frown "What are those?"
     S neutral "They're melting wafers. What we are going to do is melt them down and then form them into whatever cute shapes we like."
-    C contemplative "...What if I like the little UFO shapes?"
-    show sibyl contemplative with dd
+    C contemplative talk "...What if I like the little UFO shapes?"
+    show sibyl contemplative
+    show clover contemplative
+    with dd
     "Sibyl raises a hand to her chin in much more serious thought than my dumb question deserves. I'm just about to stop her when she exclaims out suddenly."
     S laugh "I've got it!"
     C surprised "You've got what?"
@@ -802,13 +811,15 @@ label choco_making:
     "Of everything that she has done so far, this new development is what confuses me the most about Sibyl's plans."
     C @ anxiety "(We're not gonna, like, {i}flambé{/i} them or anything, right?)"
     S neutral "We need to melt the flat side of the hemispheres a little so they're sticky enough."
-    C contemplative "We just hardened them and now we're going to melt them again?"
+    C contemplative talk "We just hardened them and now we're going to melt them again?"
+    show clover contemplative with dd
     "I watch Sibyl place the hemispheres flat side down on the heat one at a time, just enough to melt it slightly, then stick the melted side atop the chocolate discs she adorned with white dots."
     S laugh "{i}Voilà{/i}! Chocolate UFOs!"
     show sibyl smile with dd
     "The milk chocolate wafer makes the \"saucer\" part, the dark chocolate half globe makes the ship's \"cabin\", and ringing it are the white chocolate \"lights\" pulling it all together."
     C "(It's so...)"
-    C contemplative blush "Cute!"
+    C contemplative talk blush "Cute!"
+    show clover contemplative blush with dd
     "It's incredible, really. What I called chocolate UFOs before really were just ordinary wafers."
     C "({b}These{/b} are UFOs!)"
     "Sibyl holds up the little chocolate into the air to mimic flying about while adding her own verbal soundtrack of fantasy spaceship sounds."
@@ -966,7 +977,7 @@ label lacrosse_observation:
     C @ neutral talk "So how much do you know about lacrosse? I thought it is usually played out in a big field with a lot of players?"
     "I can tell that there is some serious play happening down below on the gym floor but cannot make any real sense of the game besides the obvious."
     S @ smile talk "Tanya talks about it sometimes. When they're out on the field, that's called \"field lacrosse\". What they're playing here in the gym is called \"lacrosse sixes\"."
-    C contemplative "Because there's six players on each side."
+    C @ contemplative talk "Because there's six players on each side."
     S neutral talk "Right. Five out in the middle part who all play both offense and defense, as well as one goaltender in the net."
     S "In field lacrosse, there's a total of ten players including the goaltender, and they have specific roles on the field."
     show sibyl smile with dd
@@ -994,7 +1005,8 @@ label lacrosse_observation:
     C @ neutral talk "She taught both?"
     S @ smile talk "That's what they say, and I'm inclined to believe it. Miss Izzie often disappears from art club only to be discovered shouting to the players from the sidelines here."
     C @ neutral talk "And Ms. Woolsey is okay with that?"
-    S contemplative "I've never asked about it, but I've always gotten the impression that the two of them were already really good friends even though this year is Ms. Woolsey's first teaching here."
+    S contemplative talk "I've never asked about it, but I've always gotten the impression that the two of them were already really good friends even though this year is Ms. Woolsey's first teaching here."
+    show sibyl contemplative with dd
     "I try to reconcile what I know about the kind and helpful dorm mother with the oddball arts teacher to find out how they could possibly be friends, but come up with no solid answer to the enigma."
     hide sibyl
     hide clover
@@ -1386,7 +1398,8 @@ label confusion:
     S @ frown talk "Her face does look a little red..."
     C "I-I'm fine! It was just once, and it was just an awkward deflection. I didn't even take the brunt of the shot!"
     "My voice comes out a little squeaky but Sibyl doesn't seem to notice. She backs off to normal speaking distance once I assure her I'm quite alight physically."
-    C contemplative "I'm just maybe not totally up to speed with the other girls yet."
+    C contemplative talk "I'm just maybe not totally up to speed with the other girls yet."
+    show clover neutral with dd
     S smile talk "That's great! The part about you being fine I mean, not about getting hit by the ball."
     S neutral talk "You are allowed to choose the number on your uniform, right? What did you pick, Clover?"
     show sibyl neutral with dd
@@ -1489,7 +1502,8 @@ label confusion:
     "The second part is just a rare expression of hopefulness that everything will make sense if I sleep on it."
     S @ frown talk "Ms. Woolsey told me you were a little spacey at practice. If you weren't feeling well I wouldn't have forced you to go this morning."
     C "{b}No!{/b} I mean, no, that's not it. I'm just... really worn out from lacrosse practice."
-    S contemplative "Do you want me to pick you up something from the cafeteria?"
+    S contemplative talk "Do you want me to pick you up something from the cafeteria?"
+    show sibyl contemplative with dd
     "My reply is late, my brain still fighting the battle of trying to figuring out what I feel for Sibyl while my stomach cries out for its own satisfaction."
     C "...Maybe some churros."
     S laugh "Churros? You got it!"

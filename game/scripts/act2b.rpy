@@ -158,7 +158,8 @@ label lacrosse_anew:
     C annoyed "She started it."
     S neutral "Tanya?"
     "Sibyl looks right back to Tanya for her defense, and though she looks like she wants to protest my statement, she surely knows it to be accurate and stays silent."
-    T contemplative alt2 "Whatever, let's go get lunch. I'm starving."
+    T contemplative talk alt2 "Whatever, let's go get lunch. I'm starving."
+    show tanya contemplative alt2 with dd
     "As for the suggestion that we leave as soon as possible so that I can stuff my face all the more promptly, I have no objections. The three of us wander off toward the cafeteria with Sibyl in the middle."
     scene bg hallway with fade
     "Though she appears loath to leave me and Sibyl alone after what I told her at practice in the morning, Tanya eventually does leave us after lunch to go to her mystery Saturday afternoon activities."
@@ -472,7 +473,8 @@ label distancefromSibyl:
             C surprised blush "{b}N-No, I—{/b} I just can't believe you actually do that kind of stuff all the time."
             O alt awkward "Is that what you think of us, Clover? That we're a pair of floozies?"
             C annoyed "(Yeah, kinda.)"
-            C contemplative "Not... exactly..."
+            C contemplative talk "Not... exactly..."
+            show clover contemplative with dd
             "The pair of twins before me maintain a stern accusatory glare upon me until they eventually break down into giggles."
             show vinci alt smile
             show vitti alt smile
@@ -507,7 +509,8 @@ label distancefromSibyl:
     C @ frown talk "Come on, let me out. Haven't you already had enough fun at my expense today?"
     H alt frown talk "But if you leave, then who will be left for us to play with?"
     show vitti alt frown with dd
-    C contemplative "Each other?"
+    C contemplative talk "Each other?"
+    show clover contemplative with dd
     O alt frown talk "That doesn't count! It's no fun to play with someone who knows exactly what you're thinking."
     show vinci alt frown with dd
     C neutral talk "Not my problem. Bye."
@@ -529,7 +532,8 @@ label distancefromSibyl:
     C happy talk "These are great, Sibyl! What sort of art project are you going to use these for?"
     show clover smile with dd
     S @ laugh "We found the most colorful stacks of tissue paper you've ever seen in the art store room together last week and wanted to work with it somehow."
-    C contemplative "So you're going to cut flowers out of tissue paper?"
+    C contemplative talk "So you're going to cut flowers out of tissue paper?"
+    show clover contemplative with dd
     S @ neutral talk "Not exactly. We haven't decided how we're going to do it yet. One method is to tear the paper into little pieces and glue it on piece by piece to form the picture."
     C @ neutral talk "And the other option?"
     T neutral talk alt2 "I learned about a Mexican tissue paper art called \"papel picado\". In this form of the craft, an artist takes an entire stack of tissue paper and chisels away pieces to form the image."
@@ -538,7 +542,7 @@ label distancefromSibyl:
     with dd
     S @ neutral talk "We haven't decided which way we want to work on it yet."
     C @ neutral talk "If you want to do it your way and Tanya wants to do it the Mexican way, just do that?"
-    S contemplative "Ah, but, the thing is—"
+    S contemplative talk "Ah, but, the thing is—"
     T @ neutral talk "We're working on this project together, for our art club."
     S smile talk "Tanya is going to be really busy with lacrosse soon so she didn't want to get too far into a personal project of her own."
     show sibyl neutral with dd
@@ -777,7 +781,7 @@ label izzie_lacrosse_request:
     mi @ neutral talk "Hold it there for a moment, Clover. It looks like you're getting the hang of it now, Tanya. Please share what you have learned."
     show tlax contemplative at mleft with dd
     "Taking the helmet off, I can see the sweat building on her face. While I was having fun taking free shots, Tanya was clearly putting in lots of work blocking them."
-    TL "Water first, and then..."
+    TL @ contemplative talk "Water first, and then..."
     "Tanya doesn't even finish her sentence, instead immediately grabbing for her bottle to suck down replacement for all the moisture she's losing. After catching her breath, Tanya elaborates further."
     TL neutral talk "It was difficult to guess where Clover was going to shoot the ball at first, but after she kept going I was able to get a better read on her intentions."
     TL "What I have found is that wherever she is looking or the direction her crosse is facing will be where she's going to shoot the ball."
@@ -971,7 +975,7 @@ label divorce_finalized:
     C "Fine, I'll just drop out of lacrosse. There's no way I'm going to sit on the substitute bench and watch Tanya show off on the field playing the position I wanted!"
     show sibyl annoyed with dd
     "I hear a soft huff and a slight hesitation out of Sibyl, followed by the slow start of her next statement."
-    S contemplative "I don't want you to rub this in her face, okay?"
+    S contemplative talk "I don't want you to rub this in her face, okay?"
     show sibyl neutral with dd
     C "Rub... what?"
     S @ neutral talk "Tanya... didn't make forward either."
@@ -1005,7 +1009,8 @@ label aprilfools:
     "Sibyl doesn't feature so much in my dreams anymore. She's been all but replaced with Tanya, who I end up spending way more time in close proximity to now that the lacrosse team is ramping up practices in preparation for the upcoming season."
     S @ neutral talk "Tanya? What about her?"
     "Sibyl pauses loading textbooks into her schoolbag to ask me about my dream, my recollection of which fades as I scratch the sleepiness out of my eyes."
-    C contemplative "We were playing lacrosse."
+    C contemplative talk "We were playing lacrosse."
+    show clover contemplative with dd
     S @ neutral talk "Like in your dream yesterday?"
     C @ neutral talk "Kind of, but not really. Yesterday we were playing sixes. Today we were playing field."
     "With the coming of warm weather also comes the change from lacrosse sixes to field lacrosse. Rather than play in the gym, we all go outside to play this outdoor variation of the sport."
@@ -1177,12 +1182,15 @@ label spirit_week:
     show sibyl neutral
     with dd
     "The whole concept of a school dance is undesirable to me, and not just because I'm still a recovering occult goth more accustomed to the shadows than the spotlight."
-    C contemplative "What's the big deal about it? We'll go together, won't we?"
-    show sibyl frown with dd
+    C contemplative talk "What's the big deal about it? We'll go together, won't we?"
+    show clover contemplative
+    show sibyl frown
+    with dd
     "Sibyl frown at my apparent disregard for what she's trying to tell me, and I think I see a little tiny blush on her face too."
     S @ neutral talk "We will definitely go as friends, Clover, but maybe you want a {b}date{/b} too? The Homecoming dance is basically like the \"Prom\" here at Prudence Prep."
     C surprised "The Homecoming dance is {b}that{/b} kind of dance?"
-    S contemplative "Well, yeah, or so I've heard from others. There's a tradition of naming one pair to be the Homecoming queens."
+    S contemplative talk "Well, yeah, or so I've heard from others. There's a tradition of naming one pair to be the Homecoming queens."
+    show sibyl contemplative with dd
     C annoyed "Blegh."
     "One simple retching sound makes my position on the whole business quite clear, but Sibyl isn't giving up her persuasions so easily."
     S laugh "Okay, yeah, it's pretty much guaranteed that Vincenza and Vittoria are going to win the titles, but you should still consider asking a date."
@@ -1197,7 +1205,8 @@ label spirit_week:
     C scowl "I hope you're not trying to say that I should ask one of those two to the dance myself."
     show sibyl frown with dd
     "With a small frown, Sibyl tries to change tack with me, as I'm clearly not getting whatever it is she's trying to tell me."
-    S contemplative "Listen, Clover, I—"
+    S neutral talk "Listen, Clover, I—"
+    show sibyl contemplative with dd
     "Sibyl whips her head this way and that like she's checking out what's nearby, then leans in closer to me across the table to whisper her secret in the small space between us."
     S neutral "I know for a fact that Tanya has yet to—"
     C shout "{b}Tanya!?{/b}"
@@ -1256,7 +1265,7 @@ label spirit_week:
     T frown "Sibyl?"
     "Sibyl shushes Tanya, putting me on the spot to answer suddenly. Turning to the artwork again, I try to come up with a better response this time after failing to give any good feedback to the last artwork she showed me."
     C neutral talk  "The figure is surrounded by all those prickly roses that seem like they're going to crush her in and prick her to death, but she stands there stubbornly regardless."
-    C contemplative "The angled flow of her hair — as if she just sharply turned away from the painter angrily, or maybe is stubbornly looking to take on whatever lies past the roses — makes it feel like there's motion to the still drawing."
+    C contemplative talk "The angled flow of her hair — as if she just sharply turned away from the painter angrily, or maybe is stubbornly looking to take on whatever lies past the roses — makes it feel like there's motion to the still drawing."
     C smile "(I like this girl. I want to be her friend.)"
     C happy talk "I really enjoy this drawing, Sibyl! You did an amazing job!"
     show tanya shy blush
@@ -1312,7 +1321,7 @@ label spirit_week:
     S @ smile talk "Then it's settled! Tanya drawing is amazing — because it really is — and Clover likes it."
     "Before either me or Tanya are able to disrupt Sibyl's attempt to mediate our conflict, she addresses a new question to Tanya about her artwork."
     S @ neutral talk "Is this girl supposed to be you, Tanya?"
-    C contemplative "Look— the hair isn't shaded in at all, unlike the uniform. It can't be Tanya's hair."
+    C @ contemplative talk "Look— the hair isn't shaded in at all, unlike the uniform. It can't be Tanya's hair."
     T surprised blush "That doesn't mean anything!"
     S smile talk "So it's not you? Who is it?"
     show sibyl smile
@@ -1320,7 +1329,8 @@ label spirit_week:
     show clover neutral
     with dd
     "Sibyl is being weirdly persistent, which seems even to affect Tanya as she struggles to reply in the face of her best friend's questioning."
-    T contemplative alt2 "No it's not me... or, maybe it's not anyone at all?"
+    T contemplative talk alt2 "No it's not me... or, maybe it's not anyone at all?"
+    show tanya contemplative alt2 with dd
     S smile "Hmm."
     "Sibyl doesn't seem to like the answer, but doesn't push Tanya any further on it."
     show tanya neutral with dd
@@ -1572,7 +1582,8 @@ label pregame_Homecoming:
     CL surprised "I kinda know everyone there, and no one's really paying attention to me in particular. I can just fade into the group!"
     TL @ neutral talk "And how is the game today any different? No one was watching you; the crowd was cheering us on as a team!"
     CL scowl "(Why do I have to defend myself about this? If I could have played normally today, I would have!)"
-    S contemplative "If you are able to overcome your social anxiety, would you stick with the team, Clover?"
+    S contemplative talk "If you are able to overcome your social anxiety, would you stick with the team, Clover?"
+    show sibyl contemplative with dd
     "Sibyl, previously silent and looking quite pensive, suddenly interjects herself again into the conversation rapidly turning into a shouting match between me and Tanya."
     CL neutral talk "Well, yeah, of course."
     show clax neutral
@@ -1591,7 +1602,7 @@ label pregame_Homecoming:
     show sibyl bashful
     with dd
     "Sibyl comes out with her best and most doleful puppy dog eyes which near-instantly snaps Tanya's resistance in half."
-    TL contemplative blush "...You owe me."
+    TL contemplative talk blush "...You owe me."
     show sibyl smile
     show tlax scowl
     with dd
@@ -1626,7 +1637,7 @@ label predance:
     "My roommate doesn't pay me any particular attention when she returns, merely dragging her brush through her hair while visibly torn deciding on which hair ties she'll choose to keep her usual pigtails together."
     S @ neutral talk "What do you think, Clover? Pink or white?"
     "Sibyl slips one pink and one white hair tie in opposite pigtails, then turns to get my opinion on the matter."
-    C contemplative "Umm... maybe both? I think having it asymmetrical like that suits your personality."
+    C @ contemplative talk "Umm... maybe both? I think having it asymmetrical like that suits your personality."
     S laugh "Hmm, I think you're right. Thanks, Clover."
     show sibyl smile with dd
     "One of my many thoughts suddenly arrives onto my lips and is spoken as innocently as I can manage to ask it."
@@ -1784,7 +1795,8 @@ label predance:
     C excited "Y-Yeah, like she just doesn't give a crap about the beat and bends all the notes to her will through the power of her voice alone!"
     "A little too much excitement sneaks out in my voice as I reply to Tanya, which I try to suppress before she has a chance to use it against me."
     C annoyed blush "But, uhh... I haven't really listened to them lately."
-    T contemplative alt2 blush "...Me neither."
+    T contemplative talk alt2 blush "...Me neither."
+    show tanya contemplative alt2 blush with dd
     "The discussion drops just as quickly as it had arrived. Both of us find something particularly interesting to entertain us in the bottom of our punch cups until the moment Sibyl emerges from the crowd before us."
     show sibyl smile at qmleft
     show clover neutral blush
@@ -1986,7 +1998,8 @@ label predance:
     C @ anxious "(This is all too realistic to be one of my crazy vivid dreams.)"
     S @ smile talk "Not just that, but Clover was able to hold her own out there on the stage all by herself!"
     T @ frown talk "If I have to stand next to her every time she's struck with stage fright, I might have to get a cyborg hand replacement."
-    C contemplative "I did survive that, didn't I? Barely, maybe, but I made it through that ordeal without spontaneously combusting at least."
+    C contemplative talk "I did survive that, didn't I? Barely, maybe, but I made it through that ordeal without spontaneously combusting at least."
+    show clover contemplative with dd
     S @ smile talk "And it's not like the whole school will be coming to all your games anyway, right?"
     C neutral talk "No! I'll play, and I want Sibyl to be there, but the less spectators the better!"
     show clover neutral with dd
