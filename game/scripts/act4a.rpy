@@ -1,7 +1,8 @@
 label firstdate:
     scene bg transition with fade
+    pause 1.0
     play music guitar1
-    scene bg lacrosse with dissolve
+    scene bg lacrosse with fade
     "Saturday, the day of our first date, approaches too slowly for the amount of nerves that have been gradually building up inside me, but arrive at last it finally does."
     "Tanya and I go about our usual weekend routine starting with a long lacrosse team practice session. My nerves are jumpy the whole practice but I manage to put up a good performance in our practice game anyway."
     C "(I don't really get what Tanya is so afraid of happening if anyone finds out we're going on a date, but if it makes her feel better I'll play along.)"

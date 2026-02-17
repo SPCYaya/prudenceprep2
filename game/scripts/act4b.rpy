@@ -1768,12 +1768,17 @@ label epilogue:
     "At the far end of the long lane to the academy, Tanya and I wait patiently side by side, hand in hand, enveloped in the warm silence of mutual affection."
     "For the longest time we merely enjoy each others' quiet company, but soon enough I shatter the moment with a sneeze, and after blessing me for it, Tanya returns to say yet more."
     T @ smile talk "If you don't exercise over the break, you're going to get fat."
+    C neutral talk "Wow, okay..."
     show tanya impish
     show clover impish
     with dd
     "Tanya earns a push of my palm against her forehead for that remark — delivered with my left hand as my right is still held securely in her left. I let her off easy because I know it's true."
-    C @ happy talk "I think I've eaten enough yogurt parfaits for a lifetime. I deserve a break."
-    T @ smile talk "You didn't have to eat them everyday just because I did."
+    T smile talk "I'll call you every morning if it'll help you keep your training schedule."
+    show tanya smile
+    show clover smile
+    with dd
+    C @ anxious "I think I've earned a little break, and not just from the early mornings, but from the yogurt parfaits too!"
+    T @ smile talk "You didn't have to eat them every day just because I did."
     C surprised "{b}Now{/b} you tell me!?"
     scene bg path with dd
     "The air between us goes silent again. We've already seen Sibyl off, so now it's just me, Tanya, and my big duffel at the end of the academy drive waiting for my ride to show."
