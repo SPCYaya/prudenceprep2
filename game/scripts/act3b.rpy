@@ -487,7 +487,7 @@ label brainstorming:
     T shout "Stop that!"
     show tanya frown with dd
     C @ neutral talk "Lavender and... something. Is that your shampoo?"
-    T vulnerable blush "Lavender and rosemary. It's my SPF moisturizer."
+    T vulnerable talk blush "Lavender and rosemary. It's my SPF moisturizer."
     T neutral talk alt "You should be wearing a high SPF too, Clover. It's more important than ever to take care of your skin now that we are spending much more time outside."
     show tanya neutral alt2
     show clover anxious
@@ -714,7 +714,7 @@ label gymclass:
     show tanya neutral
     with dd
     "Once again, I launch into a newly re-invigorated set of sit-ups to silence my mouth before I accidentally spill any more beans out of it."
-    T vulnerable "Clover, you're kind of slow on the uptake, so I think it's only fair that I tell you this: I think Vittoria and Vincenza, and maybe Sibyl too, are trying to... push us together."
+    T vulnerable talk "Clover, you're kind of slow on the uptake, so I think it's only fair that I tell you this: I think Vittoria and Vincenza, and maybe Sibyl too, are trying to... push us together."
     T frown talk alt2 "I suspect that Miss Izzie is also complicit, and Ms. Woolsey too. In fact, I'm pretty sure that's why she put us together on the lacrosse project and in athletics class today."
     show tanya frown with dd
     C @ neutral talk "No duh! Sibyl's been trying to get us to stop fighting ever since the day we first met, and Ms. Woolsey has seen for herself how well we play lacrosse together when we're not at each other's throats."
@@ -722,7 +722,8 @@ label gymclass:
     show tanya contemplative with dd
     C contemplative "Uh, okay?"
     "At Tanya's bidding, I lay back to take a well-deserved break from my core strength exercises, as well as hear whatever has gotten her panties in a twist this time."
-    T bashful alt2 "They're trying to set us up, Clover."
+    T bashful talk "They're trying to set us up, Clover."
+    show tanya frown with dd
     C anxious "What do you mean? Like, to take the fall for a crime, or something?"
     T shout "No, {b}romantically{/b}! Honesty, Clover, {b}what{/b} is wrong with your brain?"
     C shout "Shut up, there's nothing wrong with my brain!"
@@ -763,7 +764,7 @@ label gymclass:
     mw "Tanya, Clover! What is going on here!?"
     "The sound of Ms. Woolsey's raised voice makes us both freeze in place, not even daring to breathe behind our mutually wide eyes."
     "Simultaneously, we both scramble away from one another and back onto our feet in front of our athletics teacher, dorm mother, and cherished lacrosse coach."
-    show tanya bashful alt2 with dd
+    show tanya bashful with dd
     C @ anxious blush "N-Nothing happened. I'm sorry!"
     mw pensive "If nothing happened, then why are you sorry?"
     show naomi frown with dd
@@ -795,7 +796,7 @@ label gymclass:
     mw @ stern "I won't have any trouble with the two of you again, will I?"
     show clover neutral with dd
     "I give Ms. Woolsey my utmost promise, and even swear on my lacrosse stick that it'll never happen again, but it's Tanya whom she seems to be most serious in hearing answer her leading question."
-    T bashful alt2 "I know it may not look very good on the surface, but you have nothing to worry about between me and Clover."
+    T @ bashful talk "I know it may not look very good on the surface, but you have nothing to worry about between me and Clover."
     mw @ sad talk "Are you sure? Did we push you—?"
     T frown talk "Naomi, stop. This is just how Clover and I {b}are{/b} together. It's nothing you or anyone else did."
     T annoyed talk alt2 blush "But yeah, maybe you and the others could cut it out. It's getting kind of annoying."
@@ -1081,7 +1082,7 @@ label hangoutSunday:
     "With an aim to turn my mind's attention away from the velvety feeling of Tanya's skin, I turn my attention back to the hair disaster finally starting to unravel."
     C impish "You really like my hair, huh?"
     T neutral talk alt blush "W-What? You're imagining things..."
-    show tanya bashful alt2 with dd
+    show tanya bashful with dd
     "Tanya lets my hair drops through her fingers in an instant, turning away quickly in such a state that one might think I just insulted her entire family."
     C @ excited "You know, Vittoria and Vincenza warned me about your... {b}blonde hair fetish{/b}."
     show tanya scowl blush with dd
@@ -1356,7 +1357,8 @@ label getototalk:
     stop music fadeout 0.5
     play music sad
     C anxious blush "We almost... kissed."
-    T vulnerable blush "...We almost kissed."
+    T vulnerable talk blush "...We almost kissed."
+    show tanya vulnerable blush with dd
     "As she repeats what I say, Tanya suddenly transforms into a girl I've never seen before."
     "A delicate pink hues touches her rounded cheeks, her eyes flit away from my face, and her fingers find something interesting to ruffle through in the shiny locks of her jet black hair."
     "This new and bashful Tanya is all so irresistibly..."
@@ -1401,7 +1403,8 @@ label getototalk:
     C surprised "What do you mean you {b}want{/b} to \"like\" me? You tried to {b}kiss{/b} me, didn't you!?"
     "After feeling so light inside hearing Tanya say all those nice things about me, to suddenly hear her clarify that she might only like me and not \"like\" like me feels like a bucket of cold water dumped over my head."
     "I'm nearly jumping out of my seat again, and though I don't raise my voice too loudly, Tanya still does motion for me to calm myself before she continues."
-    T bashful alt2 "What I mean is— how can you \"like\" me, Clover? You don't even know anything {b}about{/b} me."
+    T bashful talk "What I mean is— how can you \"like\" me, Clover? You don't even know anything {b}about{/b} me."
+    show tanya bashful with dd
     C shout "I know—!"
     show clover neutral with dd
     T frown talk "That I like lacrosse? That I'm Chinese?"
@@ -1431,7 +1434,7 @@ label getototalk:
         "\"You're not messing with me, right? Because I'm super serious right now.\"":
             hide choice_darkness with dissolve
             C anxious blush "You're not messing with me, right? Because I'm super serious right now."
-            T bashful alt2 "I know we've had our little spats in the past, but I promise that I am just as serious as you are."
+            T @ bashful talk "I know we've had our little spats in the past, but I promise that I am just as serious as you are."
             C neutral talk "Swear on your lacrosse stick?"
             show clover neutral with dd
             T neutral talk "I'll swear on my whole uniform if that makes you feel better."
@@ -1449,7 +1452,7 @@ label getototalk:
             show tanya contemplative with dd
             "Tanya goes particularly quiet with thought, to such a degree and for so long that I get the impression she's not sure whether to ask or not."
             C surprised "You can't tell me to ask my stupid questions, then refuse to ask your own! Spit it out!"
-            T bashful alt2 blush "Alright, relax, it's just... are you completely, one-hundred-percent sure that you're gay?"
+            T @ bashful talk blush "Alright, relax, it's just... are you completely, one-hundred-percent sure that you're gay?"
             show clover neutral with dd
             "I know I asked her to hit me with her stupid questions, but the sheer stupidity of it stuns me to silence until my brain has a chance to catch up."
             C @ neutral talk "What?"
@@ -1458,7 +1461,8 @@ label getototalk:
             C @ anxious blush "Well, yeah, I tried to {b}kiss{/b} you, so..."
             T frown talk "You remember my so-called \"fan club\", don't you? And the girls who follow around Vittoria and Vincenza?"
             T contemplative talk "Especially in a girls' school like this, there are those who will play at feelings without being serious about them at all."
-            T bashful alt2 "You've said you want to kiss me, but do you want to {b}love{/b} me? Do you want to {b}touch{/b} me?"
+            T bashful talk blush "You've said you want to kiss me, but do you want to {b}love{/b} me? Do you want to {b}touch{/b} me?"
+            show tanya bashful blush with dd
             "It's a stupid question by any metric I can think of, but the vulnerability on Tanya's face is plain and clear to me, so I simply alleviate those fears as directly as I can."
             C neutral talk "Yes, and yes."
             show clover neutral with dd

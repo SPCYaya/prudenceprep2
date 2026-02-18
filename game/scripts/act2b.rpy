@@ -1763,7 +1763,7 @@ label predance:
     "A little white lie shouldn't hurt them. My heart beats just a bit faster and my legs grow a touch stuff, but all in all it's totally manageable. They even change the subject away from me all by themselves, which helps."
     show clover frown with dd
     st "And we're, umm, sorry for what you might have overheard before, Tanya. Coach Woolsey was right to start you after all, huh?"
-    show tanya bashful alt2 blush with dd
+    show tanya bashful blush with dd
     "All attention shifts to Tanya, who looks just as red-faced with bashfulness as the other girls look red-faced with sheepishness."
     C contemplative "(What did she mean by that?)"
     "When we finally leave the defensive players be, I have to ask Tanya right away what happened."
@@ -1774,7 +1774,8 @@ label predance:
     C @ contemplative "(Laps? Morning? Does Tanya jog in the morning? Every morning? It's no wonder her thighs are so thick if she's doing that much extra training every single day. Is that all muscle!?)"
     st "And that buzzer beater from all the way back in center field to put us up! Who could forget that in your debut game!"
     C surprised "Wait, seriously!?"
-    T shy blush "It was only the end of first half, Clover."
+    T shy talk blush "It was only the end of first half, Clover."
+    show tanya shy blish with dd
     st "Don't be so modest, Tanya. We never would have won if you weren't going so hard in the midfield."
     show tanya smile blush with dd
     "I'm understandably incredulous. I am fully aware of how good a player Tanya is, but all I keep hearing is how she basically dominated the midfield the whole game."
@@ -1855,7 +1856,7 @@ label predance:
     C frown talk blush "We're not actually {b}doing{/b} this, are we!?"
     show clover anxious blush with dd
     "The pink ribbon necktie is already starting to feel like a rapidly constricting noose around my neck as I scan out across the crowd. Every single person in the room is watching and waiting for us to take the stage."
-    T @ bashful alt2 "If you were going to puke up a way out of this, now is the time."
+    T @ bashful talk "If you were going to puke up a way out of this, now is the time."
     "I seriously consider it. I've never done it before, but I'm pretty sure I could throw up on demand if I stick my fingers far enough down my throat. I'd be whisked right away to the nurse's office with all this behind me."
     C @ deer blush "(Vomiting now would also draw the attention of every person here in the room.)"
     "I'm stuck between a rock and a hard place. Faced with the certainty of making a scene if I force myself to vomit now, I face forward toward the stage like a soldier marching to certain death in battle."
@@ -1968,7 +1969,7 @@ label predance:
     mi "Ladies and gentlewomen, we have our winners! Please congratulate Tanya Yang and Clover Ipswich, your Homecoming Queens!"
     hide izzie
     show clover deer blush at qmleft
-    show tanya bashful alt2 blush at qmright
+    show tanya bashful blush at qmright
     with dd
     "A set of metal tiaras is passed from just off-stage to the twins, who each simultaneously crown me and Tanya while the crowd of our peers and academy alumni goes wild just off-stage."
     stop music fadeout 0.5

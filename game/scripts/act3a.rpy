@@ -33,7 +33,7 @@ label easter:
     show tanya frown with dd
     "It's clear from Tanya's expression that she doesn't like this answer, and Sibyl is quick to alleviate her concerns."
     S @ laugh "Really, I wanted to stay! The whole reason I applied for this scholarship is to experience all the ups and downs of living out on my own."
-    T shy "Okay, but why is Clover still here? I thought she was finally getting along with her parents again?"
+    T @ shy talk "Okay, but why is Clover still here? I thought she was finally getting along with her parents again?"
     show clover scowl with dd
     "That Tanya asks Sibyl instead of me about my own personal life gets on my nerves, so despite how I don't really care to share my personal life with her, now I feel obligated."
     C neutral talk "I also chose to stay here this week, Tanya."
@@ -509,7 +509,7 @@ label truthordare:
     S @ neutral talk "Truth."
     "It does not take long for Tanya to come out with a question, and it is a juicy question at that."
     T neutral talk alt blush "Sibyl, did you really, umm... {b}kiss{/b} Clover?"
-    show tanya bashful alt2 blush
+    show tanya bashful blush
     show sibyl excited blush
     show clover neutral
     with dd
@@ -659,7 +659,8 @@ label manhuatalk:
     TL @ shout "You're {b}such{/b} an idiot, Clover. And to think I was going to say you might have some brain cells yet clinging to life in your empty skull after all!"
     C annoyed talk "You could stand to say it nicer than that!"
     show clover annoyed with dd
-    TL shy blush "I was {b}going{/b} to, but not anymore! I'm not going to hurt you, just... shut up and let me talk."
+    TL annoyed talk blush "I was {b}going{/b} to, but not anymore! I'm not going to hurt you, just... shut up and let me talk."
+    show tlax annoyed blush with dd
     stop music fadeout 0.5
     play music sad
     show clover neutral with dd
@@ -684,14 +685,17 @@ label manhuatalk:
     show tlax contemplative with dd
     "Now relatively confident that Tanya isn't going to break my skull open with a crosse, I take a seat on the bench running through the aisle of lockers."
     C @ neutral talk "What were you even doing that caused all your trouble in the first place? You were being awfully coy about that during Truth or Dare."
-    TL shy blush "I suspect she knows already, but... I haven't told Sibyl that I'm gay, or that I once had a crush on her."
+    TL shy talk blush "I suspect she knows already, but... I haven't told Sibyl that I'm gay, or that I once had a crush on her."
+    show tlax shy blush with dd
     C @ neutral talk "So?"
     TL frown talk "So, it was because of what I am that caused all the problems in the first place!"
     show tlax frown with dd
     C @ neutral talk "Is it, like, {b}illegal{/b} to be gay in China or something?"
     TL frown talk "Well, no, but it can be, umm... stigmatized. Even in Singapore where my family is now."
-    TL shy blush "It doesn't help that I was an awkward middle-schooler self-publishing cringey self-insert {i}baihe manhua{/i} either, but that was the only way I knew how to express myself."
-    C contemplative talk "What's a \"baihe manhua\"?"
+    TL shy talk blush "It doesn't help that I was an awkward middle-schooler self-publishing cringey self-insert {i}baihe manhua{/i} either, but that was the only way I knew how to express myself."
+    show clax shy blush with dd
+    "I repeat the words \"baihe manhua\" in my head a few times, but all the phrase does is rattle around without knocking loose any golden nuggets of recognition in my brain."
+    C contemplative talk "What's a \"bay hee mon wah\"?"
     show clover contemplative
     show tlax surprised
     with dd
@@ -703,12 +707,7 @@ label manhuatalk:
     with dd
     "I nod my understanding to the question, and to my credit start to put the pieces together before she finally concludes the thought."
     TL @ neutral talk "It's like that, but Chinese. I was only self-publishing on the Internet, but even then I had to be a little careful about what I was drawing."
-    C impish "You were drawing porn? I mean, I kinda get why it was embarrassing for your family."
-    "My reply is almost entirely sympathetic to Tanya's plight, having done enough cringey stuff back in middle school to make me want to jump off the nearest cliff right now."
-    TL shout "It was {b}not{/b} porn. There wasn't any sex, even implied, most of the time!"
-    show tlax scowl with dd
-    C contemplative "(\"Most of the time\"?)"
-    TL frown talk "You don't really understand, Clover; I couldn't even draw my characters {b}kissing{/b}. Two girls merely expressing their love could potentially be determined as \"deviant behavior\"."
+    TL @ frown talk "Two girls merely expressing their love could potentially be determined as \"deviant behavior\". I couldn't even draw my characters {b}kissing{/b}."
     show tlax frown with dd
     C anxious "Wow, that's seriously crazy!"
     "Middle school me used to be proud of being a \"deviant\", but in truth I never actually was anything more than just another weird goth kid."
@@ -716,7 +715,8 @@ label manhuatalk:
     "This sort of terrible secret that Tanya is suddenly sharing with me would under normal circumstances be something I can use to pick on her mercilessly, but I could never bring myself to be so cruel like that after everything she's told me."
     C neutral  "(Speaking of which...)"
     C @ neutral talk "Why are you telling me all this anyway, Tanya?"
-    TL shy blush "...Because I had to tell someone, and I thought you'd understand me better than anyone else."
+    TL shy talk blush "...Because I had to tell someone, and I thought you'd understand me better than anyone else."
+    show tlax shy blush with dd
     "It makes perfect sense not to divulge all these secrets to Sibyl when she has not officially come out to her yet. I know Tanya is friends with the twins too, but I seriously doubt they have the emotional capacity to handle anything so serious."
     C tired "(Sibyl must have planned this all along. She's just too crafty!)"
     C neutral talk "I definitely know—"
@@ -766,7 +766,7 @@ label homeroom_queens:
     "Desperately, I glance slightly back for Sibyl, but am shocked to find she has entirely gone missing and left me to fend for myself."
     st "It's rude to push them to talk about their private lives. When they want to tell us, they will!"
     C "(There's nothing to {b}tell{/b}!)"
-    T @ shy "Honestly, there's nothing between us."
+    T @ shy talk "Honestly, there's nothing between us."
     st "Your hair is so silky, Clover. What do you do to it?"
     show choice_darkness with dissolve
     menu:
@@ -997,7 +997,7 @@ label before_the_storm:
     show tanya smile with dd
     S @ frown talk "But Tanya, it's so hard to sit here and do nothing while you're obviously suffering. Your fans might not be directly threatening you, but they do you no favors with your jealous detractors."
     show sibyl frown
-    show tanya bashful alt2
+    show tanya bashful
     with dd
     C @ neutral talk "You don't give Tanya enough credit for how tough she is. I've feared for my life, like, five times since I've known her."
     show sibyl laugh
@@ -1194,7 +1194,7 @@ label gametwo:
     S @ frown talk "How are you feeling? Do you want to get a late lunch while we still can?"
     T @ neutral talk "I've been better, but thanks. I think I will to skip lunch today."
     S bashful "Oh that's right, you have your Saturday afternoon thing today, don't you?"
-    show tanya bashful alt2 with dd
+    show tanya bashful with dd
     "Tanya herself must have forgotten, because she turns her head away and replies pensively."
     T neutral alt "I'm going to skip today."
     "While Sibyl is busy fussing over her friend, I myself hang back without any idea of what I should say."
@@ -1779,7 +1779,8 @@ label peltingballs:
     TL @ smile talk "Yes, Coach Woolsey!"
     CL @ annoyed "(One little promotion and all of a sudden she goes from \"Naomi\" to \"Coach Woolsey\" again?)"
     "The promotion isn't official without the rest of the team agreeing, of course, but it's hard to imagine them not going along with Coach Woolsey's recommendation after everything Tanya's been through lately and how much she means to the team."
-    TL shy blush "Thank you, Coach Woolsey, and... sorry again."
+    TL shy talk blush "Thank you, Coach Woolsey, and... sorry again."
+    show clax shy blush with dd
     mw @ happy talk "It's okay to make mistakes, Tanya, so long as you learn from them."
     "Some part of me still feels like I'm getting off particularly light from this whole incident, but then again, I only scared off the bothersome girls in the bleachers and didn't actually hurt anyone."
     mw neutral talk "You are dismissed for today, Clover. Your probation begins immediately."
@@ -1802,7 +1803,7 @@ label peltingballs:
     TL @ neutral talk "I didn't do it for you; I did it for the team. You're too strong of a player to lose now when our midfield has already been thrown into such disarray."
     "Tanya doesn't even look my way when she replies, instead crossing her arms and turning away to stare down at nothing in the corner of the locker room."
     CL @ scowl "(Yeah, I know you need me, but that isn't what made you come running in here, is it?)"
-    TL shy "And thank you for getting rid of those girls back there. I thought I could just ignore them, but in the end they were being a problem for everyone else too."
+    TL @ shy talk "And thank you for getting rid of those girls back there. I thought I could just ignore them, but in the end they were being a problem for everyone else too."
     CL annoyed talk "Yeah, they were totally annoying {b}me{/b}, so I made them go away. That's all there is to it."
     show clax neutral
     show tlax neutral
@@ -1845,12 +1846,14 @@ label peltingballs:
     "Tanya pauses to give me a hard look at my wording, which maybe came out a little too strongly for what I meant to say."
     CL @ neutral talk "How about, \"not even someone as strong as you\", okay?"
     CL "(This strange new world of \"being nice to Tanya\" is going to take some adjustment, even if we haven't exactly been all that mean to each other lately.)"
-    TL shy "Those girls {b}were{/b}... particularly cruel, but even so, I expected that I could shrug off whatever they, or anyone else, threw at me."
+    TL shy talk "Those girls {b}were{/b}... particularly cruel, but even so, I expected that I could shrug off whatever they, or anyone else, threw at me."
+    show tlax shy with dd
     CL @ frown talk "None of us thought what happened was okay, Tanya. No one blames you..."
     TL frown talk "Maybe not, but {b}I{/b} blamed {b}myself{/b}! The girl I thought I was should have pushed them away and told them off."
     TL contemplative talk "Instead, I crumbled to pieces and bawled my eyes out in the shower in front of the whole team."
     TL frown talk "I've always unquestionably lived {b}my{/b} way, but suddenly I was made to feel so scared and vulnerable in a way I hadn't been before."
-    TL shy "Even today, with my \"fans\" in the crowd, all I could think about was how much they were judging me, how much expectation they had placed on me, and how they were making others on the team view me."
+    TL shy talk "Even today, with my \"fans\" in the crowd, all I could think about was how much they were judging me, how much expectation they had placed on me, and how they were making others on the team view me."
+    show tlax frown with dd
     CL shout "What about them? They don't really care about you, or even know anything at all about lacrosse. You said that yourself."
     show tlax frown with dd
     CL annoyed talk "Those girls I chased away — your \"fans\" — are just the same as your bullies; all they want is to distract from their own shortcomings by taking it out on you."

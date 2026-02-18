@@ -125,7 +125,8 @@ label lacrosse_practice:
     T "Ughhhhh."
     show tanya frown with dd
     "Almost immediately after being dismissed to begin practicing, Tanya groans out her obvious disinclination toward pairing up with her Vertu partner."
-    T bashful alt2 "Sibyl, save me."
+    T bashful talk "Sibyl, save me."
+    show tanya bashful with dd
     S smile talk "Sorry, Tanya. Just think of Sierra's face as the goal and give it your all."
     hide tanya
     show clover neutral at mright
@@ -1206,7 +1207,8 @@ label valentines:
     "Tanya lunges forward to wrap her arms around Sibyl into a tight hug, leaving me sitting alone, cold, and without a clue what is going on."
     "Once the hug finally ends, Sibyl urges Tanya to actually try one, and while she does, explains to me without prompting what the dragons are all about."
     S @ smile talk "This was before you came here, Clover, but Tanya went off one day about how she was born in the Year of the Dragon and that she's, like, destined for greatness because of it." # high schoolers are now born in 2012? what the heck!?
-    T shy blush "You make me sound like a total goof when you say it like that, Sibyl."
+    T shy talk blush "You make me sound like a total goof when you say it like that, Sibyl."
+    show tanya shy blush with dd
     S laugh "It was funny seeing how animated you were talking about it, Tanya. I rarely get to see your cute side."
     show tanya smile blush alt2 with dd
     "Sibyl's placation apparently works because Tanya quickly becomes soft pink to the cheeks and remains quiet, opting instead to nibble at another piece of chocolate instead."
@@ -1298,7 +1300,7 @@ label first_lacrosse:
     with dissolve
     "Sibyl ultimately leaves us both with only her best wishes, and I soon find myself walking silently side by side with Tanya down the long hallway to the gym."
     C @ contemplative "..."
-    T @ bashful alt2 "..."
+    T @ bashful "..."
     "We both look off at nothing very interesting on either side of the hallway, unsure what to say to one another, or perhaps unwilling. If we were to talk, it'd be inevitable that we would wind up butting heads again."
     C @ frown "(We're both naturally stubborn people. It's not a good combination. Surely Sibyl knows that trying to force us to interact will only result in a bad outcome?)"
     "Tanya interrupts my thoughts and breaks the silence between us with a surprise statement just before we reach the double doors to the gymnasium."

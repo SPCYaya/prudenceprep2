@@ -546,8 +546,10 @@ label tanya_trouble:
     C neutral talk "What about it? If she's her own person then why do you have to get in my way of pursuing her?"
     show clover scowl with dd
     T shout alt2 "First of all, because she's never going to return your feelings and all you're doing is troubling her, and secondly, because I—"
-    T bashful alt2 blush "I may have... \"liked\" Sibyl too."
-    show clover surprised with dd
+    T bashful talk blush "I may have... \"liked\" Sibyl too."
+    show clover surprised
+    show tanya bashful blush
+    with dd
     "This surprises me probably more so than it should. It actually makes a lot of sense given brief moment to think about it, even with Tanya still angrily hovering close to me in the hallway."
     C neutral talk "S-So, what? It's her choice if she wants to go out with me. You've had months already to take your shot."
     show clover scowl with dd
@@ -576,7 +578,7 @@ label tanya_trouble:
     "Her anger is way down from before and more like resignation instead. I find myself cooled down similarly now that she's not quietly screaming in my face."
     T @ neutral talk alt2 "If you have to, yeah. It's not easy but it's what's best for both of you."
     "Tanya pushes her back against the wall beside me, turning her head away from me. She mumbles quietly to herself."
-    T @ vulnerable "Izzie was right; straight girls are nothing but problems."
+    T @ vulnerable talk "Izzie was right; straight girls are nothing but problems."
     C contemplative talk "What was that?"
     show clover contemplative with dd
     T shout alt2 "Nothing. You're absolutely infuriating in every way, you know that?"
@@ -629,8 +631,10 @@ label tanya_trouble:
     show tanya contemplative blush alt2
     with dd
     "I deflect the question right back at Tanya to get her off my case and maybe find out what I truly love about Sibyl based upon what she says."
-    T shy blush "Her limitless compassion. Her joyous freedom."
-    show clover surprised with dd
+    T shy talk blush "Her limitless compassion. Her joyous freedom."
+    show tanya shy blush
+    show clover surprised
+    with dd
     "The reply arrives in a remarkably soft tone so unlike the Tanya I know. It's clear from the poetic answer that it's something she's contemplated for some time."
     "I don't get the chance to ask her what any of it actually means as the bell rings to signal the end of the lunch period."
     T neutral talk "We've left Sibyl alone way too long."
