@@ -137,6 +137,9 @@ define gui.dialogue_width = 1080
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
 define gui.dialogue_text_xalign = 0.0
 
+# https://www.renpy.org/doc/html/incompatible.html
+define config.check_conflicting_properties = True
+
 
 ## Buttons #####################################################################
 ##

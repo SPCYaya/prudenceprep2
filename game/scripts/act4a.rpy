@@ -1545,9 +1545,9 @@ label after_date1_part2:
         mi "Is that Clover? Your bed is big enough for a third."
         show izzie smile with dd
         "Leaning slightly around my teacher at the door, I spot Miss Izzie lounging on Ms. Woolsey's bed with a smug grin on her face. That same grin is soon smacked right off her face by a flying cat plushie directly to her head."
-        show izzie contemplative
-        show naomi surprised
-        with dd
+        show izzie contemplative with dd
+        mi "It was just a joke."
+        show naomi surprised with dd
         mw "Ahhh, L'il Nika, I'm so sorry!"
         show naomi frown at mleft with dd
         "Ms. Woolsey immediately steps back toward the bed, but stops when Miss Izzie holds up the plush out to her."
