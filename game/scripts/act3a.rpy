@@ -693,7 +693,7 @@ label manhuatalk:
     C @ neutral talk "Is it, like, {b}illegal{/b} to be gay in China or something?"
     TL frown talk "Well, no, but it can be, umm... stigmatized. Even in Singapore where my family is now."
     TL shy talk blush "It doesn't help that I was an awkward middle-schooler self-publishing cringey self-insert {i}baihe manhua{/i} either, but that was the only way I knew how to express myself."
-    show clax shy blush with dd
+    show tlax shy blush with dd
     "I repeat the words \"baihe manhua\" in my head a few times, but all the phrase does is rattle around without knocking loose any golden nuggets of recognition in my brain."
     C contemplative talk "What's a \"bay hee mon wah\"?"
     show clover contemplative
@@ -707,7 +707,7 @@ label manhuatalk:
     with dd
     "I nod my understanding to the question, and to my credit start to put the pieces together before she finally concludes the thought."
     TL @ neutral talk "It's like that, but Chinese. I was only self-publishing on the Internet, but even then I had to be a little careful about what I was drawing."
-    TL @ frown talk "Two girls merely expressing their love could potentially be determined as \"deviant behavior\". I couldn't even draw my characters {b}kissing{/b}."
+    TL @ frown talk "Two women merely expressing their love could potentially be determined as \"deviant behavior\" under certain circumstances."
     show tlax frown with dd
     C anxious "Wow, that's seriously crazy!"
     "Middle school me used to be proud of being a \"deviant\", but in truth I never actually was anything more than just another weird goth kid."
@@ -1780,7 +1780,7 @@ label peltingballs:
     CL @ annoyed "(One little promotion and all of a sudden she goes from \"Naomi\" to \"Coach Woolsey\" again?)"
     "The promotion isn't official without the rest of the team agreeing, of course, but it's hard to imagine them not going along with Coach Woolsey's recommendation after everything Tanya's been through lately and how much she means to the team."
     TL shy talk blush "Thank you, Coach Woolsey, and... sorry again."
-    show clax shy blush with dd
+    show tlax shy blush with dd
     mw @ happy talk "It's okay to make mistakes, Tanya, so long as you learn from them."
     "Some part of me still feels like I'm getting off particularly light from this whole incident, but then again, I only scared off the bothersome girls in the bleachers and didn't actually hurt anyone."
     mw neutral talk "You are dismissed for today, Clover. Your probation begins immediately."

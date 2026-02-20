@@ -1775,7 +1775,7 @@ label predance:
     st "And that buzzer beater from all the way back in center field to put us up! Who could forget that in your debut game!"
     C surprised "Wait, seriously!?"
     T shy talk blush "It was only the end of first half, Clover."
-    show tanya shy blish with dd
+    show tanya shy blush with dd
     st "Don't be so modest, Tanya. We never would have won if you weren't going so hard in the midfield."
     show tanya smile blush with dd
     "I'm understandably incredulous. I am fully aware of how good a player Tanya is, but all I keep hearing is how she basically dominated the midfield the whole game."

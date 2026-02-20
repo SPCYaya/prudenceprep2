@@ -1,7 +1,8 @@
 label tanya_injured:
     scene bg transition with fade
+    pause 1.0
     play music guitar2
-    scene bg lacrosse with dissolve
+    scene bg lacrosse with fade
     "Following our late-night date, my worries about the impending end of the school year seem to melt away, to be replaced with a cautious optimism for a future that yet remains uncertain."
     show naomi neutral talk at mleft
     show clax smile at center
@@ -248,7 +249,7 @@ label after_injury:
     "Tanya pleads forgiveness for her callous little trick, but that doesn't stop me from yanking her upper body toward me by her collar and pressing the hardest, most angry kiss against her lips, then dropping her back against the pillow."
     "With a huff, I sit back on the bed and try to let me relief that Tanya recognizes me and seems to be perfectly normal outweigh my anger from the little stunt she pulled."
     "Tanya remains stunned by my vengeance for a few moments longer before apologizing once again."
-    T bashful alt2 "Sorry, really Clover, I'm so sorry. I woke up when you knocked and didn't wasn't really all the way there yet when you walked in, and groggy me though it would be a funny prank."
+    T bashful "Sorry, really Clover, I'm so sorry. I woke up when you knocked and didn't wasn't really all the way there yet when you walked in, and groggy me though it would be a funny prank."
     "I glare at Tanya silently from across the bed, but the relief at hearing Tanya's voice form words I can actually understand once again evaporates most of the anger in short order."
     C anxious "You really scared me, Tanya. You went all crazy yesterday after you got bowled over on the field and I was really worried about you."
     T contemplative "I'm sorry, I'm sorry!"
@@ -290,7 +291,7 @@ label after_injury:
     C anxious blush "Wait, is this okay? Don't you still need to rest?"
     show tanya frown blush with dd
     "A soft pout crosses Tanya's lips, now so very close to mine, but it clears immediately."
-    T bashful alt2 blush "The nurse doesn't have to know."
+    T bashful blush "The nurse doesn't have to know."
     show tanya smile alt2 blush
     show clover excited blush
     with dd
@@ -406,7 +407,7 @@ label third_date:
     C @ neutral talk "What was that?"
     "Tanya's already picking the item up to look at it when I lean over to examine it myself."
     "I manage to spot the words \"finger condoms\" printed in big letters on the front before Tanya whips it behind her back and crams the whole box behind a stack of books nearby."
-    T bashful alt2 blush "{b}Anyway...{/b}"
+    T bashful blush "{b}Anyway...{/b}"
     T smile talk "I asked if we could use this space to relax, eat some snacks, and take it easy for a little bit. We haven't had a lot of time to just \"be together\" in a while, and may not soon with finals coming up."
     show tanya smile alt2 with dd
     C happy talk "That sounds fun! So is this, like, your group's \"club room\"? Is this where you've been going every Saturday afternoon?"
@@ -901,8 +902,8 @@ label sibylbreaks:
     "The bathtub is way too small for both of us, but neither Tanya nor I mind at all."
     pause 1.0
     play music sad
-    scene cg wakeup with fade
-    pause 3.0
+    scene cg awakening with fade
+    pause 1.0
     "Perhaps it is because the night passes like a dream that I sleep so restfully. When I finally awaken the next morning, I find Tanya still snoozing peacefully in my arms."
     "Right away, I squeeze her with the sort of uncontrollable hug one is overcome with upon spotting an unbelievably cute puppy. Tanya is just that defenseless by my side."
     "For as many times as I've wanted to punch her in the face, with Tanya sleeping so peacefully beside me now I can only bring myself to revel in the feeling of her smooth cheek against my own."
@@ -1141,7 +1142,7 @@ label eveoflastday_part1:
     C frown "(I'm not the only one who has made bad memories this year, am I?)"
     scene bg lockers
     show clover vulnerable at qmleft
-    show tanya bashful alt2 at qmright
+    show tanya bashful at qmright
     with dd
     "While Sibyl is distracted walking down the bench in another aisle of lockers like a balance beam, I slide over to sneak my hand into Tanya's, making her jump out of her dark trance."
     C @ frown talk "Hey, don't let your thoughts fester on what happened. All that darkness went down the drain there long ago."
@@ -1723,7 +1724,7 @@ label yearbooks_part2:
     "\"I love you.\""
     C bangs blush "Here."
     "I pass the yearbook back with subtly trembling hands that I pray she cannot see, and receive my own in return."
-    T bashful alt2 "Are we... going to read them now?"
+    T bashful "Are we... going to read them now?"
     C anxious "If you want..."
     "A sigh forms in my chest as a physical manifestation of my half-formed belief that Tanya will surely dump me after failing to write anything good in her book. I crack my own to find her own very long message."
     scene bg gym with dd

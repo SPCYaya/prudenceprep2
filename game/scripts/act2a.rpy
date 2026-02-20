@@ -1218,6 +1218,8 @@ label secretchoice:
         mw awkward blush "Be careful what you're saying around students!"
         mi vulnerable "Sorry, sorry."
         "I'm still pondering this new and unexpected angle of their relationship when Ms. Woolsey subsequently removes her hands from over my ears."
+    else:
+        "<If you're seeing this, something went wrong with the variable holding the {i}Secret Lilies{/i} romance choice and you missed the scene where Izzie teases Naomi about her girlfriend. Oops!>"
     show naomi neutral
     show izzie neutral
     show clover frown
@@ -1763,7 +1765,7 @@ label rebound:
     show vinci alt contemplative
     with dd
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
-    scene cg rebound
+    scene cg rebound with dissolve
     pause 1.0
     play music drama
     "Vittoria locks eyes with me and begins crawling up the bed toward me on her hands and knees like a lioness stalking her prey. She's quick to pull my legs out from under me and tease her hands up them without delay."
