@@ -45,6 +45,7 @@ label spaghetti_start:
     C "W-Who's there?"
     "I almost begin to think I've frozen to death and passed into the astral plane as a result of my desperate trek, but my corporeality is soon validated when a sudden weight presses around the back of my neck and upon my shoulders."
     stop music fadeout 0.5
+    $ persistent.unlock_cg1 = True # adds CG to gallery
     scene cg spaghetti with dissolve
     play music drama
     pause 1.0

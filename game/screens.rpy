@@ -1408,45 +1408,33 @@ init python:
 
     # This button has a condition associated with it, allowing the game
     # to choose which images unlock.
-    g.button("mp")
-    g.condition("persistent.unlock_mp")
-    g.image("images/cg/cg mysticalpaladins.png")
+    g.button("cg1")
+    g.condition("persistent.unlock_cg1")
+    g.image("images/cg/cg spaghetti.png")
 
-    g.button("bd")
-    g.condition("persistent.unlock_bd")
-    g.image("images/cg/cg blanchedrama.png")
+    g.button("cg2")
+    g.condition("persistent.unlock_cg2")
+    g.image("images/cg/cg sibyl kiss.png")
 
-    g.button("id")
-    g.condition("persistent.unlock_id")
-    g.image("images/cg/cg izziecandles.png")
+    g.button("cg3")
+    g.condition("persistent.unlock_cg3")
+    g.image("images/cg/cg rebound.png")
 
-    g.button("vd")
-    g.condition("persistent.unlock_vd")
-    g.image("images/cg/cg veronikascarf.png")
+    g.button("cg4")
+    g.condition("persistent.unlock_cg4")
+    g.image("images/cg/cg tree talk.png")
 
-    g.button("br")
-    g.condition("persistent.unlock_br")
-    g.image("images/cg/cg blancheplanetarium.png")
+    g.button("cg5")
+    g.condition("persistent.unlock_cg5")
+    g.image("images/cg/cg tanya kiss.png")
 
-    g.button("bs")
-    g.condition("persistent.unlock_bs")
-    g.image("images/cg/cg blanchesex.png")
+    g.button("cg6")
+    g.condition("persistent.unlock_cg6")
+    g.image("images/cg/cg cuddle.png")
 
-    g.button("ir")
-    g.condition("persistent.unlock_ir")
-    g.image("images/cg/cg izzierosary.png")
-
-    g.button("is")
-    g.condition("persistent.unlock_is")
-    g.image("images/cg/cg izziesex.png")
-
-    g.button("vr")
-    g.condition("persistent.unlock_vr")
-    g.image("images/cg/cg veronikanurse.png")
-
-    g.button("vs")
-    g.condition("persistent.unlock_vs")
-    g.image("images/cg/cg veronikasex.png")
+    g.button("cg7")
+    g.condition("persistent.unlock_cg7")
+    g.image("images/cg/cg awakening.png")
 
 
 screen gallery():
@@ -1454,27 +1442,24 @@ screen gallery():
     tag menu # Ensure this replaces the main menu.
     add "gui/game_menu.png" # The background.
 
-    grid 4 3: # A grid of buttons.
+    grid 3 3: # A grid of buttons.
 
         xfill True
         yfill True
 
         # Call make_button to show a particular button.
-        add g.make_button("mp", "images/gallery_ui/mp_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("bd", "images/gallery_ui/bd_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("vd", "images/gallery_ui/vd_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("id", "images/gallery_ui/id_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg1", "images/gallery_ui/cg1_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg2", "images/gallery_ui/cg2_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg3", "images/gallery_ui/cg3_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
 
-        add g.make_button("ir", "images/gallery_ui/ir_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("is", "images/gallery_ui/is_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("br", "images/gallery_ui/br_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("bs", "images/gallery_ui/bs_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg4", "images/gallery_ui/cg4_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg5", "images/gallery_ui/cg5_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg6", "images/gallery_ui/cg6_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
 
         # The screen is responsible for returning to the main menu.
         textbutton "Return" action Return() xalign 0.5 yalign 0.5 text_size 50
         null
-        add g.make_button("vr", "images/gallery_ui/vr_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
-        add g.make_button("vs", "images/gallery_ui/vs_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg7", "images/gallery_ui/cg7_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
 
 
 

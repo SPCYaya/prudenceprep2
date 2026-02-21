@@ -1538,6 +1538,7 @@ label heart2heart:
     "We both reset again but my anxiety doesn't abate. I place my hand affectionately on her knee as I lean in closer but her bright blue eyes staring back at me shatter my resolve."
     show sibyl frown blush with dd
     "A soft frown forms at Sibyl's lips and for a fraction of a second I think I've lost the moment altogether, but then her hand reaches out quickly to warmly rest upon my cheek."
+    $ persistent.unlock_cg2 = True # adds CG to gallery
     scene cg sibyl kiss with dissolve
     play music happy
     pause 1.0
@@ -1765,6 +1766,7 @@ label rebound:
     show vinci alt contemplative
     with dd
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
+    $ persistent.unlock_cg3 = True # adds CG to gallery
     scene cg rebound with dissolve
     pause 1.0
     play music drama

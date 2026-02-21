@@ -967,6 +967,7 @@ label sibylbreaks:
     "The bathtub is way too small for both of us, but neither Tanya nor I mind."
     pause 1.0
     play music sad
+    $ persistent.unlock_cg7 = True # adds CG to gallery
     scene cg awakening with fade
     pause 1.0
     "Perhaps it is because the night passes like a dream that I sleep so restfully. When I finally awaken the next morning, I find Tanya still snoozing peacefully in my arms."

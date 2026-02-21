@@ -87,6 +87,7 @@ label firstdate:
     T @ neutral talk "If I really wanted to kill you, I could have taken any of the many opportunities before this one."
     "With how securely my hand is held within hers, there's no doubt that we'd both being tumbling down if either one of us were to take a dive from the branches."
     "Tanya releases my hand when we do finally reach a branch she decides is good for sitting on. I find, with some surprise, that my grip is sweatier than I expected it to be."
+    $ persistent.unlock_cg4 = True # adds CG to gallery
     scene cg tree talk with dissolve
     pause 1.0
     C contemplative talk "This... isn't too bad."
@@ -538,6 +539,7 @@ label firstdate:
     "Like a foolhardy swimmer diving into a lake of piranhas, I grab Tanya by the arm and close the gap between us without any hesitation."
     stop music fadeout 0.5
     play music happy
+    $ persistent.unlock_cg5 = True # adds CG to gallery
     scene cg tanya kiss with dissolve     ####### CG CHANGE HERE
     pause 1.0
     "I brace myself for an awkward meeting of our faces, but rather than bump noses or bash foreheads, our lips come together so smoothly that it almost feels natural."
@@ -1953,6 +1955,7 @@ label seconddate:
     "There's a good ten minutes where both of us shuffle this way and that atop the sofa. At first Tanya sits up then I try to sit in front of her, but I just slide right off the front of the sofa."
     "Our second try involves me lying long ways and Tanya lying long ways beside me, but we both end up falling off."
     "We swap spoon positions and body orientations again and again until we finally find a way to make it work satisfactorily."
+    $ persistent.unlock_cg6 = True # adds CG to gallery
     scene cg cuddle with dissolve
     pause 1.0
     C "(Now this is more like it! I'm so glad I was able to stay awake.)"
