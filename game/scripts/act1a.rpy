@@ -26,21 +26,21 @@ label spaghetti_start:
     "I stop right where I stand to ruffle my pale blonde hair back and forth, casting off all the snow which has already begun to accumulate atop my head."
     "Then, after settling my hair properly back into place with a scowl solidly plastered on my face, I hump the duffel bag strap more securely over my shoulder and proceed further down the long wooded lane."
     "\"When I was your age, I walked to school up hill both ways in the snow!\""
-    "The voice of my grandfather echoes in my mind as I trudge along slowly toward the the glowing emanating eerily from the windows of buildings down the lane."
+    "The voice of my grandfather echoes in my mind as I trudge along slowly toward the the glow emanating eerily from the windows of buildings down the lane."
     "The private academy which I am marching toward like a death row inmate is where I'll be serving out the remainder of my freshman year of high school."
     "I'm already dressed in my new uniform: an exceptionally cute pink and white outfit totally unlike what I used to wear the year before at my old public school."
     "Just about everything related to this sudden transfer has been a headache, but the new uniform is secretly something I actually kind of like — with one exception."
     "Whether it's just my awkward fourteen-year-old body or because I'm lugging my entire worldly belongings against my hip, the warm white tights keeping the chill away don't know whether they want to droop or bunch, and so do both."
-    C anxious "(Surely have a car that could have met me at the gate? Heck, send a whole school bus if you have to!)"
+    C anxious "(Surely they have a car that could have met me at the gate? Heck, send a whole school bus if you have to!)"
     scene bg mary winter snow night with dissolve
-    "A wave of relief washes over me when I spy the contours of the stately buildings of Prudence Preparatory Academy emerging clearly from the concealing white cover of light snowfall."
+    "A wave of relief washes over me when I spy the contours of the stately buildings of Prudence Preparatory Academy emerging clearly from the concealing white cover of snowfall."
     "Beside what are likely the school buildings and dormitory all quietly accumulating white fluff, there is also a small chapel with a grand statue of some religious figure out front."
     show clover neutral at center with dd
     C "(I'd better fix this before going any further.)"
     "I perform a clumsy half jig for a few steps in a futile attempt to correct my errant tights, then drop the duffel bag where I stand to dig my fingers into the uniform inelegantly, pinching and digging at the white material which runs up to my waist."
     who "Dear me, Vincenza, and in sight of the Virgin Mary too."
     who "The Virgin Mary always watches over us, Vittoria."
-    "Unexpectedly out of the lazy snow flurries floats a pair of hazy white figures and the titter of laughter against the quiet of the evening dusting of a snowfall."
+    "Unexpectedly out of the lazy snow flurries floats a pair of hazy white figures and the titter of laughter against the quiet of the evening dusting of white."
     show clover anxious at center with dd
     C "W-Who's there?"
     "I almost begin to think I've frozen to death and passed into the astral plane as a result of my desperate trek, but my corporeality is soon validated when a sudden weight presses around the back of my neck and upon my shoulders."
@@ -49,18 +49,18 @@ label spaghetti_start:
     scene cg spaghetti with dissolve
     play music drama
     pause 1.0
-    O "The proper young ladies of this academy do such things in the confines of their own rooms."
+    O "The proper young ladies of this academy do such things in the privacy of their own rooms."
     "The second girl to speak, who judging by her voice was addressed as Vincenza, is close enough for me to feel the warmth of her breath tickle against the chill of my left cheek."
     "Flipping my head swiftly to the side, I catch sight of the face of the girl in question. She wears an easy grin upon a pretty face, with eyes as relaxed as her posture."
     "From her head falls a stream of fine golden hair down her back, styled with a neat ponytail in a kind of boyish look that oddly doesn't contrast at all with the girlish uniform." 
     H "It may well be that she is no proper young lady at all."
     "A hand grazed against the small of my back announces the arrival of the other girl. The touch remains there even as she swoops close across my other side in a flutter of voluminous golden curls toward my front."
     "When my head flips back the other way, I find that this girl, Vittoria, shares similar features to the first, albeit with a very different, classically feminine aura also very much suited to the uniform."
-    "I might not doubt that the walk from the road to the school buildings had indeed taken my life, were it not that the angels which emerged from the snow bore no wings upon their backs."
+    "I might not doubt that the walk from the road to the school buildings had indeed taken my life, were it not that the angels which emerged from the snow bear no wings upon their backs."
     "The first sensible thought through my frozen brain is that they must be sisters, if not twins, and the noticeable foreign accent common between them only adds to the similarity."
     "Without warning, the more boyish of the twin phantoms draws close to my face. Her hand reaches under my chin to guide my head this way and that in inspection of my features."
     O "Do your eyes deceive you, Vittoria? She is precisely the sort you adore."
-    H "A young lady she is certainly, Vincenza; of that there is no doubt. The question of her propriety, however, remains inconclusive."
+    H "A young lady she is certainly, Vincenza, of that there is no doubt. The question of her propriety, however, remains inconclusive."
     "The pair continue their mesmerizingly strange back and forth discussion with barely an acknowledgement of their brash invasion of my personal space."
     C "What... what is happening?"
     O "You've kept us waiting, Clover, and on such an unpleasantly wintry evening as this."
@@ -86,7 +86,7 @@ label spaghetti_start:
     "A small shudder passes through my body from my ear into which the one girl, Vincenza, keeps speaking into, all the way down to the hand pressed closely upon the small of my back."
     O "Pity, but I've a feeling this will not be our last meeting."
     H "No, I dare say not. This is one to watch closely, sister."
-    "Distracted and slowed from logical thought by the strange caresses and warmth blooming all over my body, it's only then that my mind finally comes to the heart of the matter."
+    "Distracted and slowed from logical thought by the strange caresses and warmth blooming all across my body, it's only then that my mind finally comes to the heart of the matter."
     C "R-Room key?"
     "With a soft giggle, the wavy-haired girl's fingertips clip against my stomach where the white tights meet their end, followed by the cold touch of something entirely unnatural against my bare skin."
     stop music fadeout 0.5
@@ -107,7 +107,7 @@ label spaghetti_start:
     H "{i}Le abbiamo sicuramente piegato gli spaghetti.{/i}" # we definitely bent her spaghetti
     O "{i}Certamente.{/i}" # for sure
     scene bg mary winter snow night
-    show clover scowl blush
+    show clover scowl blush at center
     with dd
     "I am left behind, half confused and half fuming mad. I can feel the heat swelling in my cheeks and in my chest, made visible by the form of extra puffy breaths of air which emerge from my lungs."
     C @ deer blush "(What the {b}heck{/b} was all that!?)"
@@ -138,7 +138,8 @@ label vertu:
     "I catch the words of my reflexive apology quickly, finding the girl roused neither by the door opening nor my apology, instead merely lying still on the bed."
     "Her presence, and the two beds inside the room, stoke my worst fears, which are confirmed when I double check my key card and the name plaque outside the door."
     C "(So this is a \"roommate\" type of boarding school. Not quite fancy enough to give each student her own room, huh?)"
-    "This new arrangement is certainly going to be an adjustment from being an only child and having my own room. One of many adjustments in my life that I'm suddenly being forced to make."
+    "This new arrangement is certainly going to be an adjustment from being an only child and having my own room."
+    "One of many adjustments in my life that I'm suddenly being forced to make."
     C @ contemplative "(I'll keep as much space between me and her as possible so that she won't be a problem. Yeah.)"
     "Even as my brain thinks I should stay as far away as humanly possible, something tickling at my curiosity draws closer to the sleeping figure on the bed."
     "I approach my new roommate cautiously, ready for anything after having already been jumped by the pair of girls from before, but still she remains unstirred."
@@ -187,7 +188,8 @@ label vertu:
     show clover neutral with dd
     "I just sort of... blurt the words out while my brain is still working to catch up and immediately realize how rude that must sound."
     "Before I can say anything more, I'm caught speechless when she tosses her loosely bound auburn curls with the back of her hand. A wince forms on her face, her eyes cast downward."
-    who bashful "A better introduction than {b}this{/b}."
+    show sibyl bashful with dd
+    who "A better introduction than {b}this{/b}."
     show clover anxious blush
     show sibyl frown
     with dd
@@ -213,8 +215,8 @@ label vertu:
             hide choice_darkness with dissolve
             C neutral talk "That's French, umm... \"green\", right?"
             show clover neutral with dd
-            "I try to humor her with my limited knowledge of the language, but the airy sigh from behind my back that tells me I wasn't quite right after all."
-            S "We're going to have to catch you up on your French language skills."
+            "I try to humor her with my limited knowledge of the language, but the airy sigh from behind my back tells me I wasn't quite right after all."
+            S frown talk "We're going to have to catch you up on your French language skills."
         "\"My life's been pretty well flipped and turned upside down lately, so no.\"":
             hide choice_darkness with dissolve
             C neutral talk "My life's been pretty well flipped and turned upside down lately, so no." # And I'd like to take a minute, just sit right there. I'll tell you how I became the princess of a school called Prudence Prep.
@@ -240,7 +242,7 @@ label vertu:
     "Even though she's on the other side of the room, it still feels very much like she's hovering around me."
     C @ neutral talk "No."
     "The momentary silence which follows is comfortable to me, but seemingly not to Sibyl. Her commitment to engaging in conversation with me remains as firm as ever."
-    S @ neutral talk "You're my first Vertu partner, you know that? Our grade level had an uneven number of students and I happened to be the odd one out in our year who received no Vertu."
+    S @ neutral talk "You're my first Vertu partner, you know? Our grade level had an uneven number of students and I happened to be the odd one out in our year who received no Vertu."
     C scowl "(There she goes again.)"
     "Even though it's all just some dumb private school way of saying \"roommate\", she keeps saying \"Vertu\" with a strangely serious tone like it is some hallowed institution akin to marriage."
     C annoyed "(Like I'd ever marry a girl in the first place...)"
@@ -252,17 +254,18 @@ label vertu:
     show clover neutral with dd
     "Sibyl catches me momentarily zoning out back into recent events, and makes it known that she's still in the room with me."
     S smile talk "Maybe I didn't make a good first impression on account of dozing off, but I really would like to help you adjust to the academy."
+    show sibyl smile with dd
     C @ annoyed talk "I don't need help."
-    S "I'm your Vertu partner, Clover. This is what Vertu partners do."
-    C scowl "Thank you, Sibyl, but I'm very {b}self-sufficient{/b}."
+    S @ smile talk "I'm your Vertu partner, Clover. This is what Vertu partners do."
+    C scowl talk "Thank you, Sibyl, but I'm very {b}self-sufficient{/b}."
     show sibyl frown
     show clover neutral
     with dd
     "The room goes quiet between us as soon as I say the words with a cold tone of annoyance rising clearly in my voice."
     "I continue folding the clothes taken out of my luggage while purposely facing away from Sibyl behind me. An apology is considered, but I decide against it."
     C @ annoyed "(That's honestly how I feel, and if she doesn't like it, well, it's better that she doesn't get too attached to me anyway.)"
-    S bashful "Have I come on too strong? I know you only just got here but I have been so anxious and excited to finally meet you."
-    "The disappointment in her voice is palpable. It's making me feel like the absolute worst person alive when I only want to have absolutely nothing to do with her or anyone else here."
+    S bashful "Have I come on too strong? I know you only just got here, but I have been so anxious and excited to finally meet you."
+    "The disappointment in her voice is palpable. It's making me feel like the absolute worst person alive when I only want to have nothing to do with her or anyone else here."
     C neutral talk "Sibyl—"
     "I don't find Sibyl in tears when I turn to look at her directly. There's not even a frown on her face, merely an expression of gentle concern masking a quiet determination."
     C "Sibyl, I'm sorry, you've been super nice and everything, really, and I didn't mean to shut you down like that. I've just been going through some personal things, and I need some space right now, okay?"
@@ -272,7 +275,7 @@ label vertu:
     "She smiles up hopefully to me from where she sits on her bed, her blue eyes meeting my own and lingering in the connected gaze."
     "I tear my defeated gaze away from her puppy dog stare, and swallowing my pride somewhat, ultimately throw her a bone."
     C neutral talk "But I will be counting on you to show me around campus and classes, and stuff like where to find the cafeteria and all that."
-    C tired "(What's wrong with me today? When did I becomes such a pushover?)"
+    C tired "(What's wrong with me today? When did I become such a pushover?)"
     S surprised "Oh no, the cafeteria!"
     C anxious "W-What wrong with it?"
     S excited "It's closed!"
@@ -288,12 +291,12 @@ label vertu:
     "As much as I might be thinking that I don't want to rely on Sibyl any more than I absolutely need to, the sudden recognition of the emptiness in my stomach draws a meek acceptance of the situation."
     C neutral talk "Are there, like, vending machines that we can use?"
     show clover neutral with dd
-    S @ smile talk "I'm afraid not... but, ah, let's go speak to Ms. Woolsey. She will definitely be able to help us."
-    "I am totally willing to eat junk food out of a vending machine for dinner, but risking the wrath of some mean old teacher within hours of my arrival is much more bleak of a prospect."
-    C @ frown talk "I'll be fine until the morning, I promise. We don't need to go bother a teacher."
-    S smile talk "Nonsense! She's our dorm mother; this is exactly what she's here for!"
+    S smile talk "I'm afraid not... but, ah, let's go speak to Ms. Woolsey. She will definitely be able to help us."
     show sibyl smile with dd
-    C anxiety "But won't she be mad?"
+    "I am totally willing to eat junk food out of a vending machine for dinner. Risking the wrath of some mean old teacher within hours of my arrival is much more bleak of a prospect."
+    C @ frown talk "I'll be fine until the morning, I promise. We don't need to go bother a teacher."
+    S @ smile talk "Nonsense! She's our dorm mother; this is exactly what she's here for!"
+    C @ anxious "But won't she be mad?"
     S laugh "Ms. Woolsey? No way. She's exceptionally kind and easygoing, you'll see."
     scene bg bedroom night with dd
     "I want to refuse again, but a sudden loud rumbling in my stomach makes it all but impossible to turn my nose up at Sibyl's plan."
@@ -310,11 +313,11 @@ label woolsey_intro:
     with dd
     S @ neutral talk "Hmmm. She's usually here by now. I wonder if there was a staff meeting tonight."
     C @ neutral talk "Maybe she's gone out? We should just go back to our room."
-    "I wait patiently beside Sibyl, silently observing the confused thoughts play through her head as they are shown upon her profile."
+    "I wait patiently beside Sibyl, silently observing the confused thoughts play through her head as though they are shown upon her profile."
     S neutral talk "We should wait."
     show sibyl neutral with dd
     C @ neutral talk "Why?"
-    S @ "Some people get cranky when they're hungry, Clover."
+    S @ frown talk "Some people get cranky when they're hungry, Clover."
     "I can only surmise this ambiguously worded statement is directed at my earlier performance, but to be fair, my grand arrival was promptly spoiled by two perverts."
     C @ scowl "(And you know what's also not my fault? The cheap airline only giving out a tiny pretzel snack bag.)"
     show naomi happy talk at qleft with dd
@@ -323,7 +326,7 @@ label woolsey_intro:
     "Before I can think of another way out of this, the teacher who must be Ms. Woolsey arrives from behind us to fully seal my doom."
     mw @ happy talk "What's the matter, Sibyl— and, oh! You must be Clover! I'm Ms. Woolsey, your athletics instructor."
     "My first very first thought when I look at my new athletics instructor is that she is probably the textbook definition of a high school gym teacher — right down to the ponytail, sneakers, and athletic zip-up hoodie."
-    "The only thing that is perhaps unusual is the golden ring she wears around her neck besides the requisite silver whistle. I think for a moment she might be married, but then remember she's a gym teacher."
+    "The only thing that is perhaps unusual is the golden ring she wears around her neck beside the requisite silver whistle. I think for a moment she might be married, but then remember she's a gym teacher."
     mw @ sad talk "I'm so sorry I couldn't meet you at the gate tonight. I see that Sibyl was able to greet you properly though!"
     S contemplative talk blush "About that..."
     show sibyl contemplative blush with dd
@@ -351,12 +354,12 @@ label woolsey_intro:
     show naomi happy talk at mleft
     with dd
     "My roommate and the gym teacher chat with each other while I try to hang back and blend into the refrigerator."
-    "Once we're sitting down with sandwiches in hand, however, it's more difficult to keep their interest off me for long."
-    mw neutral talk "Most students have only just returned from winter break last week, and I haven't even gotten all my class plans together yet. Clover, do you prefer tennis, disc golf, or... maybe yoga?"
     show naomi smile
     show sibyl smile
     with dd
-    "Ms. Woolsey turns her gaze on me to await my response to her pointless question. Even Sibyl pauses mid-bite to stare me down in a expectation of my answer."
+    "Once we're sitting down with sandwiches in hand, however, it's more difficult to keep their interest off me for long."
+    mw @ neutral talk "Most students have only just returned from winter break last week, and I haven't even gotten all my class plans together yet. Clover, do you prefer tennis, disc golf, or... maybe yoga?"
+    "Ms. Woolsey turns her gaze on me to await my response to her pointless question. Even Sibyl pauses mid-bite to stare me down in expectation of my answer."
     C "(How about \"none of the above\"?)"
     show choice_darkness with dissolve
     menu:
@@ -369,11 +372,11 @@ label woolsey_intro:
         "\"Yoga.\"":
             hide choice_darkness with dissolve
             C @ neutral talk "Yoga."
-    "There's no real reason for my to choose my answer, just as there wasn't for the question. I speak only what comes to me at the moment as I have no desire to participate in any of it."
+    "There's no real reason for why I chose my answer, just as there wasn't for the question. I speak only what comes to me at the moment as I have no desire to participate in any of it."
     show naomi frown
     show sibyl neutral
     with dd
-    "The supreme succinctness of my answer clearly does not get lost as the gym teacher frown slightly and Sibyl chooses to change the topic right away."
+    "The supreme succinctness of my answer clearly does not get lost as the gym teacher frowns slightly and Sibyl chooses to change the topic right away."
     S @ neutral talk "It's such a pity that you missed the masquerade ball, Clover. It was a lot of fun."
     C @ surprised "(Masquerade ball? Yikes. I'm actually thankful I missed that.)"
     mw happy talk "This year's masquerade ball was my first as a teacher. The whole event feels so different when you're on the other side of the masks!"
@@ -384,8 +387,8 @@ label woolsey_intro:
     mw @ happy talk "More than just a mere student, I was the president of the student council!"
     "It's actually kind of sad how proudly Ms. Woolsey proclaims that she went from being the student council president to what is objectively the most pathetic teaching role at a school."
     mw @ happy talk "My high school masquerade ball was a big day for me in a lot of ways, so I'm glad you enjoyed it so much too. Which animal did you pick?"
-    S @ "The options were sort of picked over when I got my mask so I chose the kangaroo."
-    "That I have been staring at my sandwich while devouring it should indicate I don't particularly care to talk, but it seems that Ms. Woolsey isn't content with reminiscing of her school days with Sibyl."
+    S @ laugh "The options were sort of picked over when I got my mask so I chose the kangaroo."
+    "That I have been staring at my sandwich while devouring it should indicate I don't particularly care to talk, but it seems that Ms. Woolsey isn't content with reminiscing on her school days with Sibyl."
     mw @ happy talk "It's almost Valentine's Day already. That means the first academy-wide event you'll get to take part in is making chocolates for all your new friends, Clover!"
     C @ neutral talk "Oh yeah?"
     "My reply starts out incredibly half-hearted and disinterested, so I try to raise my enthusiasm just a little so as not leave the other two entirely disappointed."
@@ -397,11 +400,11 @@ label woolsey_intro:
     C "(Oops, shouldn't have added that last part.)"
     "My eyes shift toward Sibyl without consciously meaning to, forcing me to catch the flash of dejection present on her face after I all but admitted that she means nothing to me."
     C "(We've known each other for like, two hours, don't look at me like that!)"
-    mw happy talk "I know it must be difficult to transfer in part way through the school year but you'll have your Vertu, Sibyl, by your side every step of the way."
-    "Ms. Woolsey also picks up on my little faux pas easily enough, and does her best to try to smooth it over for me."
+    mw happy talk "I know it must be difficult to transfer in part way through the school year, but you'll have your Vertu, Sibyl, by your side every step of the way."
     show naomi smile
     show sibyl smile
     with dd
+    "Ms. Woolsey also picks up on my little faux pas easily enough, and does her best to try to smooth it over for me."
     C @ contemplative "(She might not actually be as thick as the average gym teacher. I should be more careful around her.)"
     "Much like Sibyl before, Ms. Woolsey goes on to tell me how special being roommates is at this school. Sibyl nods seriously at what the teacher says, giving me an encouraging smile all the while which only makes my stomach flop over inside me."
     C @ neutral talk "That's what Sibyl was telling me."
@@ -413,7 +416,7 @@ label woolsey_intro:
     C annoyed talk "I didn't {b}choose{/b} to be here. My parents {b}sent{/b} me here."
     C scowl "(Like a lone button when you can't find the sweater to which it belongs. It just gets tossed in a drawer for safekeeping while you go about your life.)"
     "Ms. Woolsey, while friendly, is being awfully persistent at trying to get me to open up when I have no intention of doing so, and the annoyance leads me to say more aloud than I want to."
-    "The room couldn't be getting any chillier even if we had left the refrigerator door open. I know I'm acting really terrible but I have a valid reason to be this rightfully touchy about the subject."
+    "The room couldn't be any chillier even if we had left the refrigerator door open. I know I'm acting really terrible, but I have a valid reason to be this rightfully touchy about the subject."
     C annoyed "(And it's not like either of them really cares about me anyway.)"
     "It's the teacher's job to look after me just as much as it is apparently Sibyl's responsibility to do the same as my \"Vertu\"."
     show naomi awkward with dd
@@ -425,8 +428,9 @@ label woolsey_intro:
     with dd
     "To my surprise, Sibyl reaches out to lay her hand on my arm in a manner to offer her condolences, without even knowing what I'm going through at all."
     show clover surprised with dd
-    "I pull away suddenly from her touch as quickly and unexpectedly as she'd touched me."
-    C tired "I don't need your apologies."
+    "I pull away suddenly from her touch as quickly and unexpectedly as she touched me."
+    C annoyed talk "I don't need your apologies."
+    show clover neutral with dd
     mw neutral talk "W-Well... I have long felt that the people I met here at the academy are like a second family to me, so if you ever need—"
     "She's just trying to console me, I know, but she unwittingly stepped right onto the land mine already primed to explode."
     stop music fadeout 0.5
@@ -437,10 +441,9 @@ label woolsey_intro:
     with dd
     "The long and arduous journey here, the muddled rush of emotions in the past few hours, and everything else swirling together in my head draws yet another verbal jab which I cannot take back."
     "My shouting is shockingly ineffective on Sibyl, who only follows my angry outburst with a look of pity and understanding."
+    show naomi frown with dd
     S frown talk "Oh, Clover..."
-    show sibyl smile
-    show naomi frown
-    with dd
+    show sibyl smile with dd
     "It's unnerving, to see this strange reaction to me being so frigidly cold. Sibyl's soothing concern and big, sparkling eyes peering directly at me drive right through my icy exterior to make my stomach flutter the half-digested sandwich within."
     C annoyed "(What could she possibly be thinking now? She doesn't know a single thing about me!)"
     play music guitar2
@@ -465,16 +468,16 @@ label woolsey_intro:
     CPJ "(What gives? First she wants to be my BFF and now she's acting all aloof? Are {b}all{/b} the girls here totally insane?)"
     "She barely demands my attention or says any words beyond what is required. She merely goes about her own routine for the night as do I mine."
     "It's kind of infuriating actually that I don't know what she's getting at, and I find myself keep looking back at her as I make my bed and finish my nightly preparations."
-    "I keep right on watching her until she starts stripping out of her uniform right in front of me, from which I suddenly jerk my head away nearly fast enough to break my neck."
+    "I keep right on watching her until she starts stripping out of her uniform in front of me, from which I suddenly jerk my head away nearly fast enough to break my neck."
     CPJ surprised "(Is this normal for roommates!?)"
-    "Logically, there's nowhere else to change into my sleepwear but right here, and I can't figure out why I really care so much in the first place, so I suffer through the self-consciousness and do the same."
+    "Logically, there's nowhere else to change into my sleepwear but right here, and I can't figure out why I really care so much in the first place."
     scene bg bedroom night dark with dd
     S "Good night, Clover."
     "The voice of the roommate I was trying to avoid thinking about floats in my direction through the darkness."
     "The half naked form of Sibyl undressing lingers faintly in my mind despite my best effort to brush it out along with the unpleasantness of the day's events."
     "What eventually replaces that is the sour recollection of what those two girls did to me that evening, which does not help to calm me down one bit."
     pause 0.5
-    "I do not manage to come up with a single awesome comeback before I drift off into a restless sleep which fades confusingly in an out of the real world around me."
+    "I do not manage to come up with a single awesome comeback before I drift off into a restless sleep which fades confusingly in and out of the real world around me."
     "At times I'm there sleeping in my dormitory bed, listening to the quiet breathing from the next bed over and the natural music of wind whistling through a thousand bare tree branches outside."
     scene bg path winter night with dissolve
     "Other times I'm trudging down the long tree-lined road to the academy where those two girls, the \"Royal Twins\" as they were called, circle around me like vultures with shining gold crowns."
@@ -504,7 +507,7 @@ label shower_time:
     S @ neutral talk "Good morning, Clover. The cafeteria is already open and homeroom is at eight, so you'd better hurry up."
     "As if to answer the question which had yet to form, Sibyl emerges at that very moment from the bathroom fully dressed in her uniform and pulling a brush through her hair."
     CPJ annoyed talk "Dun wanna."
-    show cpj annoyed with dd
+    hide cpj with dd
     "I squirm around under my warm covers, snuggling the sheets tighter around me in protest and shutting my eyes as tight as possible to block out the miserable sun."
     CPJ tired "(So what if I skip class. What are they gonna do, send me back home? That's what I want anyway.)"
     S @ neutral talk "If you don't get up you're going to miss breakfast."
@@ -512,7 +515,7 @@ label shower_time:
     "I'm not quite at the level of desperation that calls for a hunger strike, but I am reasonably confident that I can hold out until lunch if I have to."
     S @ neutral talk  "I understand that the necessary lifestyle changes resulting from attending this academy can be tough to adjust to, but you'll feel much better if you keep to a schedule."
     CPJ "(What does {b}she{/b} know about my \"lifestyle changes\"!?)"
-    "Sibyl responds to me in a soft, chiding voice, like I'm some kind of petulant child that she needs to take a firm hand with instructing properly."
+    "Sibyl responds to me in a soft, chiding voice, like I'm some kind of petulant child that she needs to take a firm hand with in instructing properly."
     S @ neutral talk "I know very well how you're feeling, or I think I do anyway. I've seen it many times before."
     CPJ "(What is she, a psychiatrist? Now I know why she didn't have a roommate before me.)"
     CPJ "What are you even saying?"
@@ -520,16 +523,18 @@ label shower_time:
     S neutral talk "What I am saying is that I am going to give you the time you need to accept your current circumstances, but also ensure that you are not worsening them."
     S smile talk "So please, get up and get ready for class."
     CPJ "No."
-    hide sibyl with dd
+    hide sibyl
+    show cpj deer at mright
+    with dd
     "All at once a wave of cool air washes over me as the topmost layers of my bed are whipped clear off my body."
-    CPJ deer "{b}Nooooo!{/b}"
+    CPJ anxious "{b}Nooooo!{/b}"
     "I writhe about in a frenzy against the chill air assaulting me, knowing full well and caring little about how childish and petulant I must look in that moment."
     stop music fadeout 0.5
-    scene bg bedroom with dd
+    scene bg bedroom with fade
     play music sad
     "Defeated and increasingly more hungry by the minute, I slump off the edge of the bed, wipe the heaviest of the sleep from my eyes, and make for the shower where I stand half asleep with the water beating down on my face."
     C "Sibyl... What does she think she knows about know about how I feel anyway?"
-    "She knows nothing about my parents' protracted divorce proceedings, nor anything about how they abandoned me out here all alone. Even I don't even know what they're thinking sending me here."
+    "She knows nothing about my parents' protracted divorce proceedings, nor anything about how they abandoned me out here all alone. Even I don't even know why they sent me here."
     "I'd obviously prefer that my parents stay together rather than split up, but my family life has recently been nothing short of suffocating even if my parents try to hide it from me."
     "It's like the only thing they agree on nowadays is dumping me in this far away place with only a frilly pink uniform and a duffel bag of life essentials to my name."
     C "(Aren't divorced parents supposed to be spoiling their only child rotten? Does that only start happening after it's finalized?)"
@@ -549,7 +554,7 @@ label shower_time:
     with dd
     "My roommate is seemingly too distracted with something of her own to bother me, so I end up gobbling my breakfast down way too quickly and am rewarded with a minor stomach ache as a result."
     "With nothing much to entertain me but my own dark thoughts and a discontented stomach, I am forced to people watch as a means to occupy my brain."
-    C "(All of these girls are going to be my classmates?)"
+    C @ contemplative "(All of these girls are going to be my classmates?)"
     "It's a little strange to be in a single-sex school after having attended normal public schooling my whole life, but that is only the surface of the oddities I find."
     "Perhaps what is most unsettling to me is how everyone seems so awfully bright and cheery, like they actually want to be stuck in this boarding school out in the boonies."
     C @ frown "(I wish I had my smartphone.)"
@@ -573,8 +578,9 @@ label shower_time:
     "She doesn't seem surprised at all, and I don't really know why I am either considering I have nothing against lesbians — despite not being one myself."
     S neutral talk "Oh, those two are a well-known couple."
     S smile talk "For a religious school, homosexuality is remarkably very well tolerated here. I was surprised myself."
-    C @ frown "(Being religious doesn't mean hating gays. Even I know that and I'm, like, the exact opposite of religious.)"
-    S laugh "When I first decided I wanted to apply here, one of my older sisters stated with such horror: \"A {b}girls'{/b} school? With no {b}boys{/b}!?\"."
+    show sibyl smile with dd
+    C @ frown "(Being religious doesn't mean hating homosexuals. Even I know that and I'm, like, the exact opposite of religious.)"
+    S laugh "When I first decided I wanted to apply here, one of my older sisters stated with such horror: \"A {b}girls'{/b} school? With no {b}boys{/b}!?\""
     S smile talk "I've only been here a few months, but I get what she means now. I guess that sort of thing is just more common at an all-girls school."
     show sibyl smile with dd
     "My eyes stay fixed on the pair of girls who had kissed long past what might be considered merely rude, watching them now enjoy their breakfast."
@@ -594,23 +600,22 @@ label shower_time:
         "\"I meant that the teacher sounds weird. I was only surprised that you're in the art club.\"":
             hide choice_darkness with dissolve
             C "I meant that the teacher sounds weird. I was only surprised that you're in the art club."
+            show clover neutral with dd
             "I feel like there's a subtle hint of annoyance in the way Sibyl asked, and I find myself oddly quick to alleviate her condition because of it."
-            C "I guess you did make that big banner for me and everything."
+            C neutral talk "I guess you did make that big banner for me and everything."
             show sibyl smile
             show clover neutral
             with dd
             "Sibyl turns away from a glance toward the doorway to give me a bright, genuine smile."
-            S smile talk "So you did enjoy the banner! If only I weren't asleep and could have displayed it properly."
-            show clover neutral blush
-            show sibyl smile
-            with dd
+            S @ smile talk "So you did enjoy the banner! If only I weren't asleep and could have displayed it properly."
+            show clover neutral blush with dd
             "Sudden sneaking bashfulness overtakes me as Sibyl smiles radiantly down upon me. I can't find it in myself to tell her how much I hate being likened to clovers, so I just cooly change the subject altogether."
         "\"I thought it'd be the, uh... nagging club, I don't know.\"":
             hide choice_darkness with dissolve
             C "I thought it'd be the, uh... nagging club. I don't know."
             show clover neutral with dd
             "I fall easily back into the usual disinterested routine, having no idea why I ever really cared what club Sibyl is in to begin with."
-            C impish "(She's just my roommate after all. I don't need to know her whole life story.)"
+            C scowl "(She's just my roommate after all. I don't need to know her whole life story.)"
             S neutral talk "Contrary to what you might think, I did have my own life here long before you came into it yesterday."
     show sibyl neutral
     show clover neutral
@@ -620,17 +625,19 @@ label shower_time:
     S @ neutral talk "My friend from the art club. She's unusually late this morning."
     C @ neutral talk "You have friends?"
     scene bg cafeteria winter
-    show tanya neutral at left
+    show tanya neutral at right
     with dd
     "Before she can reply to my verbal jab, Sibyl stands suddenly from her seat to wave down a particular girl who walks through the doorway in that moment."
     C "(Alone, is she? Maybe I can get her to take Sibyl as her Vertu instead of me.)"
     "The newcomer turns toward where I am sitting, but seeing me already occupying the space across from Sibyl, instead sits by her side."
     show clover neutral at mleft
     show sibyl smile at center
-    show tanya annoyed alt2 at mright
+    show tanya annoyed talk alt2 at mright
     with dd
     who "I'm so sorry, Sierra held me up again."
-    show sibyl neutral with dd
+    show sibyl neutral
+    show tanya annoyed alt2
+    with dd
     "It's clear from the way she speaks the name and the lightly disdainful flip of her sleek black hair that there's some bad blood between this girl and the other \"Sierra\" girl."
     S @ frown talk "We just came back from break and you're already on the outs with her?"
     show tanya neutral talk with dd
@@ -663,8 +670,8 @@ label shower_time:
     show sibyl smile at center
     show tanya smile alt2 at mright
     with dd
-    "When my roommate and her friend eventually make their return, the latter immediately takes the uppermost strawberry off the top of her yogurt parfait and turns to plop it into the former's open mouth like it's an everyday ritual."
-    C "(They might actually do this same this every day for all I know.)"
+    "When my roommate and her friend eventually make their return, the latter immediately takes the crowning strawberry off the top of her yogurt parfait and turns to plop it into the former's open mouth like it's an everyday ritual."
+    C "(They might actually do this same thing every day for all I know.)"
     "Watching them go about the motions of the day so in sync, even if it's just eating breakfast, only drives home the intimacy of their friendship."
     C @ neutral talk "So are you two, like, girlfriends?"
     show tanya surprised alt2 blush with dd
@@ -686,11 +693,13 @@ label shower_time:
     S contemplative talk "Tanya's Vertu partner. They don't exactly see eye to eye on everything."
     show sibyl neutral with dd
     "The roll in Tanya's deep brown eyes demonstrates just how much Sibyl is understating the apparent dysfunctionality of their Vertu partnership."
-    C scowl "So we're allowed to not act like we're eternal BFFs with our roommate here? I almost thought it was required by the way everyone here is acting."
-    S annoyed "Some people enjoy the support and companionship a Vertu partnership provides, Clover."
+    C scowl talk "So we're allowed to not act like we're eternal BFFs with our roommate here? I almost thought it was required by the way everyone here is behaving."
+    show clover scowl with dd
+    S @ angry "Some people enjoy the support and companionship a Vertu partnership provides, Clover."
     T annoyed talk "If you're lucky enough to get a good Vertu partner."
     show tanya neutral with dd
-    C impish "If it were up to me I would have my own room all to myself."
+    C neutral talk "If it were up to me I would have my own room all to myself."
+    show clover impish with dd
     S neutral talk "I too though the same at first, Clover."
     S contemplative talk "For a brief moment, it felt fortuitous that I had no Vertu partner to share my room with. I had a whole room to myself for the very first time in my life."
     show sibyl neutral with dd
@@ -710,20 +719,20 @@ label shower_time:
     show sibyl smile
     show tanya smile
     with dd
-    C @ contemplative "Tanya hates her own Vertu. Why can't you just switch?"
+    C @ contemplative talk "Tanya hates her own Vertu. Why can't you just switch?"
     T neutral talk alt2 "I would {b}love{/b} to foist Sierra off onto you, but one cannot just {b}trade{/b} a Vertu partner."
     show sibyl frown
     show tanya frown
     with dd
     "Both of them look to be shocked and disappointed, like my suggestion is not at all a totally rational idea, is actually the most absurd thing they've ever heard, and that I'm a terrible person for ever suggesting it."
-    C @ annoyed "Okay, okay, I get it. No switching Vertus. It's a sacred bond between two girls which can never be broken."
+    C @ annoyed talk "Okay, okay, I get it. No switching Vertus. It's a sacred bond between two girls which can never be broken."
     show sibyl smile
     show tanya neutral
     with dd
     "Sibyl smiles at my sarcastic reply even though it should be clear from my tone that it is indeed incredibly sarcastic."
     C "(I suppose she hopes hearing me say it out loud will make me believe it eventually too.)"
     T @ neutral talk "I may have my differences with Sierra, but I respect the rules and traditions of this academy more than I find fault with her."
-    S @ smile talk "I hope all this talk about Sierra and Vertus helped you realize how important you are to me, Clover."
+    S @ smile talk "I hope all this talk about Sierra and Vertus has helped you realize how important you are to me, Clover."
     show clover anxiety with dd
     "Sibyl hits me with the guilt trip of the century out of nowhere. Her words cause a stir to flutter in my stomach more intense than simply having eaten too quickly."
     C annoyed blush "(We've barely known one another a single day! She probably only cares about \"her Vertu partner\", not {b}me{/b}!)"
@@ -758,7 +767,8 @@ label class_intro:
     menu:
         "\"I think I'm gonna throw up...\"":
             hide choice_darkness with dissolve
-            C vulnerable "I think I'm gonna throw up..."
+            C anxious "I think I'm gonna throw up..."
+            show clover vulnerable blush with dd
             "I obviously cannot see what I look like, but I certainly feel positively green just standing there at the front of the classroom with every eye on me."
             "From somewhere beyond my heart pounding loudly in my ears I hear the teacher ask if I need to see the nurse. On instinct I state the truth that I just need to sit down."
             show clover frown at qmleft
@@ -769,6 +779,7 @@ label class_intro:
         "\"I-I can't stop thinking about Sibyl's underwear.\"":
             hide choice_darkness with dissolve
             C anxious blush "I-I can't stop thinking about Sibyl's underwear."
+            show clover vulnerable blush with dd
             "Unbelievably, I say exactly what's on my mind despite how it's quite possibly the worst thing I could say at this moment."
             "There's an immediate round of giggles from the assembled class before me, leading me to say a quick prayer to whichever deity may be listening that I'll drop dead any second now."
             "The sweet relief of a lightning strike from the heavens never comes, however, and I quickly stammer out a weak explanation in possibly the highest pitched voice to ever leave my throat."
@@ -789,7 +800,7 @@ label class_intro:
             te "Thank you, Clover. Why don't you take a seat?"
             hide clover with dd
             "I don't even have any particular interest in koalas, it's just the first thing that came to mind somehow."
-            "I just {b}know{/b} that from this day forth, I'm going to be forever known as \"the koala girl\"."
+            "I am certain with every fiber of my being that from this day forth, I'm going to be forever known as \"the koala girl\"."
             show clover frown at qmleft
             show sibyl laugh at qmright
             with dd
@@ -805,7 +816,9 @@ label after_lunch:
     scene bg classroom winter with fade
     "The classes I attend during the first half of the day pass in a blur. The lessons themselves go in one ear and out the other."
     "While all the others students quickly fall back in the groove of how things work at the academy, I am absolutely lost in every way despite Sibyl trying her best to keep me up to speed."
+    show clover scowl at center with dd
     C "(I just arrived the previous day. I don't even want to be here. And now I have a quiz on material I've never learned!?)"
+    hide clover with dd
     "Her notebooks are very detailed, but it's all entirely too overwhelming for me. I feel like my first day at the academy skipped the frying pan and threw me directly into the fire."
     scene bg cafeteria winter with dissolve
     "The coming of lunch time and an extra large dollop of creamy macaroni and cheese eases my mind to a small degree, but the foreboding of the latter half of classes remains."
@@ -859,7 +872,7 @@ label after_lunch:
     "As I sit and stare at the fish swimming about their circuits in their stiflingly small tanks, I cannot help but feel the academy will be the same prison to me."
     C @ tired "(Confined to campus, making me speak in front of the class, loading me all up with homework...)"
     "The amount of homework I have already been assigned seems overkill for just half a day of lessons."
-    "One of the earliest classes of the day was French language studies. Helplessly lost, Sibyl whispered translations of every word for me until the teacher made her stop."
+    "One of the earliest classes of the day was French language studies. Helplessly lost as I was, Sibyl whispered translations of every word for me until the teacher made her stop."
     "In addition to normal subjects there was also an etiquette class, which was just about the last thing I expected, but maybe should not have been given the state of the rest of the school."
     C @ anxiety "(I {b}really{/b} need to read that academy pamphlet. I don't think I can handle another surprise like that.)"
     "Thinking about my awful classes instead of my awful life makes me come around slightly, but it also dredges up all the bad thoughts which had been suppressed by the soothing balm of sleep."
@@ -884,10 +897,10 @@ label after_lunch:
     T @ neutral talk "So this is where you ran off to."
     "Deep down I know it was foolish to have assumed I would know some random person entering the room, let alone that it would be my roommate. That it's someone I've met in the short time I've been here is miraculous enough."
     C @ neutral talk "Y-Yeah. I needed some time alone."
-    "My tone of voice sounds out rather dismissively, having no particular feelings about making terribly nice with my new roommate's best friend that I only just met a few hours before."
-    "Knowing that my expression must be quite dark, I turn my head aside away from Tanya and back toward the fish swimming in their tanks. The blurry figure of my roommate's friend is visible by reflection."
-    T @ contemplative "That's what Sibyl thought."
-    C scowl "She knows me so well."
+    "My tone of voice sounds out rather dismissively, having no particular feelings about making terribly nice with my new roommate's best friend that I only met just a few hours before."
+    "Knowing that my expression must be quite dark, I turn my head away from Tanya and back toward the fish swimming in their tanks. The blurry figure of my roommate's friend is visible by reflection."
+    T @ contemplative talk "That's what Sibyl thought."
+    C @ scowl talk "She knows me so well."
     "What should probably be positive praise is actually ironic when I speak the words. Tanya maybe can also sense it judging by her rising impatience."
     T neutral talk alt2 "Look, it's almost curfew time so you really should be getting back to the dorms."
     show tanya neutral alt2 with dd
@@ -898,7 +911,7 @@ label after_lunch:
     "The question must have caught her off guard because she's momentarily quieted into staring back at me. I'm a little surprised at it myself even though it came from my own lips."
     C annoyed talk "She's the one always saying that we're partners and we're supposed to support each other. Why didn't she come looking for me?"
     show clover annoyed with dd
-    T shout "We {b}both{/b} went looking for you, Clover, and a couple others besides. It's a big school."
+    T scowl talk "We {b}both{/b} went looking for you, Clover, and a couple others besides. It's a big school."
     show clover neutral
     show tanya frown alt2
     with dd
@@ -906,9 +919,11 @@ label after_lunch:
     T neutral talk "Hey, are you feeling alright, Clover?"
     show tanya neutral with dd
     "The soft tone of concern about a girl she barely knows ticks me off. I cannot stop myself from letting it come out through my words again."
-    C scowl "What's it matter to you anyway? Don't you have your own \"Virtue\" to worry about?"
-    show tanya scowl with dd
-    "Tanya's tone again turns, this time more firmly, which is really no surprise with how obstinate I'm being toward her."
+    C scowl talk "What's it matter to you anyway? Don't you have your own \"Virtue\" to worry about?"
+    show tanya scowl
+    show clover scowl
+    with dd
+    "Tanya's tone again turns, this time more firmly, which is really no surprise with how obstinate I am being toward her."
     T neutral talk "{b}Vertu{/b}. It's a French word, {b}Vertu{/b}, and it is a foundational aspect of this academy."
     "Tanya corrects me with a measure of her fading patience clear in her choice of words and the hardness with which they are spoken, but some of the concern yet remains as she continues right on pestering me."
     T "It matters to me because it matters to Sibyl. You're all she's talked about all day. She's barely said a word to me that wasn't about {b}you{/b}!"
@@ -919,6 +934,7 @@ label after_lunch:
     "Tanya reaches out toward me to clutch at my hand in a total invasion of my personal space. She's surprisingly strong and is already pulling me toward the door by the time I manage to brush her off and shove back at her."
     show clover shout at qmleft
     show tanya scowl alt2 at qmright
+    with dd
     C "Don't touch me!"
     show clover scowl with dd
     T @ shout "{b}Augh!{b}"
@@ -935,16 +951,16 @@ label after_lunch:
     show clover scowl
     with dd
     "Amidst her tirade, Tanya steps closer, nearly backing me into a fish tank as she presses a finger angrily sharp into my chest. I'm taller than her, if only barely, but somehow she feels so much more dangerous in the moment."
-    T shout alt2 "You {b}do{/b} need help. There's clearly something wrong with you. Every time someone tries to help you or even say a single thing nice to you, you have to spit it back in their faces!"
+    T scowl talk alt2 "You {b}do{/b} need help. There's clearly something wrong with you. Every time someone tries to help you or even say a single thing nice to you, you have to spit it back in their faces!"
     T "You don't deserve someone as special as Sibyl for a Vertu partner, and if you aren't going to respect her, then stay away from her."
-    show tanya scowl with dd
+    show tanya scowl alt2 with dd
     "Tanya's rant doesn't scare me, even if she is stronger than she looks. I've had worse language thrown in my face before and half of that stupid rant was just praising Sibyl anyway."
     show clover impish
     show tanya surprised
     with dd
     "As for my reprisal, I hiss a childish \"if you love her so much, why don't you marry her\" which succeeds beautifully in getting under little-miss-best-friend's skin."
     show tanya annoyed alt with dd
-    "Tanya nearly looks like she's about to claw my face off, but instead only shoves me back against the fish tank to herself turn away and stomp out of the aquarium."
+    "Tanya nearly looks like she's about to claw my face off, but instead only shoves me back against the fish tank then turns away to stomp out of the aquarium."
     hide tanya with dd
     stop music fadeout 0.5
     play sound doorslam
@@ -978,7 +994,7 @@ label after_lunch:
     show sibyl smile
     with dd
     "I brace myself for whatever unpleasantness is about to happen, but Sibyl's face alights only with simple relief upon spotting me."
-    "She throws her arms around my body without hesitation in a warm hug which could thaw the coldest outdoor chill."
+    "She throws her arms around my body without hesitation in a warm hug which could thaw the coldest winter chill."
     S @ smile talk "You made it back!"
     C anxious "Y-Yeah..."
     show clover vulnerable with dd
@@ -1034,7 +1050,7 @@ label after_lunch:
     S smile talk "Your mom? That's great!"
     show sibyl smile with dd
     "Whatever Sibyl thinks is so great about it, I cannot possibly understand. What would be great is if she said the divorce was canceled, I can come home, and we are going to be a whole family again."
-    "But that's definitely not going to happen. They may try to hide it from me but I can tell how bad Mom and Dad's relationship has become."
+    "But that's definitely not going to happen. They may try to hide it from me, but I can tell how bad Mom and Dad's relationship has become."
     show sibyl neutral with dd
     "Contrary to the act of having just pitched my smartphone into the bed, I immediately swipe it back up again to be sure it's safe. It is, after all, my only precious line outside of this nightmare school."
     S @ contemplative talk "I've found, Clover, that I feel better when I talk out my issues. Would you like to try it?"
@@ -1102,7 +1118,7 @@ label a1_art:
     S laugh "{b}Hnnnnnngggg!{/b}"
     scene bg cafeteria winter with fade
     "Sibyl and Tanya start chatting the moment they meet in the cafeteria, apparently about Sierra once again. I don't pay much attention, instead wandering off in search of French toast."
-    "Just as I've gotten back to my seat and stuffed the first bite of fluffy bread into my mouth, Sibyl goes off to get her own food, leaving me alone with Tanya."
+    "Just as I've gotten back to my seat and stuffed the first bite of sugary bread into my mouth, Sibyl goes off to get her own food, leaving me alone with Tanya."
     show clover contemplative at mleft
     show tanya neutral at mright
     with dd
@@ -1138,9 +1154,11 @@ label a1_art:
     "I try desperately to duck out of some surprise head-patting foisted upon me by a smaller girl at the exact moment I enter the art room."
     show izzie smile talk with dd
     who "No wonder the HimeOuji twins couldn't keep their hands off of her! You'd better not wait too long, Miss Yang."
-    T @ contemplative alt2 "I have no idea what you're talking about, Miss Izzie."
-    C scowl "Umm... could you not?"
-    show izzie excited with dd
+    T @ contemplative talk alt2 "I have no idea what you're talking about."
+    C scowl talk "Umm... could you not?"
+    show izzie excited
+    show clover scowl
+    with dd
     who "So {i}tsun{/i} too!"
     show izzie smile with dd
     C contemplative "(\"Soon?\" Was she expecting me later?)"
@@ -1166,12 +1184,12 @@ label a1_art:
     menu:
         "\"I've done a few séances in the past...\"":
             hide choice_darkness with dissolve
-            C "I've done a few séances in the past..."
+            C @ contemplative talk "I've done a few séances in the past..."
             "I can still remember the huge smile on my friend's little brother's face when he was able to speak with their deceased pet hamster again."
             C tired "(That boy absolutely adored me. Until someone told him that séances are all fake.)"
         "\"My former classmate told me I was the state's foremost expert with Ouija boards.\"":
             hide choice_darkness with dissolve
-            C "My former classmate told me I was the state's foremost expert with Ouija boards."
+            C @ contemplative talk "My former classmate told me I was the state's foremost expert with Ouija boards."
             "What I say is the total truth, except that she said it in a way less flattering manner."
             C impish "(The spirits were not very kind to her after that.)"
     show izzie contemplative
@@ -1189,7 +1207,7 @@ label a1_art:
     with dd
     "I got so caught up thinking about my past self that I went and said something totally unnecessary and embarrassing about the old \"me\" that no one needed to know."
     mi excited "The freedom of creative expression is a salve for the soul!"
-    mi smile talk "I know from experience how tough it can be transferring to a new school like this so I'd like to see you get started on your own project right away."
+    mi smile talk "I know from experience how tough it can be transferring to a new school like this, so I'd like to see you get started on your own project right away."
     show izzie smile with dd
     C neutral talk "Sorry, Miss Izzie, but I'm not much of an artist."
     show clover neutral with dd
@@ -1221,9 +1239,11 @@ label a1_art:
     S smile talk "...When you did all that medium stuff."
     S frown talk "Sorry, that's probably out of the blue, but you looked like you were on the verge of rigor mortis just now."
     show sibyl neutral with dd
-    C tired blush "It was just some stupid little thing I did with my friends in middle school."
+    C anxious blush "It was just some stupid little thing I did with my friends in middle school."
+    show clover tired blush with dd
     "I try to save face by acting all casual and dismissive, but Sibyl doesn't seem to take the hint — or maybe refuses to."
-    S laugh "Oh, is that so? It sounds fun either way."
+    S smile talk "Oh, is that so? It sounds fun either way."
+    show sibyl smile with dd
     C neutral talk "Do you actually believe in the supernatural?"
     show clover neutral with dd
     "After trying so hard to put these juvenile interests from middle school behind me, to find someone like Sibyl interested, and in this Christian school of all places, is a definite surprise."
@@ -1292,9 +1312,14 @@ label a1_art:
             S laugh "I think that would be lovely."
             C annoyed talk "Well don't get your hopes up. I'm bad at art, remember?"
             show clover annoyed with dd
-    S laugh "I'll help you develop your sense of artistry in no time!"
-    C tired "I've already warned you that it's an impossible task."
-    S smile talk "I'm up to the challenge."
+    S smile talk "I'll help you develop your sense of artistry in no time!"
+    show sibyl smile
+    show clover annoyed talk
+    with dd
+    C "I've already warned you that it's an impossible task."
+    show clover annoyed with dd
+    S @ laugh "I'm up to the challenge."
+    show clover tired with dd
     "My heart sinks when I think about how long of a day it's going to be, and then drops all the way through the floor when I think about the whole rest of the year too."
     stop music fadeout 0.5
     jump home_ec
@@ -1320,13 +1345,15 @@ label home_ec:
     "I also think that Tanya's English is really, really good considering it's not her first language, but I am loath to compliment her out loud even when she is not around to hear the compliment."
     C @ neutral talk "It's nice to have a class without Tanya."
     S angry "Clover, don't be rude!"
+    show sibyl annoyed with dd
     C surprised "W-Hwa!"
     "I jump sideways after feeling a firm thwack against my rear, and whip my head around to see Sibyl wielding her wooden spatula with a stern but playful grin."
     S neutral talk "You earned that smack. You really ought to be nicer to Tanya; she's very sweet."
     show sibyl neutral
-    show clover annoyed
+    show clover annoyed talk
     with dd
     C "I'm not exactly feeling the love."
+    show clover annoyed with dd
     S frown talk "What do you expect? You were mean to her!"
     S neutral talk "That's right, she told me about what happened in the aquarium."
     show sibyl neutral
@@ -1352,6 +1379,7 @@ label home_ec:
     S angry "Did they now? They told me you were in a little tizzy when they gave you the key card to our room, but I should have figured they were the reason for it."
     S neutral talk "I don't condone their actions, of course, but there are quite a few girls here who would gladly have taken your place to be subject to their flirting."
     S smile talk "Instead of getting revenge, you should go talk to them earnestly and clear things up."
+    show sibyl smile with dd
     C shout "It was way more than just a little unwanted flirting!"
     show clover neutral
     show sibyl neutral
@@ -1360,7 +1388,7 @@ label home_ec:
     S @ neutral talk "Okay, well, to begin with they're in the junior class, and my understanding is that they have had a huge following in the school ever since they arrived as freshmen."
     C deer "{b}Why?{/b}"
     "I interrupt just as Sibyl is getting started, still very irritated with how they treated me and only further angered to hear that it's a common thing for them to do to others."
-    C scowl "(Not that I care about anyone else here, but I want to see them apologize to {b}me{/b} at least!)"
+    C scowl "(Not that I care about anyone else here, but I want to see them apologize to {b}me{/b}!)"
     S @ neutral talk "Some students really admire Vittoria's ladylike attitude, and others are drawn to Vincenza's playful behavior."
     C annoyed "(Ladylike? Is that what you call shoving your hand up someone else's skirt?)"
     S @ neutral talk "They're basically the prince and princess of the school. That's why they're called the \"Royal Twins\"."
@@ -1374,7 +1402,7 @@ label home_ec:
     C anxious blush "Which one are you most a fan of then, Sibyl?"
     "I don't even know why I'm asking. Morbid curiosity I suppose."
     S @ neutral talk "I said it was common among students, not that I personally am in either of their sizeable fan clubs."
-    "My plan to get revenge is starting to sound more and more problematic but I still want my payback for them jumping me before I even had the chance to step foot onto school grounds proper."
+    "My plan to get revenge is starting to sound more and more problematic, but I still want my payback for them jumping me before I even had the chance to step foot onto school grounds proper."
     C contemplative "(I could get a teacher involved, but that might be a little too much.)"
     C @ neutral talk "Sibyl, where is the student council located?"
     S smile talk "Are you going to visit? That's great!"
@@ -1408,11 +1436,12 @@ label student_council:
     scene bg hallway with dissolve
     "I part ways with Sibyl at the end of the day's classes. She starts back deeper into the school building to go to her art club with Tanya while I make for the chamber where the student council meets."
     "Before she leaves, Sibyl asks once again whether I would like her to accompany me. Why she's so nervous about me going to the student council alone, I have no clue."
-    show clover contemplative at center with dd
-    C @ annoyed "(She probably wants to make sure I can't get anyone into trouble at all. She's too nice to let her special roommate do anything bad!)"
+    show clover annoyed at center with dd
+    C "(She probably wants to make sure I can't get anyone into trouble at all. She's too nice to let her special roommate do anything bad!)"
+    show clover neutral with dd
     "From outside the doorway to the meeting room muffled voices seep through the edges of the doorway, confirming to me that I've found the right room."
     C excited "Here we go!"
-    "I knock at the door then push it open while the vim and vigor of son-to-be-satisfied revenge yet flows through me."
+    "I knock at the door then push it open while the vim and vigor of soon-to-be-satisfied revenge yet flows through me."
     play sound doorclose
     scene bg meeting winter
     show clover happy talk at left
@@ -1424,12 +1453,12 @@ label student_council:
     C bangs blush "I-I have a... c-complaint..."
     "All the fiery passion for getting revenge on the twins suddenly flies right out the window, replaced with a deathly pallor weighing down on me like a block of concrete."
     C tired "(This must be what Sibyl was concerned—)"
-    "And then, before I even finish my thought, I notice {b}them{/b}. It's such a genuine surprise that I even raise my arm to point with dramatic fervor."
+    "And then, before I even finish my thought, I notice them. It's such a genuine surprise that I even raise my arm to point with dramatic fervor."
     C shout "{b}Y-You!{/b}"
     show twins smile talk at qright
     show clover scowl
     with dd
-    H "Me!"
+    H "Me?"
     O "Us!"
     show twins smile with dd
     "At the very head of the meeting table sit my two tormentors, gently taking turns sipping from their steaming tea cups with dignified amusement."
@@ -1456,37 +1485,39 @@ label student_council:
     O @ smile talk "She sure knows how to make an entrance, that Clover."
     H @ smile talk "Quite on time too. I know she means well but I do wish Kayleigh would quit plying us with tea."
     play sound soda
-    "From within Vincenza's bag appears a can of cola, which is quickly popped with a short hiss of escaping gases and passed between the pair of twins in turn."
+    "From within Vincenza's schoolbag appears a can of cola, which is quickly popped with a short hiss of escaping gases and passed between the pair of twins in turn."
     H @ alt neutral talk "Now then, I think we owe you an apology, Clover."
     "Though I remain infuriated by their presence, the absence of the crowd watching me revives my frozen self enough to converse clearly once again."
     C @ shout "You {b}think{/b}?"
     O @ alt neutral talk "Won't you please sit down, Clover?"
-    show vitti alt smug
-    hide clover
-    with dd
+    hide clover with dd
     "Vincenza motions toward one of the recently vacated chairs nearby, while at the same time Vittoria grins and pats her lap from where she sits beside her twin."
     show clover scowl at qleft with dd
     "I opt to take a seat at the complete opposite end of the table, which is also a short dash away from the door. Should the need for a hasty escape present itself, this is my best chance of survival."
+    H @ alt neutral talk "It is our understanding that you have had a troubled beginning to your education here at Prudence Preparatory Academy."
+    O alt neutral talk "We may be partially to blame for that. Therefore, we would like to apologize for any offense we may have paid to you."
     show vinci alt contemplative
     show vitti alt vulnerable2
     with dd
-    H "It is our understanding that you have had a troubled beginning to your education here at Prudence Preparatory Academy."
-    O "We may be partially to blame for that. Therefore, we would like to apologize for any offense we may have paid to you."
     C surprised "(They are... apologizing!?)"
     "It's eerie the way in which they finish each others' thoughts. Not only that, but it's also freaky how they can merely look at one another to understand what both are thinking."
     C "(Is this for-real ESP!?)"
     "Rather than continue to contemplate their uniquely close relationship, the first words out of my mouth are far less philosophical."
-    C scowl "How did two sexual... {b}criminals{/b} get elected to the student council!?"
-    H alt smile talk "What an odd way to accept an apology, Vincenza."
-    O alt smile talk "She's a most peculiar girl in every way, Vittoria."
+    C scowl talk "How did two sexual... {b}criminals{/b} get elected to the student council!?"
+    show clover scowl
+    show vitti neutral talk
+    with dd
+    H "What an odd way to accept an apology, Vincenza."
+    show vitti alt smile
+    show vinci smile talk
+    with dd
+    O "She's a most peculiar girl in every way, Vittoria."
+    show vinci alt smile with dd
     "Rather than respond to my outburst, the pair once again make show of their crazy back and forth dialogue that is addressed to one another but also clearly meant for me to hear."
     C @ annoyed talk "Are you going to answer me or keep talking to yourselves in that creepy way?"
     H alt contemplative2 "How did we attain these lofty positions you ask?"
-    O smug "With my boyish charm..."
-    show vinci alt smug
-    show vitti smug
-    with dd
-    H "...And my feminine grace!"
+    O @ smile talk "With my boyish charm..."
+    H smile talk "...And my feminine grace!"
     show vitti alt smug with dd
     C @ shout "Does the academy staff know about this? Do I need to go public? How many others have you victimized!?"
     O alt frown talk "Clover, {i}per favore{/i}, calm yourself."
@@ -1494,24 +1525,22 @@ label student_council:
     show clover shout
     with dd
     C "Calm down? You and your sister touched my... {b}everything{/b}!"
-    show clover scowl
-    show vitti alt frown talk
-    with dd
-    H "We helped you fix your ill-fitted uniform, nothing more."
-    show vitti frown
+    show clover scowl with dd
+    H alt frown talk "We helped you fix your ill-fitted uniform, nothing more."
+    show vitti alt frown
     show clover impish
     with dd
-    C "That's not going to hold up in court."
+    C @ scowl talk "That's not going to hold up in court."
     show vitti alt frown
     show vinci alt frown
     with dd
-    "I'm not really going to sue them but I'm also not above sneaking some fear into them that I might try."
+    "I'm not really going to sue them, but I'm also not above sneaking some fear into them that I might try."
     "I'm clear out of ideas of what to do to get my revenge now and that the twins themselves are not frightened in the slightest is taking all the wind out of my efforts."
     C annoyed talk "Just... promise you won't do it again, okay?"
     show clover annoyed with dd
-    H alt neutral talk "We are sorry for having been too forward too quickly, Clover."
+    H @ alt neutral talk "We are sorry for having been too forward too quickly, Clover."
     O alt smile talk "We promise not to touch you until you ask for it."
-    show vinci alt neutral
+    show vinci alt smile
     show vitti alt smug
     show clover shout
     with dd
@@ -1541,7 +1570,8 @@ label student_council:
     with dd
     "I start off the negotiations from a strong position at the table and am confident that I'll be out the door posthaste."
     H @ alt smile talk "It's not about that."
-    C contemplative "It's not?"
+    C contemplative talk "It's not?"
+    show clover contemplative with dd
     O @ alt smile talk "No, but we do expect you to properly attend your classes."
     "My mind races to come up with what else I could have possibly done to get in trouble, but I cannot land on anything conclusive before Vittoria speaks again to set the record."
     H @ alt smile talk "We know you've been struggling to adjust to your surroundings here and would like to help you."
@@ -1555,7 +1585,8 @@ label student_council:
     O @ alt contemplative "We thought you'd say that. Or rather, we were warned you would."
     C surprised "Who said that? Sibyl?"
     H @ alt contemplative2 "Your Vertu partner, Sibyl, may have mentioned how concerned she was about you."
-    C scowl "Did she ask you to try to \"fix\" me or something?"
+    C scowl talk "Did she ask you to try to \"fix\" me or something?"
+    show clover scowl with dd
     H @ alt smile talk "She asked us only to quietly help smooth over your issues transitioning to academy life."
     O @ alt smile talk "It is touching how deeply she cares about you, Clover."
     "Vittoria nods sagely and adds onto the end a note about how wonderful of a Vertu partner she has been for me. I can only manage a scowl in response."
@@ -1582,19 +1613,19 @@ label student_council:
     C anxious "Well, no, but I'm just me. I don't even want to be the center of attention."
     H @ alt smile talk "You still have time to turn around your image. You could really play up being a transfer student."
     O @ alt neutral talk "You are absolutely perfect for the \"cool mysterious beauty\" type who could drive girls wild."
-    C deer "What do you mean \"turn around my image\"?"
-    C "(And why would I want to be \"driving girls wild\" anyway?)"
+    C contemplative talk "Why would I want to be \"driving girls wild\"?"
     show vinci alt awkward
     show vitti alt contemplative2
-    show clover frown
+    show clover neutral
     with dd
-    "Once again the twins go silent to perform their creepy \"twin telepathy\". I'm just about to leave for good when they finally speak once more."
+    "Once again the twins go silent to perform their creepy \"twin telepathy\" when I clearly fail to understand the meaning behind their wild statements. I'm just about to leave for good when they finally speak once more."
     show vinci alt frown
     show vitti alt frown
     with dd
     O @ alt frown talk "Clover, there's no easy way to say this so we're just going to tell you plain and simple."
     H @ alt frown talk "Your attitude is unpleasant. Everyone you've come into direct contact with has come away with major concerns or negative feelings about you."
-    C scowl "So what? I don't want to be popular!"
+    C scowl talk "So what? I don't want to be popular!"
+    show clover scowl with dd
     stop music fadeout 0.5
     O alt awkward "One student told us you were, quote: \"an unstable self-centered bitch\"."
     play music drama
@@ -1636,11 +1667,12 @@ label introspection:
     "I would believe anything if it meant not having to admit that Vittoria and Vincenza may have been right about this one thing, and even more dangerously, right about everything else they said too."
     stop music fadeout 0.5
     scene bg bedroom with dissolve
-    "It's a relief when I finally get back to my room, far away from any invasively inquisitive or potentially judgemental eyes."
+    "It's a relief when I finally get back to my room, far away from any invasively inquisitive or potentially judgmental eyes."
     "To my surprise, a small cardboard box sits atop my desk. I slump my schoolbag onto the chair and creep over to it like it might explode in my face, or worse."
     show clover neutral at center with dd
-    C "(\"Clover Ipswich\". It's for me. From...)"
+    C "(\"Clover Ipswich\". It's for me, from...)"
     show clover anxiety with dd
+    play music sad
     "A strange mixture of excitement and dread fills my stomach, like it's full of butterflies on fire madly flapping their wings to put each other out but only fanning the flames harder in the process."
     "I step over to my bed and flop onto it in a daze, but ultimately my body is hypnotically drawn right back to the box on the desk."
     show clover vulnerable at center with dd
@@ -1648,7 +1680,7 @@ label introspection:
     hide clover with dd
     "Many terrible thoughts pass through my head, each one more awful than the last. I apprehensively trace the sharp edge of a pair of scissors around the tape holding the box flaps closed."
     "Sitting cross-legged on the bed with the package before me, I expel my hesitation with a deep breath then finally flip the cardboard flaps open."
-    pause 0.5
+    stop music fadeout 0.5
     play music happy
     show clover happy talk at center with dd
     C "Abraxas!"
@@ -1686,18 +1718,20 @@ label introspection:
     "A soft clatter from across the room finally stirs my wet face from my pillow. With a sniffle to contain my ugly runny nose, I glance up at it."
     show sibyl contemplative at left with dd
     "Sibyl stands at the door, leaning back against it, her face politely turned away from staring at me. There are tiny paint flecks across her nose and cheeks, no doubt evidence of her club activities."
-    show clover vulnerable blush at qmright with dd
+    show clover anxious blush at qmright with dd
     C "S-Sibyl..."
     S @ neutral talk "Would you like to be alone, Clover?"
-    show clover tired with dd
+    show clover tired blush with dd
     "My gaze turns down toward the ground as I judge the state of my being. I find it poor but with the strength of an intense cathartic release buoying my head above water."
-    C vulnerable "No..."
+    C vulnerable blush "No..."
     "Even so, my voice comes out shaky and quiet. I'm trembling all over, but I feel neither sad nor angry. It's a surprise to me that I want Sibyl to stay, but then again, maybe it shouldn't be."
     "I pick up the letter again, read a few of the lines written there, and somehow find my head clearer than it has been in recent memory."
     "\"Keep your head up and your heart open. Good things are sure to find their way in if you let them.\""
     "I do what Dad asks, raising my head to regard Sibyl across the room."
-    C smile blush "No. I'm... going to be alright. You can stay."
-    show sibyl smile at qmleft with dd
+    C happy talk blush "No. I'm... going to be alright. You can stay."
+    show sibyl smile at qmleft
+    show clover smile
+    with dd
     "With an understanding smile that I've come expect from her, Sibyl sets down her bag and moves to sit on my bed across from me at a comfortable distance."
     S @ smile talk "What'cha got here?"
     "I can sense a little tentativeness in her actions like I'm some sort of wild animal eating seed out of her hand and she doesn't want to spook me."
@@ -1713,8 +1747,8 @@ label introspection:
     S @ smile talk "It's delicious!"
     C "(Sibyl probably has no idea how much this peanut brittle means to me, but she also probably deserves a little bit for having put up with me the past few days.)"
     "That's right, I am all but forced to admit that Sibyl might have been right about those \"storm clouds\" and that I may have been a touch dramatic ever since I arrived at the academy."
-    C "(All it takes is a little peanut brittle to remember I'm not out of my parents' hearts forever just because they suddenly sent me away.)"
-    "None of this excuses what they've put me through so far, but after seeing all this I am unable to feel as hurt now as when they first kicked me out of our home to send me here."
+    C @ contemplative "(All it takes is a little peanut brittle to remember I'm not out of my parents' hearts forever just because they suddenly sent me away.)"
+    "None of this excuses what they've put me through so far, but after seeing all this, I am unable to feel as hurt now as when they first kicked me out of our home to send me here."
     "Turning again to the photos, I pluck the photo of my beloved pet off the top of the stack to push toward Sibyl."
     C @ neutral talk "They sent some of my photo frames too. It feels like I haven't seen Abraxas in months even though I know it's only been a week or two."
     S neutral talk "What's a \"braxas\"?"
@@ -1753,13 +1787,13 @@ label introspection:
     C surprised blush "H-Huh?"
     show sibyl smile with dd
     "Sibyl holds up the photo of me and my three friends decked out in the most embarrassing, all-black outfits we could possibly muster, each of us with pitch black hair to match."
-    C anxious blush "O-Oh, well... I've been trying to grow it out naturally but my hair is actually carefully bleached and re-dyed from about here down."
+    C anxious blush "O-Oh, well... I've been trying to grow it out naturally, but my hair is actually carefully bleached and re-dyed from about here down."
     "Sibyl reaches out unbidden to twirl my hair through her fingers and tease the ends. I know she's looking for any telltale breakage, but if there's anything I'm an expert with by now, it's hair dye."
     S @ smile talk "Really? Your hair must grow super fast! It's so strong and smooth. I can barely tell it's dyed."
     C contemplative blush "(Well, duh, most of it is my real hair! I didn't swallow all those sketchy hair growth supplements for nothing!)"
     "Sibyl's attention to my hair is even more unbearably embarrassing than I could possibly have expected it to be, but actually feels really nice to have her play it with too."
     C tired blush "(This is not how I wanted to \"open my heart\", Dad!)"
-    C anxious blush "You don't think I'm weird, Sibyl? For being into all this freakish occult stuff?"
+    C anxious blush "You don't think I'm weird, Sibyl? For being into all this freaky occult stuff?"
     "Sibyl laughs shortly at my question, not with malice, but apparently at how absurd it is — and probably also at whatever pitiful expression I have plastered on my face."
     S laugh blush "Of course not, Clover. We've all done goofy things, haven't we?"
     "A soft flush emerges on Sibyl's cheeks despite her apparent reluctance to elaborate upon whatever she is presently remembering to herself."
@@ -1788,8 +1822,10 @@ label introspection:
     show sibyl neutral talk
     with dd
     S "That's one of the reasons I wanted to come to Prudence Prep, Clover. The Vertu system ensures we're never alone and always have a supportive environment to fall back on when we need it."
-    show sibyl smile with dd
-    "It might not have been a big thing to Sibyl, but what she says leaves me dazed. All at once I realize what I fool I've been."
+    show sibyl smile
+    show clover surprised
+    with dd
+    "The words which Sibyl speaks might be clear to her, but what she says leaves me dazed. All at once I realize what I fool I've been."
     C tired "(Of course... I'm such an idiot.)"
     show sibyl frown with dd
     "Not hearing me reply, Sibyl stops to look back at me in concern, whispering my name with uncertainty."
