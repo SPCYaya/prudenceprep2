@@ -1063,7 +1063,7 @@ label cloverdecorations:
     S @ smile talk "Maybe you should join another club!"
     "It's not like I haven't thought about it, but with how much time I've been spending at lacrosse where Tanya occasionally has to be near me, I don't want to have even less time by Sibyl's side."
     C @ tired "(Even if it's doing busy work for teachers, I'd rather be with Sibyl.)"
-    C @ neutral talk "Maybe when Spring finally breaks. I don't know."
+    C @ neutral talk "Maybe when spring finally breaks. I don't know."
     S @ frown talk "It's not good to be so lackadaisical all the time. I like having you around, Clover, but I know watching me read books and do arts and crafts projects can't be all that enthralling for you."
     C @ neutral blush "(On the contrary...)"
     S @ smile talk "Next shamrock, please!"

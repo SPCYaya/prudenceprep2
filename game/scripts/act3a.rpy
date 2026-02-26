@@ -272,7 +272,7 @@ label startintrigue:
     with dd
     "Rather than ask the question of me, Vittoria looks toward her sister, who sagely nods her agreement."
     CL deer blush "(It almost seems like they're implying they'd sleep with anyone who they find to be super pretty.)"
-    "A shiver unrelated to the cool early Spring air washes over me, and I try to push what happened that day not so long ago completely out of my mind again."
+    "A shiver unrelated to the cool early spring air washes over me, and I try to push what happened that day not so long ago completely out of my mind again."
     CL shout "Well I'm not Sierra, so if that's what's behind the problem Tanya has with me, she can leave the attitude back in her dorm room."
     show vitti alt neutral
     show vinci alt neutral
@@ -733,7 +733,7 @@ label manhuatalk:
 
 label homeroom_queens:
     scene bg cafeteria with fade
-    "Tanya runs so hard in front of me that I literally get the taste of the soft Spring dirt in my mouth. After that, I'm totally ready to get a much better taste into my mouth at the cafeteria during breakfast."
+    "Tanya runs so hard in front of me that I literally get the taste of the soft spring dirt in my mouth. After that, I'm totally ready to get a much better taste into my mouth at the cafeteria during breakfast."
     "Nothing much is said as I shovel down a whole plate of French toast as a personal reward after what feels like a millennium of eating only yogurt parfaits for breakfast."
     scene bg classroom with dissolve
     stop music fadeout 0.5
@@ -818,8 +818,8 @@ label beforestormpractice:
     scene bg lacrosse with fade
     "The return of classes also means the return of our regularly scheduled lacrosse season practice and competitive games."
     show clax surprised at center with dd
-    CL "(Why is it still so cold out? We're a whole month into Spring already! There are leaves on the trees!)"
-    "Being still the month of April, but only barely, the dying grasp of Winter hasn't fully relinquished control."
+    CL "(Why is it still so cold out? We're a whole month into spring already! There are leaves on the trees!)"
+    "Being still the month of April, but only barely, the dying grasp of winter hasn't fully relinquished control."
     "It's our first practice match since the whole Homecoming debacle, and though I find myself \"benchwarming\" at the moment, it is anything but in reality."
     CL sleepy "(I shouldn't have shaved this morning. No one is even looking at me on the sidelines anyway.)"
     "That the kilt of the team uniform exposes so much of my legs must be a great boon when full of activity in the height of summer, but not so much while I'm sitting on the sidelines in unseasonably crisp weather."
@@ -1288,7 +1288,7 @@ label easterp2: # not the holiday, the school celebration
     show clover smile at qmleft
     show sibyl smile at qmright
     with dissolve
-    "When it's all over, we emerge back out of the heavy wooden doors refreshed by the crisp Spring morning with sunlight shining down to greet us and a brand new day before us."
+    "When it's all over, we emerge back out of the heavy wooden doors refreshed by the crisp spring morning with sunlight shining down to greet us and a brand new day before us."
     show clover teary with dd
     "I take in a great lung-full of the fresh air, then immediately sneeze so hard that my brain rattles around in my skull."
     S bashful "Allergies?"
@@ -1383,7 +1383,7 @@ label easterp2: # not the holiday, the school celebration
     with dd
     S @ laugh "Clover, this way, I see some by the fence posts!"
     "Having thought I was good at running by now, I realize that I'm just not as properly motivated during my daily training as Sibyl is right now by the excitement of the Easter egg hunt."
-    "Her skill at spotting even the slightest glint of the colorful plastic eggs hidden amongst the verdant Spring grasses or tucked into odd corners among the campus masonry is impressive."
+    "Her skill at spotting even the slightest glint of the colorful plastic eggs hidden amongst the verdant spring grasses or tucked into odd corners among the campus masonry is impressive."
     "The speed with which she leaves me in her dust as she flies off toward them to scoop each into her basket is even more incredible, given that I am the one in a sports club."
     C @ surprised "Wait, Sibyl, slow down!"
     S @ smile talk "We can't slow down or someone else will find the eggs before us!"

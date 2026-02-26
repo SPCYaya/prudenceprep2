@@ -559,7 +559,7 @@ label practicewatching2:
     "For some reason, I expected that watching the lacrosse team's practice session from the bleachers would be much the same as watching from the sidelines."
     "But from even just this little increase in height, however, I find that I can see much better how well each side is sticking to their formations and game plans."
     S @ smile talk "I've learned a bit from watching all of the practices and games that you and Tanya take part in, but having you here to explain it all finally makes the knowledge \"click\" in my head."
-    "With the weekend just ramping up into what will turn out to be a beautiful Spring day, it should be no surprise that it's just me and Sibyl sitting by ourselves to spectate the lacrosse team practice in the gymnasium today."
+    "With the weekend just ramping up into what will turn out to be a beautiful spring day, it should be no surprise that it's just me and Sibyl sitting by ourselves to spectate the lacrosse team practice in the gymnasium today."
     C @ happy talk "Maybe you should join the team, then? It must be boring sitting up here with nothing to do while we're down there playing the game."
     S laugh "It's not boring at all, Clover. I do it because I want to support you and Tanya."
     S smile talk "Besides, I only come watch on days that I don't have art club. On the other days, Miss Izzie often sits with me too, and she is not someone you could ever call \"boring\", to be sure."

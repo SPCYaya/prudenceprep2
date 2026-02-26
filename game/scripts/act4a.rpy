@@ -139,7 +139,7 @@ label firstdate:
             hide choice_darkness with dissolve
             C happy talk "What's your favorite season?"
             show clover smile with dd
-            T neutral talk "Late Spring and early Autumn."
+            T neutral talk "Late spring and early autumn."
             show tanya neutral with dd
             C surprised "That's two seasons!"
             T @ neutral talk "No, that's two halves of two seasons, equivalent to one whole season's worth of time."
@@ -147,7 +147,7 @@ label firstdate:
             show clover scowl with dd
             T contemplative talk "I like the time of year where it's not too cold and not too hot. The sun isn't too strong but the days are also not too short. It's just \"perfect\"."
             show tanya smile with dd
-            C excited "For me, it's gotta be Winter. The short days and cold nights mean I can cuddle deep into layers of blankets on my bed and sleep extra long."
+            C excited "For me, it's gotta be winter. The short days and cold nights mean I can cuddle deep into layers of blankets on my bed and sleep extra long."
         "\"Are you a morning or night person?\"":
             hide choice_darkness with dissolve
             C happy talk "Are you a morning or night person?"
@@ -226,7 +226,7 @@ label firstdate:
             show tanya smile
             show clover smile
             with dd
-            "We both have a little giggle at this shared annoyance which happens just about every game and practice day since Spring arrived and all the bugs started swarming out."
+            "We both have a little giggle at this shared annoyance which happens just about every game and practice day since spring arrived and all the bugs started swarming out."
         "\"If you could be any animal, what would you be?\"":
             hide choice_darkness with dissolve
             C @ contemplative talk "If you could be any animal, what would you be?"
@@ -1883,7 +1883,7 @@ label sibyl_intermission:
     show tlax impish
     with dd
     "Smirking my way the entire time she says it, I reward Tanya's playful insolence with a shove that looks strong enough to send her tumbling over the bleachers but in reality barely registers as a wobble."
-    S neutral "How many more games do the Wild Roses play before the end of the Spring season?"
+    S neutral "How many more games do the Wild Roses play before the end of the spring season?"
     show clax neutral
     show tlax neutral
     with dd
