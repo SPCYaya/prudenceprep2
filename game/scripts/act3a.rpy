@@ -1170,7 +1170,9 @@ label gametwo:
     CL smile "(She does deserve some praise for catching my pass. I wouldn't look nearly as good out there if it failed to connect.)"
     stop music fadeout 0.5
     play music drama fadein 0.5
-    scene bg lockers with dd
+    $ persistent.unlock_cg4 = True # adds CG to gallery
+    scene cg bullying with dissolve
+    pause 1.0
     "A startling shriek and sudden commotion rips through the lazy post-game locker room atmosphere, drawing me out of my own thoughts and toward the showers at the far end of the room."
     st "Look at that cutting board!"
     st "Thunder thighs!"
@@ -1179,6 +1181,7 @@ label gametwo:
     st "Not so perfect {b}now{/b}, are you!?"
     "I don't have to catch glimpses of the sleek black hair or firm thighs of the girl struggling to pull the shower curtain closed while also attempting to cover her naked self to know who it is."
     "Everyone else in the locker room is as shocked to petrification as I am, but despite that, the rage still builds inside me that these three girls should be treating any member of our team in such a way — even Tanya."
+    scene bg lockers with dissolve
     show naomi stern at center with dd
     mw "You three, my office, {b}now{/b}!"
     "Before I or anyone else can even begin to figure out how to stop the spiteful bullying happening in front of us, a far more terrifying sound emerges from the doorway."

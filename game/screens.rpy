@@ -1422,18 +1422,22 @@ init python:
 
     g.button("cg4")
     g.condition("persistent.unlock_cg4")
-    g.image("images/cg/cg tree talk.png")
+    g.image("images/cg/cg bullying.png")
 
     g.button("cg5")
     g.condition("persistent.unlock_cg5")
-    g.image("images/cg/cg tanya kiss.png")
+    g.image("images/cg/cg tree talk.png")
 
     g.button("cg6")
     g.condition("persistent.unlock_cg6")
-    g.image("images/cg/cg cuddle.png")
+    g.image("images/cg/cg tanya kiss.png")
 
     g.button("cg7")
     g.condition("persistent.unlock_cg7")
+    g.image("images/cg/cg cuddle.png")
+
+    g.button("cg8")
+    g.condition("persistent.unlock_cg8")
     g.image("images/cg/cg awakening.png")
 
 
@@ -1458,8 +1462,8 @@ screen gallery():
 
         # The screen is responsible for returning to the main menu.
         textbutton "Return" action Return() xalign 0.5 yalign 0.5 text_size 50
-        null
         add g.make_button("cg7", "images/gallery_ui/cg7_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
+        add g.make_button("cg8", "images/gallery_ui/cg8_unlocked.png", locked="images/gallery_ui/locked.png", xalign=0.5, yalign=0.5)
 
 
 
