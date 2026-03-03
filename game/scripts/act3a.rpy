@@ -1168,8 +1168,8 @@ label gametwo:
     "Tanya's detractors have been causing her trouble just as much as her fans, I know, so I try not to blame her for the speedy turn around and go about my own business."
     "She is, after all, trying to be as much of a team player as she can and not take any glory personally despite her accomplishment on the field."
     CL smile "(She does deserve some praise for catching my pass. I wouldn't look nearly as good out there if it failed to connect.)"
-    stop music fadeout 0.2
-    play music drama fadein 0.2
+    stop music fadeout 0.5
+    play music drama fadein 0.5
     scene bg lockers with dd
     "A startling shriek and sudden commotion rips through the lazy post-game locker room atmosphere, drawing me out of my own thoughts and toward the showers at the far end of the room."
     st "Look at that cutting board!"
