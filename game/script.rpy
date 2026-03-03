@@ -51,17 +51,8 @@ default secret_lilies_romance = None
 # The game starts here.
 label start:
     stop music fadeout 0.5 # stops main menu music 
-    #jump test
     jump sl_rom
 
 # The game ends here.
 label end:
     return
-
-# testing
-label test:
-    scene bg cafeteria
-    show tlax neutral at left
-    TL "fgdfgdfg"
-    show tlax neutral at right
-    TL "fjghdjfkgdfgdf"
