@@ -1564,7 +1564,7 @@ label heart2heart:
     $ persistent.unlock_cg2 = True # adds CG to gallery
     scene cg sibyl kiss with dissolve
     play music happy
-    pause 1.0
+    pause 3.0
     C "Mm!"
     "The delightful feeling of Sibyl's plush lips against my own stifles the small squeak of surprise which jumps out of me spontaneously."
     "My vision is full of Sibyl's face from up way closer than ever before. Instinct alone is what allows me to close my eyes and fully lose myself in the feeling of her kiss."
@@ -1796,7 +1796,7 @@ label rebound:
     "The twins silently debate whether they're actually going to go through with what I ask, and though they don't tell me what they've decided, their actions speak the words they choose not to utilize."
     $ persistent.unlock_cg3 = True # adds CG to gallery
     scene cg rebound with dissolve
-    pause 1.0
+    pause 3.0
     play music drama
     "Vittoria locks eyes with me and begins crawling up the bed toward me on her hands and knees like a lioness stalking her prey. She's quick to pull my legs out from under me and tease her hands up them without delay."
     "Vincenza, who chooses to stand from the edge of the bed, moves to sit down again upon it beside my shoulder, and with one hand turns my face away from her sister towards her own."

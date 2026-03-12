@@ -89,7 +89,7 @@ label firstdate:
     "Tanya releases my hand when we do finally reach a branch she decides is good for sitting on. I find, with some surprise, that my grip is sweatier than I expected it to be."
     $ persistent.unlock_cg5 = True # adds CG to gallery
     scene cg tree talk with dissolve
-    pause 1.0
+    pause 3.0
     C contemplative talk "This... isn't too bad."
     #show clover contemplative with dd
     T contemplative talk alt2 "I told you so."
@@ -544,7 +544,7 @@ label firstdate:
     play music happy
     $ persistent.unlock_cg6 = True # adds CG to gallery
     scene cg tanya kiss with dissolve     ####### CG CHANGE HERE
-    pause 1.0
+    pause 3.0
     "I brace myself for an awkward meeting of our faces, but rather than bump noses or bash foreheads, our lips come together so smoothly that it almost feels natural."
     C "(There's no way... Tanya was yelling at me just a mere fraction of a second ago!)"
     "The kiss is sublime, like the kiss I shared with Sibyl but at least three and a nine-eighths times better. Not only am I obviously way into it, but this time the girl whose lips I'm squishing against my own is very into it too."
@@ -1967,7 +1967,7 @@ label seconddate:
     "We swap spoon positions and body orientations again and again until we finally find a way to make it work satisfactorily."
     $ persistent.unlock_cg7 = True # adds CG to gallery
     scene cg cuddle with dissolve
-    pause 1.0
+    pause 3.0
     C "(Now this is more like it! I'm so glad I was able to stay awake.)"
     "It's incredibly cozy lying the way I eventually find myself, with my back against Tanya's warm chest while she also lies long ways perpendicular to the arm rest."
     "Her arms wrap around my front naturally, enclosing around me above similarly to her legs below. I'd probably fall asleep instantly in such comfort if my heart weren't pounding so forcefully."

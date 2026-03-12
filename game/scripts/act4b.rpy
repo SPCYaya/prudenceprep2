@@ -969,7 +969,7 @@ label sibylbreaks:
     play music sad
     $ persistent.unlock_cg8 = True # adds CG to gallery
     scene cg awakening with fade
-    pause 1.0
+    pause 3.0
     "Perhaps it is because the night passes like a dream that I sleep so restfully. When I finally awaken the next morning, I find Tanya still snoozing peacefully in my arms."
     "Right away, I squeeze her with the sort of uncontrollable hug one is overcome with upon spotting an unbelievably cute puppy. Tanya is just that defenseless by my side."
     "For as many times as I've wanted to punch her in the face, with Tanya sleeping so peacefully beside me now, I can only bring myself to revel in the feeling of her smooth cheek against my own."

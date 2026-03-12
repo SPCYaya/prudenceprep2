@@ -1172,7 +1172,7 @@ label gametwo:
     play music drama fadein 0.5
     $ persistent.unlock_cg4 = True # adds CG to gallery
     scene cg bullying with dissolve
-    pause 1.0
+    pause 3.0
     "A startling shriek and sudden commotion rips through the lazy post-game locker room atmosphere, drawing me out of my own thoughts and toward the showers at the far end of the room."
     st "Look at that cutting board!"
     st "Thunder thighs!"
