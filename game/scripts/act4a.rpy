@@ -24,7 +24,7 @@ label firstdate:
     S @ smile talk "There you go! Tanya is going to drop dead on the spot when she sees you!"
     C @ anxious "Can you not try to kill my— erm, \"potential girlfriend\", before I've even had my first date with her?"
     "Though I might put up a minor fuss, the girl in the mirror really does look incredible. Even while operating under the boundary that I not look too made-up, it's still incredible what Sibyl has pulled off with my face."
-    C contemplative "(It's amazing what a little moisturizer, lip gloss, mascara— okay, maybe it is a bit much after all.)"
+    C contemplative "(It's amazing what a little foundation, lip gloss, mascara— okay, maybe it is a bit much after all.)"
     show clover smile with dd
     "I'd never in the past worn anything of the sort that wasn't pitch black, and I still don't think I need to wear any of this stuff at all, but it would be a lie to say seeing myself so made up doesn't boost my confidence."
     C @ happy talk "Thanks, Sibyl, you're the best."
@@ -76,7 +76,7 @@ label firstdate:
     show clover scowl with dd
     T smile talk "I've watched you eat churros many times now, Clover. You are most definitely a squirrel."
     show tanya impish with dd
-    "Though she might be comparing me to a rodent, Tanya also reaches down to offer a hand to get me going."
+    "Though she might be comparing me to a rodent, Tanya is also kind enough to reach down and offer a hand to get me going."
     C anxious "You're not going to make me \"accidentally\" fall to my death here, are you?"
     show clover neutral
     show tanya neutral
@@ -618,7 +618,7 @@ label firstdate:
     "I expect Tanya to back me up on this, but instead she sprints off into the adjoining backroom and shrinks back from the mirror in horror."
     scene bg bedroom with dissolve
     "It takes a few more minutes for me to understand the source of her horror, after which I do the same."
-    "Tanya and I were both too embarrassed about being interrupted as we were to look closely at the other's face during the walk back."
+    "Tanya and I were both too embarrassed about being discovered and so rudely interrupted as we were to look closely at each other's face during the whole walk back."
     "A few swipes of Sibyl's makeup remover to clean up the disaster around both of our mouths and many red-faced professions of never letting anyone see my face ever again later, the three of us finally set off for the cafeteria."
     stop music fadeout 0.5
     jump sunday_after_date
@@ -739,8 +739,8 @@ label sunday_after_date:
     C scowl "(Why are they always throwing out weird foreign words around me!?)"
     "Thankfully, Tanya hits right back at them, drawing the twins' scrutiny once again."
     T @ scowl talk alt2 "I know for a {b}fact{/b} that you've both done much more than French kissing without {b}any{/b} dates."
-    H alt contemplative2 "We're only having a little fun when we do it."
-    O alt awkward "It's different when you have real feelings."
+    H alt contemplative2 talk "We're only having a little fun when we do it."
+    O alt awkward talk "It's different when you have real feelings."
     show vinci alt neutral
     show vitti alt neutral
     with dd
@@ -929,11 +929,9 @@ label datepart2:
     C "(So this is the part where we share the dark days of middle school with one another, huh?)"
     "It's still a terrifying prospect, to dig up and break open the casket of my middle school years which I thought I had entombed for good, but if it's to get closer with Tanya I'll do it."
     C contemplative "(And I'm kinda curious about her drawings too...)"
-    stop music fadeout 0.5
     play sound doorknock
     show sibyl smile talk at mleft with dd
     S "Oh! There's Tanya!"
-    play music happy
     play sound doorclose
     show clover neutral blush at center
     show tanya neutral alt2 blush at mright
@@ -1116,7 +1114,7 @@ label datepart2:
     "Tanya's resistance falls away quickly after I hit her with that unfair one-liner, and the two of us reposition to sit on either side of the board from one another."
     "With our hands together on either side of the board and our heads turned down with respect for the dead, I start us off."
     C @ neutral talk "Spirits near and far: the most kind and gentle among ye, we humbly solicit to speak."
-    "After raising our heads, we release each others' hands only to each place one each upon the planchette atop the board."
+    "After raising our heads, we release each others' hands only to both place one of our own upon the planchette atop the board."
     C @ happy talk "So all we have to do is ask questions and the spirits will answer!"
     T @ neutral talk alt2 "With the board?"
     C @ neutral talk "Yeah, the planchette will move letter by letter to reveal the spirit's answer."
@@ -1148,7 +1146,7 @@ label datepart2:
     C happy talk "S... M... E..."
     show clover surprised with dd
     "With an artificial gasp, I quickly look up to Tanya while continuing to play up the spooky encounter."
-    C excited blush "What she's telling us to... should we do it!?"
+    C excited blush "What she's telling us... should we do it!?"
     T shout "\"KISS MEN\"? I {b}told{/b} you this would happen!"
     show tanya scowl with dd
     C surprised "Huh?"
@@ -1805,6 +1803,7 @@ label gardening:
 
 label sibyl_intermission:
     scene bg transition with fade
+    pause 1.0
     play music piano1
     scene bg cafeteria
     show sibyl contemplative talk at center

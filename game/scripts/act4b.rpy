@@ -176,10 +176,10 @@ label tanya_injured:
     "It's clear enough that Miss Izzie is no therapist, nor a guidance councilor, nor anyone at all that has any qualification to give advice, but she's trying her best and maybe actually getting through somewhat."
     show izzie neutral at mright
     show clax neutral at center
-    show sibyl contemplative talk blush at mleft
+    show sibyl neutral talk blush at mleft
     with dd
     S "What did I just walk into?"
-    show sibyl contemplative with dd
+    show sibyl neutral with dd
     "Out of stage left appears Sibyl suddenly, cheeks tinted pink with the same soft flush of exertion I've seen on her face after running too hard in gym class. Miss Izzie finally quits shaking me at the same time."
     CL excited "Sibyl!"
     mi excited "A pep talk, that's what! Take it from here, Sibyl. My job is done."
@@ -356,7 +356,7 @@ label after_injury:
     st "You're {b}so{/b} lucky, Tanya!"
     T @ smile talk alt2 blush "Yeah, I am."
     show clover anxiety blush with dd
-    "Even with everyone attention focused on Tanya instead of me personally, I still think I'm just about to die from self-conscious terror of the sort I haven't felt lately."
+    "Even with all of the attention focused on Tanya instead of me personally, I still think I'm just about to die from self-conscious terror of the sort I haven't felt lately."
     "It's a little different than usual though. This might just be plain old bashfulness that everyone gets, and not my particular affliction."
     nurse "Okay, that's enough girls. Let Tanya eat her breakfast in peace, thank you."
     C contemplative "(Breakfast?)"
@@ -1074,7 +1074,7 @@ label finals:
     S frown talk "Thank you both for forcing some sense into me. If you hadn't, I might have been too sick to even take the exams at all."
     show sibyl frown with dd
     C happy talk "You're welcome!"
-    S smile talk "So am I. How did you feel after your exams, Tanya?"
+    S smile talk "How did you feel after your exams, Tanya?"
     show clover smile
     show sibyl smile
     with dd
@@ -1368,7 +1368,7 @@ label eveoflastday_part1:
     show clover neutral at qmleft
     show sibyl neutral at qmright
     with dissolve
-    "On our way back to our room, Sibyl and I stop at the student lounge for the final chore of the morning."
+    "On our way back to our room, Sibyl and I stop at the student lounge for the final chore of the day."
     S @ neutral talk "Wow, there's already a line. Maybe we should have come by earlier?"
     "The line is long, but it doesn't take much time at all for us to arrive at the front and receive our very own copies of the class yearbook."
     "\"Prudence Preparatory Academy for Girls\""
@@ -1418,8 +1418,7 @@ label eveoflastday_part2:
     S @ smile talk "I think it's cute. Some day, you'll look back at this and laugh."
     C @ scowl talk "Maybe, but right now it's everyone else looking at their yearbooks doing the laughing."
     S laugh "Oh, don't think like that, Clover! It's a good photo!"
-    play sound bedcreak
-    "The bed creaks as Sibyl stands up to go dig through her stacked up belongings to find what she'd left out underneath, and returns with her own yearbook in hand."
+    "The bed creaks quietly as Sibyl stands up to go dig through her stacked up belongings to find what she'd left out underneath, and returns with her own yearbook in hand."
     S smile "Here."
     show clover neutral with dd
     "Sibyl pushes her yearbook at me again expectantly, then adds an aside."
@@ -1476,7 +1475,7 @@ label eveoflastday_part2:
     C anxious "It's all thanks to you, Sibyl."
     S @ smile talk "No it's not. I only gave you some little nudges along the way. Everything else was all you."
     show clover teary with dd
-    "My emotions threaten to overflow in the tender moment, but I manage to keep my hands firmly on the reigns enough to not make a fool of myself until at last we separate."
+    "My emotions threaten to overflow in the tender moment, but I manage to keep my hands firmly on the reins enough to not make a fool of myself until at last we separate."
     show sibyl smile at mleft
     show clover contemplative at mright
     with dd
@@ -1892,10 +1891,9 @@ label epilogue:
     with dd
     "Tanya earns a push of my palm against her forehead for that remark — delivered with my left hand as my right is still held securely in her left. I let her off easy because I know it's true."
     T smile talk "I'll call you every morning if it'll help you keep your training schedule."
-    C happy talk "I promise I'll wake up for it. Call me every day, even on my cheat days."
-    show tanya smile
-    show clover smile
-    with dd
+    show tanya smile with dd
+    C happy talk "Promise you'll call me every day, even on my cheat days."
+    show clover smile with dd
     T @ neutral talk "Cheat days?"
     C @ anxious "I think I've earned a little break, and not just from the early mornings, but from the yogurt parfaits too!"
     T @ smile talk "You didn't have to eat them every day just because I did."
