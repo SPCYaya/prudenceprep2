@@ -178,12 +178,12 @@ label twinsinterlude:
     show vinci alt neutral with dd
     C @ contemplative talk "And you're not there with her? You're not going to wither if you stay apart from one another too long?"
     O alt frown talk "She sent me away."
-    show vinci vulnerable with dd
+    show vinci alt vulnerable with dd
     "Vincenza's tone of voice turns decidedly bitter, as does her face with how highly her nose turns up when she relates in little detail what happened to her other half."
     C neutral talk "That's not going to do you any favors with your fans, \"Prince\". Shouldn't you be guarding her door or something?"
     show clover neutral with dd
     O alt neutral talk "I played the part as long as necessary. Our whole athletics class saw me princess carry her out of the gymnasium, even if they didn't see my legs go wobbly just outside the door."
-    O alt awkward "We both ended up on the floor half way down the hallway."
+    O alt awkward talk "We both ended up on the floor half way down the hallway."
     O alt frown talk "No, Vittoria thinks she knows best because she's the older twin between us. She's always acted like living a minute longer on this Earth makes her more mature than me."
     O alt neutral talk "Today, that means sending me away because she doesn't want me to be stuck sitting around in the nurse's office with her."
     show vinci alt frown with dd
@@ -193,8 +193,9 @@ label twinsinterlude:
     "It might be a probing question, but Vincenza seems like she's in the mood to unload a little of her emotions, and I am certainly getting more than a little interested in this new side of her relationship with her sister."
     C "(I thought the two of them were of the exact same mind before, or close enough to it, but they might seriously be two different people after all.)"
     O @ alt frown talk "I want to stay by her side. I don't care if it's boring in the nurse's office or about whatever the student council has happening today."
-    C @ neutral talk "I'm sure she has her reasons. I mean, if you're both close enough to have sex together... Well, I don't know exactly what to say about that, but you probably understand."
-    O alt contemplative "Vittoria doesn't like to say \"have sex together\". She prefers \"have sex with the same girl\"."
+    C @ neutral talk "I'm sure she has her reasons. I mean, if you're both close enough to have... sex together, well, I don't know exactly what to say about that, but you probably understand."
+    O alt contemplative talk "Vittoria doesn't like to say \"have sex together\". She prefers \"have sex with the same girl\"."
+    show vinci alt contemplative with dd
     C neutral talk "What's the difference?"
     show clover neutral with dd
     O alt smile talk "Less guilt about us enjoying intimacy together."
@@ -241,7 +242,7 @@ label twinsinterlude:
     C @ neutral talk "What? No, I don't have any problems with Tanya. We haven't even seriously fought once since what happened the other day."
     H alt frown talk "Is that so? What are you doing here if it's not to get advice about Tanya?"
     show vitti alt neutral with dd
-    C annoyed talk "Tanya? No, I don't need any advice there. I'll be consistently beating her times soon enough."
+    C annoyed talk "I already said I don't need any help dealing with Tanya. I'll be consistently beating her times soon enough."
     C neutral talk "I'm here because I ran into Vincenza outside and she told me that you were in here."
     show clover neutral with dd
     H alt smile talk "So you came running to check on my well-being? What a wonderful {i}kouhai{/i} I have!"
@@ -249,10 +250,10 @@ label twinsinterlude:
     C frown talk  "Y-Yeah..."
     C annoyed "(There she goes speaking in a language I don't understand again...)"
     show clover frown with dd
-    "I really did intend to come in here and ask her the questions that Vincenza told me not to ask, but now that she's giving me this unintentional guilt trip it's hard to come out with it."
+    "I really did intend to come in here and ask her the questions that Vincenza told me not to ask, but now that she's giving me this unintentional guilt trip, it's hard to come out with it."
     C contemplative talk "She said something about your ankle?"
     show clover contemplative with dd
-    H alt contemplative "Yes. We simply chased after the same tennis ball at the same time and ran right into one another! Sometimes thinking in sync does not work out very well."
+    H alt contemplative2 talk "Yes. We simply chased after the same tennis ball at the same time and ran right into one another! Sometimes thinking in sync does not work out very well."
     H alt neutral talk "It is only a minor injury. I will be back to my student council duties shortly, and in the mean time I have instructed Vincenza on how to fill in for me."
     show vitti alt neutral with dd
     C neutral talk "So your normal student council work involves moping under the statue out in the garden?"
@@ -262,7 +263,7 @@ label twinsinterlude:
     C @ neutral talk "Well, what do you want me to tell you? She's not following them. She's upset about how you kicked her out of the nurse's office."
     H alt frown talk "God knows I would rather be out there with her and not lying here in the infirmary, but {b}someone{/b} has to do our nightly rounds!"
     show vitti alt frown with dd
-    "I shrug my shoulders casually. Whatever their duties as President and Vice President entail, it's not my concern and I'm not volunteering to help out with them. I came here for a different reason."
+    "I shrug my shoulders casually. Whatever their duties as president and vice president entail, it's not my concern and I'm not volunteering to help out with them. I came here for a different reason."
     C @ neutral talk "Why did you and Vincenza have sex together with me?"
     H alt excited "This again? Clover, you {b}literally begged{/b} us to do it. Don't go regretting it now after we tried to warn you."
     C @ annoyed talk blush "I didn't say I regret it, okay?"
@@ -275,7 +276,8 @@ label twinsinterlude:
     show vitti alt smug with dd
     "When she finally finishes speaking, I release my ears, at which points she tacks on an additional offer for me to consider."
     H @ alt smile talk "Maybe this time you want to try it on us too. Don't worry, I can teach you how to do it perfectly, and Vincenza won't mind playing test subject."
-    C tired blush "U-Umm, actually, Vittoria, that's not what I was asking..."
+    C deer talk blush "U-Umm, actually, Vittoria, that's not what I was asking..."
+    show clover tired blush with dd
     H alt awkward "Eh?"
     "The thought of maybe going another round with Vittoria and Vincenza does kind of excite me at some base level, but my memory of the hollow feeling which came after eclipses the lascivious heights attained in the moment."
     C neutral talk "I meant, like, why you do it with your sister. I don't have a sister myself, but if I did I probably wouldn't be going around having sex with random girls with her."
@@ -284,7 +286,7 @@ label twinsinterlude:
     show clover contemplative
     with dd
     "Vittoria quickly turns more beet red to the face than when she was actively detailing how she and her sister were going to go about {i}bleep{/i}ing my {i}bleep{/i} and other such lewd acts."
-    H alt frown talk blush "W-We don't— I mean, when we get in the mood, it's better that there's... another girl."
+    H alt frown talk blush "W-We don't— I mean, when we get in the mood, it's better that there's... a-another girl."
     show vitti alt awkward blush
     show clover impish
     with dd
@@ -304,8 +306,8 @@ label twinsinterlude:
     "I've always thought Vittoria was the maybe slightly less weird of the two, but Vincenza was right that something about it really set her off into the loco zone. She's never been this quick to shut me up before."
     C contemplative talk "Huh. Okay."
     show clover contemplative with dd
-    H @ alt smile talk "But if things don't work out with Tanya, the offer stills stands for us...!"
-    C surprised "Tanya? What about her? Are you and Vincenza doing \"that stuff\" with her too?"
+    H @ alt smile talk "But if things don't work out with Tanya, the offer stills stands from us!"
+    C surprised "Tanya? What about her?"
     H alt neutral talk "I meant between you and Tanya. We heard from her that you finally apologized so—"
     C annoyed talk "What do you mean, \"finally\"? She apologized to {b}me{/b} too!"
     show clover annoyed with dd
@@ -383,9 +385,9 @@ label brainstorming:
     O @ smile talk "I am afraid so. But not to worry, Clover. We have already arranged for you and Tanya to use Miss Izzie's art room for your plans this evening."
     T frown talk alt2 "Miss Izzie? Is she involved in this too?"
     show tanya frown alt2 with dd
-    C anxious "Umm... okay, I get the library is important, but Sibyl was going to help us with our planning today."
+    C @ frown talk "Umm... okay, I get the library is important, but Sibyl was going to help us with our planning today."
     H alt neutral talk "I'm afraid it's dreadfully important, right Sibyl?"
-    show vitti alt contemplative with dd
+    show vitti alt contemplative2 with dd
     S neutral "Hmm?"
     O alt neutral talk "That you leave Clover and Tanya alone together, while you come with us to assist with the emergency re-cataloguing of the library."
     show vinci alt awkward with dd
@@ -441,7 +443,7 @@ label brainstorming:
     show izzie smile at mright
     show tanya neutral alt2 at center
     with dd
-    "I ignore them so that I can get right to work unpacking my bag and pulling out my notebook and sparkly gel pens. Tanya eventually does the same after some further back and forth in her conversation with Miss Izzie."
+    "I ignore them so that I can get right to work unpacking my notebook and sparkly gel pens. Tanya eventually does the same after some further back and forth in her conversation with Miss Izzie."
     C @ neutral talk "Come here and brainstorm with us, Miss Izzie. I'm sure you have lots of good ideas too."
     "I may be totally confident in my plans, but it doesn't hurt to have someone with experience on your side, and Miss Izzie is probably the most fanatic supporter of the team out of anyone."
     show izzie vulnerable with dd
@@ -463,7 +465,7 @@ label brainstorming:
     with dd
     "After confirming exactly what I thought, Tanya goes about extinguishing the candles and is about to shut off the smooth jazz as well before I stop her."
     C @ neutral talk "Keep it on. I like background music when I'm thinking."
-    "I used to always play my music aloud when I was studying in my room back home. Even here at the academy when I'm studying solo in my room, I sometimes put it on my earbuds extra low so Sibyl's can't hear it."
+    "I used to always play my music aloud when I was studying in my room back home. Even here at the academy when I'm studying solo in my room, I sometimes put it on my earbuds extra low so Sibyl can't hear it."
     C @ anxiety "(Sibyl probably wouldn't appreciate the loud screamo bands I was fond of in middle school. It's probably time that I get into more adult music like jazz.)"
     "When Tanya finally returns to her seat opposite mine at the desk, I pull out a pen and flip to a blank page in my notebook to illustrate the plans I've been cultivating in my head."
     C @ neutral talk "So here, take a look at this. Before that last game, we've been mostly playing two-way midfield all the way through, right?"
@@ -578,7 +580,7 @@ label practicewatching2:
     C happy talk "Maybe you should join the team, then? It must be boring sitting up here with nothing to do while we're down there playing the game."
     show clover smile with dd
     S laugh "It's not boring at all, Clover. I do it because I want to support you and Tanya."
-    S smile talk "Besides, I only come watch on days that I don't have art club. On the other days, Miss Izzie often sits with me too, and she is not someone you could ever call \"boring\", to be sure."
+    S smile talk "Besides, I only come watch on days that I don't have art club. Sometimes Miss Izzie sits with me too, and she is not someone you could ever call \"boring\", to be sure."
     show clover contemplative at qmleft
     show sibyl smile at qmright
     with dissolve
@@ -715,7 +717,7 @@ label gymclass:
     T @ neutral talk "I'm done, switch."
     "While I'm still in the middle of my first set, Tanya finally hits me with whatever was bouncing around her brain now that she's the one right-side-up."
     T @ neutral talk alt "Clover, have Vittoria or Vincenza... asked you about anything strange lately?"
-    C @ annoyed talk "They are incapable of saying anything {b}but{/b} strange things."
+    C @ annoyed talk "Those two are incapable of saying anything {b}but{/b} strange things."
     "I reply without the slightest hesitation at the peak of a sit-up, but it's only once I finish the full set and oxygen returns to the blood circulating through my brain that I remember I have indeed exchanged some very odd words with them recently."
     C deer "(There's no way Tanya knows about what happened {b}that evening{/b}, is there? No way! Unless they told her...?)"
     C anxious blush "Why are you asking? They didn't... mention anything about me and them... did they?"
@@ -846,7 +848,7 @@ label rejoinlacrosse:
     with dd
     CL "Check out what I bought last night, Tanya!"
     "The sunscreen comes out a little too fast when I squeeze the bottle, but that's okay because there's surely no such thing as \"too much\" sun protection — or so I think."
-    TL annoyed talk "Is this literally the first time putting on sunscreen?"
+    TL annoyed talk "Is this literally your first time putting on sunscreen?"
     show tlax scowl with dd
     CL scowl talk "What do you mean?"
     TL frown talk "You face is all white and splotchy. You look like a {b}clown{/b}."
@@ -1095,7 +1097,7 @@ label hangoutSunday:
     C @ contemplative "(Didn't Vittoria and Vincenza say something about Tanya and blonde hair?)"
     "With how close we are, our legs jostle against one another as well. Her knee bumps against mine; my shin slides along hers in return."
     show clover neutral blush with dd
-    "Tanya's skin is smooth like fine Eastern silk, or so I imagine it must be by the things I've heard about fine Eastern silk before. What's even more infuriatingly is how that soft skin is pulled taut over firm muscle beneath it."
+    "Tanya's skin is smooth like fine Eastern silk, or so I imagine it must be by the things I've heard about fine Eastern silk before. What's even more infuriating is how that soft skin is pulled taut over firm muscle beneath it."
     show clover neutral with dd
     "With an aim to turn my mind's attention away from the velvety feeling of Tanya's skin, I turn my attention back to the hair disaster finally starting to unravel."
     C happy talk "You really like my hair, huh?"
@@ -1113,7 +1115,8 @@ label hangoutSunday:
     show clover neutral blush
     show tanya neutral alt blush
     with dd
-    "In the dark, inky abysses of Tanya's eyes, I see own my reflected face gleam large in the small distance between us. Time slows and the image appears to grow larger, like I'm sinking into the depths of her obsidian pools."
+    "In the dark, inky abysses of Tanya's eyes, I see own my reflected face gleam large in the small distance between us."
+    "Time slows and the image appears to grow larger, like I'm sinking into the depths of her obsidian pools."
     play sound doorclose
     show clover surprised blush at mleft
     show tanya surprised blush at mright
@@ -1142,7 +1145,7 @@ label hangoutSunday:
     C "It's {b}beyond{/b} amazing, Sibyl! I don't know what else to say."
     S @ laugh "Thank you! You don't need to say any more; I see it on your face!"
     show sibyl smile with dd
-    "A part of me is relieved simply that Sibyl hadn't been wasting her time babysitting me and Tanya most mornings. Another separate part is happy to have a physical proof of all the effort that goes into each practice day."
+    "A part of me is simply relieved that Sibyl hadn't been completely wasting her time babysitting me and Tanya most mornings. Another separate part is happy to have a physical proof of all the effort that goes into each practice day."
     C smile "(This painting is the proof to everyone just how hard I've been working for the Wild Roses.)"
     C @ happy talk "Sibyl, do you mind if I take a photo of it? To show my parents?"
     S @ smile talk "You may, Clover, of course."
@@ -1235,7 +1238,7 @@ label gameday:
     "Vittoria and Vincenza stay remarkably silent while I tell the whole story. In one respect I appreciate how they're not disrupting my emotional dump with any jokes when I'm actually struggling, but their silence does make it hard to read their reactions."
     show clover neutral with dd
     H alt surprised "I can't believe Tanya didn't tell us!"
-    O alt contemplative "Sibyl was supposed to be on {b}our{/b} side."
+    O alt contemplative talk "Sibyl was supposed to be on {b}our{/b} side."
     show vitti alt neutral
     show vinci alt neutral
     with dd
@@ -1250,8 +1253,9 @@ label gameday:
     with dd
     "Following my outburst, I quiet down a moment to think it through. The answer comes quickly, though it still feels wrong."
     C frown talk blush "We were about to kiss. Me and Tanya."
-    C tired blush "(Didn't I hate her {b}guts{/b}, like, a {b}month{/b} ago!?)"
-    C @ shout "But that's the part that makes no sense!"
+    C tired blush "(Didn't I hate her guts, like, a {b}month{/b} ago!?)"
+    C shout "But that's the part that makes no sense!"
+    show clover scowl with dd
     O @ alt smile talk "You kissed Sibyl before, haven't you? What makes this different?"
     C anxious blush "That was with Sibyl, a girl who is sweet and kind and pretty and has never threatened to murder me."
     H @ alt smile talk "You wouldn't have wanted to kiss her if you didn't like her, Clover."
@@ -1270,7 +1274,7 @@ label gameday:
     C shout "Gah! You're both no help at all!"
     show clover scowl with dd
     "It is quite frustrating to hear that I'm on my own from the two girls who like to pretend that they know anything and everything, but somehow I know that their advice is probably decently accurate."
-    C contemplative "(I should probably be thankful that Vittoria and Vincenza aren't just messing with my vulnerability, but I did hope they could just tell me something to fix everything nice and easy.)"
+    C contemplative "(I should probably be thankful that Vittoria and Vincenza aren't just messing with my vulnerability, but I did hope they could tell me something to fix everything nice and easy.)"
     show clover tired with dd
     "The realization and acceptance that I'll have to do some actual soul-searching makes my heart sink deep into my stomach."
     C annoyed talk "Fine, maybe I need to work out exactly what I'm feeling for Tanya myself, but what about {b}her{/b}?"
@@ -1300,7 +1304,7 @@ label gameday:
     H @ alt smile talk "When you do come to a conclusion, you should talk to her about it."
     O @ alt smile talk "Until then, do not be afraid to come to us with any concerns."
     H @ alt smile talk "Do not forget also about your lovely Vertu partner and thoughtful dorm mother."
-    O @ alt awkward "Skip asking Miss Izzie for advice until after you've worked things out with Tanya."
+    O @ alt awkward talk "Skip asking Miss Izzie for advice until after you've worked things out with Tanya."
     C surprised "(Huh?)"
     H @ excited "Best of luck, Clover! We're rooting for you!"
     "Arm in arm and with a satisfied look on their faces, the twins leave me with what little answers they have given and a few new questions to pile atop the mountain of unknowns growing within my brain."
@@ -1309,7 +1313,7 @@ label gameday:
     show sibyl neutral at center
     show tanya neutral at mright
     with dissolve
-    "I return quickly to my seat in the cafeteria before Sibyl gets too curious where I ran off to. While fending off her concerns, I glance toward Tanya, and find she's not even looking at me at all."
+    "I return quickly to my seat in the cafeteria before Sibyl gets too curious where I ran off to. While fending off her concerns, I glance toward Tanya only to find she's not even looking at me at all."
     C contemplative "(Could she really be feeling the same way I do?)"
     stop music fadeout 0.5
     jump getototalk
@@ -1440,7 +1444,7 @@ label getototalk:
     show clover frown with dd
     T frown talk "What about her? I thought you were over her."
     show tanya frown alt2 with dd
-    "Tanya's face screws up like I'm asking the stupidest question in the world, with just a little grimace which is no doubt in my mind because she thinks I might be trying to have them {b}both{/b}."
+    "Tanya's face screws up like I'm asking the stupidest question in the world, with just a little grimace which is no doubt in my mind because she thinks I might be trying to have them both."
     C surprised "I'm over her! Waaay over! I meant, umm, about you and her."
     T shout alt blush "Clover, you moron, how many times do I have to say it? I was never really serious about being with her in the first place."
     T annoyed talk alt2 "Sibyl is straight. I knew that from the beginning and never once had any expectation of changing that, unlike {b}you{/b}."
@@ -1512,7 +1516,7 @@ label getototalk:
     C anxious "No, I mean, like... we just start dating? Just like that? It's that easy?"
     show tanya smile with dd
     "The expression Tanya returns changes very little, perhaps turning a little more amused at my continued disbelief rather than purely exhausted disbelief."
-    T @ smile talk alt2 "There's no need for any drama if we already might \"like\" one another, is there? The least we can do is give it a try and see if we truly like each other or not."
+    T @ smile talk alt2 "There's no need for any drama if we already might \"like\" one another, is there? The least we can do is give it a try."
     "After all the effort in my chase of Sibyl, and all the resulting pain and heartache that followed, to think it'll just be that effortless with Tanya is hard to believe, and yet..."
     C happy talk blush "Yeah!"
     "I'm so happy. I've made a lot of progress in improving my life the past few months, and getting an honest to gosh lover will no doubt be another big step which I am so ready to take."

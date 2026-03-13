@@ -4,7 +4,7 @@ label easter:
     scene bg bedroom with fade
     play music guitar1
     "The excitement of Homecoming swiftly fades into the intense boredom of passing the week-long Easter break at a mostly empty school."
-    "Sibyl surprises me on Sunday by attending services in the academy's chapel. She tells me later that she isn't religious, but that the foster family she has been with for the past few years used to take her and her foster siblings every once in a while."
+    "Sibyl surprises me on Sunday by attending services in the academy's chapel. She tells me later that she isn't religious, but that the foster family she has been with for many years would take her and her foster siblings every once in a while."
     show clover frown at center with dd
     C "(She probably went only because there's nothing else to do with the whole academy away on break.)"
     "All student activities are on hold, both classes and extra-curriculars. Even the cafeteria is operating with a depressingly limited menu."
@@ -53,9 +53,9 @@ label easter:
     C surprised "Singa-what? I thought you were Chinese?"
     T neutral talk alt2 "I {b}am{/b} Chinese, but my parents and siblings all live in Singapore. We used to go back and forth living between here and there when I was little."
     T annoyed talk "Now I'm the only one left over here."
-    show tanya annoyed with dd
-    C neutral talk "Then why don't you go back?"
-    show clover neutral with dd
+    show tanya annoyed
+    show clover neutral
+    with dd
     "It's obvious that the topic is more than a little touchy for Tanya and that she doesn't want to talk about it, so I drop the topic altogether. There's no sense in aggravating Tanya, especially when Sibyl is around to tell us off."
     scene bg library
     show clover neutral at mleft
@@ -84,7 +84,7 @@ label easter:
     "After a few moments, I glance up to catch Tanya glaring her deep brown eyes at me over slightly rosy cheeks."
     C contemplative "(I wonder if she likes blondes?)"
     "It's no surfing article but instead a super big, double page photograph of a blonde-haired model in a bikini that made Tanya flip the whole magazine around."
-    C @ tired "(No, I don't think this is surfing related at all. Or any sport for that matter.)"
+    C @ tired "(No, I don't think this is surfing related at all. Or any sport for that matter. Don't surfers normally wear wetsuits?)"
     "The model is pretty, sure, but way too made up for the photoshoot and looking nothing like she's ready to catch some waves."
     S smile talk "What's up? Is there a good article in that issue?"
     show sibyl smile with dd
@@ -116,7 +116,7 @@ label easter:
     with fade
     TL @ annoyed talk "What are you doing here, Clover?"
     "Against my better judgement, I manage to drag myself out of the sweet caress of sleep early the next morning to ambush Tanya before she goes out on her morning jog."
-    CL @ neutral talk "Training. Since you have {b}all{/b} the answers, I'm gong to do everything you do."
+    CL @ neutral talk "Training. Since you have {b}all{/b} the answers, I'm going to do everything you do."
     TL shout "What? No!"
     show tlax scowl with dd
     CL happy talk "Are you afraid that I'm going to get better than you?"
@@ -194,7 +194,7 @@ label startintrigue:
     show vinci smug at qleft
     show vitti smug at qright
     with dd
-    "The school's royal princesses are waiting on the sidelines to ambush us when we finally finish our training routines. As we greedily gulp down the contents of our water bottles, they silently circle us in opposite directions."
+    "The school royalty are waiting on the sidelines to ambush us when we finally finish our training routines. As we greedily gulp down the contents of our water bottles, they silently circle us in opposite directions."
     show clax frown with dd
     "With Tanya clearly just ignoring them in favor of wiping off her sweat and re-hydrating, I am forced the be the one who has to speak up to this strange behavior."
     CL @ frown talk "Umm... What's happening here?"
@@ -218,7 +218,7 @@ label startintrigue:
     O @ alt neutral talk "Our flight was moved up at the last moment."
     "It has not gone unnoticed to me how many more girls were populating the cafeteria in the past day or two. I am not displeased about their return whatsoever, as the quality of the meals served has increased proportionally."
     CL @ scowl talk "Is this about the whole Homecoming thing? I'm definitely not entering the competition again next year so you have nothing to worry about."
-    O alt awkward "Homecoming?"
+    O alt awkward talk "Homecoming?"
     show vinci smile
     show vitti smile
     with dd
@@ -264,7 +264,7 @@ label startintrigue:
     show vitti alt neutral
     show vinci alt neutral
     with dd
-    O @ alt contemplative "Has she ever told you about her Vertu partner — Sierra?"
+    O @ alt contemplative talk "Has she ever told you about her Vertu partner — Sierra?"
     CL @ frown talk "Her Vertu? The girl who is apparently the human incarnation of everything irritating in the world, according to Tanya?"
     O @ alt smile talk "Yes, {b}that{/b} Sierra."
     show vitti alt smile with dd
@@ -490,15 +490,15 @@ label truthordare:
     T neutral talk alt2 "Where I come from, family is everything, and what we choose to do as individuals often reflects upon the whole family."
     show tanya neutral alt2 with dd
     C @ neutral talk "Okay, and...?"
-    T neutral talk alt2 "When we picked up and moved to Singapore from America, I found that certain activities of mine would be culturally forbidden. They would be \"embarrassing\" for the family if I were to continue."
-    T frown talk alt2 "Except there are some things I can't just \"stop\", so eventually they sent their embarrassment of a daughter back to America half a world away."
+    T neutral talk alt2 "When we picked up and moved to Singapore from America, I found that certain interests and activities of mine might be considered \"embarrassing\" for the family if I were to continue."
+    T frown talk alt2 "...So eventually they sent their embarrassment of a daughter back to America half a world away where she can't be a problem for them any further."
     show tanya frown alt2 with dd
-    "She's clearly glossing over something important, but what strikes me most is the similarity to my own troubles. Just like I felt like I was abandoned at the academy, so too must Tanya feel like she's abandoned half a world away."
+    "Tanya is clearly glossing over something important, but what strikes me most is the similarity to my own troubles. Just like I felt like I was abandoned at the academy, so too must Tanya feel like she's abandoned half a world away."
     C contemplative talk "What did they ask you not to do?"
     show tanya scowl alt2
     show clover contemplative
     with dd
-    "Tanya sends me a chilling glare when I dig for more information out of her, but it's toward SIbyl that her gaze edges when she goes to answer."
+    "Tanya sends me a chilling glare when I dig for more information out of her, but it's toward Sibyl that her gaze edges when she goes to answer."
     T contemplative talk alt2 "That's personal and totally outside the scope of the dare."
     show tanya contemplative alt2 with dd
     C @ neutral talk "Fine, but why did your family even move away if they were just going to send you back here anyway?"
@@ -749,7 +749,7 @@ label homeroom_queens:
     "Nothing much is said as I shovel down a whole plate of French toast as a personal reward after what feels like a millennium of eating only yogurt parfaits for breakfast."
     scene bg classroom with dissolve
     stop music fadeout 0.5
-    "Even the saccharine embrace of fluffy French toast cannot replenish my energy enough to face the trials that soon await in homeroom the first day back from Easter break and after the surprise win of the Homecoming court."
+    "Even the saccharine embrace of fluffy French toast cannot replenish my energy enough to face the trials that soon await in homeroom the first day back from Easter break and after the surprise win of the Homecoming contest."
     show tanya neutral alt2 at qmright
     show clover vulnerable blush at qmleft
     show sibyl smile at qleft
@@ -761,7 +761,7 @@ label homeroom_queens:
     "As the new school celebrities, Tanya and I are now of sudden and intense interest. Sibyl whispers to me that there were even people looking our way at breakfast."
     C @ anxious "U-Umm... This is my first year playing too."
     "The totality of all my classmates' attention weighs heavily on me such that I try to step back in the cover of Sibyl's body. She pushes me right back up to where Tanya composedly answers the questions in my stead."
-    S @ smile talk "Tanya and Clovers' lacrosse skills are a testament to the power of hard work! The train together every morning!"
+    S @ smile talk "Tanya and Clovers' lacrosse skills are a testament to the power of hard work! They train together every morning!"
     "Sibyl doesn't give me a single break, only egging the onlookers to 'ooh' and 'aah' at what she says with ever more enthusiastic interest in their new Homecoming queens."
     "Without the security of Sibyl beside me, I grip against Tanya's arm for support just like when I was on stage."
     st "The sports clubs do have a crazy practice schedule, don't they?"
@@ -770,7 +770,7 @@ label homeroom_queens:
     T @ neutral talk alt blush "Clover and I aren't a couple. We're just teammates."
     st "You don't want your feelings to get in the way of your games? That's so smart!"
     st "So you're starting as friends for now?"
-    C frown talk blush "We're not— I don't think we're even {b}friends{/b}..."
+    C deer talk blush "We're not— I don't think we're even {b}friends{/b}..."
     show clover deer blush
     hide sibyl
     with dd
@@ -818,7 +818,7 @@ label homeroom_queens:
     T frown talk "Then why does my arm still sting so much?"
     hide tanya
     show clover neutral
-    show sibyl laugh at qleft
+    show sibyl smile at qleft
     with dd
     "On my way to find my seat, I find Sibyl already at hers with pencils and classwork neatly arranged on her desk."
     "She gives me a bright smile in passing which feels almost cheeky considering how she ditched me alone with Tanya."
@@ -967,7 +967,7 @@ label before_the_storm:
     with dd
     "As Tanya retrieves the lacrosse balls and sticks necessary for our little game of jogging and passing back and forth, I glance back toward Sibyl at the bleachers, only to find her missing."
     CL "(Where did she—)"
-    "I spot her again away from the bleachers, instead standing on the opposite side of the field closer to the school building, face-to-face with a trio of girls I recognize as Tanya's nascent fan club."
+    "I spot her again away from the bleachers, instead standing on the opposite side of the field closer to the school building, face-to-face with a trio of girls I recognize as the most devoted of Tanya's nascent fan club."
     CL frown "(I thought things were a little too quiet today...)"
     "They're too far away for me to hear what is being said, but the way that each member of the Tanya fan club stands with her arms crossed and the bitter look on Sibyl's face, I can probably guess."
     TL @ neutral talk "Ignore them, Clover."
@@ -1138,7 +1138,7 @@ label gametwo:
     "By mere fortune, it pops up cleanly enough that I can swipe it right out of the air, and pivoting on one foot while my opponent recovers, look back up field toward our forwards for my target girl."
     CL excited "Tanya!"
     "It's a long pass across the field to where Tanya remains stationed further up, but we do it a hundred times every day in the early morning."
-    "There's no time to wait, so I drop into a big wind up and launch the ball way back up the field before the girl I took possession from can find her footing to check me back."
+    "There's no time to wait. I drop into a big wind up and launch the ball way back up the field before the girl I took possession from can find her footing to check me back."
     "The ball seems to hang in the air for way too long as I watch it sail over the heads dotting the center field. Everyone remains incredibly still watching it travel, except Tanya, who darts forward to collect it with ease."
     TL shout "Got it!"
     show tlax impish with dd
@@ -1159,7 +1159,7 @@ label gametwo:
     with dd
     mw "They came here thinking they could read our play book, but we showed them just how adaptable our team can be."
     scene bg lacrosse with dissolve
-    "While Tanya and the forwards remain the stars of the game, Ms. Woolsey does praise the defense, and even me by name, in the post-game review too."
+    "While Tanya and the forwards remain the stars of the game, Ms. Woolsey does praise the rest of us, and even me by name, in the post-game review too."
     scene bg lockers with fade
     "Despite the loss, the mood is suitably celebratory when we return to the locker room."
     "I look for Tanya to allow her to lavish praises upon me for executing that perfect pass across the field in the second half, but find her already rushing off to the showers way ahead of everyone else."
@@ -1178,7 +1178,7 @@ label gametwo:
     st "Look at that cutting board!"
     st "Thunder thighs!"
     "Like everyone else in the locker room, I whip my head around toward the raised voices to find Tanya's jealous detractors on the team are now by the shower stalls."
-    "One holds the shower curtain open by force while the other two throw parts of what appears to be a school uniform into the running water."
+    "One holds the shower curtain open by force while the other two throw parts of what is probably Tanya's school uniform into the running water."
     st "Not so perfect {b}now{/b}, are you!?"
     "I don't have to catch glimpses of the sleek black hair or firm thighs of the girl struggling to pull the shower curtain closed while also attempting to cover her naked self to know who it is."
     "Everyone else in the locker room is as shocked to petrification as I am, but despite that, the rage still builds inside me that these three girls should be treating any member of our team in such a way — even Tanya."
@@ -1205,7 +1205,7 @@ label gametwo:
     scene bg black with fade
     "Sibyl is none too happy after I finish relating the whole story, and two times I have to physically prevent her from barging into the locker room."
     "Her first attempt comes immediately after I finish the retelling, and the second after the trio of culprits eventually emerge from the locker room with gigantic scowls plastered on their faces."
-    "The death stare which Sibyl gives those three is definitely the most frightening thing I've seen since coming to the academy."
+    "The death glare which Sibyl gives those three is definitely the most frightening thing I've seen since coming to the academy."
     scene bg hallway with fade
     pause 0.5
     show clover frown at mleft
@@ -1405,7 +1405,7 @@ label easterp2: # not the holiday, the school celebration
     scene bg path with dissolve
     "Sibyl's face darkens as she questions me about the hushed conversation, but quickly turns around when we reach the starting grounds for the Easter egg hunt on the other side of the chapel."
     play sound whistle
-    "Ostensibly we plan to take part in the Easter egg hunt together with Sibyl's library friend and her Vertu, but when Ms. Woolsey blows her whistle, the entire academy grounds turn into a mad stampede."
+    "Ostensibly, we plan to take part in the Easter egg hunt together with Sibyl's library friend and her Vertu, but when Ms. Woolsey blows her whistle, the entire academy grounds turn into a mad stampede."
     show sibyl smile at qmleft
     show clover smile at qmright
     with dd
@@ -1418,7 +1418,7 @@ label easterp2: # not the holiday, the school celebration
     C @ neutral talk "But what about your friend and her—"
     S laugh "That's exactly what I'm saying, Clover! We need to find as many as we can before they discover them all first!"
     scene bg path with dd
-    "Ultimately, we never see Sibyl's library friend or her Vertu partner again that day. As the frenzy of pink uniforms subsides, Sibyl and I find a grassy spot beneath a shaded tree where we can count our spoils."
+    "Ultimately, we never see Sibyl's library friend or her Vertu partner again that day. As the frenzy of pink uniforms subsides, Sibyl and I find a grassy spot beneath a blooming tree where we can count our spoils."
     "When all the colorful plastic egg shells are counted up, Sibyl has easily tripled the haul I brought in during the same period."
     show clover scowl talk at qmleft
     show sibyl smile at qmright
@@ -1470,7 +1470,7 @@ label easterp2: # not the holiday, the school celebration
     show clover neutral
     with dd
     "As we lie in the grass gorging ourselves on chocolate and candy, I think back to how little I knew about Sibyl when we first met, and how little I still know about her now."
-    C tired "(Just a few months ago I was convinced that Sibyl was my soulmate and that I'd never be able to live without her love. What was I thinking!?)"
+    C tired "(Not that long ago, I was convinced that Sibyl was my soulmate and that I'd never be able to live without her love. What was I thinking!?)"
     "My thoughts about Sibyl as a person haven't particularly changed since then; I still think she's an amazing person and my special Vertu partner."
     "What's changed is that I no longer feel like I have to be any more than that with her. We're friends and Vertu partners. We trust one another and support one another completely."
     C frown "(I thought I was madly in love with her then, but I was just weak, and she believed in me even when I didn't believe in myself.)"
@@ -1603,9 +1603,10 @@ label eastertanya:
     "Without even having to share a communicative glance with one another, the twins break out into their trademark teasing grins to reply back."
     H @ alt smile talk "Plotting."
     O @ alt smile talk "Scheming."
-    C anxious "Do I dare ask what about?"
+    C deer talk "Do I dare ask what about?"
+    show clover deer with dd
     H @ excited "Yours in not the only thread of intrigue that needs the occasional pluck."
-    C neutral talk "I'm leaving."
+    C neutral talk "That's it. I'm leaving."
     show clover neutral with dd
     O @ alt smile talk "Please inform Tanya that we missed her on Saturday."
     C annoyed talk "Tell her yourself."
@@ -1770,8 +1771,8 @@ label peltingballs:
     mw @ neutral talk "You will take those two weeks to think upon on your actions and how they reflect on the Wild Roses as a team. During this time, you will not be taking part in any games or practices."
     CL @ neutral talk "So you're... not booting me off the team?"
     "Finally, a real, genuine smile comes to Ms. Woolsey's lips, and that in concert with the slightly-less-than-catastrophic punishment lightens my mood in turn."
-    mw happy talk "No. I rather believe that having you remain on the team is probably what is best for Tanya right now."
-    mw "And don't think I haven't noticed how hard both of you have been training every morning, nor how well in concert you both played during our last game."
+    mw happy talk "No. I rather believe that having you remain on the team is probably what is best for everyone right now — Tanya included."
+    mw "Don't think I haven't noticed how hard both of you have been training every morning, nor how well in concert you both played during our last game."
     show naomi smile with dd
     CL surprised "You were watching me?"
     mw @ happy talk "I'm watching over every one of my students, Clover, on and off the field. I told you that the very first day you arrived."
@@ -1847,7 +1848,7 @@ label peltingballs:
     show clax scowl
     with dd
     "I grit my teeth with firm resolve, not wanting to be the first one between us to have to offer apologies, but also realizing as well that it has to be done sooner or later."
-    CL "(We're both proud; that's what Sibyl said. But there's nothing wrong wth pride, is there?)"
+    CL "(We're both stubborn and proud, but there's nothing wrong wth pride, is there?)"
     stop music fadeout 0.5
     "This whole exchange underscores to me even more clearly how tough of a time Sibyl must have when she's caught between the two unmovable diamond-encrusted steel walls that are me and Tanya."
     play music sad
@@ -1897,7 +1898,7 @@ label peltingballs:
     show clax neutral
     show tlax neutral
     with dd
-    CL @ neutral talk "You might have forgotten it until just now, Tanya, but I still think you're the most super scary girl I've ever met."
+    CL @ neutral talk "Go make them quake in their skirts. You might have forgotten it until just now, Tanya, but I still think you're the most super scary girl I've ever met."
     TL smile talk "Thanks, Clover. I'll think twice next time I feel like murdering you."
     CL surprised "That's a joke, right?"
     scene bg lockers with dd
