@@ -525,9 +525,10 @@ label firstdate:
     "At the same time, not telling her and pretending I didn't have a goal at all would be dishonest and totally against the entire rationale of her goal, so I try to push down the anxiety creeping up my chest to be quite honest with Tanya."
     stop music fadeout 0.5
     play music sad
-    C bangs blush "C-Can I... k-kiss you?"
+    C bangs talk blush "C-Can I... k-kiss you?"
     T neutral talk "Clover..."
     C "Y-Yeah...?"
+    show clover bangs blush with dd
     "Tanya speaks my name so softly, drawing me in. I inch just a little closer, nearly rubbing my side against hers as I gaze into her eyes, so happy she didn't harshly shut me down."
     stop music fadeout 0.5
     play music drama
@@ -862,7 +863,7 @@ label sunday_after_date:
     hide tanya
     with dd
     "It's only when we're safely out of earshot that Sibyl questions me about what all that might be about."
-    C bangs blush "I'll... I'll tell you later."
+    C bangs talk blush "I'll... I'll tell you later."
     scene bg artroom
     show izzie smile at qleft
     with dissolve

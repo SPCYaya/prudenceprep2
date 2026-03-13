@@ -940,7 +940,7 @@ label sibylbreaks:
     "The words escape haltingly, with great effort on my part. My skeleton feels like it's going to wiggle right out of my skin with how nervy I am speaking them aloud."
     show tanya vulnerable blush with dd
     "Thankfully, Tanya catches on quickly to my meaning, a bright red flush grows on her face which she tries to hide by brushing her fingers through her hair with the hand not still held in mine."
-    C bangs blush "...I-If that is alright with you."
+    C bangs talk blush "...I-If that is alright with you."
     T frown talk alt2 blush "Yeah... tonight is good. Just let me tell Sierra."
     scene bg dorm night with dissolve
     play sound doorclose
@@ -1110,7 +1110,7 @@ label eveoflastday_part1:
     C @ neutral talk "Why?"
     S  @ laugh "To catch butterflies of course!"
     "The three of us prance around in the sunlit meadows away from the academy buildings. Sibyl in particular is having the time of her life running through the tall wild grasses in pursuit of butterflies."
-    C deer "{b}Achoo!{/b}"
+    C deer talk "{b}Achoo!{/b}"
     "Hay fever gets the better of me soon enough. We make a quick stop at Tanya's secret refuge in the easily-climbable tree to show Sibyl where Tanya and I had our first date then head back closer to campus."
     scene bg mary
     show clover neutral at center
@@ -1832,7 +1832,8 @@ label yearbooks_part2:
     "\"Tanya,\""
     show clover neutral blush with dd
     "\"I love you.\""
-    C bangs blush "Here."
+    C bangs talk blush "Here."
+    show clover bangs blush with dd
     "I pass the yearbook back with subtly trembling hands that I pray she cannot see, and receive my own in return."
     T bashful talk "Are we... going to read them now?"
     show tanya bashful blush with dd
@@ -1857,7 +1858,7 @@ label yearbooks_part2:
     show tanya smile blush
     show clover surprised blush
     with dd
-    C bangs blush "Tanya, you're crushing me with your gorilla arms."
+    C bangs talk blush "Tanya, you're crushing me with your gorilla arms."
     T @ smile talk blush "I love you too, Clover."
     show clover smile blush with dd
     "The flutter of Tanya's shining obsidian hair tickles my neck, but even that cannot compare to how much her words tickle at my heart."

@@ -601,7 +601,8 @@ label truthordare:
     show tanya scowl alt2 with dd
     "With the same cheeky grin as before, Sibyl declines to give Tanya back her turn and gets away with another light dare as a result."
     "She sets the pencil spinning for my turn, which comes to a halt pointing at Tanya."
-    C deer "It's really time that I get back to my homework."
+    C deer talk "It's really time that I get back to my homework."
+    show clover deer with dd
     T @ shout alt2 "You can't just quit when it's not your turn! That has to be against the rules!"
     S @ smile talk "Yeah, you have to say it when it's not your turn or else it's clearly an evasion tactic."
     C neutral talk "If I honesty tell Tanya what I think of her, can we end the game now?"

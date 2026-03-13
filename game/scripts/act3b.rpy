@@ -428,7 +428,8 @@ label brainstorming:
     with dd
     "Having participated in my share of pentagram rituals, this much is obvious to me at first glance. I only realize how crazy I must sound when I notice both Tanya and Miss Izzie staring at me in stunned silence."
     C deer "(Dang it, Clover, that stuff was supposed to stay buried in your past!)"
-    C bangs blush "...Or something. I might've read about it in a book this one time."
+    C bangs talk blush "...Or something. I might've read about it in a book this one time."
+    show clover bangs blush with dd
     mi smile talk "Can I borrow Clover next time we try it, Tanya?"
     show izzie smile with dd
     T annoyed talk alt2 "Why are you asking {b}me{/b}? I don't own her."

@@ -1153,7 +1153,7 @@ label a1_art:
     who "So cute! And such beautiful hair too!"
     "I try desperately to duck out of some surprise head-patting foisted upon me by a smaller girl at the exact moment I enter the art room."
     show izzie smile talk with dd
-    who "No wonder the HimeOuji twins couldn't keep their hands off of her! You'd better not wait too long, Miss Yang."
+    who "No wonder those twins couldn't keep their hands off of her! You'd better not wait too long, Miss Yang."
     T @ contemplative talk alt2 "I have no idea what you're talking about."
     C scowl talk "Umm... could you not?"
     show izzie excited

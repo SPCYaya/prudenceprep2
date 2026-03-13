@@ -6,7 +6,7 @@ label lacrosse_anew:
     show clax smile at mright
     with fade
     "With my name written in bold pink letters across my back and the crosse held confidently in my hands, I envision myself as a brand new woman ready to tackle any obstacle in her path."
-    CL "(Goodbye creepy goth, angsty bitch, and love-struck loser Clover; nice to meet you, fun and sporty athlete Clover!)"
+    CL "(Goodbye creepy goth Clover, angsty bitch Clover, and love-struck loser Clover; nice to meet you, fun and sporty athlete Clover!)"
     "I haven't felt this clear-minded and energized in months, or maybe even years. I've put all the darkness behind me and now finally also moved out of Sibyl's shadow."
     CL "(I was way too distracted for my first few weeks of lacrosse practice. Today I will kick it into high gear!)"
     "Saturday morning practice starts with a paired warm up passing exercise. Overhand, underhand, even sidearm — I do them all, and well enough that Ms. Woolsey is impressed by my speed in picking up the technique too."
@@ -72,7 +72,7 @@ label lacrosse_anew:
     TL @ neutral talk "Nice take away, Clover."
     CL neutral talk "Uhh... thanks."
     show clax neutral with dd
-    "The interaction leaves me deflated and confused as play resumes once again. I try not to let her behavior get to me any further and keep the obtrusive thoughts at bay, but they remain there in the back of my mind nevertheless."
+    "The interaction leaves me deflated and confused as play resumes once again. I try not to let Tanya's behavior get to me any further and keep the obtrusive thoughts at bay, but they remain there in the back of my mind nevertheless."
     CL @ sleepy "(Was Tanya actually paying me a compliment... or is this some new kind of psychological torture?)"
     "Once the half time break arrives, I march right over to Tanya with an aim to get her to tell me exactly what she's up to this time."
     CL shout "What's your problem, Tanya?"
@@ -473,11 +473,11 @@ label distancefromSibyl:
             hide choice_darkness with dissolve
             C @ neutral talk "Do you both do all of those things you did with me, to every girl you play with?"
             H excited "Are you jealous, Clover?"
-            C deer blush "Wha—! {b}No!{/b}"
+            C deer talk blush "Wha—! {b}No!{/b}"
             H alt smile talk "I don't mind having a second go at it if you don't either. Maybe you want to do some of the touching this time?"
             show vitti smug with dd
             C surprised blush "{b}N-No, I—{/b} I just can't believe you actually do that kind of stuff all the time."
-            O alt awkward "Is that what you think of us, Clover? That we're a pair of floozies?"
+            O @ alt awkward talk "Is that what you think of us, Clover? That we're a pair of floozies?"
             C annoyed "(Yeah, kinda.)"
             C contemplative talk "Not... exactly..."
             show clover contemplative with dd
@@ -493,9 +493,9 @@ label distancefromSibyl:
             O @ alt smile talk "Most of our admirers like us merely because we're popular."
             H @ alt frown talk "Particularly Vincenza. Straight girls love their boy-replacements."
             C @ frown talk "You must be lying. I mean, you did all that stuff to me so easily..."
-            O alt awkward "You practically begged us to, Clover. How could we not?"
+            O alt awkward talk "You practically begged us to, Clover. How could we not?"
             H surprised "You really have no idea how gorgeous you are, do you?"
-            C bangs "(Me? Gorgeous? No way. All I ever heard in middle school was \"dark\" or \"gloomy\".)"
+            C deer "(Me? Gorgeous? No way. All I ever heard in middle school was \"dark\" or \"gloomy\".)"
     show vinci alt smile
     show vitti alt smile
     show clover neutral
@@ -587,8 +587,8 @@ label lacrosse_explainer:
     show tlax neutral at qmright with dd
     TL @ frown talk "Signups for the spring season. I told you about it the other day."
     "Tanya springs up right next to me when I ask the question aloud. It's a surprise considering I was mostly just talking to myself."
-    CL @ sleepy "Signups? But I'm already on the team?"
-    TL @ neutral talk "You still have to officially sign up for the inter-school tournament, and Ms. Woolsey needs to know what positions you would prefer to play too."
+    CL @ neutral talk "Signups? But I'm already on the team?"
+    TL @ neutral talk "You still have to officially sign up for the inter-school tournament, and Coach Woolsey needs to know what positions you would prefer to play too."
     CL @ surprised "What do you mean what positions I'm going to play? I've been out on the field this whole time; it's not like I'm going to take up goaltending now!"
     TL @ frown talk "Maybe Coach Woolsey should help explain this all to you."
     "Tanya scribbles something next to her name then passes it my way. Reading down the list, I see everyone write some combination of two letters beside the names."
@@ -615,7 +615,7 @@ label lacrosse_explainer:
     TL @ frown talk "A forward? Do you really think you're good enough for that?"
     CL annoyed talk "Shut your drooling face hole, Tanya! You don't get to tell me what I can and can't play, or maybe are you just scared I'll score more goals than you?"
     show clax annoyed with dd
-    TL @ neutral talk "Maybe I can't tell you what to play, but Ms. Woolsey will."
+    TL @ neutral talk "Maybe I can't tell you what to play, but Coach Woolsey will."
     "Tanya is far too calm for my liking after my aggressive retort, so I look back to Ms. Woolsey for support against her but receive only the opposite."
     mw sad talk "What Tanya means to say is that you will have to compete in tryouts with everyone else who wants to play forward, including Tanya."
     mw "We have to field a full team and there are only so many forward positions available, so anyone who doesn't make it will have to play a different position."
@@ -624,7 +624,7 @@ label lacrosse_explainer:
     with dd
     "Tanya is good at playing on the attack, and even I can privately admit it to myself. It would be tough going up against her, let alone the older girls who have been playing longer."
     "Even so, I'm not about to let myself lose a single thing to Tanya. I plan to be way better than I am now before the field lacrosse season starts anyway."
-    CL neutral talk "Yes, I want to play forward. I know I'm not the best but that's why I tried to talk to you over the weekend. I want to train harder so I can play better and win my spot with the forwards."
+    CL neutral talk "Yes, I want to play forward. I know I'm not the best, but that's why I tried to talk to you over the weekend. I want to train harder so I can play better and win my spot with the forwards."
     show clax impish with dd
     "The fire returns to me as I tell Ms. Woolsey my plans, not just because it's my new self that I'm cultivating, but also because it'll mean beating Tanya at her own game for once."
     mw @ happy talk "You're serious about wanting to train harder, are you?"
@@ -714,7 +714,7 @@ label izzie_lacrosse_request:
     show tlax smile talk at qmright
     show clax happy talk at qmleft
     with dissolve
-    "Reinvigorated by the support of my Vertu, I wave right back to her as cheerfully. From my peripheral vision, however, I notice a flurry of motion which turns out to be Tanya returning the same gesture to her best friend."
+    "Reinvigorated by the support of my Vertu, I wave right back to her equally as cheerfully. From my peripheral vision, however, I notice a flurry of motion which turns out to be Tanya returning the same gesture to her best friend."
     scene bg gym lacrosse winter
     show tlax annoyed at qmright
     show clax annoyed at qmleft
@@ -889,7 +889,7 @@ label izzie_lacrosse_request:
     show tlax frown with dd
     CL surprised "I so too know what Homecoming is! I just never did it at my old school, okay?"
     "I honestly have very little idea what Homecoming is at all. I know it has something to do with school's football team and the preppy girls made a big fuss about it every year."
-    CL sleepy "(I'm a \"preppy\" girl now that I'm attending a school like this, aren't I?)"
+    CL sleepy "(I'm literally a \"preppy\" girl now that I'm attending this school, aren't I?)"
     "That thought alone makes the occult goth girl inside shudder with disgust."
     S @ neutral talk "At my old schools, we had our Homecoming events in October."
     TL neutral talk "Homecoming is usually an event centered around the first home game of the school's football team in autumn."
@@ -1104,13 +1104,13 @@ label aprilfools:
     show vinci alt smile
     with dd
     T @ neutral talk "I thought I told you to never call us that ever again."
-    H @ smile talk "My raven-haired Tanya, the lovely Miss Sibyl confided in me that she wishes to be sandwiched between you and flax-haired Clover."
+    H @ smile talk "My raven-haired Tanya, the lovely Miss Sibyl confided in me that she secretly wishes to be sandwiched between you and flax-haired Clover."
     hide tanya with dd
     "Vittoria punctuates her wicked prank by mouthing \"I'm sorry\" to Sibyl, like she actually gave away a secret she'd promised to keep."
     "All three of us know that everything she's saying is complete and utter nonsense, but that also doesn't stop all three of us from blushing furiously and glancing awkwardly side to side all the while."
     O excited "{b}April fish!{/b}"
     "As deathly silent as the three of us have become, the silence only permeates more deeply after the strange exclamation which Vincenza shouts at us."
-    O alt awkward "Why are you all looking at me like that? Today is the first of April!"
+    O alt awkward talk "Why are you all looking at me like that? Today is the first of April."
     H @ alt neutral talk "It is \"April Fools\" here, sister. Remember what happened last year?"
     O alt frown talk blush "Ah, yes, forgive me."
     scene bg hallway with dd
@@ -1149,7 +1149,7 @@ label aprilfools:
     mw @ happy talk "Clover, would you like to be a starting player on the field in our Homecoming match-up next week?"
     CL surprised "C-Coach Woolsey...? What...?"
     "The question comes from so far out of left field that it probably wrapped back around to the right field at some point on its way to the left field."
-    CL scowl talk "Is this an... April Fools joke?"
+    CL scowl talk "Is this... an April Fools joke?"
     show clax neutral with dd
     "I would expect something this awful from Tanya, but not from the world's friendliest teacher, Ms. Woolsey."
     mw surprised "I promise you that I am one hundred percent serious! Wilma was called back home for a few weeks on personal family matters, so her starting spot is open."
@@ -1419,9 +1419,9 @@ label pregame_Homecoming:
     "A loud cheer goes up as we march up to the field and within sight of the all the waiting spectators. Miss Izzie runs and jumps on the sidelines with a megaphone, leading the students and alumni in cheers like a one-woman pep squad."
     show izzie excited at qleft with dd
     mi "{b}...One last \"S\", let's hear it!{/b}"
-    "\"{b}S{/b}!\""
+    "{b}\"S!\"{/b}"
     mi "{b}Tell me what that spells!{b}"
-    "\"{b}Wild Roses!{/b}\""
+    "{b}\"Wild Roses!\"{/b}"
     hide izzie with dd
     "The raucous crowd cheering on our team should make me swell with pride and zeal, but instead I'm left gripping my crosse until my knuckles turn white."
     stop music fadeout 0.5
@@ -1473,7 +1473,7 @@ label pregame_Homecoming:
     "The sound of the crowd stops. Whether they're actually silent or my mind is just tuning them out, I do not know, but what I do understand is that everyone is looking at me now, and me only."
     "My brain nearly shuts down altogether, but someone helpfully leans me against her shoulder to guide me back to the sidelines."
     scene bg lacrosse fuzzy
-    show tanya frown talk at mright
+    show tlax frown talk at mright
     show naomi sad talk at mleft
     show sibyl neutral at center
     with dissolve
@@ -1510,7 +1510,7 @@ label pregame_Homecoming:
     show clax vulnerable
     with dd
     "Just thinking of having to go to homeroom on Monday after what just happened in front of the whole school is giving me chills. I'd die from the embarrassment alone before my social anxiety ever seeps in."
-    CL @ frown talk "I wasn't born to be in the spotlight; I'm better off sticking to the shadows."
+    CL @ frown talk "I wasn't born to be in the spotlight. I'm better off sticking to the shadows."
     "Perhaps emboldened now that I'm talking again, Sibyl once more tries to physically console me by resting her hand on my shoulder."
     S @ frown talk "You practiced for today's game every waking moment of every day last week, Clover. You're more of an athlete than I'll ever be... more than most of the school!"
     "For maybe just a moment I think her kindness might sway me from my resolve, but all too quickly do I come back to my senses and shrug her hand away again."
@@ -1536,7 +1536,7 @@ label pregame_Homecoming:
     S @ neutral talk "Is the game over?"
     TL @ neutral talk "Yeah. Ms. Woolsey sent me to see if Clover could return for the post-game celebration."
     CL surprised "(\"Celebration!?\" We won!?)"
-    "For just a fleeting moment when I hear that we won the game, I suddenly feel all is right again. Then that feeling fades just as swiftly as it had come."
+    "For just a fleeting moment when I hear that we won the game, I suddenly feel that all is right again. Then that feeling fades just as swiftly as it had come."
     CL vulnerable "(\"We\"? I'm not a part of the team anymore. I definitely don't deserve to be part of any celebrations.)"
     S laugh "Did you hear that, Clover? They're all waiting for you!"
     CL @ frown talk "I don't care. I'm not going."
@@ -1733,7 +1733,7 @@ label predance:
     "Sure enough, the gymnasium is decorated simply with a large pink banner featuring the school emblem. A small stage is set at one end of the gym with a row of large speakers blasting out modern dance music just a little too loudly."
     C @ frown talk "What do we do now? I don't see Sibyl."
     "Tanya also looks around to no avail. I immediately suspect that our mutual friend may be playing elusive on purpose."
-    C @ annoyed "(Just what does she expect to happen tonight anyway?)"
+    C @ annoyed "(Just what does she expect to happen today anyway?)"
     "I fully understand that my relationship to Tanya is not at all good, but playing dates with Tanya isn't going to make it any better just like that."
     C @ contemplative "(Oh, right, this is technically a \"date\", isn't it? But does Tanya also think so?)"
     "The fact had slipped out of mind with the silence of our walk over to the gymnasium, but now it comes back in full force once again. I try to push it out of mind, knowing Tanya probably sees this as nothing of the sort either."
@@ -1785,8 +1785,8 @@ label predance:
     show tanya smile alt2 blush
     with dd
     "I can totally sense that Tanya is downplaying whatever happened, and she is not forthcoming in opening up about what I missed, so I steer our conversation with the next teammate toward it on purpose."
-    st "You should have seen her; she was all over the field from the very first whistle to the last! Maybe I should do laps every morning too?"
-    C @ contemplative "(Laps? Morning? Does Tanya jog in the morning? Every morning? It's no wonder her thighs are so thick if she's doing that much extra training every single day. Is that all muscle!?)"
+    st "You should have seen her, Clover. Tanya was all over the field from the very first whistle to the last! Maybe I should do laps every morning too?"
+    C @ contemplative "(Laps? Morning? Does Tanya jog in the morning? Every morning? It's no wonder her thighs are so thick if she's doing that much extra training every single day.)"
     st "And that buzzer beater from all the way back in center field to put us up! Who could forget that in your debut game!"
     C surprised "Wait, seriously!?"
     T shy talk blush "It was only the end of first half, Clover."
@@ -1858,10 +1858,11 @@ label predance:
     pause 1.0
     play music drama
     T shout "You {b}didn't{/b}!"
-    C vulnerable blush "No, no no no {b}no{/b}!"
+    C deer talk blush "No, no no no {b}no{/b}!"
     show tanya scowl alt2
     hide sibyl
     show sibyl smile talk at left
+    show clover vulnerable blush
     with dd
     "But Sibyl doesn't hear any of our protestations. She's already busy waving down Miss Izzie to alert her to our location."
     S "Miss Izzie! Number nine is over here!"
@@ -1931,7 +1932,7 @@ label predance:
     show vitti alt smile at qright
     show vinci alt smile at qmright
     with dd
-    H @ smile talk "The handsome hero of the Homecoming game and the pitiable beauty? Who could ever resist such a wonderful pairing?"
+    H @ smile talk "The hunky hero of the Homecoming game and the pitiable beauty? Who could ever resist such a wonderful pairing?"
     O @ smile talk "We thought we'd locked down this year's crown, but then you both went and made such a splash earlier today."
     H @ smile talk "May the best pairing win!"
     "The twins utilize the time of the defeated contestants shuffling off the stage to whisper a conversations between us."
@@ -2035,7 +2036,7 @@ label predance:
     with dd
     "I may not agree with Sibyl's method, but the results speak for themselves. After everything she's done for me, there's no way I can reject the invitation."
     C excited "Plus, now I have a whole week free of homework thanks to Tanya!"
-    T surprised alt2 "Umm, what did you just say?"
+    T surprised alt2 "Uhh, what did you just say?"
     show clover smile with dd
     S laugh "As I recall it, you told us that you would do Clover's homework for a week if anyone asked her to the dance."
     show clover happy talk
